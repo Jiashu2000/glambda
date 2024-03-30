@@ -1,0 +1,1001 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/css/tom-select.min.css" integrity="sha512-43fHB3GLgZfz8QXl1RPQ8O66oIgv3po9cJ5erMt1c4QISq9dYb195T3vr5ImnJPXuVroKcGBPXBFKETW8jrPNQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/js/tom-select.complete.js" integrity="sha512-jeF9CfnvzDiw9G9xiksVjxR2lib44Gnovvkv+3CgCG6NXCD4gqlA5nDAVW5WjpA+i+/zKsUWV5xNEbW1X/HH0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 900px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="Adam Schiff">Adam Schiff</option>
+                                
+                                    <option value="TV ad targets">TV ad targets</option>
+                                
+                                    <option value="audience">audience</option>
+                                
+                                    <option value="same audience">same audience</option>
+                                
+                                    <option value="spots">spots</option>
+                                
+                                    <option value="spots for their U.S. Senate race">spots for their U.S. Senate race</option>
+                                
+                                    <option value="Alabama">Alabama</option>
+                                
+                                    <option value="ban">ban</option>
+                                
+                                    <option value="ban for trans minors">ban for trans minors</option>
+                                
+                                    <option value="ban on affirming care">ban on affirming care</option>
+                                
+                                    <option value="ban on affirming care for trans minors">ban on affirming care for trans minors</option>
+                                
+                                    <option value="ban on care">ban on care</option>
+                                
+                                    <option value="ban on care for trans minors">ban on care for trans minors</option>
+                                
+                                    <option value="ban on gender affirming care">ban on gender affirming care</option>
+                                
+                                    <option value="ban on gender affirming care for trans minors">ban on gender affirming care for trans minors</option>
+                                
+                                    <option value="American">American</option>
+                                
+                                    <option value="news">news</option>
+                                
+                                    <option value="Andrew Haigh">Andrew Haigh</option>
+                                
+                                    <option value="gay screenwriter">gay screenwriter</option>
+                                
+                                    <option value="gay screenwriter working">gay screenwriter working</option>
+                                
+                                    <option value="gay screenwriter working on script">gay screenwriter working on script</option>
+                                
+                                    <option value="gay screenwriter working on script about his childhood">gay screenwriter working on script about his childhood</option>
+                                
+                                    <option value="his vulnerability">his vulnerability</option>
+                                
+                                    <option value="his vulnerability in">his vulnerability in</option>
+                                
+                                    <option value="lonely gay screenwriter">lonely gay screenwriter</option>
+                                
+                                    <option value="lonely gay screenwriter working">lonely gay screenwriter working</option>
+                                
+                                    <option value="lonely gay screenwriter working on script">lonely gay screenwriter working on script</option>
+                                
+                                    <option value="lonely gay screenwriter working on script about his childhood">lonely gay screenwriter working on script about his childhood</option>
+                                
+                                    <option value="lonely screenwriter">lonely screenwriter</option>
+                                
+                                    <option value="lonely screenwriter working">lonely screenwriter working</option>
+                                
+                                    <option value="lonely screenwriter working on script">lonely screenwriter working on script</option>
+                                
+                                    <option value="lonely screenwriter working on script about his childhood">lonely screenwriter working on script about his childhood</option>
+                                
+                                    <option value="new film">new film</option>
+                                
+                                    <option value="screenwriter">screenwriter</option>
+                                
+                                    <option value="screenwriter working">screenwriter working</option>
+                                
+                                    <option value="screenwriter working on script">screenwriter working on script</option>
+                                
+                                    <option value="screenwriter working on script about his childhood">screenwriter working on script about his childhood</option>
+                                
+                                    <option value="Attal">Attal</option>
+                                
+                                    <option value="youngest">youngest</option>
+                                
+                                    <option value="Bill Ackman">Bill Ackman</option>
+                                
+                                    <option value="Fighting">Fighting</option>
+                                
+                                    <option value="Harvard">Harvard</option>
+                                
+                                    <option value="him face">him face</option>
+                                
+                                    <option value="him face of billionaire class">him face of billionaire class</option>
+                                
+                                    <option value="him public face">him public face</option>
+                                
+                                    <option value="him public face of billionaire class">him public face of billionaire class</option>
+                                
+                                    <option value="Bud Light">Bud Light</option>
+                                
+                                    <option value="Something">Something</option>
+                                
+                                    <option value="While has surrounded by controversy">While has surrounded by controversy</option>
+                                
+                                    <option value="While has surrounded by controversy in months">While has surrounded by controversy in months</option>
+                                
+                                    <option value="While has surrounded by controversy in recent months">While has surrounded by controversy in recent months</option>
+                                
+                                    <option value="has surrounded by controversy">has surrounded by controversy</option>
+                                
+                                    <option value="has surrounded by controversy in months">has surrounded by controversy in months</option>
+                                
+                                    <option value="has surrounded by controversy in recent months">has surrounded by controversy in recent months</option>
+                                
+                                    <option value="Caitlyn Jenner">Caitlyn Jenner</option>
+                                
+                                    <option value="Disney">Disney</option>
+                                
+                                    <option value="company">company</option>
+                                
+                                    <option value="her exclusion">her exclusion</option>
+                                
+                                    <option value="reality show">reality show</option>
+                                
+                                    <option value="California">California</option>
+                                
+                                    <option value="Chip Wilson">Chip Wilson</option>
+                                
+                                    <option value="comments on slap in face to people of color">comments on slap in face to people of color</option>
+                                
+                                    <option value="Lululemon">Lululemon</option>
+                                
+                                    <option value="Chris Christie">Chris Christie</option>
+                                
+                                    <option value="his 2024 campaign">his 2024 campaign</option>
+                                
+                                    <option value="his 2024 campaign against Trump">his 2024 campaign against Trump</option>
+                                
+                                    <option value="his 2024 presidential campaign">his 2024 presidential campaign</option>
+                                
+                                    <option value="his 2024 presidential campaign against Trump">his 2024 presidential campaign against Trump</option>
+                                
+                                    <option value="Christian Imagery">Christian Imagery</option>
+                                
+                                    <option value="Christ">Christ</option>
+                                
+                                    <option value="pop music">pop music</option>
+                                
+                                    <option value="Nas">Nas</option>
+                                
+                                    <option value="Christian Ziegler">Christian Ziegler</option>
+                                
+                                    <option value="Florida Republican Party">Florida Republican Party</option>
+                                
+                                    <option value="chair">chair</option>
+                                
+                                    <option value="rape allegation">rape allegation</option>
+                                
+                                    <option value="their">their</option>
+                                
+                                    <option value="DeWine">DeWine</option>
+                                
+                                    <option value="veto of bill banning">veto of bill banning</option>
+                                
+                                    <option value="Ohio">Ohio</option>
+                                
+                                    <option value="its CEO">its CEO</option>
+                                
+                                    <option value="Donald Trump Jr">Donald Trump Jr</option>
+                                
+                                    <option value="Monday">Monday</option>
+                                
+                                    <option value="Ohio Secretary of State">Ohio Secretary of State</option>
+                                
+                                    <option value="ad">ad</option>
+                                
+                                    <option value="France">France</option>
+                                
+                                    <option value="Gabriel Attal">Gabriel Attal</option>
+                                
+                                    <option value="Historic New Prime Minister">Historic New Prime Minister</option>
+                                
+                                    <option value="Historic Prime Minister">Historic Prime Minister</option>
+                                
+                                    <option value="New Prime Minister">New Prime Minister</option>
+                                
+                                    <option value="Prime Minister">Prime Minister</option>
+                                
+                                    <option value="its ever minister">its ever minister</option>
+                                
+                                    <option value="its ever prime minister">its ever prime minister</option>
+                                
+                                    <option value="its minister">its minister</option>
+                                
+                                    <option value="its prime minister">its prime minister</option>
+                                
+                                    <option value="Gender Dysphoria">Gender Dysphoria</option>
+                                
+                                    <option value="distress">distress</option>
+                                
+                                    <option value="Highest">Highest</option>
+                                
+                                    <option value="Harvard president">Harvard president</option>
+                                
+                                    <option value="University of Pennsylvania">University of Pennsylvania</option>
+                                
+                                    <option value="He">He</option>
+                                
+                                    <option value="Hawaii">Hawaii</option>
+                                
+                                    <option value="Hindu group">Hindu group</option>
+                                
+                                    <option value="complaint">complaint</option>
+                                
+                                    <option value="Joey Barton">Joey Barton</option>
+                                
+                                    <option value="sports minister">sports minister</option>
+                                
+                                    <option value="Law enforcement">Law enforcement</option>
+                                
+                                    <option value="Legislature">Legislature</option>
+                                
+                                    <option value="2024 session">2024 session</option>
+                                
+                                    <option value="its 2024 session">its 2024 session</option>
+                                
+                                    <option value="Lip Readers">Lip Readers</option>
+                                
+                                    <option value="Kylie Kelce">Kylie Kelce</option>
+                                
+                                    <option value="Taylor Swift">Taylor Swift</option>
+                                
+                                    <option value="Louisiana">Louisiana</option>
+                                
+                                    <option value="ban on gender affirming health care">ban on gender affirming health care</option>
+                                
+                                    <option value="Trans youth">Trans youth</option>
+                                
+                                    <option value="company 's response">company 's response</option>
+                                
+                                    <option value="has long plagued">has long plagued</option>
+                                
+                                    <option value="has long plagued with diversity issues">has long plagued with diversity issues</option>
+                                
+                                    <option value="has plagued">has plagued</option>
+                                
+                                    <option value="has plagued with diversity issues">has plagued with diversity issues</option>
+                                
+                                    <option value="Mastodon">Mastodon</option>
+                                
+                                    <option value="Taliban">Taliban</option>
+                                
+                                    <option value="surprised">surprised</option>
+                                
+                                    <option value="Mexico">Mexico</option>
+                                
+                                    <option value="Salma Luevano">Salma Luevano</option>
+                                
+                                    <option value="Tuesday">Tuesday</option>
+                                
+                                    <option value="calling trans lawmaker man">calling trans lawmaker man</option>
+                                
+                                    <option value="calling trans lawmaker man dressed">calling trans lawmaker man dressed</option>
+                                
+                                    <option value="calling trans lawmaker man dressed as woman">calling trans lawmaker man dressed as woman</option>
+                                
+                                    <option value="misgendering Salma Luevano">misgendering Salma Luevano</option>
+                                
+                                    <option value="representative">representative</option>
+                                
+                                    <option value="representative of his party">representative of his party</option>
+                                
+                                    <option value="representative of his political party">representative of his political party</option>
+                                
+                                    <option value="trans lawmaker man">trans lawmaker man</option>
+                                
+                                    <option value="trans lawmaker man dressed">trans lawmaker man dressed</option>
+                                
+                                    <option value="trans lawmaker man dressed as woman">trans lawmaker man dressed as woman</option>
+                                
+                                    <option value="transgender representative">transgender representative</option>
+                                
+                                    <option value="transgender representative of his party">transgender representative of his party</option>
+                                
+                                    <option value="transgender representative of his political party">transgender representative of his political party</option>
+                                
+                                    <option value="Mike DeWine">Mike DeWine</option>
+                                
+                                    <option value="veto">veto</option>
+                                
+                                    <option value="history">history</option>
+                                
+                                    <option value="Netflix">Netflix</option>
+                                
+                                    <option value="Indian film">Indian film</option>
+                                
+                                    <option value="governor 's veto">governor 's veto</option>
+                                
+                                    <option value="governor 's veto of affirming care ban">governor 's veto of affirming care ban</option>
+                                
+                                    <option value="governor 's veto of care ban">governor 's veto of care ban</option>
+                                
+                                    <option value="governor 's veto of gender affirming care ban">governor 's veto of gender affirming care ban</option>
+                                
+                                    <option value="sports ban">sports ban</option>
+                                
+                                    <option value="trans care">trans care</option>
+                                
+                                    <option value="pro-LGBTQ agenda">pro-LGBTQ agenda</option>
+                                
+                                    <option value="Our Flag">Our Flag</option>
+                                
+                                    <option value="comedy Max">comedy Max</option>
+                                
+                                    <option value="Patrick Mahomes">Patrick Mahomes</option>
+                                
+                                    <option value="discount code">discount code</option>
+                                
+                                    <option value="edition merchandise">edition merchandise</option>
+                                
+                                    <option value="fans">fans</option>
+                                
+                                    <option value="limited edition merchandise">limited edition merchandise</option>
+                                
+                                    <option value="social media">social media</option>
+                                
+                                    <option value="Police">Police</option>
+                                
+                                    <option value="Monday afternoon">Monday afternoon</option>
+                                
+                                    <option value="Polish state">Polish state</option>
+                                
+                                    <option value="past anti-LGBT output">past anti-LGBT output</option>
+                                
+                                    <option value="past output">past output</option>
+                                
+                                    <option value="Pope Francis">Pope Francis</option>
+                                
+                                    <option value="Deplorable">Deplorable</option>
+                                
+                                    <option value="RSV shots">RSV shots</option>
+                                
+                                    <option value="The New">The New</option>
+                                
+                                    <option value="Saudi Pro League">Saudi Pro League</option>
+                                
+                                    <option value="new Plymouth">new Plymouth</option>
+                                
+                                    <option value="his time">his time</option>
+                                
+                                    <option value="School Board">School Board</option>
+                                
+                                    <option value="Dictionaries">Dictionaries</option>
+                                
+                                    <option value="Latest War">Latest War</option>
+                                
+                                    <option value="Latest War on Books">Latest War on Books</option>
+                                
+                                    <option value="War">War</option>
+                                
+                                    <option value="War on Books">War on Books</option>
+                                
+                                    <option value="Silicon Valley">Silicon Valley</option>
+                                
+                                    <option value="so suspicious">so suspicious</option>
+                                
+                                    <option value="so suspicious of belief">so suspicious of belief</option>
+                                
+                                    <option value="so suspicious of original belief">so suspicious of original belief</option>
+                                
+                                    <option value="suspicious">suspicious</option>
+                                
+                                    <option value="suspicious of belief">suspicious of belief</option>
+                                
+                                    <option value="suspicious of original belief">suspicious of original belief</option>
+                                
+                                    <option value="Simon Fanshawe">Simon Fanshawe</option>
+                                
+                                    <option value="University of Edinburgh">University of Edinburgh</option>
+                                
+                                    <option value="Kansas City Chiefs">Kansas City Chiefs</option>
+                                
+                                    <option value="South Florida school district">South Florida school district</option>
+                                
+                                    <option value="volleyball player">volleyball player</option>
+                                
+                                    <option value="Super Bowl">Super Bowl</option>
+                                
+                                    <option value="2nd straight year">2nd straight year</option>
+                                
+                                    <option value="2nd year">2nd year</option>
+                                
+                                    <option value="Justin Bieber">Justin Bieber</option>
+                                
+                                    <option value="straight year">straight year</option>
+                                
+                                    <option value="year">year</option>
+                                
+                                    <option value="former">former</option>
+                                
+                                    <option value="he">he</option>
+                                
+                                    <option value="TVP Info">TVP Info</option>
+                                
+                                    <option value="hateful words targeted at them">hateful words targeted at them</option>
+                                
+                                    <option value="Wojciech Szelag">Wojciech Szelag</option>
+                                
+                                    <option value="its domain">its domain</option>
+                                
+                                    <option value="queer.af">queer.af</option>
+                                
+                                    <option value="Afterparty">Afterparty</option>
+                                
+                                    <option value="Go Viral">Go Viral</option>
+                                
+                                    <option value="Internet">Internet</option>
+                                
+                                    <option value="Meltdown">Meltdown</option>
+                                
+                                    <option value="Travis Kelce">Travis Kelce</option>
+                                
+                                    <option value="all">all</option>
+                                
+                                    <option value="dad">dad</option>
+                                
+                                    <option value="her lucky number">her lucky number</option>
+                                
+                                    <option value="her number">her number</option>
+                                
+                                    <option value="pair">pair</option>
+                                
+                                    <option value="The Catholic leader">The Catholic leader</option>
+                                
+                                    <option value="LGBT community">LGBT community</option>
+                                
+                                    <option value="likely">likely</option>
+                                
+                                    <option value="stance on surrogacy">stance on surrogacy</option>
+                                
+                                    <option value="Transgender Health">Transgender Health</option>
+                                
+                                    <option value="2024">2024</option>
+                                
+                                    <option value="her support">her support</option>
+                                
+                                    <option value="her support for her man">her support for her man</option>
+                                
+                                    <option value="one her songs">one her songs</option>
+                                
+                                    <option value="one of her songs">one of her songs</option>
+                                
+                                    <option value="Usher">Usher</option>
+                                
+                                    <option value="record label">record label</option>
+                                
+                                    <option value="Vaccines">Vaccines</option>
+                                
+                                    <option value="We">We</option>
+                                
+                                    <option value="Democrats">Democrats</option>
+                                
+                                    <option value="activist">activist</option>
+                                
+                                    <option value="LGBT">LGBT</option>
+                                
+                                    <option value="women's rights">women's rights</option>
+                                
+                                    <option value="2 seasons">2 seasons</option>
+                                
+                                    <option value="Warner Bros">Warner Bros</option>
+                                
+                                    <option value="cancelled">cancelled</option>
+                                
+                                    <option value="cancelled after 2 seasons">cancelled after 2 seasons</option>
+                                
+                                    <option value="extremist organisation">extremist organisation</option>
+                                
+                                    <option value="Russia">Russia</option>
+                                
+                                    <option value="head House">head House</option>
+                                
+                                    <option value="New York">New York</option>
+                                
+                                    <option value="elections">elections</option>
+                                
+                                    <option value="national elections">national elections</option>
+                                
+                                    <option value="his favorite jobs">his favorite jobs</option>
+                                
+                                    <option value="it">it</option>
+                                
+                                    <option value="NFL">NFL</option>
+                                
+                                    <option value="BBC Sport">BBC Sport</option>
+                                
+                                    <option value="special election">special election</option>
+                                
+                                    <option value="Long Island">Long Island</option>
+                                
+                                    <option value="seen">seen</option>
+                                
+                                    <option value="time">time</option>
+                                
+                                    <option value="women">women</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"group": 5, "id": "Adam Schiff", "label": "Adam Schiff", "shape": "dot", "size": 5}, {"group": 5, "id": "TV ad targets", "label": "TV ad targets", "shape": "dot", "size": 1}, {"group": 5, "id": "audience", "label": "audience", "shape": "dot", "size": 2}, {"group": 5, "id": "same audience", "label": "same audience", "shape": "dot", "size": 2}, {"group": 5, "id": "spots", "label": "spots", "shape": "dot", "size": 2}, {"group": 5, "id": "spots for their U.S. Senate race", "label": "spots for their U.S. Senate race", "shape": "dot", "size": 2}, {"group": 7, "id": "Alabama", "label": "Alabama", "shape": "dot", "size": 8}, {"group": 7, "id": "ban", "label": "ban", "shape": "dot", "size": 1}, {"group": 7, "id": "ban for trans minors", "label": "ban for trans minors", "shape": "dot", "size": 1}, {"group": 7, "id": "ban on affirming care", "label": "ban on affirming care", "shape": "dot", "size": 1}, {"group": 7, "id": "ban on affirming care for trans minors", "label": "ban on affirming care for trans minors", "shape": "dot", "size": 1}, {"group": 7, "id": "ban on care", "label": "ban on care", "shape": "dot", "size": 1}, {"group": 7, "id": "ban on care for trans minors", "label": "ban on care for trans minors", "shape": "dot", "size": 1}, {"group": 7, "id": "ban on gender affirming care", "label": "ban on gender affirming care", "shape": "dot", "size": 1}, {"group": 7, "id": "ban on gender affirming care for trans minors", "label": "ban on gender affirming care for trans minors", "shape": "dot", "size": 1}, {"group": 8, "id": "American", "label": "American", "shape": "dot", "size": 1}, {"group": 8, "id": "news", "label": "news", "shape": "dot", "size": 1}, {"group": 9, "id": "Andrew Haigh", "label": "Andrew Haigh", "shape": "dot", "size": 21}, {"group": 9, "id": "gay screenwriter", "label": "gay screenwriter", "shape": "dot", "size": 1}, {"group": 9, "id": "gay screenwriter working", "label": "gay screenwriter working", "shape": "dot", "size": 1}, {"group": 9, "id": "gay screenwriter working on script", "label": "gay screenwriter working on script", "shape": "dot", "size": 1}, {"group": 9, "id": "gay screenwriter working on script about his childhood", "label": "gay screenwriter working on script about his childhood", "shape": "dot", "size": 1}, {"group": 9, "id": "his vulnerability", "label": "his vulnerability", "shape": "dot", "size": 1}, {"group": 9, "id": "his vulnerability in", "label": "his vulnerability in", "shape": "dot", "size": 1}, {"group": 9, "id": "lonely gay screenwriter", "label": "lonely gay screenwriter", "shape": "dot", "size": 1}, {"group": 9, "id": "lonely gay screenwriter working", "label": "lonely gay screenwriter working", "shape": "dot", "size": 1}, {"group": 9, "id": "lonely gay screenwriter working on script", "label": "lonely gay screenwriter working on script", "shape": "dot", "size": 1}, {"group": 9, "id": "lonely gay screenwriter working on script about his childhood", "label": "lonely gay screenwriter working on script about his childhood", "shape": "dot", "size": 1}, {"group": 9, "id": "lonely screenwriter", "label": "lonely screenwriter", "shape": "dot", "size": 1}, {"group": 9, "id": "lonely screenwriter working", "label": "lonely screenwriter working", "shape": "dot", "size": 1}, {"group": 9, "id": "lonely screenwriter working on script", "label": "lonely screenwriter working on script", "shape": "dot", "size": 1}, {"group": 9, "id": "lonely screenwriter working on script about his childhood", "label": "lonely screenwriter working on script about his childhood", "shape": "dot", "size": 1}, {"group": 9, "id": "new film", "label": "new film", "shape": "dot", "size": 1}, {"group": 9, "id": "screenwriter", "label": "screenwriter", "shape": "dot", "size": 1}, {"group": 9, "id": "screenwriter working", "label": "screenwriter working", "shape": "dot", "size": 1}, {"group": 9, "id": "screenwriter working on script", "label": "screenwriter working on script", "shape": "dot", "size": 1}, {"group": 9, "id": "screenwriter working on script about his childhood", "label": "screenwriter working on script about his childhood", "shape": "dot", "size": 1}, {"group": 10, "id": "Attal", "label": "Attal", "shape": "dot", "size": 1}, {"group": 10, "id": "youngest", "label": "youngest", "shape": "dot", "size": 1}, {"group": 12, "id": "Bill Ackman", "label": "Bill Ackman", "shape": "dot", "size": 6}, {"group": 12, "id": "Fighting", "label": "Fighting", "shape": "dot", "size": 1}, {"group": 12, "id": "Harvard", "label": "Harvard", "shape": "dot", "size": 2}, {"group": 12, "id": "him face", "label": "him face", "shape": "dot", "size": 1}, {"group": 12, "id": "him face of billionaire class", "label": "him face of billionaire class", "shape": "dot", "size": 1}, {"group": 12, "id": "him public face", "label": "him public face", "shape": "dot", "size": 1}, {"group": 12, "id": "him public face of billionaire class", "label": "him public face of billionaire class", "shape": "dot", "size": 1}, {"group": 13, "id": "Bud Light", "label": "Bud Light", "shape": "dot", "size": 7}, {"group": 13, "id": "Something", "label": "Something", "shape": "dot", "size": 2}, {"group": 13, "id": "While has surrounded by controversy", "label": "While has surrounded by controversy", "shape": "dot", "size": 1}, {"group": 13, "id": "While has surrounded by controversy in months", "label": "While has surrounded by controversy in months", "shape": "dot", "size": 1}, {"group": 13, "id": "While has surrounded by controversy in recent months", "label": "While has surrounded by controversy in recent months", "shape": "dot", "size": 1}, {"group": 13, "id": "has surrounded by controversy", "label": "has surrounded by controversy", "shape": "dot", "size": 1}, {"group": 13, "id": "has surrounded by controversy in months", "label": "has surrounded by controversy in months", "shape": "dot", "size": 1}, {"group": 13, "id": "has surrounded by controversy in recent months", "label": "has surrounded by controversy in recent months", "shape": "dot", "size": 1}, {"group": 14, "id": "Caitlyn Jenner", "label": "Caitlyn Jenner", "shape": "dot", "size": 4}, {"group": 14, "id": "Disney", "label": "Disney", "shape": "dot", "size": 2}, {"group": 14, "id": "company", "label": "company", "shape": "dot", "size": 1}, {"group": 14, "id": "her exclusion", "label": "her exclusion", "shape": "dot", "size": 1}, {"group": 14, "id": "reality show", "label": "reality show", "shape": "dot", "size": 1}, {"group": 5, "id": "California", "label": "California", "shape": "dot", "size": 4}, {"group": 15, "id": "Chip Wilson", "label": "Chip Wilson", "shape": "dot", "size": 2}, {"group": 15, "id": "comments on slap in face to people of color", "label": "comments on slap in face to people of color", "shape": "dot", "size": 1}, {"group": 15, "id": "Lululemon", "label": "Lululemon", "shape": "dot", "size": 6}, {"group": 16, "id": "Chris Christie", "label": "Chris Christie", "shape": "dot", "size": 4}, {"group": 16, "id": "his 2024 campaign", "label": "his 2024 campaign", "shape": "dot", "size": 1}, {"group": 16, "id": "his 2024 campaign against Trump", "label": "his 2024 campaign against Trump", "shape": "dot", "size": 1}, {"group": 16, "id": "his 2024 presidential campaign", "label": "his 2024 presidential campaign", "shape": "dot", "size": 1}, {"group": 16, "id": "his 2024 presidential campaign against Trump", "label": "his 2024 presidential campaign against Trump", "shape": "dot", "size": 1}, {"group": 17, "id": "Christian Imagery", "label": "Christian Imagery", "shape": "dot", "size": 3}, {"group": 17, "id": "Christ", "label": "Christ", "shape": "dot", "size": 1}, {"group": 17, "id": "pop music", "label": "pop music", "shape": "dot", "size": 1}, {"group": 17, "id": "Nas", "label": "Nas", "shape": "dot", "size": 2}, {"group": 18, "id": "Christian Ziegler", "label": "Christian Ziegler", "shape": "dot", "size": 4}, {"group": 18, "id": "Florida Republican Party", "label": "Florida Republican Party", "shape": "dot", "size": 3}, {"group": 18, "id": "chair", "label": "chair", "shape": "dot", "size": 1}, {"group": 18, "id": "rape allegation", "label": "rape allegation", "shape": "dot", "size": 1}, {"group": 18, "id": "their", "label": "their", "shape": "dot", "size": 1}, {"group": 19, "id": "DeWine", "label": "DeWine", "shape": "dot", "size": 2}, {"group": 19, "id": "veto of bill banning", "label": "veto of bill banning", "shape": "dot", "size": 1}, {"group": 19, "id": "Ohio", "label": "Ohio", "shape": "dot", "size": 8}, {"group": 14, "id": "its CEO", "label": "its CEO", "shape": "dot", "size": 1}, {"group": 23, "id": "Donald Trump Jr", "label": "Donald Trump Jr", "shape": "dot", "size": 3}, {"group": 23, "id": "Monday", "label": "Monday", "shape": "dot", "size": 1}, {"group": 23, "id": "Ohio Secretary of State", "label": "Ohio Secretary of State", "shape": "dot", "size": 2}, {"group": 23, "id": "ad", "label": "ad", "shape": "dot", "size": 1}, {"group": 24, "id": "France", "label": "France", "shape": "dot", "size": 9}, {"group": 24, "id": "Gabriel Attal", "label": "Gabriel Attal", "shape": "dot", "size": 1}, {"group": 24, "id": "Historic New Prime Minister", "label": "Historic New Prime Minister", "shape": "dot", "size": 1}, {"group": 24, "id": "Historic Prime Minister", "label": "Historic Prime Minister", "shape": "dot", "size": 1}, {"group": 24, "id": "New Prime Minister", "label": "New Prime Minister", "shape": "dot", "size": 1}, {"group": 24, "id": "Prime Minister", "label": "Prime Minister", "shape": "dot", "size": 1}, {"group": 24, "id": "its ever minister", "label": "its ever minister", "shape": "dot", "size": 1}, {"group": 24, "id": "its ever prime minister", "label": "its ever prime minister", "shape": "dot", "size": 1}, {"group": 24, "id": "its minister", "label": "its minister", "shape": "dot", "size": 1}, {"group": 24, "id": "its prime minister", "label": "its prime minister", "shape": "dot", "size": 1}, {"group": 25, "id": "Gender Dysphoria", "label": "Gender Dysphoria", "shape": "dot", "size": 2}, {"group": 25, "id": "distress", "label": "distress", "shape": "dot", "size": 1}, {"group": 25, "id": "Highest", "label": "Highest", "shape": "dot", "size": 1}, {"group": 27, "id": "Harvard president", "label": "Harvard president", "shape": "dot", "size": 1}, {"group": 27, "id": "University of Pennsylvania", "label": "University of Pennsylvania", "shape": "dot", "size": 1}, {"group": 28, "id": "He", "label": "He", "shape": "dot", "size": 1}, {"group": 28, "id": "Hawaii", "label": "Hawaii", "shape": "dot", "size": 2}, {"group": 29, "id": "Hindu group", "label": "Hindu group", "shape": "dot", "size": 1}, {"group": 29, "id": "complaint", "label": "complaint", "shape": "dot", "size": 1}, {"group": 31, "id": "Joey Barton", "label": "Joey Barton", "shape": "dot", "size": 1}, {"group": 31, "id": "sports minister", "label": "sports minister", "shape": "dot", "size": 1}, {"group": 3, "id": "Law enforcement", "label": "Law enforcement", "shape": "dot", "size": 1}, {"group": 3, "id": "Legislature", "label": "Legislature", "shape": "dot", "size": 3}, {"group": 3, "id": "2024 session", "label": "2024 session", "shape": "dot", "size": 1}, {"group": 3, "id": "its 2024 session", "label": "its 2024 session", "shape": "dot", "size": 1}, {"group": 26, "id": "Lip Readers", "label": "Lip Readers", "shape": "dot", "size": 2}, {"group": 26, "id": "Kylie Kelce", "label": "Kylie Kelce", "shape": "dot", "size": 1}, {"group": 26, "id": "Taylor Swift", "label": "Taylor Swift", "shape": "dot", "size": 12}, {"group": 35, "id": "Louisiana", "label": "Louisiana", "shape": "dot", "size": 2}, {"group": 35, "id": "ban on gender affirming health care", "label": "ban on gender affirming health care", "shape": "dot", "size": 1}, {"group": 35, "id": "Trans youth", "label": "Trans youth", "shape": "dot", "size": 1}, {"group": 15, "id": "company \u0027s response", "label": "company \u0027s response", "shape": "dot", "size": 1}, {"group": 15, "id": "has long plagued", "label": "has long plagued", "shape": "dot", "size": 1}, {"group": 15, "id": "has long plagued with diversity issues", "label": "has long plagued with diversity issues", "shape": "dot", "size": 1}, {"group": 15, "id": "has plagued", "label": "has plagued", "shape": "dot", "size": 1}, {"group": 15, "id": "has plagued with diversity issues", "label": "has plagued with diversity issues", "shape": "dot", "size": 1}, {"group": 36, "id": "Mastodon", "label": "Mastodon", "shape": "dot", "size": 2}, {"group": 36, "id": "Taliban", "label": "Taliban", "shape": "dot", "size": 3}, {"group": 36, "id": "surprised", "label": "surprised", "shape": "dot", "size": 1}, {"group": 37, "id": "Mexico", "label": "Mexico", "shape": "dot", "size": 15}, {"group": 37, "id": "Salma Luevano", "label": "Salma Luevano", "shape": "dot", "size": 1}, {"group": 37, "id": "Tuesday", "label": "Tuesday", "shape": "dot", "size": 1}, {"group": 37, "id": "calling trans lawmaker man", "label": "calling trans lawmaker man", "shape": "dot", "size": 1}, {"group": 37, "id": "calling trans lawmaker man dressed", "label": "calling trans lawmaker man dressed", "shape": "dot", "size": 1}, {"group": 37, "id": "calling trans lawmaker man dressed as woman", "label": "calling trans lawmaker man dressed as woman", "shape": "dot", "size": 1}, {"group": 37, "id": "misgendering Salma Luevano", "label": "misgendering Salma Luevano", "shape": "dot", "size": 1}, {"group": 37, "id": "representative", "label": "representative", "shape": "dot", "size": 1}, {"group": 37, "id": "representative of his party", "label": "representative of his party", "shape": "dot", "size": 1}, {"group": 37, "id": "representative of his political party", "label": "representative of his political party", "shape": "dot", "size": 1}, {"group": 37, "id": "trans lawmaker man", "label": "trans lawmaker man", "shape": "dot", "size": 1}, {"group": 37, "id": "trans lawmaker man dressed", "label": "trans lawmaker man dressed", "shape": "dot", "size": 1}, {"group": 37, "id": "trans lawmaker man dressed as woman", "label": "trans lawmaker man dressed as woman", "shape": "dot", "size": 1}, {"group": 37, "id": "transgender representative", "label": "transgender representative", "shape": "dot", "size": 1}, {"group": 37, "id": "transgender representative of his party", "label": "transgender representative of his party", "shape": "dot", "size": 1}, {"group": 37, "id": "transgender representative of his political party", "label": "transgender representative of his political party", "shape": "dot", "size": 1}, {"group": 19, "id": "Mike DeWine", "label": "Mike DeWine", "shape": "dot", "size": 2}, {"group": 19, "id": "veto", "label": "veto", "shape": "dot", "size": 1}, {"group": 17, "id": "history", "label": "history", "shape": "dot", "size": 1}, {"group": 30, "id": "Netflix", "label": "Netflix", "shape": "dot", "size": 1}, {"group": 30, "id": "Indian film", "label": "Indian film", "shape": "dot", "size": 1}, {"group": 19, "id": "governor \u0027s veto", "label": "governor \u0027s veto", "shape": "dot", "size": 1}, {"group": 19, "id": "governor \u0027s veto of affirming care ban", "label": "governor \u0027s veto of affirming care ban", "shape": "dot", "size": 1}, {"group": 19, "id": "governor \u0027s veto of care ban", "label": "governor \u0027s veto of care ban", "shape": "dot", "size": 1}, {"group": 19, "id": "governor \u0027s veto of gender affirming care ban", "label": "governor \u0027s veto of gender affirming care ban", "shape": "dot", "size": 1}, {"group": 19, "id": "sports ban", "label": "sports ban", "shape": "dot", "size": 1}, {"group": 19, "id": "trans care", "label": "trans care", "shape": "dot", "size": 1}, {"group": 23, "id": "pro-LGBTQ agenda", "label": "pro-LGBTQ agenda", "shape": "dot", "size": 1}, {"group": 1, "id": "Our Flag", "label": "Our Flag", "shape": "dot", "size": 1}, {"group": 1, "id": "comedy Max", "label": "comedy Max", "shape": "dot", "size": 7}, {"group": 41, "id": "Patrick Mahomes", "label": "Patrick Mahomes", "shape": "dot", "size": 5}, {"group": 41, "id": "discount code", "label": "discount code", "shape": "dot", "size": 1}, {"group": 41, "id": "edition merchandise", "label": "edition merchandise", "shape": "dot", "size": 1}, {"group": 41, "id": "fans", "label": "fans", "shape": "dot", "size": 1}, {"group": 41, "id": "limited edition merchandise", "label": "limited edition merchandise", "shape": "dot", "size": 1}, {"group": 41, "id": "social media", "label": "social media", "shape": "dot", "size": 1}, {"group": 38, "id": "Police", "label": "Police", "shape": "dot", "size": 1}, {"group": 38, "id": "Monday afternoon", "label": "Monday afternoon", "shape": "dot", "size": 1}, {"group": 42, "id": "Polish state", "label": "Polish state", "shape": "dot", "size": 2}, {"group": 42, "id": "past anti-LGBT output", "label": "past anti-LGBT output", "shape": "dot", "size": 1}, {"group": 42, "id": "past output", "label": "past output", "shape": "dot", "size": 1}, {"group": 21, "id": "Pope Francis", "label": "Pope Francis", "shape": "dot", "size": 1}, {"group": 21, "id": "Deplorable", "label": "Deplorable", "shape": "dot", "size": 1}, {"group": 43, "id": "RSV shots", "label": "RSV shots", "shape": "dot", "size": 1}, {"group": 43, "id": "The New", "label": "The New", "shape": "dot", "size": 1}, {"group": 11, "id": "Saudi Pro League", "label": "Saudi Pro League", "shape": "dot", "size": 2}, {"group": 11, "id": "new Plymouth", "label": "new Plymouth", "shape": "dot", "size": 2}, {"group": 11, "id": "his time", "label": "his time", "shape": "dot", "size": 1}, {"group": 22, "id": "School Board", "label": "School Board", "shape": "dot", "size": 5}, {"group": 22, "id": "Dictionaries", "label": "Dictionaries", "shape": "dot", "size": 1}, {"group": 22, "id": "Latest War", "label": "Latest War", "shape": "dot", "size": 1}, {"group": 22, "id": "Latest War on Books", "label": "Latest War on Books", "shape": "dot", "size": 1}, {"group": 22, "id": "War", "label": "War", "shape": "dot", "size": 1}, {"group": 22, "id": "War on Books", "label": "War on Books", "shape": "dot", "size": 1}, {"group": 12, "id": "Silicon Valley", "label": "Silicon Valley", "shape": "dot", "size": 7}, {"group": 12, "id": "so suspicious", "label": "so suspicious", "shape": "dot", "size": 1}, {"group": 12, "id": "so suspicious of belief", "label": "so suspicious of belief", "shape": "dot", "size": 1}, {"group": 12, "id": "so suspicious of original belief", "label": "so suspicious of original belief", "shape": "dot", "size": 1}, {"group": 12, "id": "suspicious", "label": "suspicious", "shape": "dot", "size": 1}, {"group": 12, "id": "suspicious of belief", "label": "suspicious of belief", "shape": "dot", "size": 1}, {"group": 12, "id": "suspicious of original belief", "label": "suspicious of original belief", "shape": "dot", "size": 1}, {"group": 45, "id": "Simon Fanshawe", "label": "Simon Fanshawe", "shape": "dot", "size": 1}, {"group": 45, "id": "University of Edinburgh", "label": "University of Edinburgh", "shape": "dot", "size": 1}, {"group": 13, "id": "Kansas City Chiefs", "label": "Kansas City Chiefs", "shape": "dot", "size": 2}, {"group": 46, "id": "South Florida school district", "label": "South Florida school district", "shape": "dot", "size": 1}, {"group": 46, "id": "volleyball player", "label": "volleyball player", "shape": "dot", "size": 1}, {"group": 4, "id": "Super Bowl", "label": "Super Bowl", "shape": "dot", "size": 8}, {"group": 4, "id": "2nd straight year", "label": "2nd straight year", "shape": "dot", "size": 1}, {"group": 4, "id": "2nd year", "label": "2nd year", "shape": "dot", "size": 1}, {"group": 4, "id": "Justin Bieber", "label": "Justin Bieber", "shape": "dot", "size": 2}, {"group": 4, "id": "straight year", "label": "straight year", "shape": "dot", "size": 1}, {"group": 4, "id": "year", "label": "year", "shape": "dot", "size": 1}, {"group": 4, "id": "former", "label": "former", "shape": "dot", "size": 1}, {"group": 4, "id": "he", "label": "he", "shape": "dot", "size": 1}, {"group": 47, "id": "TVP Info", "label": "TVP Info", "shape": "dot", "size": 2}, {"group": 47, "id": "hateful words targeted at them", "label": "hateful words targeted at them", "shape": "dot", "size": 1}, {"group": 47, "id": "Wojciech Szelag", "label": "Wojciech Szelag", "shape": "dot", "size": 1}, {"group": 36, "id": "its domain", "label": "its domain", "shape": "dot", "size": 1}, {"group": 36, "id": "queer.af", "label": "queer.af", "shape": "dot", "size": 1}, {"group": 6, "id": "Afterparty", "label": "Afterparty", "shape": "dot", "size": 2}, {"group": 26, "id": "Go Viral", "label": "Go Viral", "shape": "dot", "size": 1}, {"group": 26, "id": "Internet", "label": "Internet", "shape": "dot", "size": 1}, {"group": 26, "id": "Meltdown", "label": "Meltdown", "shape": "dot", "size": 1}, {"group": 6, "id": "Travis Kelce", "label": "Travis Kelce", "shape": "dot", "size": 6}, {"group": 26, "id": "all", "label": "all", "shape": "dot", "size": 1}, {"group": 26, "id": "dad", "label": "dad", "shape": "dot", "size": 1}, {"group": 26, "id": "her lucky number", "label": "her lucky number", "shape": "dot", "size": 1}, {"group": 26, "id": "her number", "label": "her number", "shape": "dot", "size": 1}, {"group": 26, "id": "pair", "label": "pair", "shape": "dot", "size": 1}, {"group": 33, "id": "The Catholic leader", "label": "The Catholic leader", "shape": "dot", "size": 3}, {"group": 33, "id": "LGBT community", "label": "LGBT community", "shape": "dot", "size": 1}, {"group": 33, "id": "likely", "label": "likely", "shape": "dot", "size": 1}, {"group": 33, "id": "stance on surrogacy", "label": "stance on surrogacy", "shape": "dot", "size": 1}, {"group": 2, "id": "Transgender Health", "label": "Transgender Health", "shape": "dot", "size": 1}, {"group": 2, "id": "2024", "label": "2024", "shape": "dot", "size": 2}, {"group": 6, "id": "her support", "label": "her support", "shape": "dot", "size": 1}, {"group": 6, "id": "her support for her man", "label": "her support for her man", "shape": "dot", "size": 1}, {"group": 6, "id": "one her songs", "label": "one her songs", "shape": "dot", "size": 1}, {"group": 6, "id": "one of her songs", "label": "one of her songs", "shape": "dot", "size": 1}, {"group": 4, "id": "Usher", "label": "Usher", "shape": "dot", "size": 2}, {"group": 4, "id": "record label", "label": "record label", "shape": "dot", "size": 1}, {"group": 2, "id": "Vaccines", "label": "Vaccines", "shape": "dot", "size": 1}, {"group": 20, "id": "We", "label": "We", "shape": "dot", "size": 1}, {"group": 20, "id": "Democrats", "label": "Democrats", "shape": "dot", "size": 1}, {"group": 32, "id": "activist", "label": "activist", "shape": "dot", "size": 2}, {"group": 32, "id": "LGBT", "label": "LGBT", "shape": "dot", "size": 1}, {"group": 32, "id": "women\u0027s rights", "label": "women\u0027s rights", "shape": "dot", "size": 2}, {"group": 1, "id": "2 seasons", "label": "2 seasons", "shape": "dot", "size": 1}, {"group": 1, "id": "Warner Bros", "label": "Warner Bros", "shape": "dot", "size": 1}, {"group": 1, "id": "cancelled", "label": "cancelled", "shape": "dot", "size": 1}, {"group": 1, "id": "cancelled after 2 seasons", "label": "cancelled after 2 seasons", "shape": "dot", "size": 1}, {"group": 44, "id": "extremist organisation", "label": "extremist organisation", "shape": "dot", "size": 1}, {"group": 44, "id": "Russia", "label": "Russia", "shape": "dot", "size": 1}, {"group": 40, "id": "head House", "label": "head House", "shape": "dot", "size": 3}, {"group": 40, "id": "New York", "label": "New York", "shape": "dot", "size": 1}, {"group": 40, "id": "elections", "label": "elections", "shape": "dot", "size": 1}, {"group": 40, "id": "national elections", "label": "national elections", "shape": "dot", "size": 1}, {"group": 28, "id": "his favorite jobs", "label": "his favorite jobs", "shape": "dot", "size": 1}, {"group": 39, "id": "it", "label": "it", "shape": "dot", "size": 1}, {"group": 39, "id": "NFL", "label": "NFL", "shape": "dot", "size": 1}, {"group": 11, "id": "BBC Sport", "label": "BBC Sport", "shape": "dot", "size": 1}, {"group": 34, "id": "special election", "label": "special election", "shape": "dot", "size": 2}, {"group": 34, "id": "Long Island", "label": "Long Island", "shape": "dot", "size": 1}, {"group": 34, "id": "seen", "label": "seen", "shape": "dot", "size": 1}, {"group": 13, "id": "time", "label": "time", "shape": "dot", "size": 1}, {"group": 32, "id": "women", "label": "women", "shape": "dot", "size": 1}]);
+                  edges = new vis.DataSet([{"from": "Adam Schiff", "title": "has", "to": "TV ad targets", "width": 1}, {"from": "Adam Schiff", "title": "are vying for", "to": "audience", "width": 1}, {"from": "Adam Schiff", "title": "are vying for", "to": "same audience", "width": 1}, {"from": "Adam Schiff", "title": "are vying in", "to": "spots", "width": 1}, {"from": "Adam Schiff", "title": "are vying in", "to": "spots for their U.S. Senate race", "width": 1}, {"from": "Alabama", "title": "can enforce", "to": "ban", "width": 1}, {"from": "Alabama", "title": "can enforce", "to": "ban for trans minors", "width": 1}, {"from": "Alabama", "title": "can enforce", "to": "ban on affirming care", "width": 1}, {"from": "Alabama", "title": "can enforce", "to": "ban on affirming care for trans minors", "width": 1}, {"from": "Alabama", "title": "can enforce", "to": "ban on care", "width": 1}, {"from": "Alabama", "title": "can enforce", "to": "ban on care for trans minors", "width": 1}, {"from": "Alabama", "title": "can enforce", "to": "ban on gender affirming care", "width": 1}, {"from": "Alabama", "title": "can enforce", "to": "ban on gender affirming care for trans minors", "width": 1}, {"from": "American", "title": "should cheer", "to": "news", "width": 1}, {"from": "Andrew Haigh", "title": "plays screenwriter In", "to": "Andrew Haigh", "width": 2}, {"from": "Andrew Haigh", "title": "plays", "to": "gay screenwriter", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "gay screenwriter working", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "gay screenwriter working on script", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "gay screenwriter working on script about his childhood", "width": 1}, {"from": "Andrew Haigh", "title": "was startled by", "to": "his vulnerability", "width": 1}, {"from": "Andrew Haigh", "title": "was startled by", "to": "his vulnerability in", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "lonely gay screenwriter", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "lonely gay screenwriter working", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "lonely gay screenwriter working on script", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "lonely gay screenwriter working on script about his childhood", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "lonely screenwriter", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "lonely screenwriter working", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "lonely screenwriter working on script", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "lonely screenwriter working on script about his childhood", "width": 1}, {"from": "Andrew Haigh", "title": "In", "to": "new film", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "screenwriter", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "screenwriter working", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "screenwriter working on script", "width": 1}, {"from": "Andrew Haigh", "title": "plays", "to": "screenwriter working on script about his childhood", "width": 1}, {"from": "Attal", "title": "is", "to": "youngest", "width": 1}, {"from": "Bill Ackman", "title": "Is", "to": "Fighting", "width": 2}, {"from": "Bill Ackman", "title": "\u2019s", "to": "Harvard", "width": 1}, {"from": "Bill Ackman", "title": "has made", "to": "him face", "width": 1}, {"from": "Bill Ackman", "title": "has made", "to": "him face of billionaire class", "width": 1}, {"from": "Bill Ackman", "title": "has made", "to": "him public face", "width": 1}, {"from": "Bill Ackman", "title": "has made", "to": "him public face of billionaire class", "width": 1}, {"from": "Bud Light", "title": "Has", "to": "Something", "width": 1}, {"from": "Bud Light", "title": "has", "to": "While has surrounded by controversy", "width": 1}, {"from": "Bud Light", "title": "has", "to": "While has surrounded by controversy in months", "width": 1}, {"from": "Bud Light", "title": "has", "to": "While has surrounded by controversy in recent months", "width": 1}, {"from": "Bud Light", "title": "has", "to": "has surrounded by controversy", "width": 1}, {"from": "Bud Light", "title": "has", "to": "has surrounded by controversy in months", "width": 1}, {"from": "Bud Light", "title": "has", "to": "has surrounded by controversy in recent months", "width": 1}, {"from": "Caitlyn Jenner", "title": "slammed", "to": "Disney", "width": 1}, {"from": "Caitlyn Jenner", "title": "blaming", "to": "company", "width": 1}, {"from": "Caitlyn Jenner", "title": "blaming company for", "to": "her exclusion", "width": 1}, {"from": "Caitlyn Jenner", "title": "blaming company for", "to": "reality show", "width": 1}, {"from": "California", "title": "are vying for", "to": "audience", "width": 1}, {"from": "California", "title": "are vying for", "to": "same audience", "width": 1}, {"from": "California", "title": "are vying in", "to": "spots", "width": 1}, {"from": "California", "title": "are vying in", "to": "spots for their U.S. Senate race", "width": 1}, {"from": "Chip Wilson", "title": "to", "to": "comments on slap in face to people of color", "width": 1}, {"from": "Chip Wilson", "title": "call", "to": "Lululemon", "width": 7}, {"from": "Chris Christie", "title": "is ending", "to": "his 2024 campaign", "width": 1}, {"from": "Chris Christie", "title": "is ending", "to": "his 2024 campaign against Trump", "width": 1}, {"from": "Chris Christie", "title": "is ending", "to": "his 2024 presidential campaign", "width": 1}, {"from": "Chris Christie", "title": "is ending", "to": "his 2024 presidential campaign against Trump", "width": 1}, {"from": "Christian Imagery", "title": "is in", "to": "Christ", "width": 1}, {"from": "Christian Imagery", "title": "is in", "to": "pop music", "width": 1}, {"from": "Christian Imagery", "title": "fits in", "to": "Nas", "width": 8}, {"from": "Christian Ziegler", "title": "remove", "to": "Florida Republican Party", "width": 1}, {"from": "Christian Ziegler", "title": "ousted as", "to": "chair", "width": 2}, {"from": "Christian Ziegler", "title": "ousted after", "to": "rape allegation", "width": 2}, {"from": "Christian Ziegler", "title": "chairman", "to": "their", "width": 1}, {"from": "DeWine", "title": "\u2019s", "to": "veto of bill banning", "width": 1}, {"from": "DeWine", "title": "overrides", "to": "Ohio", "width": 2}, {"from": "Disney", "title": "Jenner", "to": "its CEO", "width": 1}, {"from": "Donald Trump Jr", "title": "highlighted ad on", "to": "Monday", "width": 1}, {"from": "Donald Trump Jr", "title": "exposing", "to": "Ohio Secretary of State", "width": 2}, {"from": "Donald Trump Jr", "title": "highlighted", "to": "ad", "width": 1}, {"from": "Florida Republican Party", "title": "remove", "to": "Florida Republican Party", "width": 1}, {"from": "France", "title": "has as", "to": "Gabriel Attal", "width": 4}, {"from": "France", "title": "Has", "to": "Historic New Prime Minister", "width": 1}, {"from": "France", "title": "Has", "to": "Historic Prime Minister", "width": 1}, {"from": "France", "title": "Has", "to": "New Prime Minister", "width": 1}, {"from": "France", "title": "Has", "to": "Prime Minister", "width": 1}, {"from": "France", "title": "gets", "to": "its ever minister", "width": 1}, {"from": "France", "title": "gets", "to": "its ever prime minister", "width": 1}, {"from": "France", "title": "gets", "to": "its minister", "width": 1}, {"from": "France", "title": "gets", "to": "its prime minister", "width": 1}, {"from": "Gender Dysphoria", "title": "is strong", "to": "distress", "width": 1}, {"from": "Gender Dysphoria", "title": "Surges in", "to": "Highest", "width": 1}, {"from": "Harvard president", "title": "University of", "to": "University of Pennsylvania", "width": 1}, {"from": "He", "title": "found", "to": "Hawaii", "width": 2}, {"from": "Hindu group", "title": "filed", "to": "complaint", "width": 2}, {"from": "Joey Barton", "title": "says", "to": "sports minister", "width": 2}, {"from": "Law enforcement", "title": "dominates at_time", "to": "Legislature", "width": 2}, {"from": "Legislature", "title": "of", "to": "2024 session", "width": 1}, {"from": "Legislature", "title": "has convened for", "to": "its 2024 session", "width": 1}, {"from": "Lip Readers", "title": "De-Code", "to": "Kylie Kelce", "width": 1}, {"from": "Lip Readers", "title": "De-Code", "to": "Taylor Swift", "width": 1}, {"from": "Louisiana", "title": "over", "to": "ban on gender affirming health care", "width": 1}, {"from": "Louisiana", "title": "sue over", "to": "Trans youth", "width": 4}, {"from": "Lululemon", "title": "call", "to": "company \u0027s response", "width": 1}, {"from": "Lululemon", "title": "has", "to": "has long plagued", "width": 1}, {"from": "Lululemon", "title": "has", "to": "has long plagued with diversity issues", "width": 1}, {"from": "Lululemon", "title": "has", "to": "has plagued", "width": 1}, {"from": "Lululemon", "title": "has", "to": "has plagued with diversity issues", "width": 1}, {"from": "Mastodon", "title": "disappeared because", "to": "Taliban", "width": 1}, {"from": "Mastodon", "title": "was of", "to": "surprised", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "Salma Luevano", "width": 1}, {"from": "Mexico", "title": "apologized on", "to": "Tuesday", "width": 1}, {"from": "Mexico", "title": "apologizes for", "to": "calling trans lawmaker man", "width": 1}, {"from": "Mexico", "title": "apologizes for", "to": "calling trans lawmaker man dressed", "width": 1}, {"from": "Mexico", "title": "apologizes for", "to": "calling trans lawmaker man dressed as woman", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "misgendering Salma Luevano", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "representative", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "representative of his party", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "representative of his political party", "width": 1}, {"from": "Mexico", "title": "apologizes for", "to": "trans lawmaker man", "width": 1}, {"from": "Mexico", "title": "apologizes for", "to": "trans lawmaker man dressed", "width": 1}, {"from": "Mexico", "title": "apologizes for", "to": "trans lawmaker man dressed as woman", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "transgender representative", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "transgender representative of his party", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "transgender representative of his political party", "width": 1}, {"from": "Mike DeWine", "title": "\u2019s", "to": "veto", "width": 1}, {"from": "Mike DeWine", "title": "override", "to": "Ohio", "width": 1}, {"from": "Nas", "title": "fits in", "to": "history", "width": 2}, {"from": "Netflix", "title": "removed", "to": "Indian film", "width": 2}, {"from": "Ohio", "title": "overrides", "to": "governor \u0027s veto", "width": 1}, {"from": "Ohio", "title": "overrides", "to": "governor \u0027s veto of affirming care ban", "width": 1}, {"from": "Ohio", "title": "overrides", "to": "governor \u0027s veto of care ban", "width": 1}, {"from": "Ohio", "title": "overrides", "to": "governor \u0027s veto of gender affirming care ban", "width": 1}, {"from": "Ohio", "title": "override", "to": "sports ban", "width": 1}, {"from": "Ohio", "title": "override sports ban on", "to": "trans care", "width": 1}, {"from": "Ohio Secretary of State", "title": "has", "to": "pro-LGBTQ agenda", "width": 1}, {"from": "Our Flag", "title": "Means Death runs aground", "to": "comedy Max", "width": 2}, {"from": "Patrick Mahomes", "title": "gave", "to": "discount code", "width": 1}, {"from": "Patrick Mahomes", "title": "shared", "to": "edition merchandise", "width": 1}, {"from": "Patrick Mahomes", "title": "gave", "to": "fans", "width": 1}, {"from": "Patrick Mahomes", "title": "shared", "to": "limited edition merchandise", "width": 1}, {"from": "Patrick Mahomes", "title": "shared edition merchandise on", "to": "social media", "width": 2}, {"from": "Police", "title": "identified Moreno at_time", "to": "Monday afternoon", "width": 1}, {"from": "Polish state", "title": "decries", "to": "past anti-LGBT output", "width": 2}, {"from": "Polish state", "title": "decries", "to": "past output", "width": 2}, {"from": "Pope Francis", "title": "Calls", "to": "Deplorable", "width": 1}, {"from": "RSV shots", "title": "include", "to": "The New", "width": 1}, {"from": "Saudi Pro League", "title": "improved", "to": "new Plymouth", "width": 4}, {"from": "Saudi Pro League", "title": "is in", "to": "his time", "width": 1}, {"from": "School Board", "title": "Sued for", "to": "Dictionaries", "width": 4}, {"from": "School Board", "title": "Sued in", "to": "Latest War", "width": 1}, {"from": "School Board", "title": "Sued in", "to": "Latest War on Books", "width": 1}, {"from": "School Board", "title": "Sued in", "to": "War", "width": 1}, {"from": "School Board", "title": "Sued in", "to": "War on Books", "width": 1}, {"from": "Silicon Valley", "title": "Has", "to": "Harvard", "width": 1}, {"from": "Silicon Valley", "title": "grown", "to": "so suspicious", "width": 1}, {"from": "Silicon Valley", "title": "grown", "to": "so suspicious of belief", "width": 1}, {"from": "Silicon Valley", "title": "grown", "to": "so suspicious of original belief", "width": 1}, {"from": "Silicon Valley", "title": "grown", "to": "suspicious", "width": 1}, {"from": "Silicon Valley", "title": "grown", "to": "suspicious of belief", "width": 1}, {"from": "Silicon Valley", "title": "grown", "to": "suspicious of original belief", "width": 1}, {"from": "Simon Fanshawe", "title": "named as", "to": "University of Edinburgh", "width": 2}, {"from": "Something", "title": "Say", "to": "Kansas City Chiefs", "width": 2}, {"from": "South Florida school district", "title": "family of", "to": "volleyball player", "width": 2}, {"from": "Super Bowl", "title": "see For", "to": "2nd straight year", "width": 1}, {"from": "Super Bowl", "title": "see For", "to": "2nd year", "width": 1}, {"from": "Super Bowl", "title": "Outraged Over", "to": "Justin Bieber", "width": 1}, {"from": "Super Bowl", "title": "see For", "to": "straight year", "width": 1}, {"from": "Super Bowl", "title": "see For", "to": "year", "width": 1}, {"from": "Super Bowl", "title": "has", "to": "Taylor Swift", "width": 1}, {"from": "Super Bowl", "title": "in", "to": "former", "width": 1}, {"from": "Super Bowl", "title": "appear in", "to": "he", "width": 1}, {"from": "TVP Info", "title": "for", "to": "hateful words targeted at them", "width": 1}, {"from": "TVP Info", "title": "apologised for", "to": "Wojciech Szelag", "width": 6}, {"from": "Taliban", "title": "disabled", "to": "its domain", "width": 1}, {"from": "Taliban", "title": "disappeared because", "to": "queer.af", "width": 1}, {"from": "Taylor Swift", "title": "has", "to": "Afterparty", "width": 1}, {"from": "Taylor Swift", "title": "Go", "to": "Go Viral", "width": 1}, {"from": "Taylor Swift", "title": "Sends", "to": "Internet", "width": 1}, {"from": "Taylor Swift", "title": "Sends Internet Into", "to": "Meltdown", "width": 1}, {"from": "Taylor Swift", "title": "went out", "to": "Travis Kelce", "width": 1}, {"from": "Taylor Swift", "title": "went out", "to": "all", "width": 1}, {"from": "Taylor Swift", "title": "with", "to": "dad", "width": 1}, {"from": "Taylor Swift", "title": "used", "to": "her lucky number", "width": 1}, {"from": "Taylor Swift", "title": "used", "to": "her number", "width": 1}, {"from": "Taylor Swift", "title": "were spotted in", "to": "pair", "width": 2}, {"from": "The Catholic leader", "title": "roil", "to": "LGBT community", "width": 2}, {"from": "The Catholic leader", "title": "is", "to": "likely", "width": 2}, {"from": "The Catholic leader", "title": "\u2019s", "to": "stance on surrogacy", "width": 1}, {"from": "Transgender Health", "title": "Restrict Endure in", "to": "2024", "width": 1}, {"from": "Travis Kelce", "title": "Gesture at", "to": "Afterparty", "width": 1}, {"from": "Travis Kelce", "title": "show", "to": "her support", "width": 1}, {"from": "Travis Kelce", "title": "show", "to": "her support for her man", "width": 1}, {"from": "Travis Kelce", "title": "danced to", "to": "one her songs", "width": 1}, {"from": "Travis Kelce", "title": "danced to", "to": "one of her songs", "width": 1}, {"from": "Usher", "title": "signed", "to": "Justin Bieber", "width": 1}, {"from": "Usher", "title": "signed Justin Bieber to", "to": "record label", "width": 1}, {"from": "Vaccines", "title": "Get in", "to": "2024", "width": 1}, {"from": "We", "title": "beat", "to": "Democrats", "width": 1}, {"from": "activist", "title": "was member of", "to": "LGBT", "width": 1}, {"from": "activist", "title": "is defender of", "to": "women\u0027s rights", "width": 1}, {"from": "comedy Max", "title": "cancelled after", "to": "2 seasons", "width": 1}, {"from": "comedy Max", "title": "has", "to": "Warner Bros", "width": 2}, {"from": "comedy Max", "title": "show", "to": "cancelled", "width": 1}, {"from": "comedy Max", "title": "show", "to": "cancelled after 2 seasons", "width": 1}, {"from": "comedy Max", "title": "has", "to": "comedy Max", "width": 1}, {"from": "extremist organisation", "title": "is in", "to": "Russia", "width": 1}, {"from": "head House", "title": "foreshadows elections In", "to": "New York", "width": 1}, {"from": "head House", "title": "foreshadows", "to": "elections", "width": 1}, {"from": "head House", "title": "foreshadows", "to": "national elections", "width": 1}, {"from": "his favorite jobs", "title": "is in", "to": "Hawaii", "width": 1}, {"from": "it", "title": "has", "to": "NFL", "width": 2}, {"from": "new Plymouth", "title": "tells", "to": "BBC Sport", "width": 1}, {"from": "special election", "title": "is in", "to": "Long Island", "width": 1}, {"from": "special election", "title": "is", "to": "seen", "width": 2}, {"from": "time", "title": "weigh in on", "to": "Kansas City Chiefs", "width": 1}, {"from": "women", "title": "of", "to": "women\u0027s rights", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.015,
+            "damping": 0.4,
+            "gravitationalConstant": -31,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

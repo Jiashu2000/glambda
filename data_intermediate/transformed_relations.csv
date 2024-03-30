@@ -1,0 +1,113 @@
+,news_id,subject,relation,object,node1_t1,node2_t1,node1_t2,node2_t2,node1_t3,node2_t3
+4,0,leader ’s stance,roil,LGBT community,['leader ’ s stance'],['lgbt'],leader  stance,LGBT community,Leader  Stance,Lgbt Community
+12,1,France,Has,Historic New Prime Minister,['france'],"['historic', 'prime']",France,historic,France,Historic
+13,1,France,Has,Historic Prime Minister,['france'],['historic prime'],France,historic prime,France,Prime
+18,2,Ohio House votes,override,sports ban,"['ohio', 'house votes']",['sports ban'],Ohio,sports ban,Ohio,Sports Ban
+19,2,Ohio House votes,override,governor 's veto,"['ohio', 'house votes']","[""governor 's veto""]",Ohio,governor  veto,Ohio,Governor  Veto
+20,2,Ohio House votes,override sports ban on,trans care,"['ohio', 'house votes']",['trans care'],Ohio,trans care,Ohio,Trans
+21,2,Ohio House,override,Gov. Mike DeWine ’s veto,['ohio'],"['gov', 'mike dewine', '’ s veto']",Ohio,gov,Ohio,Gov
+23,4,Ohio House,overrides,DeWine ’s veto of bill,['ohio'],"['dewine', '’ s veto']",Ohio,DeWine,Ohio,Dewine
+26,4,state Senate,will convene in,January,['state senate'],['january'],Polish state,january,Polish State,January
+28,5,Our Flag,Means Death runs aground,queer pirate comedy Max show,['flag'],"['queer pirate comedy', 'max']",flag,queer pirate comedy,Flag,Queer Pirate Comedy
+33,5,Our Flag,Means,Death runs,['flag'],['death'],flag,death,Flag,Death
+37,5,Max 's beloved comedy pirate series,has,has sunk by Warner Bros.,"['max', 'comedy pirate series']",['warner bros'],comedy Max,Warner Bros,Comedy Max,Warner Bros
+38,5,Max,has,beloved comedy pirate series,['max'],['comedy pirate series'],comedy Max,comedy pirate series,Comedy Max,Queer Pirate Comedy
+49,6,FTC,’s,first ban on selling sensitive location data,['ftc'],['sensitive location data'],ftc,sensitive location data,Ftc,Sensitive Location Data
+53,7,France,gets,Gabriel Attal,['france'],['gabriel attal'],France,Attal,France,Attal
+55,7,France,gets,its ever prime minister,['france'],['prime minister'],France,prime minister,France,Prime
+59,7,Gabriel Attal,has as,has France ’s ever minister,['gabriel attal'],"['france', '’ s']",Attal,France,Attal,France
+68,8,extremist organisation,is in,Russia,['extremist organisation'],['russia'],extremist organisation,Russia,Extremist Organisation,Russia
+72,9,France,’s,youngest prime minister,['france'],['prime minister'],France,prime minister,France,Prime
+73,9,Gabriel Attal,becomes,France ’s youngest prime minister,['gabriel attal'],"['france', '’ s', 'prime minister']",Attal,France,Attal,France
+80,10,his favorite jobs,is in,Hawaii,['favorite jobs'],['hawaii'],favorite jobs,Hawaii,Favorite Jobs,Hawaii
+85,11,Chris Christie,end,his 2024 presidential campaign,['chris christie'],['presidential campaign'],Chris Christie,presidential campaign,Chris Christie,Presidential Campaign
+87,11,Former New Jersey Gov. Chris Christie,is ending,his 2024 campaign against Trump,"['jersey gov', 'chris christie']",['trump'],jersey gov,trump,Gov,Trump
+89,11,Former New Jersey Gov. Chris Christie,is ending,his 2024 presidential campaign,"['jersey gov', 'chris christie']",['presidential campaign'],jersey gov,presidential campaign,Gov,Presidential Campaign
+91,12,Louisiana,over,ban on gender affirming health care,['louisiana'],['health care'],Louisiana,Transgender Health,Louisiana,Transgender Health
+92,12,Trans youth,sue over,Louisiana 's ban on gender affirming health care,['trans'],"['louisiana', ""'s ban"", 'health care']",trans,Louisiana,Trans,Louisiana
+97,13,Mexico president,apologizes for,trans lawmaker man dressed as woman,['mexico'],['trans lawmaker man'],Mexico,trans lawmaker man,Mexico,Trans Lawmaker Man
+104,13,Mexico President Andres Manuel Lopez Obrador,apologized for,transgender representative of his party,"['mexico', 'andres manuel lopez obrador']",['transgender representative'],Mexico,Transgender Health,Mexico,Transgender Health
+105,13,Mexico President Andres Manuel Lopez Obrador,apologized for,Salma Luevano,"['mexico', 'andres manuel lopez obrador']",['salma luevano'],Mexico,salma luevano,Mexico,Salma Luevano
+107,13,Mexico President Andres Manuel Lopez Obrador,apologized for,representative of his political party,"['mexico', 'andres manuel lopez obrador']",['political party'],Mexico,political party,Mexico,Political Party
+111,13,misgendering Salma Luevano,representative of,his political party,['salma luevano'],['political party'],salma luevano,political party,Salma Luevano,Political Party
+113,14,Barton comments dangerous,says,sports minister,['barton'],['sports minister'],Joey Barton,sports minister,Joey Barton,Sports Ban
+115,15,Christian Ziegler,ousted as,chair of Florida Republican Party,['ziegler'],['florida republican'],Christian Ziegler,Florida,Christian Ziegler,Florida
+117,15,Ziegler,ousted after,rape allegation,['ziegler'],['rape allegation'],Christian Ziegler,rape allegation,Christian Ziegler,Rape Allegation
+126,15,Florida Republicans,remove,Christian Ziegler,['florida'],['ziegler'],Florida,Christian Ziegler,Florida,Christian Ziegler
+127,15,Florida Republicans,remove,their state party chairman,['florida'],['state party chairman'],Florida,state party chairman,Florida,State Party Chairman
+128,16,Bill Ackman,Is,Fighting,['bill ackman'],['fighting'],Bill Ackman,fighting,Bill Ackman,Fighting
+130,16,Harvard president Claudine Gay,University of,Pennsylvania,"['harvard', 'claudine gay']",['pennsylvania'],Harvard,pennsylvania,Harvard,Pennsylvania
+134,17,Andrew Scott,plays,lonely gay screenwriter working,['andrew scott'],['gay screenwriter'],Andrew Scott,gay screenwriter,Andrew Scott,Gay Screenwriter
+144,17,Andrew Haigh,In,new film,['andrew haigh'],['new film'],Andrew Haigh,new Plymouth,Andrew Haigh,New Plymouth
+147,17,Andrew Scott,plays screenwriter In,Andrew Haigh ’s new film,['andrew scott'],"['andrew haigh', '’ s', 'new film']",Andrew Scott,Andrew Haigh,Andrew Scott,Andrew Haigh
+152,18,Pro League,improved,new Plymouth boss,['pro'],['plymouth'],pro,new Plymouth,Pro,New Plymouth
+154,18,Saudi Pro League,improved,new Plymouth boss,['saudi pro'],['plymouth'],Saudi Pro League,new Plymouth,Saudi Pro League,New Plymouth
+156,18,New Plymouth Argyle head coach Ian Foster,tells,BBC Sport,"['plymouth argyle', 'head coach', 'ian foster']",['bbc sport'],new Plymouth,BBC Sport,New Plymouth,Bbc Sport
+161,19,state legislatures,are considering,new round,['state legislatures'],['new round'],Polish state,new Plymouth,Polish State,New Plymouth
+171,20,Lil Nas X Repurposes Christian Imagery,is in,J Christ,"['lil nas x repurposes', 'imagery']",['j christ'],lil nas x repurposes,Christ,Lil Nas X,Christ
+173,20,Lil Nas X single J Christ,fits in,history of Christian imagery,"['lil nas x', 'j christ']",['christian imagery'],lil nas x,Christian Imagery,Lil Nas X,Christian Imagery
+176,20,Lil Nas X J Christ,fits in,history of imagery in pop music,['lil nas x j christ'],['pop music'],lil nas x j christ,Broadway music,Lil Nas X,Broadway Music
+183,21,Former Lululemon employees,call,company 's response to founder Chip Wilson 's comments on DEI ' slap in face,['lululemon'],"[""company 's response"", 'chip wilson', ""'s comments"", 'dei']",Lululemon,company  response,Lululemon,Company  Response
+196,21,Lululemon,has,has long plagued with diversity issues,['lululemon'],['diversity issues'],Lululemon,diversity,Lululemon,Diversity
+201,22,Aunts,play,surprisingly critical role,['aunts'],['critical role'],aunts,critical role,Aunts,Critical Role
+203,22,Aunts,play role in,LGBTQ youth,['aunts'],['lgbtq'],aunts,lgbtq,Aunts,Lgbtq
+211,24,Florida School Board,Sued for,Pulling Dictionaries,"['florida', 'school board']",['dictionaries'],Florida,Dictionaries,Florida,Dictionaries
+216,24,Florida School Board,Sued in,Latest War,"['florida', 'school board']",['latest'],Florida,latest,Florida,Latest
+220,25,RSV shots,recommendations,new meningitis vaccine,['rsv'],['new meningitis vaccine'],rsv,new meningitis vaccine,Rsv,Meningitis Vaccine
+221,25,RSV shots,recommendations,COVID 19 jab,['rsv'],['covid'],rsv,covid,Rsv,Covid
+223,25,New vaccine recommendations,include,RSV shots,['new vaccine recommendations'],['rsv'],new vaccine recommendations,rsv,New Vaccine Recommendations,Rsv
+225,26,Ohio House,overrides,governor 's veto of care ban,['ohio'],"[""governor 's veto"", 'care ban']",Ohio,governor  veto,Ohio,Governor  Veto
+255,27,South Florida school district,family of,volleyball player,"['florida', 'school district']",['volleyball player'],Florida,volleyball player,Florida,Volleyball Player
+264,28,California Katie Porter,are vying in,spots for their U.S. Senate race,['california katie porter'],"['u.s.', 'senate race']",california katie porter,u.s.,California Katie Porter,U.S.
+268,28,Adam Schiff,are vying in,spots for their U.S. Senate race,['adam schiff'],"['u.s.', 'senate race']",Adam Schiff,u.s.,Adam Schiff,U.S.
+272,29,Our Flag,Means,Death,['flag'],['death'],flag,death,Flag,Death
+276,30,Alabama,can enforce,ban on care for trans minors,['alabama'],['trans minors'],Alabama,trans minors,Alabama,Trans
+286,30,appeals court,granting,state ’s request,['appeals court'],['state ’ s request'],appeals court,state  request,Appeals Court,Polish State
+289,30,state ’s request,stay,preliminary injunction,['state ’ s request'],['preliminary injunction'],state  request,preliminary injunction,Polish State,Preliminary Injunction
+290,31,Caitlyn Jenner,Lashes Out at,Disney,['caitlyn jenner'],['disney'],Caitlyn Jenner,Disney,Caitlyn Jenner,Disney
+291,31,Disney,Jenner,its CEO,['disney'],['ceo'],Disney,ceo,Disney,Ceo
+292,31,Caitlyn Jenner,blaming company for,her exclusion from Kardashians reality show,['caitlyn jenner'],"['kardashians', 'reality show']",Caitlyn Jenner,Kardashians,Caitlyn Jenner,Kardashians
+301,33,Highest,Surges in,Gender Dysphoria,['highest'],['gender dysphoria'],highest,Gender Dysphoria,Highest,Gender Dysphoria
+305,34,Netflix,removed,Indian film,['netflix'],['indian film'],Netflix,Indian film,Netflix,Indian Film
+315,35,Ariana DeBose,slams,Critics Choice Awards joke about her singing abilities,['ariana debose'],"['critics', 'awards']",ariana debose,critics,Ariana Debose,Critics
+329,36,Mastodon instance,disappeared because,Taliban,['mastodon'],['taliban'],Mastodon,Taliban,Mastodon,Taliban
+333,37,Ohio Secretary Republican candidate Frank LaRose,has,pro-LGBTQ agenda,"['ohio', 'republican', 'frank larose']",['pro-lgbtq agenda'],Ohio,pro-lgbtq agenda,Ohio,Pro-Lgbtq Agenda
+334,37,Donald Trump Jr. ad,exposing,Ohio Secretary Republican candidate Frank LaRose 's pro-LGBTQ agenda,['donald trump jr.'],"['ohio', 'republican', 'frank larose', ""'s pro-lgbtq agenda""]",Donald Trump Jr,Ohio,Donald Trump Jr,Ohio
+338,38,Polish state TV host,decries,past anti-LGBT output,"['polish', 'state tv host']",['past anti-lgbt output'],Polish state,past anti-lgbt output,Polish State,Past Output
+340,38,state TV host,decries,past output,['state tv host'],['past output'],state tv host,past output,State Tv Host,Past Output
+342,38,Wojciech Szelag,apologised for,TVP Info channel 's hateful words targeted at them,['wojciech szelag'],"['tvp info', ""channel 's hateful words""]",wojciech szelag,TVP Info,Wojciech Szelag,Tvp Info
+345,38,Wojciech Szelag,apologised to,LGBT people,['wojciech szelag'],['lgbt'],wojciech szelag,lgbt,Wojciech Szelag,Lgbt
+347,38,TVP Info channel,for,hateful words targeted at them,['tvp info'],['hateful words'],TVP Info,hateful words,Tvp Info,Hateful Words
+353,39,Super Bowl watchers,see For,2nd straight year,['bowl watchers'],['straight year'],Super Bowl,straight year,Super Bowl,Year  Ads
+356,39,year ’s ads,were overseen by,donor to legal organization,['year ’ s ads'],['legal organization'],year  ads,legal organization,Year  Ads,Legal Organization
+367,40,beer brand,took time,While has surrounded by controversy in recent months,['beer brand'],['recent months'],beer brand,recent months,Beer Brand,Recent Months
+375,40,Bud Light,has,has surrounded by controversy in recent months,['bud'],['recent months'],Bud Light,recent months,Bud Light,Recent Months
+380,41,Taylor Swift 's Super Bowl Shoe Detail,Sends Internet Into,Meltdown,"['taylor swift', 'shoe detail']",['meltdown'],Taylor Swift,meltdown,Taylor Swift,Meltdown
+381,41,Taylor Swift 's Super Bowl Shoe Detail,Sends,Internet,"['taylor swift', 'shoe detail']",['internet'],Taylor Swift,Internet,Taylor Swift,Internet
+382,41,Taylor Swift,has,Super Bowl Shoe Detail,['taylor swift'],['shoe detail'],Taylor Swift,shoe detail,Taylor Swift,Shoe Detail
+384,41,Swift,went out,Travis Kelce,['swift'],['travis kelce'],Taylor Swift,Travis Kelce,Taylor Swift,Travis Kelce
+388,42,Randi Mahomes,shared,edition merchandise,['randi mahomes'],['edition merchandise'],Patrick Mahomes,edition merchandise,Patrick Mahomes,Edition Merchandise
+389,42,Randi Mahomes,even gave,discount code,['randi mahomes'],['discount code'],Patrick Mahomes,discount code,Patrick Mahomes,Discount Code
+390,42,Randi Mahomes,shared edition merchandise on,social media,['randi mahomes'],['social media'],Patrick Mahomes,social media,Patrick Mahomes,Social Media
+395,43,Travis Kelce,Gesture at,Super Bowl Afterparty,['travis kelce'],['afterparty'],Travis Kelce,Afterparty,Travis Kelce,Afterparty
+396,43,Taylor Swift,has,Heartwarming Gesture at Super Bowl Afterparty,['taylor swift'],"['heartwarming gesture', 'afterparty']",Taylor Swift,heartwarming gesture,Taylor Swift,Heartwarming Gesture
+402,44,Taylor Swift Lucky Number Super Bowl Stats,Go,Viral,"['taylor swift lucky number', 'stats']",['viral'],Taylor Swift,Go Viral,Taylor Swift,Go Viral
+404,44,Swift,used,her lucky number,['swift'],['lucky number'],Taylor Swift,lucky number,Taylor Swift,Lucky Number
+412,44,her lucky number,reveal,her new album,['lucky number'],['new album'],lucky number,new Plymouth,Lucky Number,New Plymouth
+413,45,Super Bowl Fans,Outraged Over,Justin Bieber,['fans'],['justin bieber'],Super Bowl Fans,Justin Bieber,Super Bowl Fans,Justin Bieber
+416,45,Usher,signed Justin Bieber to,his record label,['usher'],['record label'],usher,record label,Usher,Record Label
+417,45,Usher,signed,Justin Bieber,['usher'],['justin bieber'],usher,Justin Bieber,Usher,Justin Bieber
+419,46,Lip Readers,De-Code,Taylor Swift Super Bowl Chat,['lip readers'],"['taylor swift', 'chat']",Lip Readers,Taylor Swift,Lip Readers,Taylor Swift
+420,46,Lip Readers,De-Code,Kylie Kelce,['lip readers'],['kylie kelce'],Lip Readers,Travis Kelce,Lip Readers,Travis Kelce
+429,47,Bill Ackman,’s,fight against Harvard,['bill ackman'],['harvard'],Bill Ackman,Harvard,Bill Ackman,Harvard
+433,47,Bill Ackman ’s fight,has made,him public face,"['bill ackman', '’ s fight']",['public face'],Bill Ackman,public face,Bill Ackman,Public Face
+439,47,Bill Ackman ’s fight,has made,him face of billionaire class,"['bill ackman', '’ s fight']",['billionaire class'],Bill Ackman,billionaire class,Bill Ackman,Billionaire Class
+443,48,head House race,foreshadows,national elections,['head house race'],['national elections'],head House,national elections,Head House,National Elections
+444,48,head House race,foreshadows elections In,New York,['head house race'],['york'],head House,New York,Head House,New York
+447,48,special election,is in,Long Island,['special election'],['long island'],special election,Long Island,Special Election,Long Island
+448,49,Silicon Valley,Has,Harvard Problem,['silicon'],['harvard problem'],Silicon Valley,Harvard,Silicon Valley,Harvard
+449,49,Silicon Valley establishment,grown,so suspicious of original belief,"['silicon', 'valley establishment']",['original belief'],Silicon Valley,original belief,Silicon Valley,Original Belief
+455,50,Activist Simon Fanshawe,named as,University of Edinburgh rector,['activist simon fanshawe'],['edinburgh'],Simon Fanshawe,edinburgh,Simon Fanshawe,Edinburgh
+456,50,Activist Simon Fanshawe,named as,University rector,['activist simon fanshawe'],['university rector'],Simon Fanshawe,university rector,Simon Fanshawe,University Rector
+496,54,Law enforcement,dominates at_time,1st day,['law enforcement'],['1st day'],law enforcement,1st day,Law Enforcement,1St Day
+499,54,Law enforcement,dominates at_time,day of Minnesota Legislature 's 2024 session,['law enforcement'],"['minnesota', ""legislature 's""]",law enforcement,Minnesota,Law Enforcement,Minnesota

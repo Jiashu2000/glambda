@@ -1,0 +1,119 @@
+,ent_name,ent_link,ent_class,ent_conf
+0,Caitlyn Jenner,http://dbpedia.org/resource/Caitlyn_Jenner,dbpedia-owl:Person,0.6965
+1,Disney,http://dbpedia.org/resource/The_Walt_Disney_Company,dbpedia-owl:Organisation,0.57
+2,Bob Iger,http://dbpedia.org/resource/Bob_Iger,dbpedia-owl:Person,0.8675
+3,Kardashians,http://dbpedia.org/resource/Keeping_Up_with_the_Kardashians,,-0.5988095238095238
+4,reality show,http://dbpedia.org/resource/Reality_television,,-0.585
+5,volleyball player,http://dbpedia.org/resource/Volleyball,,-0.5941666666666666
+6,Pope Francis,http://dbpedia.org/resource/Pope_Francis,dbpedia-owl:Person,0.655
+7,Surrogate Motherhood,http://dbpedia.org/resource/Surrogacy,dbpedia-owl:Person,0.6533571428571429
+8,The Catholic leader,http://dbpedia.org/resource/The_Catholic_Leader,owl:Thing,-0.8583333333333333
+9,LGBT community,http://dbpedia.org/resource/LGBT_community,owl:Thing,-0.85
+10,Simon Fanshawe,http://dbpedia.org/resource/Simon_Fanshawe,dbpedia-owl:Person,-0.8456666666666667
+11,University of Edinburgh,http://dbpedia.org/resource/University_of_Edinburgh,dbpedia-owl:Organisation|dbpedia-owl:Person,0.59
+12,LGBT,http://dbpedia.org/resource/LGBT,dbpedia-owl:Person,-0.7
+13,women's rights,http://dbpedia.org/resource/Women's_rights,owl:Thing,-0.76
+14,Chris Christie,http://dbpedia.org/resource/Chris_Christie,dbpedia-owl:Person,0.83
+15,New Jersey Gov.,http://dbpedia.org/resource/Governor_of_New_Jersey,owl:Thing,-0.5744761904761905
+16,Lip Readers,http://dbpedia.org/resource/Lip_reading,,-0.6966666666666667
+17,Taylor Swift,http://dbpedia.org/resource/Taylor_Swift,dbpedia-owl:Person,0.6
+18,Super Bowl,http://dbpedia.org/resource/Super_Bowl,,-0.6166666666666667
+19,Bill Ackman,http://dbpedia.org/resource/Bill_Ackman,dbpedia-owl:Person,0.568
+20,Strikes,http://dbpedia.org/resource/Strike_action,owl:Thing,-0.81
+21,Harvard,http://dbpedia.org/resource/Harvard_University,dbpedia-owl:Organisation,0.5507692307692308
+22,Hawaii,http://dbpedia.org/resource/Hawaii,dbpedia-owl:PopulatedPlace,0.6
+23,New Orleans,http://dbpedia.org/resource/New_Orleans,dbpedia-owl:PopulatedPlace,0.57
+24,France,http://dbpedia.org/resource/France,dbpedia-owl:PopulatedPlace,0.68
+25,Attal,http://dbpedia.org/resource/Yvan_Attal,dbpedia-owl:Person,-0.77
+26,French politician,http://dbpedia.org/resource/Politics_of_France,owl:Thing,-0.7016666666666667
+27,Ohio,http://dbpedia.org/resource/Ohio,dbpedia-owl:PopulatedPlace,0.52
+28,Alabama,http://dbpedia.org/resource/Alabama,dbpedia-owl:PopulatedPlace,0.5007692307692309
+29,puberty blockers,http://dbpedia.org/resource/Puberty_blocker,owl:Thing,-0.8183333333333335
+30,abortion rights,http://dbpedia.org/resource/Abortion-rights_movements,owl:Thing,-0.729999999999998
+31,Andrew Scott,http://dbpedia.org/resource/Andrew_Scott_(actor),dbpedia-owl:Person,-0.7810126443842136
+32,Andrew Haigh,http://dbpedia.org/resource/Andrew_Haigh,dbpedia-owl:Person,0.885
+33,All of Us,http://dbpedia.org/resource/All_of_Us,,-0.7166666666666667
+34,Bud Light,http://dbpedia.org/resource/Anheuser-Busch_brands,owl:Thing,-0.67
+35,Kansas City Chiefs,http://dbpedia.org/resource/Kansas_City_Chiefs,dbpedia-owl:SportsTeam|dbpedia-owl:Person,-0.56
+36,Donald Trump Jr,"http://dbpedia.org/resource/Donald_Trump,_Jr.",dbpedia-owl:Person,0.7005
+37,Politician,http://dbpedia.org/resource/Politician,dbpedia-owl:Person,-0.58
+38,Frank LaRose,http://dbpedia.org/resource/Frank_LaRose,dbpedia-owl:Person,0.7666666666666667
+39,Left-Wing,http://dbpedia.org/resource/Left-wing_politics,owl:Thing,-0.8
+40,Ohio Secretary of State,http://dbpedia.org/resource/Ohio_Secretary_of_State,owl:Thing,-0.609
+41,Republican candidate,http://dbpedia.org/resource/Republican_Party_(United_States),dbpedia-owl:Organisation,-0.5085185185185179
+42,Lululemon,http://dbpedia.org/resource/Lululemon_Athletica,dbpedia-owl:Organisation,0.785
+43,Chip Wilson,http://dbpedia.org/resource/Chip_Wilson,dbpedia-owl:Person,0.91
+44,Nas,http://dbpedia.org/resource/Nas,dbpedia-owl:Person,-0.76
+45,Christian Imagery,http://dbpedia.org/resource/Christian_symbolism,,-0.7868
+46,Christ,http://dbpedia.org/resource/Christ,owl:Thing,-0.74
+47,Mastodon,http://dbpedia.org/resource/Mastodon_(band),dbpedia-owl:Organisation|dbpedia-owl:Person,0.5407692307692308
+48,Taliban,http://dbpedia.org/resource/Taliban,dbpedia-owl:Person,-0.64
+49,Internet,http://dbpedia.org/resource/Internet,dbpedia-owl:Person,-0.53
+50,Travis Kelce,http://dbpedia.org/resource/Travis_Kelce,dbpedia-owl:Person,0.9
+51,Harvard president,http://dbpedia.org/resource/President_of_Harvard_University,owl:Thing,-0.7261428571428571
+52,University of Pennsylvania,http://dbpedia.org/resource/University_of_Pennsylvania,dbpedia-owl:Organisation,0.74
+53,Business Insider,http://dbpedia.org/resource/Business_Insider,,-0.585
+54,MIT,http://dbpedia.org/resource/Massachusetts_Institute_of_Technology,dbpedia-owl:Organisation,0.58
+55,Mark Gorenberg,http://dbpedia.org/resource/Mark_Gorenberg,dbpedia-owl:Person,-0.5616666666666668
+56,Jesus,http://dbpedia.org/resource/Jesus,dbpedia-owl:Person,0.58
+57,Hobby Lobby,http://dbpedia.org/resource/Hobby_Lobby,dbpedia-owl:Organisation,-0.6100000000000001
+58,Patrick Mahomes,http://dbpedia.org/resource/Patrick_Mahomes,dbpedia-owl:Person,0.91
+59,Cashes In,http://dbpedia.org/resource/Aluminium_recycling,owl:Thing,-0.785
+60,social media,http://dbpedia.org/resource/Social_media,,-0.78
+61,Christian Ziegler,http://dbpedia.org/resource/Christian_Ziegler,dbpedia-owl:Person,0.5053623623550826
+62,Florida Republican Party,http://dbpedia.org/resource/Republican_Party_of_Florida,owl:Thing,0.6466666666666666
+63,Minnesota,http://dbpedia.org/resource/Minnesota,dbpedia-owl:PopulatedPlace,-0.61
+64,Legislature,http://dbpedia.org/resource/Legislature,dbpedia-owl:Person,-0.7566666666666667
+65,DeWine,http://dbpedia.org/resource/Pat_DeWine,dbpedia-owl:Person,-0.84
+66,Mean Girls,http://dbpedia.org/resource/Mean_Girls,,-0.6
+67,Auli,http://dbpedia.org/resource/Auli,dbpedia-owl:PopulatedPlace,-0.5866666666666669
+68,Broadway music,http://dbpedia.org/resource/Broadway_theatre,,-0.7349999999999999
+69,Transgender Health,http://dbpedia.org/resource/Healthcare_and_the_LGBT_community,owl:Thing,-0.7879999999999999
+70,Russia,http://dbpedia.org/resource/Russia,dbpedia-owl:PopulatedPlace,0.68
+71,French premier,http://dbpedia.org/resource/Prime_Minister_of_France,owl:Thing,-0.6728095238095239
+72,Saudi Pro League,http://dbpedia.org/resource/Saudi_Professional_League,dbpedia-owl:Organisation,0.7161904761904763
+73,new Plymouth,http://dbpedia.org/resource/New_Plymouth,dbpedia-owl:PopulatedPlace,-0.625
+74,Ian Foster,http://dbpedia.org/resource/Ian_Foster,dbpedia-owl:Person,-0.7241100351170958
+75,BBC Sport,http://dbpedia.org/resource/BBC_Sport,dbpedia-owl:Organisation,-0.7125320183030905
+76,Netflix,http://dbpedia.org/resource/Netflix,dbpedia-owl:Organisation,0.69
+77,Indian film,http://dbpedia.org/resource/Cinema_of_India,,-0.64
+78,right-wing,http://dbpedia.org/resource/Right-wing_politics,owl:Thing,-0.86
+79,Hindu group,http://dbpedia.org/resource/Hindu_law,owl:Thing,-0.7151428571428572
+80,Hindu,http://dbpedia.org/resource/Hindu,owl:Thing,-0.69
+81,comedy Max,http://dbpedia.org/resource/ComedyMax,dbpedia-owl:Organisation,-0.6225
+82,Warner Bros,http://dbpedia.org/resource/Warner_Bros.,dbpedia-owl:Organisation,-0.6073684210526316
+83,Joey Barton,http://dbpedia.org/resource/Joey_Barton,dbpedia-owl:Person,0.7525
+84,Stuart Andrew,http://dbpedia.org/resource/Stuart_Andrew,dbpedia-owl:Person,0.91
+85,Afterparty,http://dbpedia.org/resource/Party,dbpedia-owl:Person,-0.7257142857142856
+86,Polish state,http://dbpedia.org/resource/Poland,dbpedia-owl:PopulatedPlace,-0.6199999999999994
+87,TVP Info,http://dbpedia.org/resource/TVP_Info,dbpedia-owl:Organisation,0.53
+88,The New,http://dbpedia.org/resource/Flash_Thompson,dbpedia-owl:Person,-0.745952380952381
+89,Vaccines,http://dbpedia.org/resource/Vaccine,dbpedia-owl:Person,-0.62
+90,Gender Dysphoria,http://dbpedia.org/resource/Gender_dysphoria,,0.5866666666666667
+91,New York,http://dbpedia.org/resource/New_York,dbpedia-owl:PopulatedPlace,-0.54
+92,head House,http://dbpedia.org/resource/Head_house,owl:Thing,-0.8749999999999999
+93,special election,http://dbpedia.org/resource/By-election,owl:Thing,-0.64
+94,Long Island,http://dbpedia.org/resource/Long_Island,dbpedia-owl:PopulatedPlace,0.59
+95,Go Viral,http://dbpedia.org/resource/Viral_marketing,dbpedia-owl:Person,-0.7650222222222223
+96,NFL,http://dbpedia.org/resource/National_Football_League,dbpedia-owl:Organisation,-0.62
+97,Mexico,http://dbpedia.org/resource/Mexico,dbpedia-owl:PopulatedPlace,0.62
+98,Andres Manuel Lopez Obrador,http://dbpedia.org/resource/Andrés_Manuel_López_Obrador,dbpedia-owl:Person,0.7441666666666665
+99,Joel Osteen,http://dbpedia.org/resource/Joel_Osteen,dbpedia-owl:Person,0.8725
+100,Police,http://dbpedia.org/resource/Police,dbpedia-owl:Person,-0.73
+101,Lakewood Church,http://dbpedia.org/resource/Lakewood_Church,,0.755
+102,Mike DeWine,http://dbpedia.org/resource/Mike_DeWine,dbpedia-owl:Person,0.8475
+103,tax exemptions,http://dbpedia.org/resource/Tax_exemption,owl:Thing,-0.7190909090909091
+104,Democrats,http://dbpedia.org/resource/Democratic_Party_(United_States),dbpedia-owl:Organisation|dbpedia-owl:Person,0.5100000000000006
+105,Louisiana,http://dbpedia.org/resource/Louisiana,dbpedia-owl:PopulatedPlace,-0.5629783724340176
+106,Super Bowl Fans,http://dbpedia.org/resource/Super_Bowl_XXXVIII_halftime_show_controversy,owl:Thing,-0.6466666666666666
+107,Justin Bieber,http://dbpedia.org/resource/Justin_Bieber,dbpedia-owl:Person,0.59
+108,record label,http://dbpedia.org/resource/Record_label,owl:Thing,-0.78
+109,California,http://dbpedia.org/resource/California,dbpedia-owl:PopulatedPlace,-0.5
+110,Adam Schiff,http://dbpedia.org/resource/Adam_Schiff,dbpedia-owl:Person,0.76
+111,Silicon Valley,http://dbpedia.org/resource/Silicon_Valley,dbpedia-owl:Person,-0.53
+112,Pixar,http://dbpedia.org/resource/Pixar,dbpedia-owl:Organisation,0.585
+113,Hundreds,http://dbpedia.org/resource/Hundred_(county_division),owl:Thing,-0.78
+114,American,http://dbpedia.org/resource/United_States,dbpedia-owl:PopulatedPlace,0.6800000000000006
+115,Florida,http://dbpedia.org/resource/Florida,dbpedia-owl:PopulatedPlace,-0.61
+116,School Board,http://dbpedia.org/resource/Board_of_education,owl:Thing,-0.87
+117,Dictionaries,http://dbpedia.org/resource/Dictionary,,-0.7066666666666667

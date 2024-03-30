@@ -1,0 +1,154 @@
+,news_id,node1,node2,relation
+0,0,The Catholic leader,LGBT community,proximity
+1,0,The Catholic leader,Surrogate Motherhood,proximity
+2,0,The Catholic leader,Pope Francis,proximity
+3,0,LGBT community,Surrogate Motherhood,proximity
+4,0,LGBT community,Pope Francis,proximity
+5,0,Surrogate Motherhood,Pope Francis,proximity
+0,1,French politician,Attal,proximity
+1,1,French politician,France,proximity
+2,1,Attal,France,proximity
+0,2,Ohio,Mike DeWine,proximity
+0,3,tax exemptions,MIT,proximity
+1,3,tax exemptions,Harvard,proximity
+2,3,MIT,Harvard,proximity
+0,4,Ohio,DeWine,proximity
+0,5,Warner Bros,comedy Max,proximity
+0,10,New Orleans,Hawaii,proximity
+0,11,New Jersey Gov.,Chris Christie,proximity
+0,13,Andres Manuel Lopez Obrador,Mexico,proximity
+0,14,Joey Barton,Stuart Andrew,proximity
+1,14,Joey Barton,social media,proximity
+2,14,Stuart Andrew,social media,proximity
+0,15,Florida Republican Party,Christian Ziegler,proximity
+0,16,Harvard president,Bill Ackman,proximity
+1,16,Harvard president,University of Pennsylvania,proximity
+2,16,Harvard president,Business Insider,proximity
+3,16,Harvard president,MIT,proximity
+4,16,Harvard president,Mark Gorenberg,proximity
+5,16,Bill Ackman,University of Pennsylvania,proximity
+6,16,Bill Ackman,Business Insider,proximity
+7,16,Bill Ackman,MIT,proximity
+8,16,Bill Ackman,Mark Gorenberg,proximity
+9,16,University of Pennsylvania,Business Insider,proximity
+10,16,University of Pennsylvania,MIT,proximity
+11,16,University of Pennsylvania,Mark Gorenberg,proximity
+12,16,Business Insider,MIT,proximity
+13,16,Business Insider,Mark Gorenberg,proximity
+14,16,MIT,Mark Gorenberg,proximity
+0,17,Andrew Scott,All of Us,proximity
+1,17,Andrew Scott,Andrew Haigh,proximity
+2,17,All of Us,Andrew Haigh,proximity
+0,18,BBC Sport,Ian Foster,proximity
+1,18,BBC Sport,new Plymouth,proximity
+2,18,BBC Sport,Saudi Pro League,proximity
+3,18,Ian Foster,new Plymouth,proximity
+4,18,Ian Foster,Saudi Pro League,proximity
+5,18,new Plymouth,Saudi Pro League,proximity
+0,20,Christ,Christian Imagery,proximity
+1,20,Christ,Nas,proximity
+2,20,Christian Imagery,Nas,proximity
+0,21,Chip Wilson,Lululemon,proximity
+0,23,Auli,Mean Girls,proximity
+1,23,Auli,Broadway music,proximity
+2,23,Mean Girls,Broadway music,proximity
+0,24,Florida,Dictionaries,proximity
+1,24,Florida,School Board,proximity
+2,24,Dictionaries,School Board,proximity
+0,25,Vaccines,The New,proximity
+0,28,Adam Schiff,California,proximity
+0,30,puberty blockers,Alabama,proximity
+0,31,Bob Iger,Caitlyn Jenner,proximity
+1,31,Bob Iger,Kardashians,proximity
+2,31,Bob Iger,Disney,proximity
+3,31,Bob Iger,reality show,proximity
+4,31,Caitlyn Jenner,Kardashians,proximity
+5,31,Caitlyn Jenner,Disney,proximity
+6,31,Caitlyn Jenner,reality show,proximity
+7,31,Kardashians,Disney,proximity
+8,31,Kardashians,reality show,proximity
+9,31,Disney,reality show,proximity
+0,32,American,Hundreds,proximity
+1,32,American,Pixar,proximity
+2,32,Hundreds,Pixar,proximity
+0,34,right-wing,Hindu group,proximity
+1,34,right-wing,Hindu,proximity
+2,34,right-wing,Netflix,proximity
+3,34,right-wing,Indian film,proximity
+4,34,Hindu group,Hindu,proximity
+5,34,Hindu group,Netflix,proximity
+6,34,Hindu group,Indian film,proximity
+7,34,Hindu,Netflix,proximity
+8,34,Hindu,Indian film,proximity
+9,34,Netflix,Indian film,proximity
+0,36,Mastodon,Taliban,proximity
+0,37,Republican candidate,Donald Trump Jr,proximity
+1,37,Republican candidate,Politician,proximity
+2,37,Republican candidate,Frank LaRose,proximity
+3,37,Republican candidate,Left-Wing,proximity
+4,37,Republican candidate,Ohio Secretary of State,proximity
+5,37,Donald Trump Jr,Politician,proximity
+6,37,Donald Trump Jr,Frank LaRose,proximity
+7,37,Donald Trump Jr,Left-Wing,proximity
+8,37,Donald Trump Jr,Ohio Secretary of State,proximity
+9,37,Politician,Frank LaRose,proximity
+10,37,Politician,Left-Wing,proximity
+11,37,Politician,Ohio Secretary of State,proximity
+12,37,Frank LaRose,Left-Wing,proximity
+13,37,Frank LaRose,Ohio Secretary of State,proximity
+14,37,Left-Wing,Ohio Secretary of State,proximity
+0,38,TVP Info,Polish state,proximity
+0,39,Super Bowl,Hobby Lobby,proximity
+1,39,Super Bowl,Jesus,proximity
+2,39,Hobby Lobby,Jesus,proximity
+0,40,Kansas City Chiefs,Bud Light,proximity
+0,41,Travis Kelce,Super Bowl,proximity
+1,41,Travis Kelce,Internet,proximity
+2,41,Travis Kelce,Taylor Swift,proximity
+3,41,Super Bowl,Internet,proximity
+4,41,Super Bowl,Taylor Swift,proximity
+5,41,Internet,Taylor Swift,proximity
+0,42,Cashes In,Patrick Mahomes,proximity
+1,42,Cashes In,social media,proximity
+2,42,Patrick Mahomes,social media,proximity
+0,43,Travis Kelce,Super Bowl,proximity
+1,43,Travis Kelce,Afterparty,proximity
+2,43,Travis Kelce,Taylor Swift,proximity
+3,43,Super Bowl,Afterparty,proximity
+4,43,Super Bowl,Taylor Swift,proximity
+5,43,Afterparty,Taylor Swift,proximity
+0,44,Go Viral,Super Bowl,proximity
+1,44,Go Viral,Taylor Swift,proximity
+2,44,Go Viral,NFL,proximity
+3,44,Super Bowl,Taylor Swift,proximity
+4,44,Super Bowl,NFL,proximity
+5,44,Taylor Swift,NFL,proximity
+0,45,Justin Bieber,Super Bowl Fans,proximity
+1,45,Justin Bieber,Super Bowl,proximity
+2,45,Justin Bieber,record label,proximity
+3,45,Super Bowl Fans,Super Bowl,proximity
+4,45,Super Bowl Fans,record label,proximity
+5,45,Super Bowl,record label,proximity
+0,46,Super Bowl,Taylor Swift,proximity
+1,46,Super Bowl,Lip Readers,proximity
+2,46,Taylor Swift,Lip Readers,proximity
+0,47,Bill Ackman,Harvard,proximity
+1,47,Bill Ackman,Strikes,proximity
+2,47,Harvard,Strikes,proximity
+0,48,New York,Long Island,proximity
+1,48,New York,special election,proximity
+2,48,New York,head House,proximity
+3,48,Long Island,special election,proximity
+4,48,Long Island,head House,proximity
+5,48,special election,head House,proximity
+0,49,Silicon Valley,Harvard,proximity
+0,50,women's rights,LGBT,proximity
+1,50,women's rights,Simon Fanshawe,proximity
+2,50,women's rights,University of Edinburgh,proximity
+3,50,LGBT,Simon Fanshawe,proximity
+4,50,LGBT,University of Edinburgh,proximity
+5,50,Simon Fanshawe,University of Edinburgh,proximity
+0,52,Joel Osteen,Lakewood Church,proximity
+1,52,Joel Osteen,Police,proximity
+2,52,Lakewood Church,Police,proximity
+0,54,Minnesota,Legislature,proximity
