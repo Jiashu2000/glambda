@@ -4,8 +4,8 @@ import pandas as pd
 from textblob import TextBlob
 import re
 
-input_path = "data_intermediate"
-output_path = "data_intermediate"
+input_path = "../data_intermediate"
+output_path = "../data_intermediate"
 
 raw_relations = pd.read_csv(input_path + "/raw_relations.csv", index_col = 0)
 entities = pd.read_csv(input_path + "/entity_list.csv", index_col = 0)

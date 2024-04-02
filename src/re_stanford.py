@@ -4,8 +4,8 @@
 import pandas as pd
 from openie import StanfordOpenIE
 
-input_path = "data_intermediate"
-output_path = "data_intermediate"
+input_path = "../data_intermediate"
+output_path = "../data_intermediate"
 
 properties = { 'openie.affinity_probability_cap': 1 / 3,}
 

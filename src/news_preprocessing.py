@@ -3,8 +3,8 @@
 
 import pandas as pd
 
-input_path = "data_input"
-output_path = "data_intermediate"
+input_path = "../data_input"
+output_path = "../data_intermediate"
 
 # read data
 usecols = ['title', 'description', 'url', 'source_id', "source_name"]

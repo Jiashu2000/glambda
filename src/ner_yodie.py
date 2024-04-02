@@ -6,8 +6,8 @@ import requests
 import time
 import json
 
-input_path = "data_intermediate"
-output_path = "data_intermediate/yodie_ner"
+input_path = "../data_intermediate"
+output_path = "../data_intermediate/yodie_ner"
 yodie_url = "https://cloud-api.gate.ac.uk/process/yodie-en"
 
 # read data

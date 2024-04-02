@@ -56,34 +56,27 @@
       - Extract nouns from subject and object
       - Match node name to entity.
       - Filter relations with two relevant entities
-      - Code: filter_relations.py
-      - Input: raw_relations.csv, entity_list.csv
-      - Output: transformed_relations.csv
-
-7. Create Knowledge Graph
+    - Code: filter_relations.py
+    - Input: raw_relations.csv, entity_list.csv
+    - Output: transformed_relations.csv
+  
+7.  Draw Graph
 
     - Main:
-      - Instantiate a KG instance
-      - Create a News instance for each news
-      - Create a Entity instance for each entity
-      - Assign each entity to related news
-    - Code:
-      - kg.py
-      - news.py
-      - entity.py
-    - Input: parsed_entities.csv; filter_data.csv; entity_list.csv
-
-8.  Draw Graph
+      - Create knowledge graph
+    - Code: draw_graph.py
+    - Input: transformed_relations.csv
+    - Output: kg.html
 
 
-to-dos:
+#### To-dos:
 
 1. topic modeling new nodes
-1. text normalization/wikidata entity matching
-2. add a fixed set of key entities
-3. front-end add links
+2. text normalization/wikidata entity matching
+3. add a fixed set of key entities
+4. front-end add links
 
-products:
+#### Product Ideas
 
 1. kg link, host aws, interactive, lead to news
 2. search engine box

@@ -1,0 +1,823 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/css/tom-select.min.css" integrity="sha512-43fHB3GLgZfz8QXl1RPQ8O66oIgv3po9cJ5erMt1c4QISq9dYb195T3vr5ImnJPXuVroKcGBPXBFKETW8jrPNQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/js/tom-select.complete.js" integrity="sha512-jeF9CfnvzDiw9G9xiksVjxR2lib44Gnovvkv+3CgCG6NXCD4gqlA5nDAVW5WjpA+i+/zKsUWV5xNEbW1X/HH0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 900px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="1St Day">1St Day</option>
+                                
+                                    <option value="Cluster Node 8">Cluster Node 8</option>
+                                
+                                    <option value="Law Enforcement">Law Enforcement</option>
+                                
+                                    <option value="Adam Schiff">Adam Schiff</option>
+                                
+                                    <option value="Cluster Node 5">Cluster Node 5</option>
+                                
+                                    <option value="U.S.">U.S.</option>
+                                
+                                    <option value="Afterparty">Afterparty</option>
+                                
+                                    <option value="Cluster Node 3">Cluster Node 3</option>
+                                
+                                    <option value="Travis Kelce">Travis Kelce</option>
+                                
+                                    <option value="Alabama">Alabama</option>
+                                
+                                    <option value="Trans">Trans</option>
+                                
+                                    <option value="Andrew Haigh">Andrew Haigh</option>
+                                
+                                    <option value="Cluster Node 2">Cluster Node 2</option>
+                                
+                                    <option value="New Plymouth">New Plymouth</option>
+                                
+                                    <option value="Andrew Scott">Andrew Scott</option>
+                                
+                                    <option value="Gay Screenwriter">Gay Screenwriter</option>
+                                
+                                    <option value="Appeals Court">Appeals Court</option>
+                                
+                                    <option value="Polish State">Polish State</option>
+                                
+                                    <option value="Ariana Debose">Ariana Debose</option>
+                                
+                                    <option value="Cluster Node 4">Cluster Node 4</option>
+                                
+                                    <option value="Critics">Critics</option>
+                                
+                                    <option value="Attal">Attal</option>
+                                
+                                    <option value="France">France</option>
+                                
+                                    <option value="Aunts">Aunts</option>
+                                
+                                    <option value="Critical Role">Critical Role</option>
+                                
+                                    <option value="Lgbtq">Lgbtq</option>
+                                
+                                    <option value="Ban">Ban</option>
+                                
+                                    <option value="Cluster Node 1">Cluster Node 1</option>
+                                
+                                    <option value="Bbc Sport">Bbc Sport</option>
+                                
+                                    <option value="Cluster Node 6">Cluster Node 6</option>
+                                
+                                    <option value="Beer Brand">Beer Brand</option>
+                                
+                                    <option value="Recent Months">Recent Months</option>
+                                
+                                    <option value="Bill Ackman">Bill Ackman</option>
+                                
+                                    <option value="Billionaire Class">Billionaire Class</option>
+                                
+                                    <option value="Cluster Node 9">Cluster Node 9</option>
+                                
+                                    <option value="Fighting">Fighting</option>
+                                
+                                    <option value="Harvard">Harvard</option>
+                                
+                                    <option value="Public Face">Public Face</option>
+                                
+                                    <option value="Broadway Music">Broadway Music</option>
+                                
+                                    <option value="Cluster Node 0">Cluster Node 0</option>
+                                
+                                    <option value="Lil Nas X">Lil Nas X</option>
+                                
+                                    <option value="Bud Light">Bud Light</option>
+                                
+                                    <option value="Caitlyn Jenner">Caitlyn Jenner</option>
+                                
+                                    <option value="Cluster Node 7">Cluster Node 7</option>
+                                
+                                    <option value="Disney">Disney</option>
+                                
+                                    <option value="Kardashians">Kardashians</option>
+                                
+                                    <option value="California Katie Porter">California Katie Porter</option>
+                                
+                                    <option value="Campaign">Campaign</option>
+                                
+                                    <option value="Care">Care</option>
+                                
+                                    <option value="Ceo">Ceo</option>
+                                
+                                    <option value="Choice">Choice</option>
+                                
+                                    <option value="Chris Christie">Chris Christie</option>
+                                
+                                    <option value="Presidential Campaign">Presidential Campaign</option>
+                                
+                                    <option value="Christ">Christ</option>
+                                
+                                    <option value="Christian Imagery">Christian Imagery</option>
+                                
+                                    <option value="Christian Ziegler">Christian Ziegler</option>
+                                
+                                    <option value="Florida">Florida</option>
+                                
+                                    <option value="Rape Allegation">Rape Allegation</option>
+                                
+                                    <option value="Code">Code</option>
+                                
+                                    <option value="Comedy Max">Comedy Max</option>
+                                
+                                    <option value="Queer Pirate Comedy">Queer Pirate Comedy</option>
+                                
+                                    <option value="Warner Bros">Warner Bros</option>
+                                
+                                    <option value="Company  Response">Company  Response</option>
+                                
+                                    <option value="Lululemon">Lululemon</option>
+                                
+                                    <option value="Covid">Covid</option>
+                                
+                                    <option value="Rsv">Rsv</option>
+                                
+                                    <option value="Death">Death</option>
+                                
+                                    <option value="Flag">Flag</option>
+                                
+                                    <option value="Dewine">Dewine</option>
+                                
+                                    <option value="Ohio">Ohio</option>
+                                
+                                    <option value="Dictionaries">Dictionaries</option>
+                                
+                                    <option value="Discount Code">Discount Code</option>
+                                
+                                    <option value="Patrick Mahomes">Patrick Mahomes</option>
+                                
+                                    <option value="Diversity">Diversity</option>
+                                
+                                    <option value="Donald Trump Jr">Donald Trump Jr</option>
+                                
+                                    <option value="Edinburgh">Edinburgh</option>
+                                
+                                    <option value="Simon Fanshawe">Simon Fanshawe</option>
+                                
+                                    <option value="Edition Merchandise">Edition Merchandise</option>
+                                
+                                    <option value="Extremist Organisation">Extremist Organisation</option>
+                                
+                                    <option value="Russia">Russia</option>
+                                
+                                    <option value="Fan">Fan</option>
+                                
+                                    <option value="Favorite Jobs">Favorite Jobs</option>
+                                
+                                    <option value="Hawaii">Hawaii</option>
+                                
+                                    <option value="Latest">Latest</option>
+                                
+                                    <option value="State Party Chairman">State Party Chairman</option>
+                                
+                                    <option value="Volleyball Player">Volleyball Player</option>
+                                
+                                    <option value="Historic">Historic</option>
+                                
+                                    <option value="Prime">Prime</option>
+                                
+                                    <option value="Ftc">Ftc</option>
+                                
+                                    <option value="Sensitive Location Data">Sensitive Location Data</option>
+                                
+                                    <option value="Gender Dysphoria">Gender Dysphoria</option>
+                                
+                                    <option value="Highest">Highest</option>
+                                
+                                    <option value="Girl">Girl</option>
+                                
+                                    <option value="Go Viral">Go Viral</option>
+                                
+                                    <option value="Taylor Swift">Taylor Swift</option>
+                                
+                                    <option value="Gov">Gov</option>
+                                
+                                    <option value="Trump">Trump</option>
+                                
+                                    <option value="Governor  Veto">Governor  Veto</option>
+                                
+                                    <option value="Pennsylvania">Pennsylvania</option>
+                                
+                                    <option value="Silicon Valley">Silicon Valley</option>
+                                
+                                    <option value="Harvard President">Harvard President</option>
+                                
+                                    <option value="Hateful Words">Hateful Words</option>
+                                
+                                    <option value="Tvp Info">Tvp Info</option>
+                                
+                                    <option value="Head House">Head House</option>
+                                
+                                    <option value="National Elections">National Elections</option>
+                                
+                                    <option value="New York">New York</option>
+                                
+                                    <option value="Heartwarming Gesture">Heartwarming Gesture</option>
+                                
+                                    <option value="Indian Film">Indian Film</option>
+                                
+                                    <option value="Netflix">Netflix</option>
+                                
+                                    <option value="Internet">Internet</option>
+                                
+                                    <option value="January">January</option>
+                                
+                                    <option value="Job">Job</option>
+                                
+                                    <option value="Joey Barton">Joey Barton</option>
+                                
+                                    <option value="Sports Ban">Sports Ban</option>
+                                
+                                    <option value="Justin Bieber">Justin Bieber</option>
+                                
+                                    <option value="Super Bowl Fans">Super Bowl Fans</option>
+                                
+                                    <option value="Usher">Usher</option>
+                                
+                                    <option value="Law">Law</option>
+                                
+                                    <option value="Minnesota">Minnesota</option>
+                                
+                                    <option value="Leader  Stance">Leader  Stance</option>
+                                
+                                    <option value="Lgbt Community">Lgbt Community</option>
+                                
+                                    <option value="Legal Organization">Legal Organization</option>
+                                
+                                    <option value="Year  Ads">Year  Ads</option>
+                                
+                                    <option value="Lgbt">Lgbt</option>
+                                
+                                    <option value="Wojciech Szelag">Wojciech Szelag</option>
+                                
+                                    <option value="Lip Readers">Lip Readers</option>
+                                
+                                    <option value="Long Island">Long Island</option>
+                                
+                                    <option value="Special Election">Special Election</option>
+                                
+                                    <option value="Louisiana">Louisiana</option>
+                                
+                                    <option value="Transgender Health">Transgender Health</option>
+                                
+                                    <option value="Lucky Number">Lucky Number</option>
+                                
+                                    <option value="Man">Man</option>
+                                
+                                    <option value="Mastodon">Mastodon</option>
+                                
+                                    <option value="Taliban">Taliban</option>
+                                
+                                    <option value="Meltdown">Meltdown</option>
+                                
+                                    <option value="Meningitis Vaccine">Meningitis Vaccine</option>
+                                
+                                    <option value="Mexico">Mexico</option>
+                                
+                                    <option value="Political Party">Political Party</option>
+                                
+                                    <option value="Salma Luevano">Salma Luevano</option>
+                                
+                                    <option value="Trans Lawmaker Man">Trans Lawmaker Man</option>
+                                
+                                    <option value="Minister">Minister</option>
+                                
+                                    <option value="Pro">Pro</option>
+                                
+                                    <option value="Saudi Pro League">Saudi Pro League</option>
+                                
+                                    <option value="New Vaccine Recommendations">New Vaccine Recommendations</option>
+                                
+                                    <option value="Pro-Lgbtq Agenda">Pro-Lgbtq Agenda</option>
+                                
+                                    <option value="Original Belief">Original Belief</option>
+                                
+                                    <option value="Past Output">Past Output</option>
+                                
+                                    <option value="State Tv Host">State Tv Host</option>
+                                
+                                    <option value="Social Media">Social Media</option>
+                                
+                                    <option value="People">People</option>
+                                
+                                    <option value="Preliminary Injunction">Preliminary Injunction</option>
+                                
+                                    <option value="Record Label">Record Label</option>
+                                
+                                    <option value="Right">Right</option>
+                                
+                                    <option value="Shoe Detail">Shoe Detail</option>
+                                
+                                    <option value="University Rector">University Rector</option>
+                                
+                                    <option value="Sue">Sue</option>
+                                
+                                    <option value="Super Bowl">Super Bowl</option>
+                                
+                                    <option value="Win">Win</option>
+                                
+                                    <option value="Woman">Woman</option>
+                                
+                                    <option value="Year">Year</option>
+                                
+                                    <option value="Youth">Youth</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"group": 1, "id": "1St Day", "label": "1St Day", "shape": "dot", "size": 2}, {"group": 1, "id": "Cluster Node 8", "label": "Cluster Node 8", "shape": "dot", "size": 17}, {"group": 1, "id": "Law Enforcement", "label": "Law Enforcement", "shape": "dot", "size": 3}, {"group": 1, "id": "Adam Schiff", "label": "Adam Schiff", "shape": "dot", "size": 2}, {"group": 1, "id": "Cluster Node 5", "label": "Cluster Node 5", "shape": "dot", "size": 29}, {"group": 1, "id": "U.S.", "label": "U.S.", "shape": "dot", "size": 3}, {"group": 2, "id": "Afterparty", "label": "Afterparty", "shape": "dot", "size": 2}, {"group": 2, "id": "Cluster Node 3", "label": "Cluster Node 3", "shape": "dot", "size": 26}, {"group": 2, "id": "Travis Kelce", "label": "Travis Kelce", "shape": "dot", "size": 4}, {"group": 1, "id": "Alabama", "label": "Alabama", "shape": "dot", "size": 2}, {"group": 1, "id": "Trans", "label": "Trans", "shape": "dot", "size": 5}, {"group": 3, "id": "Andrew Haigh", "label": "Andrew Haigh", "shape": "dot", "size": 3}, {"group": 3, "id": "Cluster Node 2", "label": "Cluster Node 2", "shape": "dot", "size": 26}, {"group": 1, "id": "New Plymouth", "label": "New Plymouth", "shape": "dot", "size": 10}, {"group": 3, "id": "Andrew Scott", "label": "Andrew Scott", "shape": "dot", "size": 3}, {"group": 3, "id": "Gay Screenwriter", "label": "Gay Screenwriter", "shape": "dot", "size": 2}, {"group": 1, "id": "Appeals Court", "label": "Appeals Court", "shape": "dot", "size": 2}, {"group": 1, "id": "Polish State", "label": "Polish State", "shape": "dot", "size": 8}, {"group": 1, "id": "Ariana Debose", "label": "Ariana Debose", "shape": "dot", "size": 2}, {"group": 1, "id": "Cluster Node 4", "label": "Cluster Node 4", "shape": "dot", "size": 22}, {"group": 1, "id": "Critics", "label": "Critics", "shape": "dot", "size": 2}, {"group": 3, "id": "Attal", "label": "Attal", "shape": "dot", "size": 2}, {"group": 3, "id": "France", "label": "France", "shape": "dot", "size": 4}, {"group": 1, "id": "Aunts", "label": "Aunts", "shape": "dot", "size": 3}, {"group": 1, "id": "Critical Role", "label": "Critical Role", "shape": "dot", "size": 2}, {"group": 1, "id": "Lgbtq", "label": "Lgbtq", "shape": "dot", "size": 2}, {"group": 1, "id": "Ban", "label": "Ban", "shape": "dot", "size": 3}, {"group": 1, "id": "Cluster Node 1", "label": "Cluster Node 1", "shape": "dot", "size": 20}, {"group": 1, "id": "Bbc Sport", "label": "Bbc Sport", "shape": "dot", "size": 3}, {"group": 1, "id": "Cluster Node 6", "label": "Cluster Node 6", "shape": "dot", "size": 12}, {"group": 2, "id": "Beer Brand", "label": "Beer Brand", "shape": "dot", "size": 2}, {"group": 2, "id": "Recent Months", "label": "Recent Months", "shape": "dot", "size": 3}, {"group": 3, "id": "Bill Ackman", "label": "Bill Ackman", "shape": "dot", "size": 6}, {"group": 3, "id": "Billionaire Class", "label": "Billionaire Class", "shape": "dot", "size": 2}, {"group": 3, "id": "Cluster Node 9", "label": "Cluster Node 9", "shape": "dot", "size": 7}, {"group": 3, "id": "Fighting", "label": "Fighting", "shape": "dot", "size": 2}, {"group": 3, "id": "Harvard", "label": "Harvard", "shape": "dot", "size": 6}, {"group": 3, "id": "Public Face", "label": "Public Face", "shape": "dot", "size": 2}, {"group": 1, "id": "Broadway Music", "label": "Broadway Music", "shape": "dot", "size": 2}, {"group": 1, "id": "Cluster Node 0", "label": "Cluster Node 0", "shape": "dot", "size": 8}, {"group": 1, "id": "Lil Nas X", "label": "Lil Nas X", "shape": "dot", "size": 4}, {"group": 2, "id": "Bud Light", "label": "Bud Light", "shape": "dot", "size": 2}, {"group": 4, "id": "Caitlyn Jenner", "label": "Caitlyn Jenner", "shape": "dot", "size": 3}, {"group": 4, "id": "Cluster Node 7", "label": "Cluster Node 7", "shape": "dot", "size": 4}, {"group": 4, "id": "Disney", "label": "Disney", "shape": "dot", "size": 3}, {"group": 4, "id": "Kardashians", "label": "Kardashians", "shape": "dot", "size": 2}, {"group": 1, "id": "California Katie Porter", "label": "California Katie Porter", "shape": "dot", "size": 2}, {"group": 1, "id": "Campaign", "label": "Campaign", "shape": "dot", "size": 1}, {"group": 1, "id": "Care", "label": "Care", "shape": "dot", "size": 1}, {"group": 4, "id": "Ceo", "label": "Ceo", "shape": "dot", "size": 2}, {"group": 1, "id": "Choice", "label": "Choice", "shape": "dot", "size": 1}, {"group": 1, "id": "Chris Christie", "label": "Chris Christie", "shape": "dot", "size": 2}, {"group": 1, "id": "Presidential Campaign", "label": "Presidential Campaign", "shape": "dot", "size": 3}, {"group": 1, "id": "Christ", "label": "Christ", "shape": "dot", "size": 2}, {"group": 1, "id": "Christian Imagery", "label": "Christian Imagery", "shape": "dot", "size": 2}, {"group": 1, "id": "Christian Ziegler", "label": "Christian Ziegler", "shape": "dot", "size": 3}, {"group": 1, "id": "Florida", "label": "Florida", "shape": "dot", "size": 8}, {"group": 1, "id": "Rape Allegation", "label": "Rape Allegation", "shape": "dot", "size": 2}, {"group": 2, "id": "Code", "label": "Code", "shape": "dot", "size": 1}, {"group": 1, "id": "Comedy Max", "label": "Comedy Max", "shape": "dot", "size": 3}, {"group": 1, "id": "Queer Pirate Comedy", "label": "Queer Pirate Comedy", "shape": "dot", "size": 3}, {"group": 1, "id": "Warner Bros", "label": "Warner Bros", "shape": "dot", "size": 2}, {"group": 3, "id": "Company  Response", "label": "Company  Response", "shape": "dot", "size": 2}, {"group": 3, "id": "Lululemon", "label": "Lululemon", "shape": "dot", "size": 3}, {"group": 1, "id": "Covid", "label": "Covid", "shape": "dot", "size": 2}, {"group": 1, "id": "Rsv", "label": "Rsv", "shape": "dot", "size": 4}, {"group": 1, "id": "Death", "label": "Death", "shape": "dot", "size": 3}, {"group": 1, "id": "Flag", "label": "Flag", "shape": "dot", "size": 4}, {"group": 1, "id": "Dewine", "label": "Dewine", "shape": "dot", "size": 2}, {"group": 1, "id": "Ohio", "label": "Ohio", "shape": "dot", "size": 9}, {"group": 1, "id": "Dictionaries", "label": "Dictionaries", "shape": "dot", "size": 2}, {"group": 2, "id": "Discount Code", "label": "Discount Code", "shape": "dot", "size": 2}, {"group": 2, "id": "Patrick Mahomes", "label": "Patrick Mahomes", "shape": "dot", "size": 4}, {"group": 3, "id": "Diversity", "label": "Diversity", "shape": "dot", "size": 2}, {"group": 1, "id": "Donald Trump Jr", "label": "Donald Trump Jr", "shape": "dot", "size": 2}, {"group": 1, "id": "Edinburgh", "label": "Edinburgh", "shape": "dot", "size": 2}, {"group": 1, "id": "Simon Fanshawe", "label": "Simon Fanshawe", "shape": "dot", "size": 3}, {"group": 2, "id": "Edition Merchandise", "label": "Edition Merchandise", "shape": "dot", "size": 2}, {"group": 1, "id": "Extremist Organisation", "label": "Extremist Organisation", "shape": "dot", "size": 2}, {"group": 1, "id": "Russia", "label": "Russia", "shape": "dot", "size": 2}, {"group": 2, "id": "Fan", "label": "Fan", "shape": "dot", "size": 1}, {"group": 3, "id": "Favorite Jobs", "label": "Favorite Jobs", "shape": "dot", "size": 2}, {"group": 3, "id": "Hawaii", "label": "Hawaii", "shape": "dot", "size": 2}, {"group": 1, "id": "Latest", "label": "Latest", "shape": "dot", "size": 2}, {"group": 1, "id": "State Party Chairman", "label": "State Party Chairman", "shape": "dot", "size": 2}, {"group": 1, "id": "Volleyball Player", "label": "Volleyball Player", "shape": "dot", "size": 2}, {"group": 3, "id": "Historic", "label": "Historic", "shape": "dot", "size": 2}, {"group": 3, "id": "Prime", "label": "Prime", "shape": "dot", "size": 2}, {"group": 1, "id": "Ftc", "label": "Ftc", "shape": "dot", "size": 2}, {"group": 1, "id": "Sensitive Location Data", "label": "Sensitive Location Data", "shape": "dot", "size": 2}, {"group": 1, "id": "Gender Dysphoria", "label": "Gender Dysphoria", "shape": "dot", "size": 2}, {"group": 1, "id": "Highest", "label": "Highest", "shape": "dot", "size": 2}, {"group": 1, "id": "Girl", "label": "Girl", "shape": "dot", "size": 1}, {"group": 2, "id": "Go Viral", "label": "Go Viral", "shape": "dot", "size": 2}, {"group": 2, "id": "Taylor Swift", "label": "Taylor Swift", "shape": "dot", "size": 9}, {"group": 1, "id": "Gov", "label": "Gov", "shape": "dot", "size": 5}, {"group": 1, "id": "Trump", "label": "Trump", "shape": "dot", "size": 2}, {"group": 1, "id": "Governor  Veto", "label": "Governor  Veto", "shape": "dot", "size": 2}, {"group": 3, "id": "Pennsylvania", "label": "Pennsylvania", "shape": "dot", "size": 2}, {"group": 3, "id": "Silicon Valley", "label": "Silicon Valley", "shape": "dot", "size": 3}, {"group": 3, "id": "Harvard President", "label": "Harvard President", "shape": "dot", "size": 1}, {"group": 1, "id": "Hateful Words", "label": "Hateful Words", "shape": "dot", "size": 2}, {"group": 1, "id": "Tvp Info", "label": "Tvp Info", "shape": "dot", "size": 3}, {"group": 1, "id": "Head House", "label": "Head House", "shape": "dot", "size": 3}, {"group": 1, "id": "National Elections", "label": "National Elections", "shape": "dot", "size": 2}, {"group": 1, "id": "New York", "label": "New York", "shape": "dot", "size": 2}, {"group": 2, "id": "Heartwarming Gesture", "label": "Heartwarming Gesture", "shape": "dot", "size": 2}, {"group": 1, "id": "Indian Film", "label": "Indian Film", "shape": "dot", "size": 2}, {"group": 1, "id": "Netflix", "label": "Netflix", "shape": "dot", "size": 2}, {"group": 2, "id": "Internet", "label": "Internet", "shape": "dot", "size": 2}, {"group": 1, "id": "January", "label": "January", "shape": "dot", "size": 2}, {"group": 3, "id": "Job", "label": "Job", "shape": "dot", "size": 1}, {"group": 1, "id": "Joey Barton", "label": "Joey Barton", "shape": "dot", "size": 2}, {"group": 1, "id": "Sports Ban", "label": "Sports Ban", "shape": "dot", "size": 3}, {"group": 2, "id": "Justin Bieber", "label": "Justin Bieber", "shape": "dot", "size": 3}, {"group": 2, "id": "Super Bowl Fans", "label": "Super Bowl Fans", "shape": "dot", "size": 2}, {"group": 2, "id": "Usher", "label": "Usher", "shape": "dot", "size": 3}, {"group": 1, "id": "Law", "label": "Law", "shape": "dot", "size": 1}, {"group": 1, "id": "Minnesota", "label": "Minnesota", "shape": "dot", "size": 2}, {"group": 1, "id": "Leader  Stance", "label": "Leader  Stance", "shape": "dot", "size": 2}, {"group": 1, "id": "Lgbt Community", "label": "Lgbt Community", "shape": "dot", "size": 2}, {"group": 3, "id": "Legal Organization", "label": "Legal Organization", "shape": "dot", "size": 2}, {"group": 3, "id": "Year  Ads", "label": "Year  Ads", "shape": "dot", "size": 3}, {"group": 1, "id": "Lgbt", "label": "Lgbt", "shape": "dot", "size": 2}, {"group": 1, "id": "Wojciech Szelag", "label": "Wojciech Szelag", "shape": "dot", "size": 3}, {"group": 2, "id": "Lip Readers", "label": "Lip Readers", "shape": "dot", "size": 3}, {"group": 1, "id": "Long Island", "label": "Long Island", "shape": "dot", "size": 2}, {"group": 1, "id": "Special Election", "label": "Special Election", "shape": "dot", "size": 2}, {"group": 1, "id": "Louisiana", "label": "Louisiana", "shape": "dot", "size": 3}, {"group": 3, "id": "Transgender Health", "label": "Transgender Health", "shape": "dot", "size": 4}, {"group": 2, "id": "Lucky Number", "label": "Lucky Number", "shape": "dot", "size": 3}, {"group": 1, "id": "Man", "label": "Man", "shape": "dot", "size": 1}, {"group": 1, "id": "Mastodon", "label": "Mastodon", "shape": "dot", "size": 2}, {"group": 1, "id": "Taliban", "label": "Taliban", "shape": "dot", "size": 2}, {"group": 2, "id": "Meltdown", "label": "Meltdown", "shape": "dot", "size": 2}, {"group": 1, "id": "Meningitis Vaccine", "label": "Meningitis Vaccine", "shape": "dot", "size": 2}, {"group": 3, "id": "Mexico", "label": "Mexico", "shape": "dot", "size": 5}, {"group": 3, "id": "Political Party", "label": "Political Party", "shape": "dot", "size": 3}, {"group": 3, "id": "Salma Luevano", "label": "Salma Luevano", "shape": "dot", "size": 3}, {"group": 3, "id": "Trans Lawmaker Man", "label": "Trans Lawmaker Man", "shape": "dot", "size": 2}, {"group": 3, "id": "Minister", "label": "Minister", "shape": "dot", "size": 1}, {"group": 1, "id": "Pro", "label": "Pro", "shape": "dot", "size": 2}, {"group": 1, "id": "Saudi Pro League", "label": "Saudi Pro League", "shape": "dot", "size": 2}, {"group": 1, "id": "New Vaccine Recommendations", "label": "New Vaccine Recommendations", "shape": "dot", "size": 2}, {"group": 1, "id": "Pro-Lgbtq Agenda", "label": "Pro-Lgbtq Agenda", "shape": "dot", "size": 2}, {"group": 3, "id": "Original Belief", "label": "Original Belief", "shape": "dot", "size": 2}, {"group": 1, "id": "Past Output", "label": "Past Output", "shape": "dot", "size": 3}, {"group": 1, "id": "State Tv Host", "label": "State Tv Host", "shape": "dot", "size": 2}, {"group": 2, "id": "Social Media", "label": "Social Media", "shape": "dot", "size": 2}, {"group": 2, "id": "People", "label": "People", "shape": "dot", "size": 2}, {"group": 1, "id": "Preliminary Injunction", "label": "Preliminary Injunction", "shape": "dot", "size": 2}, {"group": 2, "id": "Record Label", "label": "Record Label", "shape": "dot", "size": 2}, {"group": 1, "id": "Right", "label": "Right", "shape": "dot", "size": 1}, {"group": 2, "id": "Shoe Detail", "label": "Shoe Detail", "shape": "dot", "size": 2}, {"group": 1, "id": "University Rector", "label": "University Rector", "shape": "dot", "size": 2}, {"group": 1, "id": "Sue", "label": "Sue", "shape": "dot", "size": 1}, {"group": 3, "id": "Super Bowl", "label": "Super Bowl", "shape": "dot", "size": 2}, {"group": 2, "id": "Win", "label": "Win", "shape": "dot", "size": 1}, {"group": 1, "id": "Woman", "label": "Woman", "shape": "dot", "size": 1}, {"group": 3, "id": "Year", "label": "Year", "shape": "dot", "size": 1}, {"group": 1, "id": "Youth", "label": "Youth", "shape": "dot", "size": 1}]);
+                  edges = new vis.DataSet([{"from": "1St Day", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "1St Day", "title": "dominates at_time", "to": "Law Enforcement", "width": 1}, {"from": "Adam Schiff", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Adam Schiff", "title": "are vying in", "to": "U.S.", "width": 1}, {"from": "Afterparty", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Afterparty", "title": "Gesture at", "to": "Travis Kelce", "width": 1}, {"from": "Alabama", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Alabama", "title": "can enforce", "to": "Trans", "width": 1}, {"from": "Andrew Haigh", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Andrew Haigh", "title": "In", "to": "New Plymouth", "width": 1}, {"from": "Andrew Haigh", "title": "plays screenwriter In", "to": "Andrew Scott", "width": 1}, {"from": "Andrew Scott", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Andrew Scott", "title": "plays", "to": "Gay Screenwriter", "width": 1}, {"from": "Appeals Court", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Appeals Court", "title": "granting", "to": "Polish State", "width": 1}, {"from": "Ariana Debose", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Ariana Debose", "title": "slams", "to": "Critics", "width": 1}, {"from": "Attal", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 2}, {"from": "Attal", "title": "gets", "to": "France", "width": 1}, {"from": "Aunts", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Aunts", "title": "play", "to": "Critical Role", "width": 1}, {"from": "Aunts", "title": "play role in", "to": "Lgbtq", "width": 1}, {"from": "Ban", "title": "Cluster-Keyword", "to": "Cluster Node 1", "width": 1}, {"from": "Ban", "title": "Cluster-Keyword", "to": "Cluster Node 4", "width": 1}, {"from": "Ban", "title": "Cluster-Keyword", "to": "Cluster Node 5", "width": 1}, {"from": "Bbc Sport", "title": "Cluster-Keyword", "to": "Cluster Node 5", "width": 1}, {"from": "Bbc Sport", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "Bbc Sport", "title": "tells", "to": "New Plymouth", "width": 1}, {"from": "Beer Brand", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Beer Brand", "title": "took time", "to": "Recent Months", "width": 1}, {"from": "Bill Ackman", "title": "has made", "to": "Billionaire Class", "width": 1}, {"from": "Bill Ackman", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Bill Ackman", "title": "Cluster-Entity", "to": "Cluster Node 9", "width": 1}, {"from": "Bill Ackman", "title": "Is", "to": "Fighting", "width": 1}, {"from": "Bill Ackman", "title": "\u2019s", "to": "Harvard", "width": 1}, {"from": "Bill Ackman", "title": "has made", "to": "Public Face", "width": 1}, {"from": "Billionaire Class", "title": "Cluster-Entity", "to": "Cluster Node 9", "width": 1}, {"from": "Broadway Music", "title": "Cluster-Entity", "to": "Cluster Node 0", "width": 1}, {"from": "Broadway Music", "title": "fits in", "to": "Lil Nas X", "width": 1}, {"from": "Bud Light", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Bud Light", "title": "has", "to": "Recent Months", "width": 1}, {"from": "Caitlyn Jenner", "title": "Cluster-Entity", "to": "Cluster Node 7", "width": 1}, {"from": "Caitlyn Jenner", "title": "Lashes Out at", "to": "Disney", "width": 1}, {"from": "Caitlyn Jenner", "title": "blaming company for", "to": "Kardashians", "width": 1}, {"from": "California Katie Porter", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "California Katie Porter", "title": "are vying in", "to": "U.S.", "width": 1}, {"from": "Campaign", "title": "Cluster-Keyword", "to": "Cluster Node 8", "width": 1}, {"from": "Care", "title": "Cluster-Keyword", "to": "Cluster Node 5", "width": 1}, {"from": "Ceo", "title": "Cluster-Entity", "to": "Cluster Node 7", "width": 1}, {"from": "Ceo", "title": "Jenner", "to": "Disney", "width": 1}, {"from": "Choice", "title": "Cluster-Keyword", "to": "Cluster Node 4", "width": 1}, {"from": "Chris Christie", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Chris Christie", "title": "end", "to": "Presidential Campaign", "width": 1}, {"from": "Christ", "title": "Cluster-Entity", "to": "Cluster Node 0", "width": 1}, {"from": "Christ", "title": "is in", "to": "Lil Nas X", "width": 1}, {"from": "Christian Imagery", "title": "Cluster-Entity", "to": "Cluster Node 0", "width": 1}, {"from": "Christian Imagery", "title": "fits in", "to": "Lil Nas X", "width": 1}, {"from": "Christian Ziegler", "title": "Cluster-Entity", "to": "Cluster Node 0", "width": 1}, {"from": "Christian Ziegler", "title": "remove", "to": "Florida", "width": 1}, {"from": "Christian Ziegler", "title": "ousted after", "to": "Rape Allegation", "width": 1}, {"from": "Code", "title": "Cluster-Keyword", "to": "Cluster Node 3", "width": 1}, {"from": "Comedy Max", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Comedy Max", "title": "has", "to": "Queer Pirate Comedy", "width": 1}, {"from": "Comedy Max", "title": "has", "to": "Warner Bros", "width": 1}, {"from": "Company  Response", "title": "Cluster-Entity", "to": "Cluster Node 9", "width": 1}, {"from": "Company  Response", "title": "call", "to": "Lululemon", "width": 1}, {"from": "Covid", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Covid", "title": "recommendations", "to": "Rsv", "width": 1}, {"from": "Critical Role", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Critics", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Death", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Death", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Death", "title": "Means", "to": "Flag", "width": 2}, {"from": "Dewine", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Dewine", "title": "overrides", "to": "Ohio", "width": 1}, {"from": "Dictionaries", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Dictionaries", "title": "Sued for", "to": "Florida", "width": 1}, {"from": "Discount Code", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Discount Code", "title": "even gave", "to": "Patrick Mahomes", "width": 1}, {"from": "Disney", "title": "Cluster-Entity", "to": "Cluster Node 7", "width": 1}, {"from": "Diversity", "title": "Cluster-Entity", "to": "Cluster Node 9", "width": 1}, {"from": "Diversity", "title": "has", "to": "Lululemon", "width": 1}, {"from": "Donald Trump Jr", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "Donald Trump Jr", "title": "exposing", "to": "Ohio", "width": 1}, {"from": "Edinburgh", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Edinburgh", "title": "named as", "to": "Simon Fanshawe", "width": 1}, {"from": "Edition Merchandise", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Edition Merchandise", "title": "shared", "to": "Patrick Mahomes", "width": 1}, {"from": "Extremist Organisation", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Extremist Organisation", "title": "is in", "to": "Russia", "width": 1}, {"from": "Fan", "title": "Cluster-Keyword", "to": "Cluster Node 3", "width": 1}, {"from": "Favorite Jobs", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Favorite Jobs", "title": "is in", "to": "Hawaii", "width": 1}, {"from": "Fighting", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Flag", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Flag", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Flag", "title": "Means Death runs aground", "to": "Queer Pirate Comedy", "width": 1}, {"from": "Florida", "title": "Cluster-Entity", "to": "Cluster Node 0", "width": 1}, {"from": "Florida", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Florida", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Florida", "title": "Sued in", "to": "Latest", "width": 1}, {"from": "Florida", "title": "remove", "to": "State Party Chairman", "width": 1}, {"from": "Florida", "title": "family of", "to": "Volleyball Player", "width": 1}, {"from": "France", "title": "Cluster-Keyword", "to": "Cluster Node 2", "width": 1}, {"from": "France", "title": "Has", "to": "Historic", "width": 1}, {"from": "France", "title": "\u2019s", "to": "Prime", "width": 1}, {"from": "Ftc", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Ftc", "title": "\u2019s", "to": "Sensitive Location Data", "width": 1}, {"from": "Gay Screenwriter", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Gender Dysphoria", "title": "Cluster-Keyword", "to": "Cluster Node 5", "width": 1}, {"from": "Gender Dysphoria", "title": "Surges in", "to": "Highest", "width": 1}, {"from": "Girl", "title": "Cluster-Keyword", "to": "Cluster Node 5", "width": 1}, {"from": "Go Viral", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Go Viral", "title": "Go", "to": "Taylor Swift", "width": 1}, {"from": "Gov", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Gov", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Gov", "title": "is ending", "to": "Presidential Campaign", "width": 1}, {"from": "Gov", "title": "is ending", "to": "Trump", "width": 1}, {"from": "Gov", "title": "override", "to": "Ohio", "width": 1}, {"from": "Governor  Veto", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 2}, {"from": "Governor  Veto", "title": "overrides", "to": "Ohio", "width": 1}, {"from": "Harvard", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Harvard", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Harvard", "title": "Cluster-Entity", "to": "Cluster Node 9", "width": 1}, {"from": "Harvard", "title": "University of", "to": "Pennsylvania", "width": 1}, {"from": "Harvard", "title": "Has", "to": "Silicon Valley", "width": 1}, {"from": "Harvard President", "title": "Cluster-Keyword", "to": "Cluster Node 2", "width": 1}, {"from": "Hateful Words", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Hateful Words", "title": "for", "to": "Tvp Info", "width": 1}, {"from": "Hawaii", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Head House", "title": "Cluster-Keyword", "to": "Cluster Node 6", "width": 1}, {"from": "Head House", "title": "foreshadows", "to": "National Elections", "width": 1}, {"from": "Head House", "title": "foreshadows elections In", "to": "New York", "width": 1}, {"from": "Heartwarming Gesture", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Heartwarming Gesture", "title": "has", "to": "Taylor Swift", "width": 1}, {"from": "Highest", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Historic", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Indian Film", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Indian Film", "title": "removed", "to": "Netflix", "width": 1}, {"from": "Internet", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Internet", "title": "Sends", "to": "Taylor Swift", "width": 1}, {"from": "January", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "January", "title": "will convene in", "to": "Polish State", "width": 1}, {"from": "Job", "title": "Cluster-Keyword", "to": "Cluster Node 2", "width": 1}, {"from": "Joey Barton", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Joey Barton", "title": "says", "to": "Sports Ban", "width": 1}, {"from": "Justin Bieber", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Justin Bieber", "title": "Outraged Over", "to": "Super Bowl Fans", "width": 1}, {"from": "Justin Bieber", "title": "signed", "to": "Usher", "width": 1}, {"from": "Kardashians", "title": "Cluster-Entity", "to": "Cluster Node 7", "width": 1}, {"from": "Latest", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Law", "title": "Cluster-Keyword", "to": "Cluster Node 5", "width": 1}, {"from": "Law Enforcement", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Law Enforcement", "title": "dominates at_time", "to": "Minnesota", "width": 1}, {"from": "Leader  Stance", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Leader  Stance", "title": "roil", "to": "Lgbt Community", "width": 1}, {"from": "Legal Organization", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Legal Organization", "title": "were overseen by", "to": "Year  Ads", "width": 1}, {"from": "Lgbt", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Lgbt", "title": "apologised to", "to": "Wojciech Szelag", "width": 1}, {"from": "Lgbt Community", "title": "Cluster-Keyword", "to": "Cluster Node 1", "width": 1}, {"from": "Lgbtq", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Lil Nas X", "title": "Cluster-Entity", "to": "Cluster Node 0", "width": 1}, {"from": "Lip Readers", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Lip Readers", "title": "De-Code", "to": "Taylor Swift", "width": 1}, {"from": "Lip Readers", "title": "De-Code", "to": "Travis Kelce", "width": 1}, {"from": "Long Island", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "Long Island", "title": "is in", "to": "Special Election", "width": 1}, {"from": "Louisiana", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Louisiana", "title": "over", "to": "Transgender Health", "width": 1}, {"from": "Louisiana", "title": "sue over", "to": "Trans", "width": 1}, {"from": "Lucky Number", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Lucky Number", "title": "reveal", "to": "New Plymouth", "width": 1}, {"from": "Lucky Number", "title": "used", "to": "Taylor Swift", "width": 1}, {"from": "Lululemon", "title": "Cluster-Entity", "to": "Cluster Node 9", "width": 1}, {"from": "Man", "title": "Cluster-Keyword", "to": "Cluster Node 5", "width": 1}, {"from": "Mastodon", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Mastodon", "title": "disappeared because", "to": "Taliban", "width": 1}, {"from": "Meltdown", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Meltdown", "title": "Sends Internet Into", "to": "Taylor Swift", "width": 1}, {"from": "Meningitis Vaccine", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Meningitis Vaccine", "title": "recommendations", "to": "Rsv", "width": 1}, {"from": "Mexico", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "Political Party", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "Salma Luevano", "width": 1}, {"from": "Mexico", "title": "apologizes for", "to": "Trans Lawmaker Man", "width": 1}, {"from": "Mexico", "title": "apologized for", "to": "Transgender Health", "width": 1}, {"from": "Minister", "title": "Cluster-Keyword", "to": "Cluster Node 2", "width": 1}, {"from": "Minnesota", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "National Elections", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "Netflix", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "New Plymouth", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "New Plymouth", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "New Plymouth", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "New Plymouth", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "New Plymouth", "title": "are considering", "to": "Polish State", "width": 1}, {"from": "New Plymouth", "title": "improved", "to": "Pro", "width": 1}, {"from": "New Plymouth", "title": "improved", "to": "Saudi Pro League", "width": 1}, {"from": "New Vaccine Recommendations", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "New Vaccine Recommendations", "title": "include", "to": "Rsv", "width": 1}, {"from": "New York", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "Ohio", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 3}, {"from": "Ohio", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "Ohio", "title": "has", "to": "Pro-Lgbtq Agenda", "width": 1}, {"from": "Ohio", "title": "override", "to": "Sports Ban", "width": 1}, {"from": "Ohio", "title": "override sports ban on", "to": "Trans", "width": 1}, {"from": "Original Belief", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Original Belief", "title": "grown", "to": "Silicon Valley", "width": 1}, {"from": "Past Output", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Past Output", "title": "decries", "to": "Polish State", "width": 1}, {"from": "Past Output", "title": "decries", "to": "State Tv Host", "width": 1}, {"from": "Patrick Mahomes", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Patrick Mahomes", "title": "shared edition merchandise on", "to": "Social Media", "width": 1}, {"from": "Pennsylvania", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "People", "title": "Cluster-Keyword", "to": "Cluster Node 1", "width": 1}, {"from": "People", "title": "Cluster-Keyword", "to": "Cluster Node 3", "width": 1}, {"from": "Polish State", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Polish State", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Polish State", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 2}, {"from": "Polish State", "title": "stay", "to": "Preliminary Injunction", "width": 1}, {"from": "Political Party", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Political Party", "title": "representative of", "to": "Salma Luevano", "width": 1}, {"from": "Preliminary Injunction", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Presidential Campaign", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Prime", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 3}, {"from": "Pro", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "Pro-Lgbtq Agenda", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "Public Face", "title": "Cluster-Entity", "to": "Cluster Node 9", "width": 1}, {"from": "Queer Pirate Comedy", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Rape Allegation", "title": "Cluster-Entity", "to": "Cluster Node 0", "width": 1}, {"from": "Recent Months", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Record Label", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Record Label", "title": "signed Justin Bieber to", "to": "Usher", "width": 1}, {"from": "Right", "title": "Cluster-Keyword", "to": "Cluster Node 4", "width": 1}, {"from": "Rsv", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Russia", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Salma Luevano", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Saudi Pro League", "title": "Cluster-Keyword", "to": "Cluster Node 6", "width": 1}, {"from": "Sensitive Location Data", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Shoe Detail", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Shoe Detail", "title": "has", "to": "Taylor Swift", "width": 1}, {"from": "Silicon Valley", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Simon Fanshawe", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Simon Fanshawe", "title": "named as", "to": "University Rector", "width": 1}, {"from": "Social Media", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Special Election", "title": "Cluster-Entity", "to": "Cluster Node 6", "width": 1}, {"from": "Sports Ban", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 2}, {"from": "State Party Chairman", "title": "Cluster-Entity", "to": "Cluster Node 0", "width": 1}, {"from": "State Tv Host", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Sue", "title": "Cluster-Keyword", "to": "Cluster Node 4", "width": 1}, {"from": "Super Bowl", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Super Bowl", "title": "see For", "to": "Year  Ads", "width": 1}, {"from": "Super Bowl Fans", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Taliban", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Taylor Swift", "title": "Cluster-Keyword", "to": "Cluster Node 3", "width": 1}, {"from": "Taylor Swift", "title": "went out", "to": "Travis Kelce", "width": 1}, {"from": "Trans", "title": "Cluster-Entity", "to": "Cluster Node 4", "width": 1}, {"from": "Trans", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 2}, {"from": "Trans Lawmaker Man", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Transgender Health", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Transgender Health", "title": "Cluster-Keyword", "to": "Cluster Node 4", "width": 1}, {"from": "Travis Kelce", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 3}, {"from": "Trump", "title": "Cluster-Entity", "to": "Cluster Node 8", "width": 1}, {"from": "Tvp Info", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Tvp Info", "title": "apologised for", "to": "Wojciech Szelag", "width": 1}, {"from": "U.S.", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "University Rector", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Usher", "title": "Cluster-Entity", "to": "Cluster Node 3", "width": 1}, {"from": "Volleyball Player", "title": "Cluster-Entity", "to": "Cluster Node 5", "width": 1}, {"from": "Warner Bros", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Win", "title": "Cluster-Keyword", "to": "Cluster Node 3", "width": 1}, {"from": "Wojciech Szelag", "title": "Cluster-Entity", "to": "Cluster Node 1", "width": 1}, {"from": "Woman", "title": "Cluster-Keyword", "to": "Cluster Node 5", "width": 1}, {"from": "Year", "title": "Cluster-Keyword", "to": "Cluster Node 2", "width": 1}, {"from": "Year  Ads", "title": "Cluster-Entity", "to": "Cluster Node 2", "width": 1}, {"from": "Youth", "title": "Cluster-Keyword", "to": "Cluster Node 4", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.015,
+            "damping": 0.4,
+            "gravitationalConstant": -31,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

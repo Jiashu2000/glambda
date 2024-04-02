@@ -4,8 +4,8 @@
 
 import pandas as pd
 
-input_path = "data_intermediate"
-output_path = "data_intermediate"
+input_path = "../data_intermediate"
+output_path = "../data_intermediate"
 
 
 entity_df = pd.read_csv(input_path+"/parsed_entities.csv", index_col = 0)

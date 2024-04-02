@@ -6,8 +6,8 @@ import pandas as pd
 import json
 import os
 
-input_path = "data_intermediate/yodie_ner"
-output_path = "data_intermediate"
+input_path = "../data_intermediate/yodie_ner"
+output_path = "../data_intermediate"
 
 
 # create a data frame to store each identifies entity

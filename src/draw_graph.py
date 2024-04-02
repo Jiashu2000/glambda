@@ -8,10 +8,11 @@ import seaborn as sns
 import random
 
 
-input_path = "/Users/jiashu/Desktop/Capstone/kg_v0/data_intermediate/transformed_relations.csv"
+input_path = "../data_intermediate"
+output_path = "../output"
 
 usecols = ['news_id', 'node1_t3', 'node2_t3', "relation"]
-relations = pd.read_csv(input_path, usecols=usecols)
+relations = pd.read_csv(input_path + "/transformed_relations.csv", usecols=usecols)
 relations = relations.groupby(['node1_t3', 'node2_t3', "relation"]).count().reset_index().rename(columns = {"node1_t3":"node1", "node2_t3": "node2", "news_id":"count"})
 relations = relations.loc[relations['node1'] != relations['node2']]
 print(relations.head())
@@ -71,7 +72,7 @@ for index, row in colors.iterrows():
 
 from pyvis.network import Network
 
-graph_output_directory = "test/index_0330.html"
+graph_output_directory = output_path + "/kg_v0_0402.html"
 
 net = Network(
     notebook=False,
