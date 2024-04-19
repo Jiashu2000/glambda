@@ -1,0 +1,261 @@
+,node1,node2,relation
+0,Wisconsin,Bomb Threats,faces
+1,Supreme Court,Obergefell,’s
+2,Full Article,Russia,charges in
+3,Sacramento,Transgender,declares
+4,Thailand,Laws,to
+5,Sacramento,Transgender,is now city for
+6,Disney,Florida,of
+7,Grindr,Best Buy,Gets
+8,New Orleans,The Advocate,is with
+9,Joe Biden,Republicans,attacks
+10,Joe Biden,Pride Flags,attacks
+11,Joe Biden,Transgender,of
+12,White House,Joe Biden,is pushing back against
+13,Joe Biden,White House,has
+14,Transgender,Breitbart,appeared on
+15,Caitlyn Jenner,Transgender,Disgusted over
+16,Caitlyn Jenner,Joe Biden,Absolutely Disgusted with
+17,Joe Biden,Transgender,proclaims at_time
+18,Scotland,Hate Crime,has
+19,Hate Crime,Scotland,is in
+20,Joe Biden,Transgender,proclaiming at_time
+21,Joe Biden,Transgender,over
+22,Scotland,Hate Crime,has
+23,Israel,Gaza,will let
+24,Israel,Joe Biden,will let
+25,Pope Francis,Gender Theory,rejected
+26,Vatican,Gender Theory,rejected
+27,Transgender,Louisiana,is in
+28,Joe Biden,Joe Biden,rally LGBTQ community in
+29,Netball,Transgender,bans
+30,Transgender,New Orleans,is with
+31,Tennessee,Transgender,get
+32,Chicago,Joe Biden,demanding
+33,Cluster 0,Oklahoma,Cluster-Entity
+34,Cluster 8,Supreme Court,Cluster-Entity
+35,Cluster 5,Ohio,Cluster-Entity
+36,Cluster 2,J.K. Rowling,Cluster-Entity
+37,Cluster 2,Germany,Cluster-Entity
+38,Cluster 7,Laws,Cluster-Entity
+39,Cluster 7,Florida,Cluster-Entity
+40,Cluster 9,Transgender,Cluster-Entity
+41,Cluster 9,Athletes,Cluster-Entity
+42,Cluster 3,New Orleans,Cluster-Entity
+43,Cluster 9,Transgender,Cluster-Entity
+44,Cluster 9,Lia Thomas,Cluster-Entity
+45,Cluster 9,Athletes,Cluster-Entity
+46,Cluster 9,Athletes,Cluster-Entity
+47,Cluster 9,Transgender,Cluster-Entity
+48,Cluster 6,Sydney Sweeney,Cluster-Entity
+49,Cluster 6,Full Article,Cluster-Entity
+50,Cluster 6,Missouri,Cluster-Entity
+51,Cluster 0,Athletes,Cluster-Entity
+52,Cluster 5,Australia,Cluster-Entity
+53,Cluster 5,Wisconsin,Cluster-Entity
+54,Cluster 2,New Orleans,Cluster-Entity
+55,Cluster 5,Georgia,Cluster-Entity
+56,Cluster 5,Full Article,Cluster-Entity
+57,Cluster 2,Alabama,Cluster-Entity
+58,Cluster 8,Southern California,Cluster-Entity
+59,Cluster 9,Caitlyn Jenner,Cluster-Entity
+60,Cluster 9,Idaho,Cluster-Entity
+61,Cluster 2,Scotland,Cluster-Entity
+62,Cluster 0,Wisconsin,Cluster-Entity
+63,Cluster 0,Bomb Threats,Cluster-Entity
+64,Cluster 0,Transgender,Cluster-Entity
+65,Cluster 2,New Orleans,Cluster-Entity
+66,Cluster 2,New Orleans,Cluster-Entity
+67,Cluster 9,Caitlyn Jenner,Cluster-Entity
+68,Cluster 5,Ohio,Cluster-Entity
+69,Cluster 5,Donald Trump,Cluster-Entity
+70,Cluster 9,Supreme Court,Cluster-Entity
+71,Cluster 9,America,Cluster-Entity
+72,Cluster 9,Obergefell,Cluster-Entity
+73,Cluster 9,Elon Musk,Cluster-Entity
+74,Cluster 0,America,Cluster-Entity
+75,Cluster 0,Oklahoma,Cluster-Entity
+76,Cluster 0,Florida,Cluster-Entity
+77,Cluster 5,Ohio,Cluster-Entity
+78,Cluster 8,Chicago,Cluster-Entity
+79,Cluster 6,Leo Varadkar,Cluster-Entity
+80,Cluster 6,Leo Varadkar,Cluster-Entity
+81,Cluster 3,Joe Biden,Cluster-Entity
+82,Cluster 1,Alabama,Cluster-Entity
+83,Cluster 5,Israel,Cluster-Entity
+84,Cluster 0,Oklahoma,Cluster-Entity
+85,Cluster 9,Alabama,Cluster-Entity
+86,Cluster 3,Full Article,Cluster-Entity
+87,Cluster 3,Russian,Cluster-Entity
+88,Cluster 3,Russia,Cluster-Entity
+89,Cluster 9,Ghana,Cluster-Entity
+90,Cluster 9,Georgia,Cluster-Entity
+91,Cluster 5,Moscow,Cluster-Entity
+92,Cluster 1,Tennessee,Cluster-Entity
+93,Cluster 9,White House,Cluster-Entity
+94,Cluster 9,Pride Flags,Cluster-Entity
+95,Cluster 2,Russia,Cluster-Entity
+96,Cluster 9,Pride Flags,Cluster-Entity
+97,Cluster 3,Bomb Threats,Cluster-Entity
+98,Cluster 9,Joe Biden,Cluster-Entity
+99,Cluster 9,Pride Flags,Cluster-Entity
+100,Cluster 2,Russia,Cluster-Entity
+101,Cluster 8,Russia,Cluster-Entity
+102,Cluster 8,Russian,Cluster-Entity
+103,Cluster 3,New Orleans,Cluster-Entity
+104,Cluster 0,Transgender,Cluster-Entity
+105,Cluster 1,Athletes,Cluster-Entity
+106,Cluster 1,Black,Cluster-Entity
+107,Cluster 2,White House,Cluster-Entity
+108,Cluster 3,Saudi Arabia,Cluster-Entity
+109,Cluster 6,Elon Musk,Cluster-Entity
+110,Cluster 0,Russia,Cluster-Entity
+111,Cluster 5,Australia,Cluster-Entity
+112,Cluster 7,New Orleans,Cluster-Entity
+113,Cluster 9,Ohio,Cluster-Entity
+114,Cluster 9,Texas,Cluster-Entity
+115,Cluster 2,Idaho,Cluster-Entity
+116,Cluster 9,Republicans,Cluster-Entity
+117,Cluster 9,White House,Cluster-Entity
+118,Cluster 9,Pride Flags,Cluster-Entity
+119,Cluster 9,Texas,Cluster-Entity
+120,Cluster 3,America,Cluster-Entity
+121,Cluster 9,Thailand,Cluster-Entity
+122,Cluster 8,New Orleans,Cluster-Entity
+123,Cluster 8,Public Religion Research Institute,Cluster-Entity
+124,Cluster 9,Southeast Asia,Cluster-Entity
+125,Cluster 9,Thailand,Cluster-Entity
+126,Cluster 9,Thailand,Cluster-Entity
+127,Cluster 1,Sacramento,Cluster-Entity
+128,Cluster 1,Transgender,Cluster-Entity
+129,Cluster 1,Southern California,Cluster-Entity
+130,Cluster 9,Thailand,Cluster-Entity
+131,Cluster 9,Laws,Cluster-Entity
+132,Cluster 1,Sacramento,Cluster-Entity
+133,Cluster 1,Transgender,Cluster-Entity
+134,Cluster 0,Disney,Cluster-Entity
+135,Cluster 0,Florida,Cluster-Entity
+136,Cluster 9,Disney,Cluster-Entity
+137,Cluster 0,Transgender,Cluster-Entity
+138,Cluster 3,Grindr,Cluster-Entity
+139,Cluster 3,Best Buy,Cluster-Entity
+140,Cluster 1,Calif,Cluster-Entity
+141,Cluster 1,Southern California,Cluster-Entity
+142,Cluster 6,Best Buy,Cluster-Entity
+143,Cluster 0,Georgia,Cluster-Entity
+144,Cluster 1,Idaho,Cluster-Entity
+145,Cluster 4,Joe Biden,Cluster-Entity
+146,Cluster 3,New Orleans,Cluster-Entity
+147,Cluster 3,The Advocate,Cluster-Entity
+148,Cluster 9,Joe Biden,Cluster-Entity
+149,Cluster 9,Republicans,Cluster-Entity
+150,Cluster 9,Pride Flags,Cluster-Entity
+151,Cluster 6,Full Article,Cluster-Entity
+152,Cluster 6,Joe Biden,Cluster-Entity
+153,Cluster 6,Kamala Harris,Cluster-Entity
+154,Cluster 2,Israel,Cluster-Entity
+155,Cluster 4,Joe Biden,Cluster-Entity
+156,Cluster 4,White House,Cluster-Entity
+157,Cluster 4,Transgender,Cluster-Entity
+158,Cluster 4,Transgender,Cluster-Entity
+159,Cluster 3,Russia,Cluster-Entity
+160,Cluster 3,Russia,Cluster-Entity
+161,Cluster 1,Human Rights Campaign,Cluster-Entity
+162,Cluster 1,The Advocate,Cluster-Entity
+163,Cluster 3,Russia,Cluster-Entity
+164,Cluster 6,Travel,Cluster-Entity
+165,Cluster 6,Athletes,Cluster-Entity
+166,Cluster 4,Joe Biden,Cluster-Entity
+167,Cluster 4,Transgender,Cluster-Entity
+168,Cluster 4,White House,Cluster-Entity
+169,Cluster 4,Breitbart,Cluster-Entity
+170,Cluster 4,Caitlyn Jenner,Cluster-Entity
+171,Cluster 4,Transgender,Cluster-Entity
+172,Cluster 4,Joe Biden,Cluster-Entity
+173,Cluster 4,Joe Biden,Cluster-Entity
+174,Cluster 4,Transgender,Cluster-Entity
+175,Cluster 4,Transgender,Cluster-Entity
+176,Cluster 4,Joe Biden,Cluster-Entity
+177,Cluster 9,Georgia,Cluster-Entity
+178,Cluster 2,Scotland,Cluster-Entity
+179,Cluster 2,Hate Crime,Cluster-Entity
+180,Cluster 2,Black,Cluster-Entity
+181,Cluster 8,Laws,Cluster-Entity
+182,Cluster 3,Transgender,Cluster-Entity
+183,Cluster 4,Joe Biden,Cluster-Entity
+184,Cluster 4,Transgender,Cluster-Entity
+185,Cluster 7,Wisconsin,Cluster-Entity
+186,Cluster 7,Wisconsin,Cluster-Entity
+187,Cluster 7,Wisconsin,Cluster-Entity
+188,Cluster 7,Tony Evers,Cluster-Entity
+189,Cluster 1,Missouri,Cluster-Entity
+190,Cluster 2,Best Buy,Cluster-Entity
+191,Cluster 7,Wisconsin,Cluster-Entity
+192,Cluster 7,Athletes,Cluster-Entity
+193,Cluster 4,Joe Biden,Cluster-Entity
+194,Cluster 4,Transgender,Cluster-Entity
+195,Cluster 2,Elon Musk,Cluster-Entity
+196,Cluster 4,White House,Cluster-Entity
+197,Cluster 4,Joe Biden,Cluster-Entity
+198,Cluster 4,Transgender,Cluster-Entity
+199,Cluster 7,Wisconsin,Cluster-Entity
+200,Cluster 8,Uganda,Cluster-Entity
+201,Cluster 8,Uganda,Cluster-Entity
+202,Cluster 3,Human Rights Campaign,Cluster-Entity
+203,Cluster 3,Southern California,Cluster-Entity
+204,Cluster 8,Ugandan,Cluster-Entity
+205,Cluster 8,Uganda,Cluster-Entity
+206,Cluster 4,Transgender,Cluster-Entity
+207,Cluster 4,Joe Biden,Cluster-Entity
+208,Cluster 3,Donald Trump,Cluster-Entity
+209,Cluster 5,Breitbart,Cluster-Entity
+210,Cluster 4,Joe Biden,Cluster-Entity
+211,Cluster 6,Disney,Cluster-Entity
+212,Cluster 8,Ugandan,Cluster-Entity
+213,Cluster 8,Uganda,Cluster-Entity
+214,Cluster 2,Scotland,Cluster-Entity
+215,Cluster 2,Hate Crime,Cluster-Entity
+216,Cluster 6,Human Rights Campaign,Cluster-Entity
+217,Cluster 6,Saudi Arabia,Cluster-Entity
+218,Cluster 6,Israel,Cluster-Entity
+219,Cluster 6,Gaza,Cluster-Entity
+220,Cluster 6,Joe Biden,Cluster-Entity
+221,Cluster 8,Uganda,Cluster-Entity
+222,Cluster 4,Florida,Cluster-Entity
+223,Cluster 2,New Orleans,Cluster-Entity
+224,Cluster 9,American Library Association,Cluster-Entity
+225,Cluster 7,Vatican,Cluster-Entity
+226,Cluster 6,Germany,Cluster-Entity
+227,Cluster 1,The Advocate,Cluster-Entity
+228,Cluster 7,Vatican,Cluster-Entity
+229,Cluster 6,Breitbart,Cluster-Entity
+230,Cluster 7,Vatican,Cluster-Entity
+231,Cluster 7,Pope Francis,Cluster-Entity
+232,Cluster 7,Bomb Threats,Cluster-Entity
+233,Cluster 7,Gender Theory,Cluster-Entity
+234,Cluster 0,New Orleans,Cluster-Entity
+235,Cluster 9,Louisiana,Cluster-Entity
+236,Cluster 9,Transgender,Cluster-Entity
+237,Cluster 9,New Orleans,Cluster-Entity
+238,Cluster 9,Netball,Cluster-Entity
+239,Cluster 9,Russian,Cluster-Entity
+240,Cluster 2,New Orleans,Cluster-Entity
+241,Cluster 3,Russia,Cluster-Entity
+242,Cluster 4,Joe Biden,Cluster-Entity
+243,Cluster 9,Netball,Cluster-Entity
+244,Cluster 9,Transgender,Cluster-Entity
+245,Cluster 9,New Orleans,Cluster-Entity
+246,Cluster 2,American Library Association,Cluster-Entity
+247,Cluster 9,Tennessee,Cluster-Entity
+248,Cluster 9,Transgender,Cluster-Entity
+249,Cluster 1,Southern California,Cluster-Entity
+250,Cluster 3,Bomb Threats,Cluster-Entity
+251,Cluster 5,Ghana,Cluster-Entity
+252,Cluster 7,Tennessee,Cluster-Entity
+253,Cluster 1,Transgender,Cluster-Entity
+254,Cluster 2,New Orleans,Cluster-Entity
+255,Cluster 1,Republicans,Cluster-Entity
+256,Cluster 2,Athletes,Cluster-Entity
+257,Cluster 2,New Orleans,Cluster-Entity
+258,Cluster 6,Chicago,Cluster-Entity
+259,Cluster 6,Joe Biden,Cluster-Entity

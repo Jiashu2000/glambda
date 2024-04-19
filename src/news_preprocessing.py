@@ -7,18 +7,25 @@ input_path = "../data_input"
 output_path = "../data_intermediate"
 
 # read data
-usecols = ['title', 'description', 'url', 'source_id', "source_name"]
-data = pd.read_csv(input_path+"/raw_news.csv", usecols = usecols)
+usecols = ['title', 'description', 'url', "source_name"]
+data = pd.read_csv(input_path+"/latest_lgbt_news.csv", usecols = usecols)
 
 # select news from credible sources 
-data = data[~data['source_id'].isna()]
+selected_news_sources = set(['Advocate.com', 'ABC News', 'Forbes', 'Breitbart News', 'Naturalnews.com', 'DW (English)', 'NBC News', 'BBC News', 'Yahoo Entertainment', 'Scientific American', 'NPR', 'RT', 'ABC News (AU)', 'CBC News', 'CBS News'])
 
+filter_df = data#[data['source_name'].isin(selected_news_sources)]
+
+# drop duplicate news
+filter_df = filter_df.drop_duplicates(subset = ['title'], keep = 'first')
+filter_df = filter_df.drop_duplicates(subset = ['url'], keep = 'first')
+filter_df = filter_df.dropna()
 # add a unique news id
-data = data.reset_index(drop = True)
-data['news_id'] = data.index 
-data['news_id'] = data['news_id'].apply(str)
+filter_df = filter_df.reset_index(drop = True)
+filter_df['news_id'] = filter_df.index 
+filter_df['news_id'] = filter_df['news_id'].apply(str)
 
 # combine title with description
-data['text'] = data['title'] + ". " + data['description']
+filter_df['text'] = filter_df['title'] + ". " + filter_df['description']
 
-data.to_csv(output_path + "/filter_data.csv")
+
+filter_df.to_csv(output_path + "/filter_data.csv")

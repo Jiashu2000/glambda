@@ -1,0 +1,740 @@
+2024-04-18 19:45:15,870 - INFO - Using header 0 for request 0
+2024-04-18 19:45:16,735 - INFO - Generated file ../data_intermediate/yodie_ner/news_0.json with size 484 bytes
+2024-04-18 19:45:16,735 - INFO - Using header 0 for request 1
+2024-04-18 19:45:17,397 - INFO - Generated file ../data_intermediate/yodie_ner/news_1.json with size 599 bytes
+2024-04-18 19:45:17,397 - INFO - Using header 0 for request 2
+2024-04-18 19:45:18,128 - INFO - Generated file ../data_intermediate/yodie_ner/news_2.json with size 1122 bytes
+2024-04-18 19:45:18,128 - INFO - Using header 0 for request 3
+2024-04-18 19:45:18,839 - INFO - Generated file ../data_intermediate/yodie_ner/news_3.json with size 1238 bytes
+2024-04-18 19:45:18,840 - INFO - Using header 0 for request 4
+2024-04-18 19:45:19,568 - INFO - Generated file ../data_intermediate/yodie_ner/news_4.json with size 1182 bytes
+2024-04-18 19:45:19,568 - INFO - Using header 0 for request 5
+2024-04-18 19:45:20,298 - INFO - Generated file ../data_intermediate/yodie_ner/news_5.json with size 960 bytes
+2024-04-18 19:45:20,299 - INFO - Using header 0 for request 6
+2024-04-18 19:45:21,021 - INFO - Generated file ../data_intermediate/yodie_ner/news_6.json with size 725 bytes
+2024-04-18 19:45:21,021 - INFO - Using header 0 for request 7
+2024-04-18 19:45:21,729 - INFO - Generated file ../data_intermediate/yodie_ner/news_7.json with size 1748 bytes
+2024-04-18 19:45:21,729 - INFO - Using header 0 for request 8
+2024-04-18 19:45:22,682 - INFO - Generated file ../data_intermediate/yodie_ner/news_8.json with size 1195 bytes
+2024-04-18 19:45:22,682 - INFO - Using header 0 for request 9
+2024-04-18 19:45:23,434 - INFO - Generated file ../data_intermediate/yodie_ner/news_9.json with size 1666 bytes
+2024-04-18 19:45:23,434 - INFO - Using header 0 for request 10
+2024-04-18 19:45:24,128 - INFO - Generated file ../data_intermediate/yodie_ner/news_10.json with size 1008 bytes
+2024-04-18 19:45:24,128 - INFO - Using header 0 for request 11
+2024-04-18 19:45:24,809 - INFO - Generated file ../data_intermediate/yodie_ner/news_11.json with size 1587 bytes
+2024-04-18 19:45:24,810 - INFO - Using header 0 for request 12
+2024-04-18 19:45:25,495 - INFO - Generated file ../data_intermediate/yodie_ner/news_12.json with size 667 bytes
+2024-04-18 19:45:25,496 - INFO - Using header 0 for request 13
+2024-04-18 19:45:26,203 - INFO - Generated file ../data_intermediate/yodie_ner/news_13.json with size 922 bytes
+2024-04-18 19:45:26,203 - INFO - Using header 0 for request 14
+2024-04-18 19:45:26,871 - INFO - Generated file ../data_intermediate/yodie_ner/news_14.json with size 780 bytes
+2024-04-18 19:45:26,871 - INFO - Using header 0 for request 15
+2024-04-18 19:45:27,586 - INFO - Generated file ../data_intermediate/yodie_ner/news_15.json with size 1118 bytes
+2024-04-18 19:45:27,586 - INFO - Using header 0 for request 16
+2024-04-18 19:45:28,306 - INFO - Generated file ../data_intermediate/yodie_ner/news_16.json with size 1134 bytes
+2024-04-18 19:45:28,307 - INFO - Using header 0 for request 17
+2024-04-18 19:45:28,974 - INFO - Generated file ../data_intermediate/yodie_ner/news_17.json with size 506 bytes
+2024-04-18 19:45:28,975 - INFO - Using header 0 for request 18
+2024-04-18 19:45:29,663 - INFO - Generated file ../data_intermediate/yodie_ner/news_18.json with size 878 bytes
+2024-04-18 19:45:29,663 - INFO - Using header 0 for request 19
+2024-04-18 19:45:30,310 - INFO - Generated file ../data_intermediate/yodie_ner/news_19.json with size 535 bytes
+2024-04-18 19:45:30,311 - INFO - Using header 0 for request 20
+2024-04-18 19:45:31,012 - INFO - Generated file ../data_intermediate/yodie_ner/news_20.json with size 1353 bytes
+2024-04-18 19:45:31,012 - INFO - Using header 0 for request 21
+2024-04-18 19:45:31,710 - INFO - Generated file ../data_intermediate/yodie_ner/news_21.json with size 1841 bytes
+2024-04-18 19:45:31,710 - INFO - Using header 0 for request 22
+2024-04-18 19:45:32,389 - INFO - Generated file ../data_intermediate/yodie_ner/news_22.json with size 518 bytes
+2024-04-18 19:45:32,390 - INFO - Using header 0 for request 23
+2024-04-18 19:45:33,030 - INFO - Generated file ../data_intermediate/yodie_ner/news_23.json with size 533 bytes
+2024-04-18 19:45:33,030 - INFO - Using header 0 for request 24
+2024-04-18 19:45:33,810 - INFO - Generated file ../data_intermediate/yodie_ner/news_24.json with size 2499 bytes
+2024-04-18 19:45:33,811 - INFO - Using header 0 for request 25
+2024-04-18 19:45:34,510 - INFO - Generated file ../data_intermediate/yodie_ner/news_25.json with size 975 bytes
+2024-04-18 19:45:34,510 - INFO - Using header 0 for request 26
+2024-04-18 19:45:35,195 - INFO - Generated file ../data_intermediate/yodie_ner/news_26.json with size 1142 bytes
+2024-04-18 19:45:35,195 - INFO - Using header 0 for request 27
+2024-04-18 19:45:35,917 - INFO - Generated file ../data_intermediate/yodie_ner/news_27.json with size 847 bytes
+2024-04-18 19:45:35,917 - INFO - Using header 0 for request 28
+2024-04-18 19:45:36,612 - INFO - Generated file ../data_intermediate/yodie_ner/news_28.json with size 1086 bytes
+2024-04-18 19:45:36,613 - INFO - Using header 0 for request 29
+2024-04-18 19:45:37,361 - INFO - Generated file ../data_intermediate/yodie_ner/news_29.json with size 1189 bytes
+2024-04-18 19:45:37,362 - INFO - Using header 0 for request 30
+2024-04-18 19:45:38,037 - INFO - Generated file ../data_intermediate/yodie_ner/news_30.json with size 1083 bytes
+2024-04-18 19:45:38,037 - INFO - Using header 0 for request 31
+2024-04-18 19:45:38,756 - INFO - Generated file ../data_intermediate/yodie_ner/news_31.json with size 2175 bytes
+2024-04-18 19:45:38,756 - INFO - Using header 0 for request 32
+2024-04-18 19:45:39,449 - INFO - Generated file ../data_intermediate/yodie_ner/news_32.json with size 1270 bytes
+2024-04-18 19:45:39,450 - INFO - Using header 0 for request 33
+2024-04-18 19:45:40,136 - INFO - Generated file ../data_intermediate/yodie_ner/news_33.json with size 872 bytes
+2024-04-18 19:45:40,137 - INFO - Using header 0 for request 34
+2024-04-18 19:45:40,873 - INFO - Generated file ../data_intermediate/yodie_ner/news_34.json with size 1433 bytes
+2024-04-18 19:45:40,873 - INFO - Using header 0 for request 35
+2024-04-18 19:45:41,550 - INFO - Generated file ../data_intermediate/yodie_ner/news_35.json with size 1249 bytes
+2024-04-18 19:45:41,551 - INFO - Using header 0 for request 36
+2024-04-18 19:45:42,207 - INFO - Generated file ../data_intermediate/yodie_ner/news_36.json with size 492 bytes
+2024-04-18 19:45:42,207 - INFO - Using header 0 for request 37
+2024-04-18 19:45:43,058 - INFO - Generated file ../data_intermediate/yodie_ner/news_37.json with size 1454 bytes
+2024-04-18 19:45:43,058 - INFO - Using header 0 for request 38
+2024-04-18 19:45:43,764 - INFO - Generated file ../data_intermediate/yodie_ner/news_38.json with size 782 bytes
+2024-04-18 19:45:43,765 - INFO - Using header 0 for request 39
+2024-04-18 19:45:44,572 - INFO - Generated file ../data_intermediate/yodie_ner/news_39.json with size 1034 bytes
+2024-04-18 19:45:44,573 - INFO - Using header 0 for request 40
+2024-04-18 19:45:45,258 - INFO - Generated file ../data_intermediate/yodie_ner/news_40.json with size 906 bytes
+2024-04-18 19:45:45,258 - INFO - Using header 0 for request 41
+2024-04-18 19:45:46,010 - INFO - Generated file ../data_intermediate/yodie_ner/news_41.json with size 1382 bytes
+2024-04-18 19:45:46,010 - INFO - Using header 0 for request 42
+2024-04-18 19:45:46,673 - INFO - Generated file ../data_intermediate/yodie_ner/news_42.json with size 1307 bytes
+2024-04-18 19:45:46,673 - INFO - Using header 0 for request 43
+2024-04-18 19:45:47,357 - INFO - Generated file ../data_intermediate/yodie_ner/news_43.json with size 1143 bytes
+2024-04-18 19:45:47,357 - INFO - Using header 0 for request 44
+2024-04-18 19:45:48,083 - INFO - Generated file ../data_intermediate/yodie_ner/news_44.json with size 1192 bytes
+2024-04-18 19:45:48,084 - INFO - Using header 0 for request 45
+2024-04-18 19:45:48,817 - INFO - Generated file ../data_intermediate/yodie_ner/news_45.json with size 1010 bytes
+2024-04-18 19:45:48,818 - INFO - Using header 0 for request 46
+2024-04-18 19:45:49,510 - INFO - Generated file ../data_intermediate/yodie_ner/news_46.json with size 1246 bytes
+2024-04-18 19:45:49,510 - INFO - Using header 0 for request 47
+2024-04-18 19:45:50,217 - INFO - Generated file ../data_intermediate/yodie_ner/news_47.json with size 2022 bytes
+2024-04-18 19:45:50,218 - INFO - Using header 0 for request 48
+2024-04-18 19:45:50,844 - INFO - Generated file ../data_intermediate/yodie_ner/news_48.json with size 1052 bytes
+2024-04-18 19:45:50,844 - INFO - Using header 0 for request 49
+2024-04-18 19:45:51,504 - INFO - Generated file ../data_intermediate/yodie_ner/news_49.json with size 1201 bytes
+2024-04-18 19:45:51,504 - INFO - Using header 0 for request 50
+2024-04-18 19:45:52,294 - INFO - Generated file ../data_intermediate/yodie_ner/news_50.json with size 1523 bytes
+2024-04-18 19:45:52,295 - INFO - Using header 0 for request 51
+2024-04-18 19:45:53,025 - INFO - Generated file ../data_intermediate/yodie_ner/news_51.json with size 1623 bytes
+2024-04-18 19:45:53,025 - INFO - Using header 0 for request 52
+2024-04-18 19:45:53,692 - INFO - Generated file ../data_intermediate/yodie_ner/news_52.json with size 1012 bytes
+2024-04-18 19:45:53,693 - INFO - Using header 0 for request 53
+2024-04-18 19:45:54,381 - INFO - Generated file ../data_intermediate/yodie_ner/news_53.json with size 557 bytes
+2024-04-18 19:45:54,381 - INFO - Using header 0 for request 54
+2024-04-18 19:45:55,057 - INFO - Generated file ../data_intermediate/yodie_ner/news_54.json with size 755 bytes
+2024-04-18 19:45:55,058 - INFO - Using header 0 for request 55
+2024-04-18 19:45:55,705 - INFO - Generated file ../data_intermediate/yodie_ner/news_55.json with size 207 bytes
+2024-04-18 19:45:55,705 - INFO - Using header 0 for request 56
+2024-04-18 19:45:56,445 - INFO - Generated file ../data_intermediate/yodie_ner/news_56.json with size 398 bytes
+2024-04-18 19:45:56,445 - INFO - Using header 0 for request 57
+2024-04-18 19:45:57,091 - INFO - Generated file ../data_intermediate/yodie_ner/news_57.json with size 401 bytes
+2024-04-18 19:45:57,091 - INFO - Using header 0 for request 58
+2024-04-18 19:45:57,805 - INFO - Generated file ../data_intermediate/yodie_ner/news_58.json with size 1684 bytes
+2024-04-18 19:45:57,806 - INFO - Using header 0 for request 59
+2024-04-18 19:45:58,644 - INFO - Generated file ../data_intermediate/yodie_ner/news_59.json with size 1587 bytes
+2024-04-18 19:45:58,645 - INFO - Using header 0 for request 60
+2024-04-18 19:45:59,392 - INFO - Generated file ../data_intermediate/yodie_ner/news_60.json with size 1413 bytes
+2024-04-18 19:45:59,392 - INFO - Using header 0 for request 61
+2024-04-18 19:46:00,126 - INFO - Generated file ../data_intermediate/yodie_ner/news_61.json with size 1865 bytes
+2024-04-18 19:46:00,127 - INFO - Using header 0 for request 62
+2024-04-18 19:46:00,849 - INFO - Generated file ../data_intermediate/yodie_ner/news_62.json with size 1184 bytes
+2024-04-18 19:46:00,850 - INFO - Using header 0 for request 63
+2024-04-18 19:46:01,694 - INFO - Generated file ../data_intermediate/yodie_ner/news_63.json with size 1614 bytes
+2024-04-18 19:46:01,694 - INFO - Using header 0 for request 64
+2024-04-18 19:46:02,344 - INFO - Generated file ../data_intermediate/yodie_ner/news_64.json with size 767 bytes
+2024-04-18 19:46:02,344 - INFO - Using header 0 for request 65
+2024-04-18 19:46:03,008 - INFO - Generated file ../data_intermediate/yodie_ner/news_65.json with size 351 bytes
+2024-04-18 19:46:03,009 - INFO - Using header 0 for request 66
+2024-04-18 19:46:03,663 - INFO - Generated file ../data_intermediate/yodie_ner/news_66.json with size 161 bytes
+2024-04-18 19:46:03,663 - INFO - Using header 0 for request 67
+2024-04-18 19:46:04,463 - INFO - Generated file ../data_intermediate/yodie_ner/news_67.json with size 1291 bytes
+2024-04-18 19:46:04,463 - INFO - Using header 0 for request 68
+2024-04-18 19:46:05,186 - INFO - Generated file ../data_intermediate/yodie_ner/news_68.json with size 696 bytes
+2024-04-18 19:46:05,186 - INFO - Using header 0 for request 69
+2024-04-18 19:46:05,922 - INFO - Generated file ../data_intermediate/yodie_ner/news_69.json with size 1435 bytes
+2024-04-18 19:46:05,922 - INFO - Using header 0 for request 70
+2024-04-18 19:46:06,642 - INFO - Generated file ../data_intermediate/yodie_ner/news_70.json with size 809 bytes
+2024-04-18 19:46:06,642 - INFO - Using header 0 for request 71
+2024-04-18 19:46:07,319 - INFO - Generated file ../data_intermediate/yodie_ner/news_71.json with size 572 bytes
+2024-04-18 19:46:07,319 - INFO - Using header 0 for request 72
+2024-04-18 19:46:08,003 - INFO - Generated file ../data_intermediate/yodie_ner/news_72.json with size 820 bytes
+2024-04-18 19:46:08,003 - INFO - Using header 0 for request 73
+2024-04-18 19:46:08,712 - INFO - Generated file ../data_intermediate/yodie_ner/news_73.json with size 1340 bytes
+2024-04-18 19:46:08,713 - INFO - Using header 0 for request 74
+2024-04-18 19:46:09,364 - INFO - Generated file ../data_intermediate/yodie_ner/news_74.json with size 822 bytes
+2024-04-18 19:46:09,364 - INFO - Using header 0 for request 75
+2024-04-18 19:46:10,133 - INFO - Generated file ../data_intermediate/yodie_ner/news_75.json with size 917 bytes
+2024-04-18 19:46:10,134 - INFO - Using header 0 for request 76
+2024-04-18 19:46:10,832 - INFO - Generated file ../data_intermediate/yodie_ner/news_76.json with size 1046 bytes
+2024-04-18 19:46:10,833 - INFO - Using header 0 for request 77
+2024-04-18 19:46:11,504 - INFO - Generated file ../data_intermediate/yodie_ner/news_77.json with size 703 bytes
+2024-04-18 19:46:11,504 - INFO - Using header 0 for request 78
+2024-04-18 19:46:12,175 - INFO - Generated file ../data_intermediate/yodie_ner/news_78.json with size 1304 bytes
+2024-04-18 19:46:12,175 - INFO - Using header 0 for request 79
+2024-04-18 19:46:12,877 - INFO - Generated file ../data_intermediate/yodie_ner/news_79.json with size 967 bytes
+2024-04-18 19:46:12,877 - INFO - Using header 0 for request 80
+2024-04-18 19:46:13,578 - INFO - Generated file ../data_intermediate/yodie_ner/news_80.json with size 1343 bytes
+2024-04-18 19:46:13,578 - INFO - Using header 0 for request 81
+2024-04-18 19:46:14,383 - INFO - Generated file ../data_intermediate/yodie_ner/news_81.json with size 1567 bytes
+2024-04-18 19:46:14,383 - INFO - Using header 0 for request 82
+2024-04-18 19:46:15,072 - INFO - Generated file ../data_intermediate/yodie_ner/news_82.json with size 357 bytes
+2024-04-18 19:46:15,072 - INFO - Using header 0 for request 83
+2024-04-18 19:46:15,771 - INFO - Generated file ../data_intermediate/yodie_ner/news_83.json with size 1335 bytes
+2024-04-18 19:46:15,771 - INFO - Using header 0 for request 84
+2024-04-18 19:46:16,509 - INFO - Generated file ../data_intermediate/yodie_ner/news_84.json with size 645 bytes
+2024-04-18 19:46:16,509 - INFO - Using header 0 for request 85
+2024-04-18 19:46:17,245 - INFO - Generated file ../data_intermediate/yodie_ner/news_85.json with size 1027 bytes
+2024-04-18 19:46:17,245 - INFO - Using header 0 for request 86
+2024-04-18 19:46:17,925 - INFO - Generated file ../data_intermediate/yodie_ner/news_86.json with size 759 bytes
+2024-04-18 19:46:17,925 - INFO - Using header 0 for request 87
+2024-04-18 19:46:18,611 - INFO - Generated file ../data_intermediate/yodie_ner/news_87.json with size 1136 bytes
+2024-04-18 19:46:18,612 - INFO - Using header 0 for request 88
+2024-04-18 19:46:19,416 - INFO - Generated file ../data_intermediate/yodie_ner/news_88.json with size 1246 bytes
+2024-04-18 19:46:19,417 - INFO - Using header 0 for request 89
+2024-04-18 19:46:20,113 - INFO - Generated file ../data_intermediate/yodie_ner/news_89.json with size 1149 bytes
+2024-04-18 19:46:20,113 - INFO - Using header 0 for request 90
+2024-04-18 19:46:20,774 - INFO - Generated file ../data_intermediate/yodie_ner/news_90.json with size 619 bytes
+2024-04-18 19:46:20,775 - INFO - Using header 0 for request 91
+2024-04-18 19:46:21,433 - INFO - Generated file ../data_intermediate/yodie_ner/news_91.json with size 599 bytes
+2024-04-18 19:46:21,434 - INFO - Using header 0 for request 92
+2024-04-18 19:46:22,119 - INFO - Generated file ../data_intermediate/yodie_ner/news_92.json with size 1445 bytes
+2024-04-18 19:46:22,119 - INFO - Using header 0 for request 93
+2024-04-18 19:46:22,870 - INFO - Generated file ../data_intermediate/yodie_ner/news_93.json with size 1251 bytes
+2024-04-18 19:46:22,870 - INFO - Using header 0 for request 94
+2024-04-18 19:46:23,612 - INFO - Generated file ../data_intermediate/yodie_ner/news_94.json with size 819 bytes
+2024-04-18 19:46:23,613 - INFO - Using header 0 for request 95
+2024-04-18 19:46:24,273 - INFO - Generated file ../data_intermediate/yodie_ner/news_95.json with size 779 bytes
+2024-04-18 19:46:24,273 - INFO - Using header 0 for request 96
+2024-04-18 19:46:24,991 - INFO - Generated file ../data_intermediate/yodie_ner/news_96.json with size 1313 bytes
+2024-04-18 19:46:24,991 - INFO - Using header 0 for request 97
+2024-04-18 19:46:25,702 - INFO - Generated file ../data_intermediate/yodie_ner/news_97.json with size 1047 bytes
+2024-04-18 19:46:25,702 - INFO - Using header 0 for request 98
+2024-04-18 19:46:26,410 - INFO - Generated file ../data_intermediate/yodie_ner/news_98.json with size 1290 bytes
+2024-04-18 19:46:26,410 - INFO - Using header 0 for request 99
+2024-04-18 19:46:27,089 - INFO - Generated file ../data_intermediate/yodie_ner/news_99.json with size 453 bytes
+2024-04-18 19:46:27,089 - INFO - Using header 1 for request 100
+2024-04-18 19:46:27,858 - INFO - Generated file ../data_intermediate/yodie_ner/news_100.json with size 907 bytes
+2024-04-18 19:46:27,858 - INFO - Using header 1 for request 101
+2024-04-18 19:46:28,637 - INFO - Generated file ../data_intermediate/yodie_ner/news_101.json with size 2143 bytes
+2024-04-18 19:46:28,637 - INFO - Using header 1 for request 102
+2024-04-18 19:46:29,327 - INFO - Generated file ../data_intermediate/yodie_ner/news_102.json with size 900 bytes
+2024-04-18 19:46:29,328 - INFO - Using header 1 for request 103
+2024-04-18 19:46:30,133 - INFO - Generated file ../data_intermediate/yodie_ner/news_103.json with size 907 bytes
+2024-04-18 19:46:30,134 - INFO - Using header 1 for request 104
+2024-04-18 19:46:30,826 - INFO - Generated file ../data_intermediate/yodie_ner/news_104.json with size 1153 bytes
+2024-04-18 19:46:30,826 - INFO - Using header 1 for request 105
+2024-04-18 19:46:31,540 - INFO - Generated file ../data_intermediate/yodie_ner/news_105.json with size 1497 bytes
+2024-04-18 19:46:31,540 - INFO - Using header 1 for request 106
+2024-04-18 19:46:32,255 - INFO - Generated file ../data_intermediate/yodie_ner/news_106.json with size 938 bytes
+2024-04-18 19:46:32,255 - INFO - Using header 1 for request 107
+2024-04-18 19:46:32,826 - INFO - Generated file ../data_intermediate/yodie_ner/news_107.json with size 165 bytes
+2024-04-18 19:46:32,826 - INFO - Using header 1 for request 108
+2024-04-18 19:46:33,543 - INFO - Generated file ../data_intermediate/yodie_ner/news_108.json with size 1493 bytes
+2024-04-18 19:46:33,543 - INFO - Using header 1 for request 109
+2024-04-18 19:46:34,279 - INFO - Generated file ../data_intermediate/yodie_ner/news_109.json with size 756 bytes
+2024-04-18 19:46:34,280 - INFO - Using header 1 for request 110
+2024-04-18 19:46:34,994 - INFO - Generated file ../data_intermediate/yodie_ner/news_110.json with size 453 bytes
+2024-04-18 19:46:34,994 - INFO - Using header 1 for request 111
+2024-04-18 19:46:35,720 - INFO - Generated file ../data_intermediate/yodie_ner/news_111.json with size 977 bytes
+2024-04-18 19:46:35,720 - INFO - Using header 1 for request 112
+2024-04-18 19:46:36,556 - INFO - Generated file ../data_intermediate/yodie_ner/news_112.json with size 1282 bytes
+2024-04-18 19:46:36,556 - INFO - Using header 1 for request 113
+2024-04-18 19:46:37,310 - INFO - Generated file ../data_intermediate/yodie_ner/news_113.json with size 701 bytes
+2024-04-18 19:46:37,310 - INFO - Using header 1 for request 114
+2024-04-18 19:46:38,000 - INFO - Generated file ../data_intermediate/yodie_ner/news_114.json with size 592 bytes
+2024-04-18 19:46:38,000 - INFO - Using header 1 for request 115
+2024-04-18 19:46:38,660 - INFO - Generated file ../data_intermediate/yodie_ner/news_115.json with size 668 bytes
+2024-04-18 19:46:38,660 - INFO - Using header 1 for request 116
+2024-04-18 19:46:39,374 - INFO - Generated file ../data_intermediate/yodie_ner/news_116.json with size 658 bytes
+2024-04-18 19:46:39,374 - INFO - Using header 1 for request 117
+2024-04-18 19:46:40,077 - INFO - Generated file ../data_intermediate/yodie_ner/news_117.json with size 711 bytes
+2024-04-18 19:46:40,078 - INFO - Using header 1 for request 118
+2024-04-18 19:46:40,806 - INFO - Generated file ../data_intermediate/yodie_ner/news_118.json with size 926 bytes
+2024-04-18 19:46:40,806 - INFO - Using header 1 for request 119
+2024-04-18 19:46:41,598 - INFO - Generated file ../data_intermediate/yodie_ner/news_119.json with size 594 bytes
+2024-04-18 19:46:41,598 - INFO - Using header 1 for request 120
+2024-04-18 19:46:42,303 - INFO - Generated file ../data_intermediate/yodie_ner/news_120.json with size 1157 bytes
+2024-04-18 19:46:42,304 - INFO - Using header 1 for request 121
+2024-04-18 19:46:43,007 - INFO - Generated file ../data_intermediate/yodie_ner/news_121.json with size 662 bytes
+2024-04-18 19:46:43,007 - INFO - Using header 1 for request 122
+2024-04-18 19:46:43,791 - INFO - Generated file ../data_intermediate/yodie_ner/news_122.json with size 505 bytes
+2024-04-18 19:46:43,791 - INFO - Using header 1 for request 123
+2024-04-18 19:46:44,472 - INFO - Generated file ../data_intermediate/yodie_ner/news_123.json with size 789 bytes
+2024-04-18 19:46:44,472 - INFO - Using header 1 for request 124
+2024-04-18 19:46:45,142 - INFO - Generated file ../data_intermediate/yodie_ner/news_124.json with size 701 bytes
+2024-04-18 19:46:45,142 - INFO - Using header 1 for request 125
+2024-04-18 19:46:45,822 - INFO - Generated file ../data_intermediate/yodie_ner/news_125.json with size 558 bytes
+2024-04-18 19:46:45,822 - INFO - Using header 1 for request 126
+2024-04-18 19:46:46,511 - INFO - Generated file ../data_intermediate/yodie_ner/news_126.json with size 531 bytes
+2024-04-18 19:46:46,512 - INFO - Using header 1 for request 127
+2024-04-18 19:46:47,396 - INFO - Generated file ../data_intermediate/yodie_ner/news_127.json with size 1557 bytes
+2024-04-18 19:46:47,396 - INFO - Using header 1 for request 128
+2024-04-18 19:46:48,048 - INFO - Generated file ../data_intermediate/yodie_ner/news_128.json with size 403 bytes
+2024-04-18 19:46:48,048 - INFO - Using header 1 for request 129
+2024-04-18 19:46:48,727 - INFO - Generated file ../data_intermediate/yodie_ner/news_129.json with size 550 bytes
+2024-04-18 19:46:48,728 - INFO - Using header 1 for request 130
+2024-04-18 19:46:49,503 - INFO - Generated file ../data_intermediate/yodie_ner/news_130.json with size 959 bytes
+2024-04-18 19:46:49,503 - INFO - Using header 1 for request 131
+2024-04-18 19:46:50,208 - INFO - Generated file ../data_intermediate/yodie_ner/news_131.json with size 897 bytes
+2024-04-18 19:46:50,208 - INFO - Using header 1 for request 132
+2024-04-18 19:46:50,901 - INFO - Generated file ../data_intermediate/yodie_ner/news_132.json with size 704 bytes
+2024-04-18 19:46:50,901 - INFO - Using header 1 for request 133
+2024-04-18 19:46:51,630 - INFO - Generated file ../data_intermediate/yodie_ner/news_133.json with size 706 bytes
+2024-04-18 19:46:51,630 - INFO - Using header 1 for request 134
+2024-04-18 19:46:52,399 - INFO - Generated file ../data_intermediate/yodie_ner/news_134.json with size 1982 bytes
+2024-04-18 19:46:52,399 - INFO - Using header 1 for request 135
+2024-04-18 19:46:53,065 - INFO - Generated file ../data_intermediate/yodie_ner/news_135.json with size 693 bytes
+2024-04-18 19:46:53,066 - INFO - Using header 1 for request 136
+2024-04-18 19:46:53,798 - INFO - Generated file ../data_intermediate/yodie_ner/news_136.json with size 1727 bytes
+2024-04-18 19:46:53,798 - INFO - Using header 1 for request 137
+2024-04-18 19:46:54,475 - INFO - Generated file ../data_intermediate/yodie_ner/news_137.json with size 1084 bytes
+2024-04-18 19:46:54,475 - INFO - Using header 1 for request 138
+2024-04-18 19:46:55,184 - INFO - Generated file ../data_intermediate/yodie_ner/news_138.json with size 850 bytes
+2024-04-18 19:46:55,184 - INFO - Using header 1 for request 139
+2024-04-18 19:46:55,851 - INFO - Generated file ../data_intermediate/yodie_ner/news_139.json with size 472 bytes
+2024-04-18 19:46:55,851 - INFO - Using header 1 for request 140
+2024-04-18 19:46:56,554 - INFO - Generated file ../data_intermediate/yodie_ner/news_140.json with size 613 bytes
+2024-04-18 19:46:56,555 - INFO - Using header 1 for request 141
+2024-04-18 19:46:57,273 - INFO - Generated file ../data_intermediate/yodie_ner/news_141.json with size 628 bytes
+2024-04-18 19:46:57,274 - INFO - Using header 1 for request 142
+2024-04-18 19:46:58,007 - INFO - Generated file ../data_intermediate/yodie_ner/news_142.json with size 799 bytes
+2024-04-18 19:46:58,007 - INFO - Using header 1 for request 143
+2024-04-18 19:46:59,434 - INFO - Generated file ../data_intermediate/yodie_ner/news_143.json with size 1898 bytes
+2024-04-18 19:46:59,435 - INFO - Using header 1 for request 144
+2024-04-18 19:47:00,494 - INFO - Generated file ../data_intermediate/yodie_ner/news_144.json with size 869 bytes
+2024-04-18 19:47:00,495 - INFO - Using header 1 for request 145
+2024-04-18 19:47:01,201 - INFO - Generated file ../data_intermediate/yodie_ner/news_145.json with size 1160 bytes
+2024-04-18 19:47:01,202 - INFO - Using header 1 for request 146
+2024-04-18 19:47:01,944 - INFO - Generated file ../data_intermediate/yodie_ner/news_146.json with size 1665 bytes
+2024-04-18 19:47:01,944 - INFO - Using header 1 for request 147
+2024-04-18 19:47:02,790 - INFO - Generated file ../data_intermediate/yodie_ner/news_147.json with size 1578 bytes
+2024-04-18 19:47:02,790 - INFO - Using header 1 for request 148
+2024-04-18 19:47:03,471 - INFO - Generated file ../data_intermediate/yodie_ner/news_148.json with size 1278 bytes
+2024-04-18 19:47:03,471 - INFO - Using header 1 for request 149
+2024-04-18 19:47:04,157 - INFO - Generated file ../data_intermediate/yodie_ner/news_149.json with size 1084 bytes
+2024-04-18 19:47:04,157 - INFO - Using header 1 for request 150
+2024-04-18 19:47:04,882 - INFO - Generated file ../data_intermediate/yodie_ner/news_150.json with size 909 bytes
+2024-04-18 19:47:04,883 - INFO - Using header 1 for request 151
+2024-04-18 19:47:05,573 - INFO - Generated file ../data_intermediate/yodie_ner/news_151.json with size 924 bytes
+2024-04-18 19:47:05,573 - INFO - Using header 1 for request 152
+2024-04-18 19:47:06,325 - INFO - Generated file ../data_intermediate/yodie_ner/news_152.json with size 1300 bytes
+2024-04-18 19:47:06,326 - INFO - Using header 1 for request 153
+2024-04-18 19:47:07,042 - INFO - Generated file ../data_intermediate/yodie_ner/news_153.json with size 1461 bytes
+2024-04-18 19:47:07,042 - INFO - Using header 1 for request 154
+2024-04-18 19:47:07,750 - INFO - Generated file ../data_intermediate/yodie_ner/news_154.json with size 1247 bytes
+2024-04-18 19:47:07,750 - INFO - Using header 1 for request 155
+2024-04-18 19:47:08,445 - INFO - Generated file ../data_intermediate/yodie_ner/news_155.json with size 1073 bytes
+2024-04-18 19:47:08,445 - INFO - Using header 1 for request 156
+2024-04-18 19:47:09,128 - INFO - Generated file ../data_intermediate/yodie_ner/news_156.json with size 1304 bytes
+2024-04-18 19:47:09,129 - INFO - Using header 1 for request 157
+2024-04-18 19:47:09,809 - INFO - Generated file ../data_intermediate/yodie_ner/news_157.json with size 605 bytes
+2024-04-18 19:47:09,809 - INFO - Using header 1 for request 158
+2024-04-18 19:47:10,518 - INFO - Generated file ../data_intermediate/yodie_ner/news_158.json with size 788 bytes
+2024-04-18 19:47:10,519 - INFO - Using header 1 for request 159
+2024-04-18 19:47:11,217 - INFO - Generated file ../data_intermediate/yodie_ner/news_159.json with size 1007 bytes
+2024-04-18 19:47:11,217 - INFO - Using header 1 for request 160
+2024-04-18 19:47:11,952 - INFO - Generated file ../data_intermediate/yodie_ner/news_160.json with size 1806 bytes
+2024-04-18 19:47:11,952 - INFO - Using header 1 for request 161
+2024-04-18 19:47:12,613 - INFO - Generated file ../data_intermediate/yodie_ner/news_161.json with size 1145 bytes
+2024-04-18 19:47:12,614 - INFO - Using header 1 for request 162
+2024-04-18 19:47:13,278 - INFO - Generated file ../data_intermediate/yodie_ner/news_162.json with size 517 bytes
+2024-04-18 19:47:13,278 - INFO - Using header 1 for request 163
+2024-04-18 19:47:13,975 - INFO - Generated file ../data_intermediate/yodie_ner/news_163.json with size 1377 bytes
+2024-04-18 19:47:13,975 - INFO - Using header 1 for request 164
+2024-04-18 19:47:14,685 - INFO - Generated file ../data_intermediate/yodie_ner/news_164.json with size 1408 bytes
+2024-04-18 19:47:14,685 - INFO - Using header 1 for request 165
+2024-04-18 19:47:15,374 - INFO - Generated file ../data_intermediate/yodie_ner/news_165.json with size 1063 bytes
+2024-04-18 19:47:15,374 - INFO - Using header 1 for request 166
+2024-04-18 19:47:19,110 - INFO - Generated file ../data_intermediate/yodie_ner/news_166.json with size 838 bytes
+2024-04-18 19:47:19,110 - INFO - Using header 1 for request 167
+2024-04-18 19:47:20,036 - INFO - Generated file ../data_intermediate/yodie_ner/news_167.json with size 1388 bytes
+2024-04-18 19:47:20,036 - INFO - Using header 1 for request 168
+2024-04-18 19:47:20,758 - INFO - Generated file ../data_intermediate/yodie_ner/news_168.json with size 607 bytes
+2024-04-18 19:47:20,758 - INFO - Using header 1 for request 169
+2024-04-18 19:47:21,454 - INFO - Generated file ../data_intermediate/yodie_ner/news_169.json with size 1059 bytes
+2024-04-18 19:47:21,454 - INFO - Using header 1 for request 170
+2024-04-18 19:47:22,119 - INFO - Generated file ../data_intermediate/yodie_ner/news_170.json with size 223 bytes
+2024-04-18 19:47:22,119 - INFO - Using header 1 for request 171
+2024-04-18 19:47:22,874 - INFO - Generated file ../data_intermediate/yodie_ner/news_171.json with size 826 bytes
+2024-04-18 19:47:22,875 - INFO - Using header 1 for request 172
+2024-04-18 19:47:23,624 - INFO - Generated file ../data_intermediate/yodie_ner/news_172.json with size 1637 bytes
+2024-04-18 19:47:23,625 - INFO - Using header 1 for request 173
+2024-04-18 19:47:24,308 - INFO - Generated file ../data_intermediate/yodie_ner/news_173.json with size 416 bytes
+2024-04-18 19:47:24,309 - INFO - Using header 1 for request 174
+2024-04-18 19:47:25,024 - INFO - Generated file ../data_intermediate/yodie_ner/news_174.json with size 1522 bytes
+2024-04-18 19:47:25,024 - INFO - Using header 1 for request 175
+2024-04-18 19:47:25,727 - INFO - Generated file ../data_intermediate/yodie_ner/news_175.json with size 990 bytes
+2024-04-18 19:47:25,728 - INFO - Using header 1 for request 176
+2024-04-18 19:47:26,410 - INFO - Generated file ../data_intermediate/yodie_ner/news_176.json with size 1435 bytes
+2024-04-18 19:47:26,410 - INFO - Using header 1 for request 177
+2024-04-18 19:47:27,178 - INFO - Generated file ../data_intermediate/yodie_ner/news_177.json with size 1851 bytes
+2024-04-18 19:47:27,178 - INFO - Using header 1 for request 178
+2024-04-18 19:47:27,877 - INFO - Generated file ../data_intermediate/yodie_ner/news_178.json with size 1020 bytes
+2024-04-18 19:47:27,878 - INFO - Using header 1 for request 179
+2024-04-18 19:47:28,651 - INFO - Generated file ../data_intermediate/yodie_ner/news_179.json with size 1759 bytes
+2024-04-18 19:47:28,651 - INFO - Using header 1 for request 180
+2024-04-18 19:47:29,374 - INFO - Generated file ../data_intermediate/yodie_ner/news_180.json with size 1221 bytes
+2024-04-18 19:47:29,374 - INFO - Using header 1 for request 181
+2024-04-18 19:47:30,081 - INFO - Generated file ../data_intermediate/yodie_ner/news_181.json with size 634 bytes
+2024-04-18 19:47:30,082 - INFO - Using header 1 for request 182
+2024-04-18 19:47:30,778 - INFO - Generated file ../data_intermediate/yodie_ner/news_182.json with size 1181 bytes
+2024-04-18 19:47:30,778 - INFO - Using header 1 for request 183
+2024-04-18 19:47:31,605 - INFO - Generated file ../data_intermediate/yodie_ner/news_183.json with size 1408 bytes
+2024-04-18 19:47:31,605 - INFO - Using header 1 for request 184
+2024-04-18 19:47:32,528 - INFO - Generated file ../data_intermediate/yodie_ner/news_184.json with size 1850 bytes
+2024-04-18 19:47:32,528 - INFO - Using header 1 for request 185
+2024-04-18 19:47:33,253 - INFO - Generated file ../data_intermediate/yodie_ner/news_185.json with size 1912 bytes
+2024-04-18 19:47:33,253 - INFO - Using header 1 for request 186
+2024-04-18 19:47:33,974 - INFO - Generated file ../data_intermediate/yodie_ner/news_186.json with size 876 bytes
+2024-04-18 19:47:33,974 - INFO - Using header 1 for request 187
+2024-04-18 19:47:34,680 - INFO - Generated file ../data_intermediate/yodie_ner/news_187.json with size 490 bytes
+2024-04-18 19:47:34,680 - INFO - Using header 1 for request 188
+2024-04-18 19:47:35,357 - INFO - Generated file ../data_intermediate/yodie_ner/news_188.json with size 469 bytes
+2024-04-18 19:47:35,358 - INFO - Using header 1 for request 189
+2024-04-18 19:47:36,138 - INFO - Generated file ../data_intermediate/yodie_ner/news_189.json with size 764 bytes
+2024-04-18 19:47:36,138 - INFO - Using header 1 for request 190
+2024-04-18 19:47:36,965 - INFO - Generated file ../data_intermediate/yodie_ner/news_190.json with size 1113 bytes
+2024-04-18 19:47:36,966 - INFO - Using header 1 for request 191
+2024-04-18 19:47:37,718 - INFO - Generated file ../data_intermediate/yodie_ner/news_191.json with size 1174 bytes
+2024-04-18 19:47:37,719 - INFO - Using header 1 for request 192
+2024-04-18 19:47:38,458 - INFO - Generated file ../data_intermediate/yodie_ner/news_192.json with size 1181 bytes
+2024-04-18 19:47:38,458 - INFO - Using header 1 for request 193
+2024-04-18 19:47:39,279 - INFO - Generated file ../data_intermediate/yodie_ner/news_193.json with size 1394 bytes
+2024-04-18 19:47:39,279 - INFO - Using header 1 for request 194
+2024-04-18 19:47:39,951 - INFO - Generated file ../data_intermediate/yodie_ner/news_194.json with size 858 bytes
+2024-04-18 19:47:39,952 - INFO - Using header 1 for request 195
+2024-04-18 19:47:40,674 - INFO - Generated file ../data_intermediate/yodie_ner/news_195.json with size 1421 bytes
+2024-04-18 19:47:40,675 - INFO - Using header 1 for request 196
+2024-04-18 19:47:41,357 - INFO - Generated file ../data_intermediate/yodie_ner/news_196.json with size 367 bytes
+2024-04-18 19:47:41,358 - INFO - Using header 1 for request 197
+2024-04-18 19:47:42,051 - INFO - Generated file ../data_intermediate/yodie_ner/news_197.json with size 699 bytes
+2024-04-18 19:47:42,052 - INFO - Using header 1 for request 198
+2024-04-18 19:47:42,749 - INFO - Generated file ../data_intermediate/yodie_ner/news_198.json with size 652 bytes
+2024-04-18 19:47:42,750 - INFO - Using header 1 for request 199
+2024-04-18 19:47:43,479 - INFO - Generated file ../data_intermediate/yodie_ner/news_199.json with size 1394 bytes
+2024-04-18 19:47:43,479 - INFO - Using header 2 for request 200
+2024-04-18 19:47:44,439 - INFO - Generated file ../data_intermediate/yodie_ner/news_200.json with size 1050 bytes
+2024-04-18 19:47:44,440 - INFO - Using header 2 for request 201
+2024-04-18 19:47:45,235 - INFO - Generated file ../data_intermediate/yodie_ner/news_201.json with size 971 bytes
+2024-04-18 19:47:45,235 - INFO - Using header 2 for request 202
+2024-04-18 19:47:45,936 - INFO - Generated file ../data_intermediate/yodie_ner/news_202.json with size 1172 bytes
+2024-04-18 19:47:45,937 - INFO - Using header 2 for request 203
+2024-04-18 19:47:46,676 - INFO - Generated file ../data_intermediate/yodie_ner/news_203.json with size 498 bytes
+2024-04-18 19:47:46,676 - INFO - Using header 2 for request 204
+2024-04-18 19:47:47,361 - INFO - Generated file ../data_intermediate/yodie_ner/news_204.json with size 948 bytes
+2024-04-18 19:47:47,361 - INFO - Using header 2 for request 205
+2024-04-18 19:47:48,202 - INFO - Generated file ../data_intermediate/yodie_ner/news_205.json with size 2363 bytes
+2024-04-18 19:47:48,202 - INFO - Using header 2 for request 206
+2024-04-18 19:47:48,847 - INFO - Generated file ../data_intermediate/yodie_ner/news_206.json with size 375 bytes
+2024-04-18 19:47:48,847 - INFO - Using header 2 for request 207
+2024-04-18 19:47:49,533 - INFO - Generated file ../data_intermediate/yodie_ner/news_207.json with size 814 bytes
+2024-04-18 19:47:49,534 - INFO - Using header 2 for request 208
+2024-04-18 19:47:50,222 - INFO - Generated file ../data_intermediate/yodie_ner/news_208.json with size 954 bytes
+2024-04-18 19:47:50,222 - INFO - Using header 2 for request 209
+2024-04-18 19:47:50,943 - INFO - Generated file ../data_intermediate/yodie_ner/news_209.json with size 640 bytes
+2024-04-18 19:47:50,943 - INFO - Using header 2 for request 210
+2024-04-18 19:47:51,878 - INFO - Generated file ../data_intermediate/yodie_ner/news_210.json with size 1569 bytes
+2024-04-18 19:47:51,878 - INFO - Using header 2 for request 211
+2024-04-18 19:47:52,638 - INFO - Generated file ../data_intermediate/yodie_ner/news_211.json with size 1753 bytes
+2024-04-18 19:47:52,638 - INFO - Using header 2 for request 212
+2024-04-18 19:47:53,336 - INFO - Generated file ../data_intermediate/yodie_ner/news_212.json with size 1161 bytes
+2024-04-18 19:47:53,336 - INFO - Using header 2 for request 213
+2024-04-18 19:47:54,015 - INFO - Generated file ../data_intermediate/yodie_ner/news_213.json with size 596 bytes
+2024-04-18 19:47:54,016 - INFO - Using header 2 for request 214
+2024-04-18 19:47:54,725 - INFO - Generated file ../data_intermediate/yodie_ner/news_214.json with size 521 bytes
+2024-04-18 19:47:54,725 - INFO - Using header 2 for request 215
+2024-04-18 19:47:55,395 - INFO - Generated file ../data_intermediate/yodie_ner/news_215.json with size 245 bytes
+2024-04-18 19:47:55,395 - INFO - Using header 2 for request 216
+2024-04-18 19:47:56,178 - INFO - Generated file ../data_intermediate/yodie_ner/news_216.json with size 1636 bytes
+2024-04-18 19:47:56,178 - INFO - Using header 2 for request 217
+2024-04-18 19:47:56,961 - INFO - Generated file ../data_intermediate/yodie_ner/news_217.json with size 1576 bytes
+2024-04-18 19:47:56,961 - INFO - Using header 2 for request 218
+2024-04-18 19:47:57,688 - INFO - Generated file ../data_intermediate/yodie_ner/news_218.json with size 1230 bytes
+2024-04-18 19:47:57,688 - INFO - Using header 2 for request 219
+2024-04-18 19:47:58,416 - INFO - Generated file ../data_intermediate/yodie_ner/news_219.json with size 1427 bytes
+2024-04-18 19:47:58,416 - INFO - Using header 2 for request 220
+2024-04-18 19:47:59,114 - INFO - Generated file ../data_intermediate/yodie_ner/news_220.json with size 171 bytes
+2024-04-18 19:47:59,114 - INFO - Using header 2 for request 221
+2024-04-18 19:47:59,789 - INFO - Generated file ../data_intermediate/yodie_ner/news_221.json with size 887 bytes
+2024-04-18 19:47:59,789 - INFO - Using header 2 for request 222
+2024-04-18 19:48:00,487 - INFO - Generated file ../data_intermediate/yodie_ner/news_222.json with size 1744 bytes
+2024-04-18 19:48:00,487 - INFO - Using header 2 for request 223
+2024-04-18 19:48:01,155 - INFO - Generated file ../data_intermediate/yodie_ner/news_223.json with size 1109 bytes
+2024-04-18 19:48:01,155 - INFO - Using header 2 for request 224
+2024-04-18 19:48:01,872 - INFO - Generated file ../data_intermediate/yodie_ner/news_224.json with size 990 bytes
+2024-04-18 19:48:01,872 - INFO - Using header 2 for request 225
+2024-04-18 19:48:02,626 - INFO - Generated file ../data_intermediate/yodie_ner/news_225.json with size 798 bytes
+2024-04-18 19:48:02,626 - INFO - Using header 2 for request 226
+2024-04-18 19:48:03,253 - INFO - Generated file ../data_intermediate/yodie_ner/news_226.json with size 276 bytes
+2024-04-18 19:48:03,253 - INFO - Using header 2 for request 227
+2024-04-18 19:48:04,014 - INFO - Generated file ../data_intermediate/yodie_ner/news_227.json with size 1295 bytes
+2024-04-18 19:48:04,014 - INFO - Using header 2 for request 228
+2024-04-18 19:48:04,695 - INFO - Generated file ../data_intermediate/yodie_ner/news_228.json with size 241 bytes
+2024-04-18 19:48:04,695 - INFO - Using header 2 for request 229
+2024-04-18 19:48:05,408 - INFO - Generated file ../data_intermediate/yodie_ner/news_229.json with size 446 bytes
+2024-04-18 19:48:05,409 - INFO - Using header 2 for request 230
+2024-04-18 19:48:06,215 - INFO - Generated file ../data_intermediate/yodie_ner/news_230.json with size 1396 bytes
+2024-04-18 19:48:06,215 - INFO - Using header 2 for request 231
+2024-04-18 19:48:06,980 - INFO - Generated file ../data_intermediate/yodie_ner/news_231.json with size 1365 bytes
+2024-04-18 19:48:06,981 - INFO - Using header 2 for request 232
+2024-04-18 19:48:07,673 - INFO - Generated file ../data_intermediate/yodie_ner/news_232.json with size 1525 bytes
+2024-04-18 19:48:07,674 - INFO - Using header 2 for request 233
+2024-04-18 19:48:08,316 - INFO - Generated file ../data_intermediate/yodie_ner/news_233.json with size 877 bytes
+2024-04-18 19:48:08,316 - INFO - Using header 2 for request 234
+2024-04-18 19:48:09,004 - INFO - Generated file ../data_intermediate/yodie_ner/news_234.json with size 1367 bytes
+2024-04-18 19:48:09,004 - INFO - Using header 2 for request 235
+2024-04-18 19:48:09,730 - INFO - Generated file ../data_intermediate/yodie_ner/news_235.json with size 1457 bytes
+2024-04-18 19:48:09,730 - INFO - Using header 2 for request 236
+2024-04-18 19:48:10,437 - INFO - Generated file ../data_intermediate/yodie_ner/news_236.json with size 953 bytes
+2024-04-18 19:48:10,437 - INFO - Using header 2 for request 237
+2024-04-18 19:48:11,134 - INFO - Generated file ../data_intermediate/yodie_ner/news_237.json with size 1084 bytes
+2024-04-18 19:48:11,135 - INFO - Using header 2 for request 238
+2024-04-18 19:48:11,832 - INFO - Generated file ../data_intermediate/yodie_ner/news_238.json with size 1298 bytes
+2024-04-18 19:48:11,833 - INFO - Using header 2 for request 239
+2024-04-18 19:48:12,676 - INFO - Generated file ../data_intermediate/yodie_ner/news_239.json with size 1756 bytes
+2024-04-18 19:48:12,677 - INFO - Using header 2 for request 240
+2024-04-18 19:48:14,055 - INFO - Generated file ../data_intermediate/yodie_ner/news_240.json with size 1615 bytes
+2024-04-18 19:48:14,055 - INFO - Using header 2 for request 241
+2024-04-18 19:48:14,746 - INFO - Generated file ../data_intermediate/yodie_ner/news_241.json with size 745 bytes
+2024-04-18 19:48:14,746 - INFO - Using header 2 for request 242
+2024-04-18 19:48:15,720 - INFO - Generated file ../data_intermediate/yodie_ner/news_242.json with size 978 bytes
+2024-04-18 19:48:15,721 - INFO - Using header 2 for request 243
+2024-04-18 19:48:16,509 - INFO - Generated file ../data_intermediate/yodie_ner/news_243.json with size 1394 bytes
+2024-04-18 19:48:16,509 - INFO - Using header 2 for request 244
+2024-04-18 19:48:17,329 - INFO - Generated file ../data_intermediate/yodie_ner/news_244.json with size 1347 bytes
+2024-04-18 19:48:17,329 - INFO - Using header 2 for request 245
+2024-04-18 19:48:18,065 - INFO - Generated file ../data_intermediate/yodie_ner/news_245.json with size 626 bytes
+2024-04-18 19:48:18,065 - INFO - Using header 2 for request 246
+2024-04-18 19:48:18,973 - INFO - Generated file ../data_intermediate/yodie_ner/news_246.json with size 1874 bytes
+2024-04-18 19:48:18,973 - INFO - Using header 2 for request 247
+2024-04-18 19:48:19,893 - INFO - Generated file ../data_intermediate/yodie_ner/news_247.json with size 173 bytes
+2024-04-18 19:48:19,893 - INFO - Using header 2 for request 248
+2024-04-18 19:48:20,702 - INFO - Generated file ../data_intermediate/yodie_ner/news_248.json with size 1102 bytes
+2024-04-18 19:48:20,702 - INFO - Using header 2 for request 249
+2024-04-18 19:48:21,469 - INFO - Generated file ../data_intermediate/yodie_ner/news_249.json with size 723 bytes
+2024-04-18 19:48:21,470 - INFO - Using header 2 for request 250
+2024-04-18 19:48:22,512 - INFO - Generated file ../data_intermediate/yodie_ner/news_250.json with size 904 bytes
+2024-04-18 19:48:22,513 - INFO - Using header 2 for request 251
+2024-04-18 19:48:23,857 - INFO - Generated file ../data_intermediate/yodie_ner/news_251.json with size 1064 bytes
+2024-04-18 19:48:23,858 - INFO - Using header 2 for request 252
+2024-04-18 19:48:24,742 - INFO - Generated file ../data_intermediate/yodie_ner/news_252.json with size 1896 bytes
+2024-04-18 19:48:24,743 - INFO - Using header 2 for request 253
+2024-04-18 19:48:25,656 - INFO - Generated file ../data_intermediate/yodie_ner/news_253.json with size 341 bytes
+2024-04-18 19:48:25,656 - INFO - Using header 2 for request 254
+2024-04-18 19:48:26,462 - INFO - Generated file ../data_intermediate/yodie_ner/news_254.json with size 614 bytes
+2024-04-18 19:48:26,462 - INFO - Using header 2 for request 255
+2024-04-18 19:48:27,262 - INFO - Generated file ../data_intermediate/yodie_ner/news_255.json with size 1093 bytes
+2024-04-18 19:48:27,263 - INFO - Using header 2 for request 256
+2024-04-18 19:48:28,113 - INFO - Generated file ../data_intermediate/yodie_ner/news_256.json with size 831 bytes
+2024-04-18 19:48:28,113 - INFO - Using header 2 for request 257
+2024-04-18 19:48:28,843 - INFO - Generated file ../data_intermediate/yodie_ner/news_257.json with size 798 bytes
+2024-04-18 19:48:28,844 - INFO - Using header 2 for request 258
+2024-04-18 19:48:29,849 - INFO - Generated file ../data_intermediate/yodie_ner/news_258.json with size 1456 bytes
+2024-04-18 19:48:29,850 - INFO - Using header 2 for request 259
+2024-04-18 19:48:30,900 - INFO - Generated file ../data_intermediate/yodie_ner/news_259.json with size 1608 bytes
+2024-04-18 19:48:30,901 - INFO - Using header 2 for request 260
+2024-04-18 19:48:31,949 - INFO - Generated file ../data_intermediate/yodie_ner/news_260.json with size 965 bytes
+2024-04-18 19:48:31,949 - INFO - Using header 2 for request 261
+2024-04-18 19:48:32,718 - INFO - Generated file ../data_intermediate/yodie_ner/news_261.json with size 1318 bytes
+2024-04-18 19:48:32,718 - INFO - Using header 2 for request 262
+2024-04-18 19:48:33,544 - INFO - Generated file ../data_intermediate/yodie_ner/news_262.json with size 1685 bytes
+2024-04-18 19:48:33,545 - INFO - Using header 2 for request 263
+2024-04-18 19:48:34,578 - INFO - Generated file ../data_intermediate/yodie_ner/news_263.json with size 1222 bytes
+2024-04-18 19:48:34,578 - INFO - Using header 2 for request 264
+2024-04-18 19:48:35,396 - INFO - Generated file ../data_intermediate/yodie_ner/news_264.json with size 1165 bytes
+2024-04-18 19:48:35,397 - INFO - Using header 2 for request 265
+2024-04-18 19:48:37,213 - INFO - Generated file ../data_intermediate/yodie_ner/news_265.json with size 1106 bytes
+2024-04-18 19:48:37,213 - INFO - Using header 2 for request 266
+2024-04-18 19:48:37,885 - INFO - Generated file ../data_intermediate/yodie_ner/news_266.json with size 901 bytes
+2024-04-18 19:48:37,885 - INFO - Using header 2 for request 267
+2024-04-18 19:48:38,623 - INFO - Generated file ../data_intermediate/yodie_ner/news_267.json with size 676 bytes
+2024-04-18 19:48:38,624 - INFO - Using header 2 for request 268
+2024-04-18 19:48:39,325 - INFO - Generated file ../data_intermediate/yodie_ner/news_268.json with size 842 bytes
+2024-04-18 19:48:39,326 - INFO - Using header 2 for request 269
+2024-04-18 19:48:39,991 - INFO - Generated file ../data_intermediate/yodie_ner/news_269.json with size 806 bytes
+2024-04-18 19:48:39,991 - INFO - Using header 2 for request 270
+2024-04-18 19:48:40,714 - INFO - Generated file ../data_intermediate/yodie_ner/news_270.json with size 397 bytes
+2024-04-18 19:48:40,715 - INFO - Using header 2 for request 271
+2024-04-18 19:48:41,388 - INFO - Generated file ../data_intermediate/yodie_ner/news_271.json with size 615 bytes
+2024-04-18 19:48:41,388 - INFO - Using header 2 for request 272
+2024-04-18 19:48:42,074 - INFO - Generated file ../data_intermediate/yodie_ner/news_272.json with size 911 bytes
+2024-04-18 19:48:42,075 - INFO - Using header 2 for request 273
+2024-04-18 19:48:42,823 - INFO - Generated file ../data_intermediate/yodie_ner/news_273.json with size 760 bytes
+2024-04-18 19:48:42,823 - INFO - Using header 2 for request 274
+2024-04-18 19:48:44,533 - INFO - Generated file ../data_intermediate/yodie_ner/news_274.json with size 2169 bytes
+2024-04-18 19:48:44,533 - INFO - Using header 2 for request 275
+2024-04-18 19:48:45,586 - INFO - Generated file ../data_intermediate/yodie_ner/news_275.json with size 990 bytes
+2024-04-18 19:48:45,586 - INFO - Using header 2 for request 276
+2024-04-18 19:48:46,342 - INFO - Generated file ../data_intermediate/yodie_ner/news_276.json with size 832 bytes
+2024-04-18 19:48:46,342 - INFO - Using header 2 for request 277
+2024-04-18 19:48:47,196 - INFO - Generated file ../data_intermediate/yodie_ner/news_277.json with size 1970 bytes
+2024-04-18 19:48:47,196 - INFO - Using header 2 for request 278
+2024-04-18 19:48:47,869 - INFO - Generated file ../data_intermediate/yodie_ner/news_278.json with size 736 bytes
+2024-04-18 19:48:47,870 - INFO - Using header 2 for request 279
+2024-04-18 19:48:48,653 - INFO - Generated file ../data_intermediate/yodie_ner/news_279.json with size 2518 bytes
+2024-04-18 19:48:48,653 - INFO - Using header 2 for request 280
+2024-04-18 19:48:49,342 - INFO - Generated file ../data_intermediate/yodie_ner/news_280.json with size 1314 bytes
+2024-04-18 19:48:49,342 - INFO - Using header 2 for request 281
+2024-04-18 19:48:50,144 - INFO - Generated file ../data_intermediate/yodie_ner/news_281.json with size 814 bytes
+2024-04-18 19:48:50,145 - INFO - Using header 2 for request 282
+2024-04-18 19:48:50,965 - INFO - Generated file ../data_intermediate/yodie_ner/news_282.json with size 1096 bytes
+2024-04-18 19:48:50,965 - INFO - Using header 2 for request 283
+2024-04-18 19:48:51,708 - INFO - Generated file ../data_intermediate/yodie_ner/news_283.json with size 859 bytes
+2024-04-18 19:48:51,708 - INFO - Using header 2 for request 284
+2024-04-18 19:48:52,340 - INFO - Generated file ../data_intermediate/yodie_ner/news_284.json with size 757 bytes
+2024-04-18 19:48:52,340 - INFO - Using header 2 for request 285
+2024-04-18 19:48:53,102 - INFO - Generated file ../data_intermediate/yodie_ner/news_285.json with size 1849 bytes
+2024-04-18 19:48:53,102 - INFO - Using header 2 for request 286
+2024-04-18 19:48:53,793 - INFO - Generated file ../data_intermediate/yodie_ner/news_286.json with size 565 bytes
+2024-04-18 19:48:53,794 - INFO - Using header 2 for request 287
+2024-04-18 19:48:54,442 - INFO - Generated file ../data_intermediate/yodie_ner/news_287.json with size 908 bytes
+2024-04-18 19:48:54,442 - INFO - Using header 2 for request 288
+2024-04-18 19:48:55,061 - INFO - Generated file ../data_intermediate/yodie_ner/news_288.json with size 171 bytes
+2024-04-18 19:48:55,061 - INFO - Using header 2 for request 289
+2024-04-18 19:48:55,829 - INFO - Generated file ../data_intermediate/yodie_ner/news_289.json with size 1587 bytes
+2024-04-18 19:48:55,830 - INFO - Using header 2 for request 290
+2024-04-18 19:48:56,469 - INFO - Generated file ../data_intermediate/yodie_ner/news_290.json with size 656 bytes
+2024-04-18 19:48:56,469 - INFO - Using header 2 for request 291
+2024-04-18 19:48:57,133 - INFO - Generated file ../data_intermediate/yodie_ner/news_291.json with size 451 bytes
+2024-04-18 19:48:57,134 - INFO - Using header 2 for request 292
+2024-04-18 19:48:57,827 - INFO - Generated file ../data_intermediate/yodie_ner/news_292.json with size 697 bytes
+2024-04-18 19:48:57,827 - INFO - Using header 2 for request 293
+2024-04-18 19:48:58,616 - INFO - Generated file ../data_intermediate/yodie_ner/news_293.json with size 1489 bytes
+2024-04-18 19:48:58,617 - INFO - Using header 2 for request 294
+2024-04-18 19:48:59,385 - INFO - Generated file ../data_intermediate/yodie_ner/news_294.json with size 871 bytes
+2024-04-18 19:48:59,385 - INFO - Using header 2 for request 295
+2024-04-18 19:49:00,086 - INFO - Generated file ../data_intermediate/yodie_ner/news_295.json with size 1026 bytes
+2024-04-18 19:49:00,086 - INFO - Using header 2 for request 296
+2024-04-18 19:49:00,743 - INFO - Generated file ../data_intermediate/yodie_ner/news_296.json with size 1230 bytes
+2024-04-18 19:49:00,743 - INFO - Using header 2 for request 297
+2024-04-18 19:49:01,459 - INFO - Generated file ../data_intermediate/yodie_ner/news_297.json with size 862 bytes
+2024-04-18 19:49:01,460 - INFO - Using header 2 for request 298
+2024-04-18 19:49:02,327 - INFO - Generated file ../data_intermediate/yodie_ner/news_298.json with size 2074 bytes
+2024-04-18 19:49:02,327 - INFO - Using header 2 for request 299
+2024-04-18 19:49:03,009 - INFO - Generated file ../data_intermediate/yodie_ner/news_299.json with size 1982 bytes
+2024-04-18 19:49:03,009 - INFO - Using header 0 for request 300
+2024-04-18 19:49:03,770 - INFO - Generated file ../data_intermediate/yodie_ner/news_300.json with size 1186 bytes
+2024-04-18 19:49:03,770 - INFO - Using header 0 for request 301
+2024-04-18 19:49:04,432 - INFO - Generated file ../data_intermediate/yodie_ner/news_301.json with size 658 bytes
+2024-04-18 19:49:04,432 - INFO - Using header 0 for request 302
+2024-04-18 19:49:05,121 - INFO - Generated file ../data_intermediate/yodie_ner/news_302.json with size 958 bytes
+2024-04-18 19:49:05,122 - INFO - Using header 0 for request 303
+2024-04-18 19:49:05,838 - INFO - Generated file ../data_intermediate/yodie_ner/news_303.json with size 1249 bytes
+2024-04-18 19:49:05,839 - INFO - Using header 0 for request 304
+2024-04-18 19:49:06,608 - INFO - Generated file ../data_intermediate/yodie_ner/news_304.json with size 814 bytes
+2024-04-18 19:49:06,608 - INFO - Using header 0 for request 305
+2024-04-18 19:49:07,226 - INFO - Generated file ../data_intermediate/yodie_ner/news_305.json with size 248 bytes
+2024-04-18 19:49:07,226 - INFO - Using header 0 for request 306
+2024-04-18 19:49:07,995 - INFO - Generated file ../data_intermediate/yodie_ner/news_306.json with size 800 bytes
+2024-04-18 19:49:07,996 - INFO - Using header 0 for request 307
+2024-04-18 19:49:08,740 - INFO - Generated file ../data_intermediate/yodie_ner/news_307.json with size 1462 bytes
+2024-04-18 19:49:08,740 - INFO - Using header 0 for request 308
+2024-04-18 19:49:09,459 - INFO - Generated file ../data_intermediate/yodie_ner/news_308.json with size 1239 bytes
+2024-04-18 19:49:09,459 - INFO - Using header 0 for request 309
+2024-04-18 19:49:10,079 - INFO - Generated file ../data_intermediate/yodie_ner/news_309.json with size 663 bytes
+2024-04-18 19:49:10,079 - INFO - Using header 0 for request 310
+2024-04-18 19:49:10,775 - INFO - Generated file ../data_intermediate/yodie_ner/news_310.json with size 1434 bytes
+2024-04-18 19:49:10,775 - INFO - Using header 0 for request 311
+2024-04-18 19:49:11,440 - INFO - Generated file ../data_intermediate/yodie_ner/news_311.json with size 240 bytes
+2024-04-18 19:49:11,440 - INFO - Using header 0 for request 312
+2024-04-18 19:49:12,118 - INFO - Generated file ../data_intermediate/yodie_ner/news_312.json with size 373 bytes
+2024-04-18 19:49:12,119 - INFO - Using header 0 for request 313
+2024-04-18 19:49:12,771 - INFO - Generated file ../data_intermediate/yodie_ner/news_313.json with size 1006 bytes
+2024-04-18 19:49:12,772 - INFO - Using header 0 for request 314
+2024-04-18 19:49:13,356 - INFO - Generated file ../data_intermediate/yodie_ner/news_314.json with size 184 bytes
+2024-04-18 19:49:13,357 - INFO - Using header 0 for request 315
+2024-04-18 19:49:14,119 - INFO - Generated file ../data_intermediate/yodie_ner/news_315.json with size 171 bytes
+2024-04-18 19:49:14,120 - INFO - Using header 0 for request 316
+2024-04-18 19:49:14,793 - INFO - Generated file ../data_intermediate/yodie_ner/news_316.json with size 1691 bytes
+2024-04-18 19:49:14,793 - INFO - Using header 0 for request 317
+2024-04-18 19:49:15,498 - INFO - Generated file ../data_intermediate/yodie_ner/news_317.json with size 1779 bytes
+2024-04-18 19:49:15,498 - INFO - Using header 0 for request 318
+2024-04-18 19:49:16,313 - INFO - Generated file ../data_intermediate/yodie_ner/news_318.json with size 1535 bytes
+2024-04-18 19:49:16,313 - INFO - Using header 0 for request 319
+2024-04-18 19:49:17,053 - INFO - Generated file ../data_intermediate/yodie_ner/news_319.json with size 2027 bytes
+2024-04-18 19:49:17,053 - INFO - Using header 0 for request 320
+2024-04-18 19:49:17,712 - INFO - Generated file ../data_intermediate/yodie_ner/news_320.json with size 534 bytes
+2024-04-18 19:49:17,713 - INFO - Using header 0 for request 321
+2024-04-18 19:49:18,305 - INFO - Generated file ../data_intermediate/yodie_ner/news_321.json with size 368 bytes
+2024-04-18 19:49:18,306 - INFO - Using header 0 for request 322
+2024-04-18 19:49:18,973 - INFO - Generated file ../data_intermediate/yodie_ner/news_322.json with size 603 bytes
+2024-04-18 19:49:18,973 - INFO - Using header 0 for request 323
+2024-04-18 19:49:19,709 - INFO - Generated file ../data_intermediate/yodie_ner/news_323.json with size 1663 bytes
+2024-04-18 19:49:19,709 - INFO - Using header 0 for request 324
+2024-04-18 19:49:20,659 - INFO - Generated file ../data_intermediate/yodie_ner/news_324.json with size 902 bytes
+2024-04-18 19:49:20,660 - INFO - Using header 0 for request 325
+2024-04-18 19:49:21,322 - INFO - Generated file ../data_intermediate/yodie_ner/news_325.json with size 491 bytes
+2024-04-18 19:49:21,322 - INFO - Using header 0 for request 326
+2024-04-18 19:49:22,077 - INFO - Generated file ../data_intermediate/yodie_ner/news_326.json with size 1397 bytes
+2024-04-18 19:49:22,077 - INFO - Using header 0 for request 327
+2024-04-18 19:49:22,783 - INFO - Generated file ../data_intermediate/yodie_ner/news_327.json with size 905 bytes
+2024-04-18 19:49:22,783 - INFO - Using header 0 for request 328
+2024-04-18 19:49:23,444 - INFO - Generated file ../data_intermediate/yodie_ner/news_328.json with size 466 bytes
+2024-04-18 19:49:23,445 - INFO - Using header 0 for request 329
+2024-04-18 19:49:24,045 - INFO - Generated file ../data_intermediate/yodie_ner/news_329.json with size 250 bytes
+2024-04-18 19:49:24,045 - INFO - Using header 0 for request 330
+2024-04-18 19:49:24,753 - INFO - Generated file ../data_intermediate/yodie_ner/news_330.json with size 1316 bytes
+2024-04-18 19:49:24,753 - INFO - Using header 0 for request 331
+2024-04-18 19:49:25,405 - INFO - Generated file ../data_intermediate/yodie_ner/news_331.json with size 563 bytes
+2024-04-18 19:49:25,405 - INFO - Using header 0 for request 332
+2024-04-18 19:49:26,098 - INFO - Generated file ../data_intermediate/yodie_ner/news_332.json with size 1197 bytes
+2024-04-18 19:49:26,098 - INFO - Using header 0 for request 333
+2024-04-18 19:49:26,777 - INFO - Generated file ../data_intermediate/yodie_ner/news_333.json with size 436 bytes
+2024-04-18 19:49:26,777 - INFO - Using header 0 for request 334
+2024-04-18 19:49:27,473 - INFO - Generated file ../data_intermediate/yodie_ner/news_334.json with size 900 bytes
+2024-04-18 19:49:27,473 - INFO - Using header 0 for request 335
+2024-04-18 19:49:28,137 - INFO - Generated file ../data_intermediate/yodie_ner/news_335.json with size 579 bytes
+2024-04-18 19:49:28,137 - INFO - Using header 0 for request 336
+2024-04-18 19:49:28,818 - INFO - Generated file ../data_intermediate/yodie_ner/news_336.json with size 1070 bytes
+2024-04-18 19:49:28,819 - INFO - Using header 0 for request 337
+2024-04-18 19:49:29,530 - INFO - Generated file ../data_intermediate/yodie_ner/news_337.json with size 1402 bytes
+2024-04-18 19:49:29,531 - INFO - Using header 0 for request 338
+2024-04-18 19:49:30,270 - INFO - Generated file ../data_intermediate/yodie_ner/news_338.json with size 659 bytes
+2024-04-18 19:49:30,270 - INFO - Using header 0 for request 339
+2024-04-18 19:49:31,002 - INFO - Generated file ../data_intermediate/yodie_ner/news_339.json with size 1546 bytes
+2024-04-18 19:49:31,003 - INFO - Using header 0 for request 340
+2024-04-18 19:49:31,645 - INFO - Generated file ../data_intermediate/yodie_ner/news_340.json with size 560 bytes
+2024-04-18 19:49:31,646 - INFO - Using header 0 for request 341
+2024-04-18 19:49:32,391 - INFO - Generated file ../data_intermediate/yodie_ner/news_341.json with size 1202 bytes
+2024-04-18 19:49:32,391 - INFO - Using header 0 for request 342
+2024-04-18 19:49:33,082 - INFO - Generated file ../data_intermediate/yodie_ner/news_342.json with size 903 bytes
+2024-04-18 19:49:33,083 - INFO - Using header 0 for request 343
+2024-04-18 19:49:34,075 - INFO - Generated file ../data_intermediate/yodie_ner/news_343.json with size 3188 bytes
+2024-04-18 19:49:34,075 - INFO - Using header 0 for request 344
+2024-04-18 19:49:34,800 - INFO - Generated file ../data_intermediate/yodie_ner/news_344.json with size 649 bytes
+2024-04-18 19:49:34,800 - INFO - Using header 0 for request 345
+2024-04-18 19:49:35,458 - INFO - Generated file ../data_intermediate/yodie_ner/news_345.json with size 387 bytes
+2024-04-18 19:49:35,458 - INFO - Using header 0 for request 346
+2024-04-18 19:49:36,171 - INFO - Generated file ../data_intermediate/yodie_ner/news_346.json with size 678 bytes
+2024-04-18 19:49:36,171 - INFO - Using header 0 for request 347
+2024-04-18 19:49:36,876 - INFO - Generated file ../data_intermediate/yodie_ner/news_347.json with size 609 bytes
+2024-04-18 19:49:36,876 - INFO - Using header 0 for request 348
+2024-04-18 19:49:37,654 - INFO - Generated file ../data_intermediate/yodie_ner/news_348.json with size 1666 bytes
+2024-04-18 19:49:37,654 - INFO - Using header 0 for request 349
+2024-04-18 19:49:38,350 - INFO - Generated file ../data_intermediate/yodie_ner/news_349.json with size 1178 bytes
+2024-04-18 19:49:38,351 - INFO - Using header 0 for request 350
+2024-04-18 19:49:39,117 - INFO - Generated file ../data_intermediate/yodie_ner/news_350.json with size 1052 bytes
+2024-04-18 19:49:39,117 - INFO - Using header 0 for request 351
+2024-04-18 19:49:39,830 - INFO - Generated file ../data_intermediate/yodie_ner/news_351.json with size 798 bytes
+2024-04-18 19:49:39,831 - INFO - Using header 0 for request 352
+2024-04-18 19:49:40,524 - INFO - Generated file ../data_intermediate/yodie_ner/news_352.json with size 835 bytes
+2024-04-18 19:49:40,525 - INFO - Using header 0 for request 353
+2024-04-18 19:49:41,242 - INFO - Generated file ../data_intermediate/yodie_ner/news_353.json with size 1099 bytes
+2024-04-18 19:49:41,242 - INFO - Using header 0 for request 354
+2024-04-18 19:49:41,917 - INFO - Generated file ../data_intermediate/yodie_ner/news_354.json with size 1088 bytes
+2024-04-18 19:49:41,917 - INFO - Using header 0 for request 355
+2024-04-18 19:49:42,637 - INFO - Generated file ../data_intermediate/yodie_ner/news_355.json with size 2138 bytes
+2024-04-18 19:49:42,637 - INFO - Using header 0 for request 356
+2024-04-18 19:49:43,361 - INFO - Generated file ../data_intermediate/yodie_ner/news_356.json with size 607 bytes
+2024-04-18 19:49:43,361 - INFO - Using header 0 for request 357
+2024-04-18 19:49:44,316 - INFO - Generated file ../data_intermediate/yodie_ner/news_357.json with size 1952 bytes
+2024-04-18 19:49:44,317 - INFO - Using header 0 for request 358
+2024-04-18 19:49:45,065 - INFO - Generated file ../data_intermediate/yodie_ner/news_358.json with size 936 bytes
+2024-04-18 19:49:45,065 - INFO - Using header 0 for request 359
+2024-04-18 19:49:45,953 - INFO - Generated file ../data_intermediate/yodie_ner/news_359.json with size 620 bytes
+2024-04-18 19:49:45,954 - INFO - Using header 0 for request 360
+2024-04-18 19:49:46,679 - INFO - Generated file ../data_intermediate/yodie_ner/news_360.json with size 2301 bytes
+2024-04-18 19:49:46,679 - INFO - Using header 0 for request 361
+2024-04-18 19:49:47,363 - INFO - Generated file ../data_intermediate/yodie_ner/news_361.json with size 371 bytes
+2024-04-18 19:49:47,363 - INFO - Using header 0 for request 362
+2024-04-18 19:49:48,042 - INFO - Generated file ../data_intermediate/yodie_ner/news_362.json with size 318 bytes
+2024-04-18 19:49:48,042 - INFO - Using header 0 for request 363
+2024-04-18 19:49:48,772 - INFO - Generated file ../data_intermediate/yodie_ner/news_363.json with size 770 bytes
+2024-04-18 19:49:48,772 - INFO - Using header 0 for request 364
+2024-04-18 19:49:49,451 - INFO - Generated file ../data_intermediate/yodie_ner/news_364.json with size 683 bytes
+2024-04-18 19:49:49,451 - INFO - Using header 0 for request 365
+2024-04-18 19:49:50,120 - INFO - Generated file ../data_intermediate/yodie_ner/news_365.json with size 1007 bytes
+2024-04-18 19:49:50,121 - INFO - Using header 0 for request 366
+2024-04-18 19:49:50,842 - INFO - Generated file ../data_intermediate/yodie_ner/news_366.json with size 1283 bytes
+2024-04-18 19:49:50,842 - INFO - Using header 0 for request 367
+2024-04-18 19:49:51,664 - INFO - Generated file ../data_intermediate/yodie_ner/news_367.json with size 1857 bytes
+2024-04-18 19:49:51,664 - INFO - Using header 0 for request 368
+2024-04-18 19:49:52,610 - INFO - Generated file ../data_intermediate/yodie_ner/news_368.json with size 3232 bytes
+2024-04-18 19:49:52,610 - INFO - Using header 0 for request 369
+2024-04-18 19:49:53,281 - INFO - Generated file ../data_intermediate/yodie_ner/news_369.json with size 447 bytes

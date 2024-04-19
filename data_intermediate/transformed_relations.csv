@@ -1,113 +1,792 @@
 ,news_id,subject,relation,object,node1_t1,node2_t1,node1_t2,node2_t2,node1_t3,node2_t3
-4,0,leader ’s stance,roil,LGBT community,['leader ’ s stance'],['lgbt'],leader  stance,LGBT community,Leader  Stance,Lgbt Community
-12,1,France,Has,Historic New Prime Minister,['france'],"['historic', 'prime']",France,historic,France,Historic
-13,1,France,Has,Historic Prime Minister,['france'],['historic prime'],France,historic prime,France,Prime
-18,2,Ohio House votes,override,sports ban,"['ohio', 'house votes']",['sports ban'],Ohio,sports ban,Ohio,Sports Ban
-19,2,Ohio House votes,override,governor 's veto,"['ohio', 'house votes']","[""governor 's veto""]",Ohio,governor  veto,Ohio,Governor  Veto
-20,2,Ohio House votes,override sports ban on,trans care,"['ohio', 'house votes']",['trans care'],Ohio,trans care,Ohio,Trans
-21,2,Ohio House,override,Gov. Mike DeWine ’s veto,['ohio'],"['gov', 'mike dewine', '’ s veto']",Ohio,gov,Ohio,Gov
-23,4,Ohio House,overrides,DeWine ’s veto of bill,['ohio'],"['dewine', '’ s veto']",Ohio,DeWine,Ohio,Dewine
-26,4,state Senate,will convene in,January,['state senate'],['january'],Polish state,january,Polish State,January
-28,5,Our Flag,Means Death runs aground,queer pirate comedy Max show,['flag'],"['queer pirate comedy', 'max']",flag,queer pirate comedy,Flag,Queer Pirate Comedy
-33,5,Our Flag,Means,Death runs,['flag'],['death'],flag,death,Flag,Death
-37,5,Max 's beloved comedy pirate series,has,has sunk by Warner Bros.,"['max', 'comedy pirate series']",['warner bros'],comedy Max,Warner Bros,Comedy Max,Warner Bros
-38,5,Max,has,beloved comedy pirate series,['max'],['comedy pirate series'],comedy Max,comedy pirate series,Comedy Max,Queer Pirate Comedy
-49,6,FTC,’s,first ban on selling sensitive location data,['ftc'],['sensitive location data'],ftc,sensitive location data,Ftc,Sensitive Location Data
-53,7,France,gets,Gabriel Attal,['france'],['gabriel attal'],France,Attal,France,Attal
-55,7,France,gets,its ever prime minister,['france'],['prime minister'],France,prime minister,France,Prime
-59,7,Gabriel Attal,has as,has France ’s ever minister,['gabriel attal'],"['france', '’ s']",Attal,France,Attal,France
-68,8,extremist organisation,is in,Russia,['extremist organisation'],['russia'],extremist organisation,Russia,Extremist Organisation,Russia
-72,9,France,’s,youngest prime minister,['france'],['prime minister'],France,prime minister,France,Prime
-73,9,Gabriel Attal,becomes,France ’s youngest prime minister,['gabriel attal'],"['france', '’ s', 'prime minister']",Attal,France,Attal,France
-80,10,his favorite jobs,is in,Hawaii,['favorite jobs'],['hawaii'],favorite jobs,Hawaii,Favorite Jobs,Hawaii
-85,11,Chris Christie,end,his 2024 presidential campaign,['chris christie'],['presidential campaign'],Chris Christie,presidential campaign,Chris Christie,Presidential Campaign
-87,11,Former New Jersey Gov. Chris Christie,is ending,his 2024 campaign against Trump,"['jersey gov', 'chris christie']",['trump'],jersey gov,trump,Gov,Trump
-89,11,Former New Jersey Gov. Chris Christie,is ending,his 2024 presidential campaign,"['jersey gov', 'chris christie']",['presidential campaign'],jersey gov,presidential campaign,Gov,Presidential Campaign
-91,12,Louisiana,over,ban on gender affirming health care,['louisiana'],['health care'],Louisiana,Transgender Health,Louisiana,Transgender Health
-92,12,Trans youth,sue over,Louisiana 's ban on gender affirming health care,['trans'],"['louisiana', ""'s ban"", 'health care']",trans,Louisiana,Trans,Louisiana
-97,13,Mexico president,apologizes for,trans lawmaker man dressed as woman,['mexico'],['trans lawmaker man'],Mexico,trans lawmaker man,Mexico,Trans Lawmaker Man
-104,13,Mexico President Andres Manuel Lopez Obrador,apologized for,transgender representative of his party,"['mexico', 'andres manuel lopez obrador']",['transgender representative'],Mexico,Transgender Health,Mexico,Transgender Health
-105,13,Mexico President Andres Manuel Lopez Obrador,apologized for,Salma Luevano,"['mexico', 'andres manuel lopez obrador']",['salma luevano'],Mexico,salma luevano,Mexico,Salma Luevano
-107,13,Mexico President Andres Manuel Lopez Obrador,apologized for,representative of his political party,"['mexico', 'andres manuel lopez obrador']",['political party'],Mexico,political party,Mexico,Political Party
-111,13,misgendering Salma Luevano,representative of,his political party,['salma luevano'],['political party'],salma luevano,political party,Salma Luevano,Political Party
-113,14,Barton comments dangerous,says,sports minister,['barton'],['sports minister'],Joey Barton,sports minister,Joey Barton,Sports Ban
-115,15,Christian Ziegler,ousted as,chair of Florida Republican Party,['ziegler'],['florida republican'],Christian Ziegler,Florida,Christian Ziegler,Florida
-117,15,Ziegler,ousted after,rape allegation,['ziegler'],['rape allegation'],Christian Ziegler,rape allegation,Christian Ziegler,Rape Allegation
-126,15,Florida Republicans,remove,Christian Ziegler,['florida'],['ziegler'],Florida,Christian Ziegler,Florida,Christian Ziegler
-127,15,Florida Republicans,remove,their state party chairman,['florida'],['state party chairman'],Florida,state party chairman,Florida,State Party Chairman
-128,16,Bill Ackman,Is,Fighting,['bill ackman'],['fighting'],Bill Ackman,fighting,Bill Ackman,Fighting
-130,16,Harvard president Claudine Gay,University of,Pennsylvania,"['harvard', 'claudine gay']",['pennsylvania'],Harvard,pennsylvania,Harvard,Pennsylvania
-134,17,Andrew Scott,plays,lonely gay screenwriter working,['andrew scott'],['gay screenwriter'],Andrew Scott,gay screenwriter,Andrew Scott,Gay Screenwriter
-144,17,Andrew Haigh,In,new film,['andrew haigh'],['new film'],Andrew Haigh,The New,Andrew Haigh,The New
-147,17,Andrew Scott,plays screenwriter In,Andrew Haigh ’s new film,['andrew scott'],"['andrew haigh', '’ s', 'new film']",Andrew Scott,Andrew Haigh,Andrew Scott,Andrew Haigh
-152,18,Pro League,improved,new Plymouth boss,['pro'],['plymouth'],pro,new Plymouth,Pro,New Plymouth
-154,18,Saudi Pro League,improved,new Plymouth boss,['saudi pro'],['plymouth'],Saudi Pro League,new Plymouth,Saudi Pro League,New Plymouth
-156,18,New Plymouth Argyle head coach Ian Foster,tells,BBC Sport,"['plymouth argyle', 'head coach', 'ian foster']",['bbc sport'],new Plymouth,BBC Sport,New Plymouth,Bbc Sport
-161,19,state legislatures,are considering,new round,['state legislatures'],['new round'],Polish state,The New,Polish State,The New
-171,20,Lil Nas X Repurposes Christian Imagery,is in,J Christ,"['lil nas x repurposes', 'imagery']",['j christ'],lil nas x repurposes,Christ,Lil Nas X,Christ
-173,20,Lil Nas X single J Christ,fits in,history of Christian imagery,"['lil nas x', 'j christ']",['christian imagery'],lil nas x,Christian Imagery,Lil Nas X,Christian Imagery
-176,20,Lil Nas X J Christ,fits in,history of imagery in pop music,['lil nas x j christ'],['pop music'],lil nas x j christ,Broadway music,Lil Nas X,Broadway Music
-183,21,Former Lululemon employees,call,company 's response to founder Chip Wilson 's comments on DEI ' slap in face,['lululemon'],"[""company 's response"", 'chip wilson', ""'s comments"", 'dei']",Lululemon,company  response,Lululemon,Company  Response
-196,21,Lululemon,has,has long plagued with diversity issues,['lululemon'],['diversity issues'],Lululemon,diversity,Lululemon,Diversity
-201,22,Aunts,play,surprisingly critical role,['aunts'],['critical role'],aunts,critical role,Aunts,Critical Role
-203,22,Aunts,play role in,LGBTQ youth,['aunts'],['lgbtq'],aunts,lgbtq,Aunts,Lgbtq
-211,24,Florida School Board,Sued for,Pulling Dictionaries,"['florida', 'school board']",['dictionaries'],Florida,Dictionaries,Florida,Dictionaries
-216,24,Florida School Board,Sued in,Latest War,"['florida', 'school board']",['latest'],Florida,latest,Florida,Latest
-220,25,RSV shots,recommendations,new meningitis vaccine,['rsv'],['new meningitis vaccine'],rsv,new meningitis vaccine,Rsv,Meningitis Vaccine
-221,25,RSV shots,recommendations,COVID 19 jab,['rsv'],['covid'],rsv,covid,Rsv,Covid
-223,25,New vaccine recommendations,include,RSV shots,['new vaccine recommendations'],['rsv'],new vaccine recommendations,rsv,New Vaccine Recommendations,Rsv
-225,26,Ohio House,overrides,governor 's veto of care ban,['ohio'],"[""governor 's veto"", 'care ban']",Ohio,governor  veto,Ohio,Governor  Veto
-255,27,South Florida school district,family of,volleyball player,"['florida', 'school district']",['volleyball player'],Florida,volleyball player,Florida,Volleyball Player
-264,28,California Katie Porter,are vying in,spots for their U.S. Senate race,['california katie porter'],"['u.s.', 'senate race']",california katie porter,u.s.,California Katie Porter,U.S.
-268,28,Adam Schiff,are vying in,spots for their U.S. Senate race,['adam schiff'],"['u.s.', 'senate race']",Adam Schiff,u.s.,Adam Schiff,U.S.
-272,29,Our Flag,Means,Death,['flag'],['death'],flag,death,Flag,Death
-276,30,Alabama,can enforce,ban on care for trans minors,['alabama'],['trans minors'],Alabama,trans minors,Alabama,Trans
-286,30,appeals court,granting,state ’s request,['appeals court'],['state ’ s request'],appeals court,state  request,Appeals Court,Polish State
-289,30,state ’s request,stay,preliminary injunction,['state ’ s request'],['preliminary injunction'],state  request,preliminary injunction,Polish State,Preliminary Injunction
-290,31,Caitlyn Jenner,Lashes Out at,Disney,['caitlyn jenner'],['disney'],Caitlyn Jenner,Disney,Caitlyn Jenner,Disney
-291,31,Disney,Jenner,its CEO,['disney'],['ceo'],Disney,ceo,Disney,Ceo
-292,31,Caitlyn Jenner,blaming company for,her exclusion from Kardashians reality show,['caitlyn jenner'],"['kardashians', 'reality show']",Caitlyn Jenner,Kardashians,Caitlyn Jenner,Kardashians
-301,33,Highest,Surges in,Gender Dysphoria,['highest'],['gender dysphoria'],highest,Gender Dysphoria,Highest,Gender Dysphoria
-305,34,Netflix,removed,Indian film,['netflix'],['indian film'],Netflix,Indian film,Netflix,Indian Film
-315,35,Ariana DeBose,slams,Critics Choice Awards joke about her singing abilities,['ariana debose'],"['critics', 'awards']",ariana debose,critics,Ariana Debose,Critics
-329,36,Mastodon instance,disappeared because,Taliban,['mastodon'],['taliban'],Mastodon,Taliban,Mastodon,Taliban
-333,37,Ohio Secretary Republican candidate Frank LaRose,has,pro-LGBTQ agenda,"['ohio', 'republican', 'frank larose']",['pro-lgbtq agenda'],Ohio,pro-lgbtq agenda,Ohio,Pro-Lgbtq Agenda
-334,37,Donald Trump Jr. ad,exposing,Ohio Secretary Republican candidate Frank LaRose 's pro-LGBTQ agenda,['donald trump jr.'],"['ohio', 'republican', 'frank larose', ""'s pro-lgbtq agenda""]",Donald Trump Jr,Ohio,Donald Trump Jr,Ohio
-338,38,Polish state TV host,decries,past anti-LGBT output,"['polish', 'state tv host']",['past anti-lgbt output'],Polish state,past anti-lgbt output,Polish State,Past Output
-340,38,state TV host,decries,past output,['state tv host'],['past output'],state tv host,past output,State Tv Host,Past Output
-342,38,Wojciech Szelag,apologised for,TVP Info channel 's hateful words targeted at them,['wojciech szelag'],"['tvp info', ""channel 's hateful words""]",wojciech szelag,TVP Info,Wojciech Szelag,Tvp Info
-345,38,Wojciech Szelag,apologised to,LGBT people,['wojciech szelag'],['lgbt'],wojciech szelag,lgbt,Wojciech Szelag,Lgbt
-347,38,TVP Info channel,for,hateful words targeted at them,['tvp info'],['hateful words'],TVP Info,hateful words,Tvp Info,Hateful Words
-353,39,Super Bowl watchers,see For,2nd straight year,['bowl watchers'],['straight year'],Super Bowl,straight year,Super Bowl,Year  Ads
-356,39,year ’s ads,were overseen by,donor to legal organization,['year ’ s ads'],['legal organization'],year  ads,legal organization,Year  Ads,Legal Organization
-367,40,beer brand,took time,While has surrounded by controversy in recent months,['beer brand'],['recent months'],beer brand,recent months,Beer Brand,Recent Months
-375,40,Bud Light,has,has surrounded by controversy in recent months,['bud'],['recent months'],Bud Light,recent months,Bud Light,Recent Months
-380,41,Taylor Swift 's Super Bowl Shoe Detail,Sends Internet Into,Meltdown,"['taylor swift', 'shoe detail']",['meltdown'],Taylor Swift,meltdown,Taylor Swift,Meltdown
-381,41,Taylor Swift 's Super Bowl Shoe Detail,Sends,Internet,"['taylor swift', 'shoe detail']",['internet'],Taylor Swift,Internet,Taylor Swift,Internet
-382,41,Taylor Swift,has,Super Bowl Shoe Detail,['taylor swift'],['shoe detail'],Taylor Swift,shoe detail,Taylor Swift,Shoe Detail
-384,41,Swift,went out,Travis Kelce,['swift'],['travis kelce'],Taylor Swift,Travis Kelce,Taylor Swift,Travis Kelce
-388,42,Randi Mahomes,shared,edition merchandise,['randi mahomes'],['edition merchandise'],Patrick Mahomes,edition merchandise,Patrick Mahomes,Edition Merchandise
-389,42,Randi Mahomes,even gave,discount code,['randi mahomes'],['discount code'],Patrick Mahomes,discount code,Patrick Mahomes,Discount Code
-390,42,Randi Mahomes,shared edition merchandise on,social media,['randi mahomes'],['social media'],Patrick Mahomes,social media,Patrick Mahomes,Social Media
-395,43,Travis Kelce,Gesture at,Super Bowl Afterparty,['travis kelce'],['afterparty'],Travis Kelce,Afterparty,Travis Kelce,Afterparty
-396,43,Taylor Swift,has,Heartwarming Gesture at Super Bowl Afterparty,['taylor swift'],"['heartwarming gesture', 'afterparty']",Taylor Swift,heartwarming gesture,Taylor Swift,Heartwarming Gesture
-402,44,Taylor Swift Lucky Number Super Bowl Stats,Go,Viral,"['taylor swift lucky number', 'stats']",['viral'],Taylor Swift,Go Viral,Taylor Swift,Go Viral
-404,44,Swift,used,her lucky number,['swift'],['lucky number'],Taylor Swift,lucky number,Taylor Swift,Lucky Number
-412,44,her lucky number,reveal,her new album,['lucky number'],['new album'],lucky number,The New,Lucky Number,The New
-413,45,Super Bowl Fans,Outraged Over,Justin Bieber,['fans'],['justin bieber'],Super Bowl Fans,Justin Bieber,Super Bowl Fans,Justin Bieber
-416,45,Usher,signed Justin Bieber to,his record label,['usher'],['record label'],usher,record label,Usher,Record Label
-417,45,Usher,signed,Justin Bieber,['usher'],['justin bieber'],usher,Justin Bieber,Usher,Justin Bieber
-419,46,Lip Readers,De-Code,Taylor Swift Super Bowl Chat,['lip readers'],"['taylor swift', 'chat']",Lip Readers,Taylor Swift,Lip Readers,Taylor Swift
-420,46,Lip Readers,De-Code,Kylie Kelce,['lip readers'],['kylie kelce'],Lip Readers,Travis Kelce,Lip Readers,Travis Kelce
-429,47,Bill Ackman,’s,fight against Harvard,['bill ackman'],['harvard'],Bill Ackman,Harvard,Bill Ackman,Harvard
-433,47,Bill Ackman ’s fight,has made,him public face,"['bill ackman', '’ s fight']",['public face'],Bill Ackman,public face,Bill Ackman,Public Face
-439,47,Bill Ackman ’s fight,has made,him face of billionaire class,"['bill ackman', '’ s fight']",['billionaire class'],Bill Ackman,billionaire class,Bill Ackman,Billionaire Class
-443,48,head House race,foreshadows,national elections,['head house race'],['national elections'],head House,national elections,Head House,National Elections
-444,48,head House race,foreshadows elections In,New York,['head house race'],['york'],head House,New York,Head House,New York
-447,48,special election,is in,Long Island,['special election'],['long island'],special election,Long Island,Special Election,Long Island
-448,49,Silicon Valley,Has,Harvard Problem,['silicon'],['harvard problem'],Silicon Valley,Harvard,Silicon Valley,Harvard
-449,49,Silicon Valley establishment,grown,so suspicious of original belief,"['silicon', 'valley establishment']",['original belief'],Silicon Valley,original belief,Silicon Valley,Original Belief
-455,50,Activist Simon Fanshawe,named as,University of Edinburgh rector,['activist simon fanshawe'],['edinburgh'],Simon Fanshawe,edinburgh,Simon Fanshawe,Edinburgh
-456,50,Activist Simon Fanshawe,named as,University rector,['activist simon fanshawe'],['university rector'],Simon Fanshawe,university rector,Simon Fanshawe,University Rector
-496,54,Law enforcement,dominates at_time,1st day,['law enforcement'],['1st day'],law enforcement,1st day,Law Enforcement,1St Day
-499,54,Law enforcement,dominates at_time,day of Minnesota Legislature 's 2024 session,['law enforcement'],"['minnesota', ""legislature 's""]",law enforcement,Minnesota,Law Enforcement,Minnesota
+1,0,Benedict,was attacked at,their Oklahoma high school,['benedict'],"['oklahoma', 'high school']",Benedict XVI,Oklahoma,Benedict Xvi,Oklahoma
+21,1,Supreme Court,refuses,intervene in drag show controversy,['supreme court'],['drag show controversy'],Supreme Court,drag show controversy,Supreme Court,Drag Show Controversy
+35,2,Oprah Winfrey,pays tribute at,GLAAD Media Awards,['oprah winfrey'],['glaad media awards'],Oprah Winfrey,glaad media awards,Oprah Winfrey,Glaad Media Awards
+37,2,Oprah Winfrey,pays tribute to,gay brother,['oprah winfrey'],['gay brother'],Oprah Winfrey,gay bar,Oprah Winfrey,Gay Bar
+40,2,Oprah Winfrey,paid tribute to,her late brother,['oprah winfrey'],['late brother'],Oprah Winfrey,late brother,Oprah Winfrey,Late Brother
+42,2,GLAAD Media Awards,is in,Los Angeles,['glaad media awards'],['los angeles'],glaad media awards,los angeles,Glaad Media Awards,Los Angeles
+43,2,Oprah Winfrey,paid,tearful tribute,['oprah winfrey'],['tearful tribute'],Oprah Winfrey,tearful tribute,Oprah Winfrey,Tearful Tribute
+46,2,Oprah Winfrey,paid tribute In,emotional speech Thursday night,['oprah winfrey'],['emotional speech'],Oprah Winfrey,free speech,Oprah Winfrey,Free Speech
+51,2,Oprah Winfrey,paid tribute to,Jeffrey Lee,['oprah winfrey'],['jeffrey lee'],Oprah Winfrey,jeffrey lee,Oprah Winfrey,Jeffrey Lee
+54,3,LDS Church,struggles with,LGBTQ inclusion,['lds'],['lgbtq'],LDS Church,lgbtq,Lds Church,Lgbtq
+67,4,busy week,is in,LGBTQ news,['busy week'],['lgbtq'],busy week,lgbtq,Busy Week,Lgbtq
+73,6,Banning app,will eliminate,online communities,['banning'],['online communities'],banning,online communities,Banning,Communities
+78,6,TikTok,jeopardizing,LGBTQ users,['tiktok'],['lgbtq'],TikTok,lgbtq,Tiktok,Lgbtq
+80,6,U.S. House,ban,TikTok,['u.s.'],['tiktok'],U.S. aid,TikTok,U.S. Aid,Tiktok
+84,8,Republican Ohio senate candidate Bernie Moreno,’s,LGBTQ hypocrisy,"['republican ohio', 'senate candidate', 'bernie moreno']",['lgbtq'],Ohio,lgbtq,Ohio,Lgbtq
+86,8,Ohio U.S. Senate candidate Bernie Moreno,now faces,scrutiny over his current hardline positions,"['ohio u.s.', 'senate candidate', 'bernie moreno']",['current hardline positions'],Ohio,current hardline positions,Ohio,Current Positions
+88,8,Republican Ohio U.S. Senate candidate Bernie Moreno,now faces,scrutiny over his hardline positions,"['republican ohio u.s.', 'senate candidate', 'bernie moreno']",['hardline positions'],Republican Ohio,hardline positions,Republican Ohio,Current Positions
+92,8,Republican Ohio U.S. Senate candidate Bernie Moreno scrutiny,once lauded for,his advocacy LGBTQ community,"['republican ohio u.s.', 'senate candidate', 'bernie moreno']",['lgbtq'],Republican Ohio,lgbtq,Republican Ohio,Lgbtq
+95,8,Ohio U.S. Senate candidate Bernie Moreno,now faces,scrutiny over his conservative positions,"['ohio u.s.', 'senate candidate', 'bernie moreno']",['conservative positions'],Ohio,conservative positions,Ohio,Conservative
+116,8,Prominent Ohio U.S. Senate candidate Bernie Moreno,faces,scrutiny over his conservative positions,"['prominent ohio u.s.', 'senate candidate', 'bernie moreno']",['conservative positions'],prominent ohio u.s.,conservative positions,Prominent Ohio U.S.,Conservative
+119,8,Prominent Ohio U.S. Senate candidate Bernie Moreno,now faces,scrutiny over his hardline positions,"['prominent ohio u.s.', 'senate candidate', 'bernie moreno']",['hardline positions'],prominent ohio u.s.,hardline positions,Prominent Ohio U.S.,Current Positions
+120,8,Prominent Republican Ohio U.S. Senate candidate Bernie Moreno,faces,scrutiny over his conservative positions,"['prominent republican ohio u.s.', 'senate candidate', 'bernie moreno']",['conservative positions'],Republican Ohio,conservative positions,Republican Ohio,Conservative
+124,8,Prominent Ohio U.S. Senate candidate Bernie Moreno scrutiny,once lauded for,his advocacy LGBTQ community,"['prominent ohio u.s.', 'senate candidate', 'bernie moreno']",['lgbtq'],prominent ohio u.s.,lgbtq,Prominent Ohio U.S.,Lgbtq
+165,9,J.K. Rowling,persecuted,trans people,['j.k. rowling'],['trans people'],J.K. Rowling,trans people,J.K. Rowling,Trans
+169,9,J.K. Rowling,known for,her anti-transgender stances,['j.k. rowling'],['anti-transgender stances'],J.K. Rowling,anti-transgender stances,J.K. Rowling,Anti-Transgender Stances
+170,9,Germany,’s,Nazi regime,['germany'],['nazi'],Germany,Nazi regime,Germany,Nazi Regime
+176,9,J.K. Rowling,questioned,media post,['j.k. rowling'],['media post'],J.K. Rowling,Media Matters,J.K. Rowling,Media Matters
+179,9,J.K. Rowling,questioned,social media post,['j.k. rowling'],['social media post'],J.K. Rowling,social media,J.K. Rowling,Social Media
+189,10,Toxicology experts,say from,medications in Nex Benedict case,['toxicology'],['nex benedict'],toxicology,Benedict XVI,Toxicology,Benedict Xvi
+194,10,nationwide debate,death of,year old transgender student of Indigenous heritage from Oklahoma,['nationwide debate'],"['old transgender student', 'indigenous', 'oklahoma']",nationwide debate,old transgender student,Marathon Debate,Old Transgender Student
+223,10,Nex Benedict,student of,Indigenous heritage from Oklahoma,['nex benedict'],"['indigenous', 'oklahoma']",Benedict XVI,Indigenous heritage,Benedict Xvi,Indigenous Heritage
+237,11,LGBTQ,is in,Africa,['lgbtq'],['africa'],lgbtq,Africa,Lgbtq,Africa
+240,11,Tough laws,are preceded by,lobbying of American hardliners,['tough'],['american hardliners'],tough,american hardliners,Tough,American Hardliners
+242,11,laws,are preceded by,lobbying of American hardliners,[],['american hardliners'],laws,american hardliners,Laws,American Hardliners
+252,12,Gov. Ron DeSantis ' war,losing steam in,Florida,"['gov', 'ron desantis']",['florida'],gov,Florida,Gov,Florida
+253,12,federal court,blocked,most of DeSantis measure,['federal court'],['desantis'],Appeals Court,Ron DeSantis,Appeals Court,Ron Desantis
+258,12,federal court,blocked,Stop WOKE Act,['federal court'],['stop woke'],Appeals Court,stop woke,Appeals Court,Stop Woke
+270,13,volleyball players,sue,NCAA,['volleyball players'],['ncaa'],volleyball players,NCAA,Darts Players,Ncaa
+271,13,volleyball players,sue NCAA over,transgender policies,['volleyball players'],['transgender policies'],volleyball players,Transgender,Darts Players,Transgender
+273,13,College swimmers,sue NCAA over,transgender policies,['college swimmers'],['transgender policies'],college swimmers,Transgender,College Student,Transgender
+275,13,College swimmers,sue,NCAA,['college swimmers'],['ncaa'],college swimmers,NCAA,College Student,Ncaa
+276,13,Riley Gaines,was among,college athletes,['riley gaines'],['college athletes'],riley gaines,Athletes,Riley Gaines,Athletes
+279,14,LGBTQ people,rights of be,flux across U.S. with new flurry,['lgbtq'],"['u.s.', 'new flurry']",lgbtq,U.S. aid,Lgbtq,U.S. Aid
+289,14,LGBTQ people,rights of be,flux with new flurry of developments,['lgbtq'],['new flurry'],lgbtq,New Orleans,Lgbtq,New Orleans
+307,14,LGBTQ people,rights of be,flux across U.S.,['lgbtq'],['u.s'],lgbtq,u.s,Lgbtq,U.S
+319,15,transgender athlete Lia Thomas,compete at,national championships,"['transgender athlete', 'lia thomas']",['national championships'],Transgender,PFLAG National,Transgender,Pflag National
+320,15,NCAA,allowing,transgender athlete Lia Thomas,['ncaa'],"['transgender athlete', 'lia thomas']",NCAA,Transgender,Ncaa,Transgender
+323,15,athlete Lia Thomas,compete at,national championships,['lia thomas'],['national championships'],Lia Thomas,PFLAG National,Lia Thomas,Pflag National
+326,15,NCAA,allowing,athlete Lia Thomas,['ncaa'],['lia thomas'],NCAA,Lia Thomas,Ncaa,Lia Thomas
+327,15,NCAA,allowing,compete at national championships,['ncaa'],['national championships'],NCAA,PFLAG National,Ncaa,Pflag National
+330,15,NCAA,is accused of,violating Title IX,['ncaa'],['title ix'],NCAA,Title IX,Ncaa,Title Ix
+344,16,Love,Lies,Bleeding,['love'],['bleeding'],movie Love,bleeding,Movie Love,Bleeding
+345,16,Love Lies,is,queer thriller,['love lies'],['queer thriller'],movie Love,Queer,Movie Love,Queer
+346,16,Love Lies,is,queer erotic thriller,['love lies'],['queer erotic thriller'],movie Love,queer erotic thriller,Movie Love,Queer Erotic Thriller
+357,17,NCAA,Against,Trans Agenda,['ncaa'],['trans agenda'],NCAA,trans agenda,Ncaa,Trans
+360,17,Women 's sports advocate Riley Gaines,has joined,15 other female athletes,"[""'s sports advocate"", 'riley gaines']",['female athletes'], sports advocate,Athletes,Sports,Athletes
+372,19,dozen athletes,sue,NCAA,['dozen athletes'],['ncaa'],Athletes,NCAA,Athletes,Ncaa
+373,19,dozen athletes,sue NCAA over,their transgender participation policy,['dozen athletes'],['transgender participation policy'],Athletes,transgender participation policy,Athletes,Participation Policy
+378,19,transgender athletes,compete on,sport basis,['transgender athletes'],['sport basis'],Transgender,sport basis,Transgender,Sport Basis
+387,20,Powell,’s,Ben orbit,['powell'],['ben'],powell,ben,Powell,Ben
+391,20,wedding Down Under,is,central event,['down'],['central event'],down,central event,Down,Central Event
+393,20,lesbian wedding Down Under,is,central event,"['lesbian wedding', 'down']",['central event'],Lesbian News,central event,Lesbian News,Central Event
+395,20,Sweeney,’s,Bea,['sweeney'],['bea'],Sydney Sweeney,bea,Sydney Sweeney,Bea
+396,21,Hungary,’s,PM,['hungary'],['pm'],Hungary,pm,Hungary,Pm
+401,21,Article,crowd at,event revolution,['article'],['event revolution'],Full Article,sexual revolution,Full Article,Sexual Revolution
+406,21,Hungary,’s,aggrieved Prime Minister,['hungary'],['prime'],Hungary,prime,Hungary,Prime
+410,23,Ryan Lanji,runs,sessions for people in LGBT community,['ryan lanji'],['lgbt'],ryan lanji,lgbt,Ryan Lanji,Lgbt
+415,24,Arizona Bookstore,Nixes Drag Show After,Backlash,['arizona bookstore'],['backlash'],Bookstore,backlash,Bookstore,Backlash
+417,24,Arizona Bookstore,Nixes,Drag Show,['arizona bookstore'],['drag'],Bookstore,drag queens,Bookstore,Drag Queens
+420,25,University student Riley Strain,has,bank card,"['university student', 'riley strain']",['bank card'],Princeton University,bank card,Princeton University,Bank Card
+425,25,Authorities,discovered,clue in case of missing University of Missouri college student Riley Strain,['authorities'],"['missouri', 'college student', 'riley strain']",Russian authorities,Missouri,Russian Authorities,Missouri
+426,25,Authorities,discovered,clue in case of missing University college student Riley Strain,['authorities'],"['university college student', 'riley strain']",Russian authorities,university college student,Russian Authorities,College Student
+430,26,Northern Ireland,has,gay community,['ireland'],['gay community'],Northern Ireland,LGBT Community,Northern Ireland,Lgbt Community
+434,27,women ’s roller derby league,is standing up for,trans athletes,['women ’ s roller derby league'],['trans athletes'],women  roller derby league,Athletes,Women  Roller Derby League,Athletes
+437,27,women 's roller derby league,is in,New York,"[""women 's roller derby league""]",['york'],women  roller derby league,york,Women  Roller Derby League,York
+442,28,Colorado,May Become,First in Nation,['colorado'],['nation'],Colorado,nation,Colorado,Nation
+446,29,Sheikh Shadi Asuleiman,face here of,Islam,['sheikh shadi asuleiman'],['islam'],sheikh shadi asuleiman,Islam,Sheikh Shadi Asuleiman,Islam
+447,29,Australia,has,first home grown Imam,['australia'],['imam'],Australia,Imam,Australia,Imam
+449,29,Sheikh Shadi Asuleiman,is,Australia 's first home grown Imam,['sheikh shadi asuleiman'],"['australia', 'imam']",sheikh shadi asuleiman,Australia,Sheikh Shadi Asuleiman,Australia
+457,30,Kingston,has,storied Grad Club as hikes,['kingston'],['grad'],Kingston,grad,Kingston,Grad
+459,30,Kingston,for,LGBTQ community,['kingston'],['lgbtq'],Kingston,lgbtq,Kingston,Lgbtq
+471,31,Reps. Raja Krishnamoorthi,Democrat of,Illinois,['raja krishnamoorthi'],['illinois'],Raja Krishnamoorthi,Illinois,Raja Krishnamoorthi,Illinois
+472,31,Mike Gallagher,Republican of,Wisconsin,['mike gallagher'],['wisconsin'],Mike Gallagher,Wisconsin,Mike Gallagher,Wisconsin
+478,32,Jenny Slate,talks,subjects of her new comedy,['jenny'],['new comedy'],Jenny Slate,New Orleans,Jenny Slate,New Orleans
+488,32,Shell,is with,Shoes On.Also,['shell'],['shoes on.also'],shell,shoes on.also,Shell,Shoes On.Also
+514,33,Lauren Sundstrom,have,large media followings,['lauren sundstrom'],['large media followings'],Lauren Bennett,large media followings,Lauren Bennett,Large Media Followings
+515,33,Lauren Sundstrom,have,media followings,['lauren sundstrom'],['media followings'],Lauren Bennett,Media Matters,Lauren Bennett,Media Matters
+516,33,Fae Johnstone,have,large media followings,['fae johnstone'],['large media followings'],fae johnstone,large media followings,Fae Johnstone,Large Media Followings
+517,33,Fae Johnstone,have,large social media followings,['fae johnstone'],['large social media followings'],fae johnstone,social media,Fae Johnstone,Social Media
+518,33,Fae Johnstone,have,media followings,['fae johnstone'],['media followings'],fae johnstone,Media Matters,Fae Johnstone,Media Matters
+519,33,Lauren Sundstrom,have,social media followings,['lauren sundstrom'],['social media followings'],Lauren Bennett,social media,Lauren Bennett,Social Media
+531,35,EU candidate,plans,propaganda bill,['eu'],['propaganda bill'],EU,anti-gay bill,Eu,Anti-Gay Bill
+532,35,EU candidate,plans,LGBT propaganda bill,['eu'],"['lgbt', 'propaganda bill']",EU,lgbt,Eu,Lgbt
+533,35,country ’s MP,Read,Full Article,"['country ’ s', 'mp']",['article'],country ,Full Article,Country ,Full Article
+534,35,Georgia,ban,LGBT propaganda,['georgia'],['lgbt'],Georgia,lgbt,Georgia,Lgbt
+539,35,country ’s MP,Read Article at,RT.com,"['country ’ s', 'mp']",['rt.com'],country ,RT.com,Country ,Rt.Com
+548,36,college student Riley Strain briefly,speak with,police officer,"['college student', 'riley strain']",['police officer'],college student,Police,College Student,Police
+565,37,Alabama resident,sparked,transphobic backlash against employee,['alabama'],['transphobic backlash'],Alabama,transphobic backlash,Alabama,Backlash
+567,37,Rocket Center,has,Space Camp,['rocket'],['space camp'],rocket,reeducation camp,Rocket,Reeducation Camp
+570,39,Chasten Buttigieg,takes on,anti-trans bullies,['chasten buttigieg'],['anti-trans bullies'],Pete Buttigieg,anti-trans bullies,Pete Buttigieg,Anti-Trans
+571,39,Chasten Buttigieg,takes on bullies during,Michigan State University lecture,['chasten buttigieg'],"['michigan', 'state university lecture']",Pete Buttigieg,Michigan,Pete Buttigieg,Michigan
+573,40,California parents,oust,school board members,['california'],['school board members'],Southern California,school board members,Southern California,School Board Members
+578,41,New York county,has,ban on transgender female athletes,['york'],['transgender female athletes'],New York county,transgender female athletes,New York County,Transgender Female Athletes
+579,41,Former Olympian Caitlyn Jenner,backs,New York county 's ban on female athletes,['olympian caitlyn jenner'],"['york', ""county 's ban"", 'female athletes']",Caitlyn Jenner,york,Caitlyn Jenner,York
+588,42,Kentucky lawmakers,criminalize conduct after,LGBTQ protest,['kentucky'],['lgbtq'],Kentucky,lgbtq,Kentucky,Lgbtq
+589,42,Kentucky lawmakers,criminalize,disruptive conduct,['kentucky'],['disruptive conduct'],Kentucky,disruptive conduct,Kentucky,Disruptive Conduct
+590,42,rights activists,limit,free speech,['rights activists'],['free speech'],transgender rights,free speech,Transgender Rights,Free Speech
+598,42,civil rights activists,limit,free speech,['civil rights activists'],['free speech'],civil rights,free speech,Civil Rights,Free Speech
+608,43,Idaho lawmakers,are expected,vote week,['idaho'],['vote week'],Idaho,vote week,Idaho,Busy Week
+612,44,man ILLEGAL,is in,Scotland,['illegal'],['scotland'],illegal,Scotland,Illegal,Scotland
+782,46,Wisconsin middle school,faces series after,Libs of TikTok post,"['wisconsin', 'middle school']","['libs', 'tiktok']",Wisconsin,libs,Wisconsin,Libs
+784,46,Wisconsin school,faces,series of bomb threats,['wisconsin'],['bomb threats'],Wisconsin,bomb threats,Wisconsin,Bomb Threats
+793,46,school district,is in,Wisconsin,['school district'],['wisconsin'],Oklahoma district,Wisconsin,Oklahoma District,Wisconsin
+799,47,Bartender,charged for,confronting male transgender,['bartender'],['male transgender'],bartender,Transgender,Bartender,Transgender
+810,47,Multnomah County Circuit Court,recently found,Portland bartender guilty of hate crime,"['multnomah', 'county circuit court']",['portland'],Multnomah County Circuit Court,Portland,Multnomah County Circuit Court,Portland
+830,49,BYU,is in,Utah,['byu'],[],BYU,Utah,Byu,Utah
+840,50,Army,equipped pay package with,male organs,[],['male organs'],Army,Biological Male,Army,Biological Male
+841,50,Bearded Spanish Army,equipped,private rooms,"['bearded', 'spanish army']",['private rooms'],bearded,private rooms,Bearded,Locker Rooms
+851,50,Spanish Army,equipped pay package with,male organs,['spanish army'],['male organs'],Spanish Army,Biological Male,Spanish Army,Biological Male
+852,50,Bearded Spanish Army,equipped pay package with,male organs,"['bearded', 'spanish army']",['male organs'],bearded,Biological Male,Bearded,Biological Male
+860,50,Spanish Army,equipped,private rooms,['spanish army'],['private rooms'],Spanish Army,private rooms,Spanish Army,Locker Rooms
+865,50,Army,equipped,private rooms,[],['private rooms'],Army,private rooms,Army,Locker Rooms
+877,51,Minnesota Appeals Court,Affirms,State Law,['minnesota'],['state law'],Minnesota,Tennessee state,Minnesota,Tennessee State
+879,52,Real Life,Is,When Hostile,['real'],['hostile'],real,hostile,Real,Hostile
+881,52,LGBTQ Gamers,Find,Friendship Online,['lgbtq gamers'],['friendship online'],video gamers,friendship online,Video Gamers,Friendship Online
+885,53,Ways,Protect,Their LGBTQ Kids,['ways'],['lgbtq kids'],ways,lgbtq kids,Ways,Lgbtq
+886,53,Families,Find,Ways,['families'],['ways'],families,ways,Families,Ways
+887,53,Hostility,has put families with,such children under threat,['hostility'],['such children'],hostility,such children,Hostility,Such Children
+888,53,Hostility,has put families with,children under unprecedented threat,['hostility'],['unprecedented threat'],hostility,unprecedented threat,Hostility,Unprecedented Threat
+895,54,AI,learned,new math,['ai'],['new math'],ai,new math,Ai,New Math
+896,54,AI,provided,ideas about human consciousness,['ai'],['human consciousness'],ai,human consciousness,Ai,Human Life
+898,54,AI,provided,new ideas,['ai'],['new ideas'],ai,New Orleans,Ai,New Orleans
+904,54,AI,has deciphered,ancient texts,['ai'],['ancient texts'],ai,ancient texts,Ai,Ancient Texts
+906,55,Pastor,warns against,gospel music,['pastor'],['gospel music'],pastor,gospel music,Pastor,Gospel Music
+908,56,Scientific American,to,April 2024 Issue,['scientific'],['april'],Scientific American’s,april,Scientific American’S,April
+917,57,Pope,puts,retirement rumours,['pope'],['retirement rumours'],Pope,retirement rumours,Pope,Retirement Rumours
+919,57,retirement rumours,rest in,new memoir,['retirement rumours'],['new memoir'],retirement rumours,New Orleans,Retirement Rumours,New Orleans
+920,58,N.Y. county,has,ban on trans women competing on sports teams,['n.y.'],"['trans women', 'sports teams']",N.Y.,transgender women,N.Y.,Transgender Women
+922,58,Caitlyn Jenner,backs,N.Y. county 's ban,['caitlyn jenner'],"['n.y.', ""county 's ban""]",Caitlyn Jenner,N.Y.,Caitlyn Jenner,N.Y.
+927,59,Trump ally Bernie Moreno,wins,primary for U.S. Senate,"['trump', 'bernie moreno']",['u.s.'],Melania Trump,U.S. aid,Melania Trump,U.S. Aid
+928,59,Trump ally Bernie Moreno,wins,Republican primary for U.S. Senate,"['trump', 'bernie moreno']","['republican', 'u.s.']",Melania Trump,Republican Ohio,Melania Trump,Republican Ohio
+930,59,Bernie Moreno,has won,nomination from Ohio,['bernie moreno'],['ohio'],bernie moreno,Ohio,Moreno,Ohio
+931,59,Bernie Moreno,has won,Republican nomination for U.S. Senate,['bernie moreno'],"['republican', 'u.s.']",bernie moreno,Republican Ohio,Moreno,Republican Ohio
+932,59,Bernie Moreno,face,supporter of LGBTQ rights,['bernie moreno'],['lgbtq'],bernie moreno,lgbtq,Moreno,Lgbtq
+933,59,Bernie Moreno,ally of,Donald Trump,['bernie moreno'],['donald trump'],bernie moreno,Donald Trump,Moreno,Donald Trump
+934,59,Bernie Moreno,face,incumbent Sherrod Brown,['bernie moreno'],['sherrod brown'],bernie moreno,Sherrod Brown,Moreno,Sherrod Brown
+936,59,Democratic incumbent Sherrod Brown,supporter of,LGBTQ rights,['sherrod brown'],['lgbtq'],Sherrod Brown,lgbtq,Sherrod Brown,Lgbtq
+938,59,Bernie Moreno,has won,nomination for U.S. Senate from Ohio,['bernie moreno'],"['u.s.', 'ohio']",bernie moreno,U.S. aid,Moreno,U.S. Aid
+942,59,Bernie Moreno,face incumbent Sherrod Brown in,November,['bernie moreno'],['november'],bernie moreno,november,Moreno,November
+943,59,Bernie Moreno,face,longtime supporter,['bernie moreno'],['longtime supporter'],bernie moreno,longtime supporter,Moreno,Longtime Supporter
+948,60,Support,is in,America,['support'],['america'],support,America,Support,America
+955,60,Supreme Court,’s,Obergefell decision,['supreme court'],['obergefell'],Supreme Court,Obergefell,Supreme Court,Obergefell
+956,60,Supreme Court ’s Obergefell decision,guaranteed,same sex couples,"['supreme court ’ s', 'obergefell']",['sex couples'],Supreme Court,sex couples,Supreme Court,Sex Workers
+959,60,Supreme Court ’s Obergefell decision,guaranteed,fundamental right,"['supreme court ’ s', 'obergefell']",['fundamental right'],Supreme Court,Right View,Supreme Court,Right View
+961,61,Elon Musk ’s X,bans,Harvard lawyer,"['elon musk', '’ s']",['harvard'],Elon Musk,Harvard,Elon Musk,Harvard
+967,61,Alejandra Caraballo,has,has permanently ban from X for news of alleged neo-Nazi ’s identity,['alejandra caraballo'],['neo-nazi ’ s identity'],alejandra caraballo,neo-nazi  identity,Alejandra Caraballo,Gender Identity
+977,61,Harvard Law School,at,Cyberlaw Clinic,"['harvard', 'law school']",['cyberlaw clinic'],Harvard Law School,Cyberlaw,Harvard Law School,Cyberlaw
+988,61,Alejandra Caraballo,attorney at,Harvard Law School ’s Cyberlaw Clinic,['alejandra caraballo'],"['harvard', 'law school ’ s', 'cyberlaw clinic']",alejandra caraballo,Harvard,Alejandra Caraballo,Harvard
+992,62,LGBTQ youth,is in,America,['lgbtq'],['america'],lgbtq,America,Lgbtq,America
+1000,62,medical examiner,is in,Oklahoma,['medical examiner'],['oklahoma'],medical examiner,Oklahoma,Medical Examiner,Oklahoma
+1002,63,Navy vet,opposes,Moms for Liberty backed homeschool advocate for Florida school board seat,['navy vet'],"['moms', 'liberty', 'homeschool advocate', 'florida', 'school board seat']",Navy,Dance Moms,Navy,Dance Moms
+1010,63,Travis Akers,is running for,seat on Duval County Public Schools board in Florida,['travis akers'],"['duval', 'public schools board', 'florida']",travis akers,duval,Travis Akers,Duval
+1011,63,Travis Akers,is running for,seat in Florida,['travis akers'],['florida'],travis akers,Florida,Travis Akers,Florida
+1018,64,Diverse books,left at,NYC school,['diverse'],['nyc'],diverse,NYC,Diverse,Nyc
+1036,67,Mark Robinson,nominee for,North Carolina governor,['mark robinson'],['carolina'],Mark Burns,North Carolina governor,Mark Burns,North Carolina Governor
+1041,67,North Carolina,'s nominee is,Lt. Gov. Mark Robinson,['carolina'],"['gov', 'mark robinson']",North Carolina,gov,North Carolina,Gov
+1042,67,North Carolina,has,Republican nominee for governor,['carolina'],['republican'],North Carolina,Republican Ohio,North Carolina,Republican Ohio
+1048,68,Bernie Moreno,Faces,Establishment Challenge,['bernie moreno'],['establishment challenge'],bernie moreno,establishment challenge,Moreno,Establishment Challenge
+1049,68,Trump,’s,Ohio Senate,['trump'],['ohio'],Melania Trump,Ohio,Melania Trump,Ohio
+1050,68,Bernie Moreno,Faces Establishment Challenge In,Tonight ’s Primary,['bernie moreno'],"['’ s', 'primary']",bernie moreno,s Beach,Moreno,S Beach
+1051,68,Moreno,would face,Democratic Sen. Sherrod Brown,['moreno'],"['democratic sen.', 'sherrod brown']",moreno,Democratic incumbent,Moreno,Democratic Incumbent
+1055,68,Moreno,would face,Sen. Sherrod Brown,['moreno'],['sherrod brown'],moreno,Sherrod Brown,Moreno,Sherrod Brown
+1059,69,year old alleged cartel member suspected,was let according,Chicago Sun Times,['cartel member'],['chicago sun'],cartel member,Chicago,Cartel Member,Chicago
+1061,70,Todd Shotz,Seeks,Accuracy,['todd shotz'],['accuracy'],todd shotz,Accuracy,Todd,Accuracy
+1062,70,Todd Shotz,Seeks Accuracy In,Jewish Culture,['todd shotz'],['culture'],todd shotz,Culture Of,Todd,Culture Of
+1063,70,Hollywood,’s,Hebrew Helper,[],['hebrew helper'],Hollywood,hebrew helper,Hollywood,Hebrew Helper
+1066,71,Varadkar,also made history as,PM,['varadkar'],['pm'],Leo Varadkar,pm,Leo Varadkar,Pm
+1076,72,PM,giving,news conference,['pm'],['news conference'],pm,ABC News,Pm,Abc News
+1078,72,Fine Gael leader Leo Varadkar,will step down before,election in Republic of Ireland,"['gael', 'leo varadkar']",['ireland'],Fine Gael,Ireland,Fine Gael,Ireland
+1079,72,Gael leader Leo Varadkar,will step down before,general election,"['gael', 'leo varadkar']",['general election'],Fine Gael,general election,Fine Gael,General Election
+1087,72,general election,is in,Republic of Ireland,['general election'],['ireland'],general election,Ireland,General Election,Ireland
+1091,73,LGBTQ rights lawyers,face,potential sanctions over Alabama judge shopping,"['lgbtq', 'rights lawyers']","['potential sanctions', 'alabama']",lgbtq,Western sanctions,Lgbtq,Western Sanctions
+1097,74,Patients,face,years long wait for NHS treatment,['patients'],"['long wait', 'nhs']",patients,long wait,Patients,Long Wait
+1098,74,Patients,face,wait for NHS treatment,['patients'],['nhs'],patients,NHS,Patients,Nhs
+1102,75,Homophobia,can increase,cancer risk,['homophobia'],['cancer risk'],homophobia,cancer risk,Homophobia,Cancer Risk
+1103,75,Homophobia,can increase cancer risk in,LGBTQ people,['homophobia'],['lgbtq'],homophobia,lgbtq,Homophobia,Lgbtq
+1106,75,queer people,frequently experience,minority stress,['queer people'],['minority stress'],Queer,minority stress,Queer,Minority Stress
+1107,75,queer people,frequently experience minority stress in,health care settings,['queer people'],['health care settings'],Queer,health care settings,Queer,Health Care Settings
+1109,75,queer people,leading to,elevated prevalence of cancer risk factors,['queer people'],['cancer risk factors'],Queer,cancer risk factors,Queer,Cancer Risk
+1112,76,Ireland,'s minister is,Leo Varadkar,['ireland'],['leo varadkar'],Ireland,Leo Varadkar,Ireland,Leo Varadkar
+1113,76,Ireland,has,prime minister,['ireland'],['prime minister'],Ireland,Ireland's prime minister,Ireland,Ireland'S Prime Minister
+1119,77,Lesbian teacher,settles,federal discrimination lawsuit,['lesbian'],['federal discrimination lawsuit'],Lesbian News,federal discrimination lawsuit,Lesbian News,Federal Discrimination Lawsuit
+1120,77,Lesbian teacher,settles discrimination lawsuit with,Maine district,['lesbian'],['maine'],Lesbian News,Maine district,Lesbian News,Maine District
+1121,77,Lesbian teacher,settles,discrimination lawsuit,['lesbian'],['discrimination lawsuit'],Lesbian News,Lawsuit,Lesbian News,Lawsuit
+1124,77,special education teacher,has settled,federal lawsuit filed,['special education teacher'],['federal lawsuit'],special education teacher,Lawsuit,Education Teacher,Lawsuit
+1125,77,special education teacher,is in,Maine,['special education teacher'],['maine'],special education teacher,Maine,Education Teacher,Maine
+1139,78,Eleven judges,have,have confirmed to lifetime positions,['eleven'],['lifetime positions'],eleven,lifetime positions,Eleven,Current Positions
+1142,78,Eleven federal judges,have,have confirmed under Biden administration,"['eleven', 'federal judges']",['biden'],eleven,Joe Biden,Eleven,Joe Biden
+1167,80,federal judge,is in,Alabama,['federal judge'],['alabama'],judge shopping,Alabama,Judge Shopping,Alabama
+1169,81,Lesbian lawyer Nicole Berner,confirmed as,appeals court judge,"['lesbian', 'nicole berner']",['appeals court judge'],Lesbian News,Appeals Court,Lesbian News,Appeals Court
+1170,81,lawyer Nicole Berner,confirmed as,appeals court judge,['nicole berner'],['appeals court judge'],Nicole Scherzinger,Appeals Court,Nicole Scherzinger,Appeals Court
+1173,81,landmark parental rights case,is in,Israel,['landmark parental rights case'],['israel'],landmark parental rights case,Israel,Landmark Rights Case,Israel
+1174,81,labor groups,won,landmark rights case,['labor groups'],['landmark rights case'],labor lawyer,landmark rights case,Labor Lawyer,Landmark Rights Case
+1178,81,Nicole Berner,has,has confirmed by U.S. Senate,['nicole berner'],['u.s.'],Nicole Scherzinger,U.S. aid,Nicole Scherzinger,U.S. Aid
+1194,84,Oklahoma officials,are playing,dangerous game,['oklahoma'],['dangerous game'],Oklahoma,Game Developer,Oklahoma,Game Developer
+1201,85,Nicole Berner,won,Senate approval for seat on U.S. Circuit Court of Appeals,['nicole berner'],"['senate approval', 'u.s', 'circuit court']",Nicole Scherzinger,senate approval,Nicole Scherzinger,Senate Approval
+1211,87,Lawmakers,is in,Alabama,['lawmakers'],['alabama'],lawmakers,Alabama,Lawmakers,Alabama
+1215,88,GLAAD Fascists,Forbid,Homosexual,['glaad fascists'],['homosexual'],Fascists,homosexual,Fascists,Homosexual
+1216,88,wing fascists,have declared,word verboten,['wing fascists'],['word verboten'],Fascists,word verboten,Fascists,Word Verboten
+1219,89,Girls5eva,has,Paula Pell,['girls5eva'],['paula pell'],girls5eva,Paula Pell,Girls5Eva,Paula Pell
+1220,89,Girls5eva 's Paula Pell,has,lesbian Trampage,"['girls5eva', 'paula pell']",['trampage'],girls5eva,trampage,Girls5Eva,Trampage
+1226,89,Paula Pell,in,Gloria,['paula pell'],['gloria'],Paula Pell,gloria,Paula Pell,Gloria
+1229,89,Girls5eva,hit with,queer audiences,['girls5eva'],['queer audiences'],girls5eva,Queer,Girls5Eva,Queer
+1234,90,Missing college student 's stepdad,opens up about,family 's conversations,"['missing', ""college student 's stepdad""]","[""family 's conversations""]",missing,family  conversations,Missing,Family 
+1236,90,college student 's stepdad,opens up about,family 's difficult conversations,"[""college student 's stepdad""]","[""family 's"", 'difficult conversations']",college student  stepdad,family ,College Student,Family 
+1248,92,Gay bar managers,arrested in,Russian city,['gay'],['russian city'],gay bar,Russian,Gay Bar,Russian
+1250,92,Article,charges in,Russia,['article'],['russia'],Full Article,russia,Full Article,Russia
+1269,93,two anti-LGBTQ bills,Committees in,U.S. House,['anti-lgbtq bills'],['u.s.'],anti-lgbtq bills,U.S. aid,Anti-Lgbtq Bills,U.S. Aid
+1274,95,Ghana cabinet nominees,blocked in,anti-gay bill row,"['ghana', 'cabinet nominees']",['anti-gay bill row'],Ghana,anti-gay bill,Ghana,Anti-Gay Bill
+1275,95,Ghana cabinet nominees,blocked in,bill row,"['ghana', 'cabinet nominees']",['bill row'],Ghana,death row,Ghana,Death Row
+1282,96,Ramadan,is showing,their love for Hamilton community,['ramadan'],['hamilton'],Ramadan,hamilton,Ramadan,Hamilton
+1287,97,Mamuka Mdinaradze,leader of,Georgia ’s unicameral parliament,['mamuka mdinaradze'],"['georgia', '’ s unicameral parliament']",mamuka mdinaradze,Georgia,Mamuka Mdinaradze,Georgia
+1288,97,Georgia,of,unicameral parliament,['georgia'],['unicameral parliament'],Georgia,Parliament Majority,Georgia,Parliament Majority
+1294,98,NSW,bans,conversion therapy,['nsw'],['conversion therapy'],nsw,gay conversion therapy,Nsw,Gay Conversion Therapy
+1296,98,NSW,bans conversion therapy after,marathon parliamentary debate,['nsw'],['marathon parliamentary debate'],nsw,marathon parliamentary debate,Nsw,Marathon Debate
+1304,100,Nex,died after,school fight,['nex'],['school fight'],nex,school fight,Nex,School Fight
+1306,100,Nex,died after,high school fight,['nex'],['high school fight'],nex,Owasso High School,Nex,Owasso High School
+1307,101,Moscow,adds,LGBT movement,[],['lgbt'],Moscow,lgbt,Moscow,Lgbt
+1311,101,Record Missile Barrage,Disrupts,Crackdown Portrait of Scar,['record missile barrage'],"['crackdown portrait', 'scar']",record missile barrage,crackdown portrait,Record Missile Barrage,Crackdown
+1313,101,Record Russian Missile Barrage,Disrupts,Crackdown on Artists Paints Portrait of Scar,"['record', 'missile barrage']","['crackdown', 'artists paints portrait', 'scar']",record,crackdown,Record,Crackdown
+1318,101,Record Missile Barrage,Disrupts,Ukraine Power System,['record missile barrage'],['ukraine power'],record missile barrage,Ukraine,Record Missile Barrage,Ukraine
+1319,101,Record Russian Missile Barrage,Disrupts,Ukraine Power System,"['record', 'missile barrage']",['ukraine power'],record,Ukraine,Record,Ukraine
+1320,101,Moscow,adds movement to,list of extremist stories,[],['extremist stories'],Moscow,extremist stories,Moscow,Extremist Groups
+1321,101,Ukraine Power System,Portrait of,Scar,['ukraine power'],['scar'],Ukraine,Scar,Ukraine,Scar
+1322,101,Moscow,adds movement to,list of extremist Related stories,[],['related'],Moscow,related,Moscow,Related
+1329,104,Tennessee bill,would permit,anti-LGBTQ foster parents,['tennessee'],['foster parents'],Tennessee,foster parents,Tennessee,Foster Parents
+1337,105,White House,Agrees To,Ban Pride Flags,['white house'],"['ban', 'flags']",White House,Ban on,White House,Ban On
+1338,105,White House,Agrees In,Spending Bill Deal,['white house'],['spending bill deal'],White House,spending bill deal,White House,Spending Bill Deal
+1339,105,White House,Agrees At,US Embassies,['white house'],['embassies'],White House,Embassies,White House,Embassies
+1342,105,State Department,authorized,flown at U.S. embassies in 2021,['state department'],['u.s.'],State Department,U.S. aid,State Department,U.S. Aid
+1347,105,pride flags,reversing,Trump era ban,['pride flags'],"['trump', 'era ban']",Pride flags,Melania Trump,Pride Flags,Melania Trump
+1349,106,Russia,to,terrorist list,['russia'],['terrorist list'],russia,list a,Russia,List A
+1351,106,LGBT movement,added to,Russia ’s terrorist list,['lgbt'],"['russia', '’ s terrorist list']",lgbt,russia,Lgbt,Russia
+1356,106,Russian Federal Financial Monitoring Service ’s website,include,LGBT movement,"['financial monitoring', 'service ’ s website']",['lgbt'],financial monitoring,lgbt,Financial Monitoring,Lgbt
+1359,107,story hour,canceled after,suspicious package,['story hour'],['suspicious package'],story hour,suspicious package,Story Hour,Suspicious Package
+1362,108,Biological Male Voice Actor,Accuses,Game Developer of Transphobia,['biological male voice actor'],"['game developer', 'transphobia']",Biological Male,Game Developer,Biological Male,Game Developer
+1366,108,Behaviour Interactive,have found,sparked allegations of transphobia from character 's vo,['behaviour interactive'],"[""character 's vo""]",Behaviour Interactive,character  vo,Behaviour Interactive,Character
+1371,108,Behaviour Interactive,have found,sparked allegations of transphobia from character 's transgender vo,['behaviour interactive'],"[""character 's transgender vo""]",Behaviour Interactive,character  transgender vo,Behaviour Interactive,Character  Transgender Vo
+1376,108,Behaviour Interactive,developers behind,popular online survival horror game,['behaviour interactive'],['popular online survival horror game'],Behaviour Interactive,popular online survival horror game,Behaviour Interactive,Popular Online Survival Horror Game
+1382,109,Years,will,will part of prestigious Venice show,['years'],['venice'],years,Venice,Years,Venice
+1385,110,government spending bill,bans U.S. embassies from,flying Pride flag,['government spending bill'],['pride flag'],government funding bill,Pride flags,Government Funding Bill,Pride Flags
+1386,110,government spending bill,bans,U.S. embassies,['government spending bill'],['u.s.'],government funding bill,U.S. aid,Government Funding Bill,U.S. Aid
+1404,111,Evacuation Orders,Lifted Of,Pennsylvania,['evacuation orders'],['pennsylvania'],evacuation orders,pennsylvania,Evacuation Orders,Pennsylvania
+1405,111,Evacuation Orders,Lifted Of,Bomb Threats Target Lancaster,['evacuation orders'],['bomb threats target lancaster'],evacuation orders,bomb threats,Evacuation Orders,Bomb Threats
+1415,112,My Dreams,Queen of is,love letter to Bollywood,['dreams'],['bollywood'],dreams,Bollywood,Dreams,Bollywood
+1418,112,Fawzia Mirza 's Queen,is,love letter to Bollywood,"['fawzia mirza', ""'s queen""]",['bollywood'],fawzia mirza,Bollywood,Fawzia Mirza,Bollywood
+1419,112,Fawzia Mirza,has,Queen of Dreams,['fawzia mirza'],['dreams'],fawzia mirza,dreams,Fawzia Mirza,Dreams
+1432,113,Biden Signs $ 1.2 Trillion Spending Bill,Concerns After,Months Of Negotiations,"['biden signs', 'trillion spending bill']","['months', 'negotiations']",Joe Biden,months,Joe Biden,Months
+1440,115,Bipartisan spending bill,includes,ban on Pride flags over U.S. embassies,['bipartisan'],"['pride flags', 'u.s.']",bipartisan,Pride flags,Bipartisan,Pride Flags
+1444,115,Bipartisan spending bill,includes,effective ban,['bipartisan'],['effective ban'],bipartisan,Ban on,Bipartisan,Ban On
+1455,116,Russia,adds movement to,official list of extremists,['russia'],['official list'],russia,list a,Russia,List A
+1456,116,Russia,adds,LGBT movement,['russia'],['lgbt'],russia,lgbt,Russia,Lgbt
+1464,117,Russia,adds movement to,list of extremist groups,['russia'],['extremist groups'],russia,extremist groups,Russia,Extremist Groups
+1466,117,Russia,adds,LGBT movement,['russia'],['lgbt'],russia,lgbt,Russia,Lgbt
+1468,117,Russian monitor,freeze,bank accounts,['russian monitor'],['bank accounts'],Russian,bank accounts,Russian,Bank Card
+1483,118,Final resting place,is in,line for heritage recognition,['final'],['heritage recognition'],final,Indigenous heritage,Final,Indigenous Heritage
+1485,119,Nex Benedict 's death,prompted,rallies in U.S. cities from New York,"['nex benedict', ""'s death""]","['u.s.', 'york']",Benedict XVI,U.S. aid,Benedict Xvi,U.S. Aid
+1491,119,Nex Benedict 's death,prompted,rallies to Los Angeles,"['nex benedict', ""'s death""]",['los angeles'],Benedict XVI,los angeles,Benedict Xvi,Los Angeles
+1507,121,Embassies,Banned By,Bill,['embassies'],['bill'],Embassies,anti-gay bill,Embassies,Anti-Gay Bill
+1508,121,Embassies,Banned From,Flying LGBTQ Pride Flags,['embassies'],"['flying lgbtq', 'flags']",Embassies,flying lgbtq,Embassies,Lgbtq
+1509,121,Embassies,Banned From,House DEI Office Closed,['embassies'],"['dei', 'closed']",Embassies,dei,Embassies,Dei
+1511,122,New report,Live finds,discrimination endemic in religious schools,['new report'],"['discrimination endemic', 'religious schools']",New Orleans,religious discrimination,New Orleans,Religious Discrimination
+1527,124,Transgender teen,sent for,killing 12 year old girl,['transgender'],['old girl'],Transgender,old girl,Transgender,Old Girl
+1539,124,trans teen,is,sentenced while on movie date,['trans teen'],['movie date'],trans teen,movie Love,Trans,Movie Love
+1543,125,NPR 's Scott Detrow,speaks,about two recent cases of violence against trans people illustrate,"['npr', 'scott detrow']","['recent cases', 'trans people']",npr,recent cases,Npr,Recent Cases
+1544,125,NPR 's Scott Detrow,speaks with,Kris Tassone,"['npr', 'scott detrow']",['kris tassone'],npr,kris tassone,Npr,Kris Tassone
+1546,125,NPR 's Scott Detrow,speaks from,National Center For Transgender Equality,"['npr', 'scott detrow']","['national center', 'transgender equality']",npr,National Center For Transgender Equality,Npr,National Center For Transgender Equality
+1547,125,NPR,has,Scott Detrow,['npr'],['scott detrow'],npr,Andrew Scott,Npr,Andrew Scott
+1548,125,NPR 's Scott Detrow,speaks from,National Center,"['npr', 'scott detrow']",['national center'],npr,PFLAG National,Npr,Pflag National
+1555,126,Athletes,Could Upset March Madness Attacks On,DEI,['athletes'],['dei'],Athletes,dei,Athletes,Dei
+1556,126,Black Athletes,Could Upset March Madness Attacks On,DEI,['black athletes'],['dei'],Black,dei,Black,Dei
+1557,126,Athletes,Could Upset,March Madness Attacks,['athletes'],['march madness'],Athletes,march madness,Athletes,March
+1558,126,Black Athletes,Could Upset,March Madness Attacks,['black athletes'],['march madness'],Black,march madness,Black,March
+1559,126,diversity initiatives,are under,where legislative attack,['diversity initiatives'],['legislative attack'],diversity,heart attack,Diversity,Heart Attack
+1565,126,Many Black athletes,is in,2024 NCAA basketball tournaments,['black'],"['ncaa', 'basketball tournaments']",Black,NCAA,Black,Ncaa
+1566,127,white woman,birdwatching in,New York 's Central Park,['white woman'],"['york', 'central park']",White House,york,White House,York
+1572,127,Christian Cooper,made,national news,['cooper'],['national news'],Christian Cooper,ABC News,Christian Cooper,Abc News
+1574,127,New York,in,Central Park,['york'],['central park'],york,theme park,York,Theme Park
+1584,127,Christian Cooper,made news in,May 2020,['cooper'],['may'],Christian Cooper,may,Christian Cooper,May
+1586,128,Traitors ' star Amanda,say,goodbye mum,"['traitors', 'amanda']",['goodbye mum'],traitors,goodbye mum,Traitors,Goodbye Mum
+1590,129,Dragon Ball theme park,be,to built in Saudi Arabia,"['dragon ball', 'theme park']",['saudi arabia'],dragon ball,Saudi Arabia,Dragon Ball,Saudi Arabia
+1602,130,state ’s schools,teach LGBTQ history,red states continue,['state ’ s schools'],['red states'],state  schools,red and blue states,Tennessee State,Red And Blue States
+1604,130,state ’s schools,teach,LGBTQ history,['state ’ s schools'],['lgbtq'],state  schools,lgbtq,Tennessee State,Lgbtq
+1618,131,Musk,by,X against nonprofit researchers tracking,['musk'],['nonprofit researchers'],Elon Musk,nonprofit researchers,Elon Musk,Nonprofit Researchers
+1624,131,Elon Musk,by,X Corp.,['elon musk'],['x corp'],Elon Musk,x corp,Elon Musk,X Corp
+1629,131,federal judge,has dismissed lawsuit against,non-profit Center,['federal judge'],['non-profit center'],judge shopping,non-profit center,Judge Shopping,Center Stage
+1632,131,federal judge,has dismissed lawsuit against,Center for Countering Digital,['federal judge'],['countering digital'],judge shopping,countering digital,Judge Shopping,Digital
+1639,131,federal judge,has dismissed lawsuit by,Elon Musk ’s X Corp.,['federal judge'],"['elon musk', '’ s', 'x corp']",judge shopping,Elon Musk,Judge Shopping,Elon Musk
+1643,132,transgender women,competing in,female categories,['transgender women'],['female categories'],transgender women,female categories,Transgender Women,Female Categories
+1673,133,Russia,is still reeling from,Friday 's attack,['russia'],"[""'s attack""]",russia,heart attack,Russia,Heart Attack
+1684,134,propaganda bill,government of,Caucasus nation of Georgia,['propaganda bill'],"['caucasus', 'georgia']",anti-gay bill,Caucasus,Anti-Gay Bill,Caucasus
+1686,134,anti-LGBT propaganda bill,government of,Caucasus nation,['anti-lgbt propaganda bill'],['caucasus'],anti-lgbt propaganda bill,Caucasus,Anti-Lgbt Propaganda Bill,Caucasus
+1711,137,Ex-Levi ’s President,Launches,XX XY Athletics,"['ex-levi', '’ s president']",['xx xy'],ex-levi,xx xy,Ex-Levi,Xx Xy
+1713,137,XX XY Athletics,Protect,Women ’s Sports,['xx xy'],['’ s'],xx xy,s Beach,Xx Xy,S Beach
+1715,137,Jennifer Sey,is launching,athletic clothing brand,['jennifer sey'],['athletic clothing brand'],Jennifer Sey,athletic clothing brand,Jennifer Sey,Clothing Brand
+1718,138,Australia,of,AIDS epidemic,['australia'],['aids'],Australia,AIDS epidemic,Australia,Aids Epidemic
+1720,139,Dutch darts players,quit,women 's team,"['dutch', 'darts players']","[""women 's team""]",dutch,women  team,Dutch,Transgender Women
+1721,139,darts players,quit,national women 's team,['darts players'],"[""national women 's team""]",darts players,U.S. Women’s National Team,Darts Players,U.S. Women’S National Team
+1722,139,Dutch darts players,quit,national women 's team,"['dutch', 'darts players']","[""national women 's team""]",dutch,U.S. Women’s National Team,Dutch,U.S. Women’S National Team
+1723,139,darts players,quit,women 's team,['darts players'],"[""women 's team""]",darts players,women  team,Darts Players,Transgender Women
+1727,139,Dutch women,has,darts team,['dutch'],['darts team'],dutch,darts team,Dutch,Team
+1731,140,Abortions,is in,U.S.,['abortions'],['u.s'],abortions,u.s,Abortions,U.S
+1732,140,Roe,report from,Guttmacher Institute,['roe'],['guttmacher'],roe,Guttmacher Institute,Roe,Guttmacher Institute
+1733,140,Wade,v. Roe is,new report from Guttmacher Institute,['wade'],"['new report', 'guttmacher']",wade,New Orleans,Wade,New Orleans
+1751,141,Lawsuit,filed against,Ohio trans care ban legislation,['lawsuit'],"['ohio', 'trans care ban legislation']",Lawsuit,Ohio,Lawsuit,Ohio
+1753,141,Ohio,against,House Bill 68,['ohio'],['bill'],Ohio,anti-gay bill,Ohio,Anti-Gay Bill
+1774,142,Texas Office,was blocked from,demanding information from PFLAG,['texas'],['pflag'],Texas,PFLAG National,Texas,Pflag National
+1779,143,Police,investigating,racial harassment,[],['racial harassment'],Police,racial harassment,Police,Racial Harassment
+1782,143,Police,investigating,harassment in Idaho,[],['idaho'],Police,Idaho,Police,Idaho
+1783,143,NCAA women,of,basketball team,['ncaa'],['basketball team'],NCAA,basketball team,Ncaa,Team
+1784,143,racial harassment,is in,Idaho,['racial harassment'],['idaho'],racial harassment,Idaho,Racial Harassment,Idaho
+1786,143,Police,investigating,harassment of NCAA women 's basketball team,[],"['ncaa', ""women 's basketball team""]",Police,NCAA,Police,Ncaa
+1794,143,NCAA tournament,is in,nearby Spokane,['ncaa'],['spokane'],NCAA,spokane,Ncaa,Spokane
+1798,144,Republicans,would back,recent budget deal,[],['recent budget'],Republicans,recent budget,Republicans,Recent Cases
+1800,145,White House,calls,Republican spending bill ’s ban on Pride flag,['white house'],"['republican', 'bill ’ s ban', 'pride flag']",White House,Republican Ohio,White House,Republican Ohio
+1801,145,White House,calls,spending bill ’s ban,['white house'],['bill ’ s ban'],White House,bill  ban,White House,Ban On
+1802,145,Republican spending bill,’s,ban on Pride flag,['republican'],['pride flag'],Republican Ohio,Pride flags,Republican Ohio,Pride Flags
+1810,146,Texas court,blocks,AG Ken Paxton 's demand for info,['texas'],"['ag ken paxton', ""'s demand""]",Texas,Ken Paxton,Texas,Ken Paxton
+1817,146,AG Ken Paxton,has,demand for info on transgender youth support,['ag ken paxton'],['transgender youth support'],Ken Paxton,transgender youth support,Ken Paxton,Transgender Youth Support
+1823,146,Attorney General Ken Paxton ’s demand,court in,Texas,"['ken paxton', '’ s demand']",['texas'],Ken Paxton,Texas,Ken Paxton,Texas
+1828,146,PFLAG National,turn over,information about its support of families in Texas,['pflag'],['texas'],PFLAG National,Texas,Pflag National,Texas
+1836,148,premier LGBTQ destinations,is in,America,['lgbtq'],['america'],lgbtq,America,Lgbtq,America
+1837,149,Thailand,moves to,legalise sex marriage,['thailand'],['legalise sex marriage'],Thailand,legalise sex marriage,Thailand,Sex Marriage Bill
+1838,149,Thailand,moves to,same sex marriage,['thailand'],['sex marriage'],Thailand,plural marriage,Thailand,Plural Marriage
+1841,149,Thailand,has,lower house,['thailand'],[],Thailand,lower house,Thailand,Lower House
+1854,150,new survey,shows,high level of churning,['new survey'],['high level'],New Orleans,high level,New Orleans,High Level
+1858,150,high level,survey from,Public Religion Research Institute,['high level'],"['religion', 'research institute']",high level,Public Religion Research Institute,High Level,Public Religion Research Institute
+1866,151,Asia,of,most liberal countries,['asia'],['liberal countries'],Southeast Asia,liberal Democrat,Southeast Asia,Liberal Democrat
+1867,151,Thailand ’s parliament,approved,marriage equality bill,"['thailand', '’ s parliament']",['marriage equality bill'],Thailand,marriage equality bill,Thailand,Sex Marriage Bill
+1872,152,Marriage equality bill,overwhelmingly passes,Thai lower house,['marriage equality bill'],['thai'],marriage equality bill,thai,Sex Marriage Bill,Thai
+1876,152,Lawmakers,is in,Thailand 's lower house of parliament,['lawmakers'],['thailand'],lawmakers,Thailand,Lawmakers,Thailand
+1877,152,marriage equality bill,Lawmakers in,Thailand 's house of parliament,['marriage equality bill'],"['thailand', ""'s house""]",marriage equality bill,Thailand,Sex Marriage Bill,Thailand
+1878,152,Lawmakers,approved,marriage equality bill on Wednesday,['lawmakers'],['marriage equality bill'],lawmakers,marriage equality bill,Lawmakers,Sex Marriage Bill
+1891,153,Lawmakers,pass,same sex marriage bill,['lawmakers'],['sex marriage bill'],lawmakers,sex marriage bill,Lawmakers,Sex Marriage Bill
+1897,153,bill Senate approval,passed in,lower house,['bill senate approval'],[],bill senate approval,lower house,Senate Approval,Lower House
+1900,153,Senate approval,bill,king 's endorsement,['senate approval'],"[""king 's endorsement""]",senate approval,king  endorsement,Senate Approval,King  Endorsement
+1911,154,Sacramento,declares,itself city for transgender people,['sacramento'],['transgender people'],Sacramento,Transgender,Sacramento,Transgender
+1912,154,Sacramento,declares,itself sanctuary city for transgender people,['sacramento'],"['sanctuary city', 'transgender people']",Sacramento,sanctuary city,Sacramento,Sanctuary City
+1920,154,Sacramento City Council,declare,sanctuary city,"['sacramento', 'city council']",['sanctuary city'],Sacramento City Council,sanctuary city,Sacramento City Council,Sanctuary City
+1924,154,Sacramento City Council,declare,California capital,"['sacramento', 'city council']",['california'],Sacramento City Council,Southern California,Sacramento City Council,Southern California
+1925,154,Sacramento City Council,declare,city for transgender people,"['sacramento', 'city council']",['transgender people'],Sacramento City Council,Transgender,Sacramento City Council,Transgender
+1926,155,Thailand lawmakers,pass,landmark LGBTQ marriage equality bill,['thailand'],"['lgbtq', 'marriage equality bill']",Thailand,lgbtq,Thailand,Lgbtq
+1928,155,Thailand,to,civil laws,['thailand'],['civil laws'],Thailand,laws,Thailand,Laws
+1931,156,Sacramento,is,now sanctuary city,['sacramento'],['sanctuary city'],Sacramento,sanctuary city,Sacramento,Sanctuary City
+1933,156,Sacramento,is now city for,transgender people,['sacramento'],['transgender people'],Sacramento,Transgender,Sacramento,Transgender
+1963,157,Molecular biology,stop,future outbreaks,['molecular'],['future outbreaks'],Molecular biology,future outbreaks,Molecular Biology,Future Outbreaks
+1964,158,Nex Benedict,has,autopsy report,['nex benedict'],['autopsy report'],Benedict XVI,autopsy report,Benedict Xvi,Federal Report
+1977,159,Disney allies,end,legal dispute,['disney'],['legal dispute'],Disney,legal dispute,Disney,Legal Battle
+1979,159,Disney,of,Florida theme park resort,['disney'],"['florida', 'theme park resort']",Disney,Florida,Disney,Florida
+1984,160,settlement agreement,Allies of,Gov. Ron DeSantis,['settlement agreement'],"['gov', 'ron desantis']",settlement agreement,gov,Settlement Agreement,Gov
+1987,161,Boeing,Tale In,Psychological Safety,['boeing'],['psychological safety'],Boeing,Psychological Safety,Boeing,Psychological Safety
+1988,161,Cautionary Tale,is In,Psychological Safety,['cautionary tale'],['psychological safety'],Cautionary Tale,Psychological Safety,Cautionary Tale,Psychological Safety
+1992,162,Mpox cases,are on,rise in U.S. increasing to almost double,['mpox'],['u.s.'],mpox,U.S. aid,Mpox,U.S. Aid
+2000,162,Mpox cases,are on,rise in U.S.,['mpox'],['u.s'],mpox,u.s,Mpox,U.S
+2004,163,Disney,settle,legal battle,['disney'],['legal battle'],Disney,legal battle,Disney,Legal Battle
+2007,163,DeSantis,settle,legal battle,['desantis'],['legal battle'],Ron DeSantis,legal battle,Ron Desantis,Legal Battle
+2018,164,Literature,has come for,disseminating information regarding animal behavior,['literature'],['animal behavior'],literature,animal behavior,Literature,Animal Behavior
+2021,164,Literature,has come for,disseminating inaccurate information particularly regarding animal behavior,['literature'],"['inaccurate information', 'animal behavior']",literature,inaccurate information,Literature,Inaccurate Information
+2025,164,Hastings Museum,is in,Britain,['hastings'],['britain'],Hastings,britain,Hastings,Britain
+2043,166,GLAAD,’s,New Report On Anti-Trans,['glaad'],['anti-trans'],GLAAD,anti-trans,Glaad,Anti-Trans
+2045,166,Meta,via,top social platforms,['meta'],['top social platforms'],meta,top social platforms,Meta,Top Social Platforms
+2046,166,GLAAD,group on,LGBTQ representation in media,['glaad'],['lgbtq'],GLAAD,lgbtq,Glaad,Lgbtq
+2055,168,Lioness striker Bethany England,speaks to,BBC,"['lioness', 'bethany england']",['bbc'],lioness,BBC,Lioness,Bbc
+2059,169,Long Island Roller Rebels,is suing,county leader,"['long island', 'roller rebels']",['county leader'],Long Island Roller Rebels,Fairfax County,Long Island Roller Rebels,Fairfax County
+2062,169,Long Island Roller Rebels,is suing county leader over,executive order meant,"['long island', 'roller rebels']",['executive order'],Long Island Roller Rebels,executive order,Long Island Roller Rebels,Executive Order
+2065,169,girl ’s leagues,is with,transgender players from using county run parks,['girl ’ s leagues'],"['transgender players', 'county run parks']",girl  leagues,Transgender,Old Girl,Transgender
+2066,170,Enhanced Games,has,has derided as clown show,['enhanced'],['clown show'],enhanced,BBC show,Enhanced,Bbc Show
+2077,172,Grindr,Gets,First Rating,['grindr'],['rating'],Grindr,rating,Grindr,Rating
+2079,172,Grindr,Gets,Buy Rating,['grindr'],['buy rating'],Grindr,Best Buy,Grindr,Best Buy
+2081,172,Cowen,Sees,Growth Outpacing Tinder Owner,['cowen'],['outpacing tinder owner'],cowen,outpacing tinder owner,Cowen,Outpacing Tinder Owner
+2082,172,Grindr Inc.,’s,focus on LGBTQ community promises,['grindr inc'],['lgbtq'],Inc,lgbtq,Inc,Lgbtq
+2105,174,soccer fans,Redesign of,England jersey,['soccer fans'],['england'],soccer fans,", England",Soccer Fans,", England"
+2107,174,Redesign,has,soccer fans,['redesign'],['soccer fans'],redesign,soccer fans,Redesign,Soccer Fans
+2108,174,England,has,national soccer team,['england'],['national soccer team'],", England",U.S. Women’s National Team,", England",U.S. Women’S National Team
+2111,174,England 's soccer team,will take at,2024 Euro Cup,"['england', ""'s soccer team""]",['euro'],", England",Euro Cup,", England",Euro Cup
+2113,175,Thursday Calif.,has declared,itself sanctuary for trans folks,['calif'],['trans folks'],Calif,trans folks,Calif,Trans
+2119,175,California,was,While already sanctuary state,['california'],['sanctuary state'],Southern California,sanctuary city,Southern California,Sanctuary City
+2128,176,Buy offers,screen,LGBTQ donations,['buy'],['lgbtq'],Best Buy,lgbtq,Best Buy,Lgbtq
+2134,176,Best Buy offers,screen LGBTQ donations after,conservative pressure,['buy'],['conservative pressure'],Best Buy,conservative pressure,Best Buy,Pressure
+2148,177,Meet Will Wooten,lawyer on,team prosecuting in Georgia,['will wooten'],['georgia'],will wooten,Georgia,Will Wooten,Georgia
+2149,178,South Koreans,are,Why welcoming of LGBTQ neighbors,['koreans'],['lgbtq'],South Koreans,lgbtq,South Koreans,Lgbtq
+2157,179,Boise State professor,ran,far right anti-LGBTQ website,"['boise', 'state professor']",['right anti-lgbtq website'],boise,right anti-lgbtq website,Boise,Right Anti-Lgbtq Website
+2160,179,Boise State professor,ran,right website,"['boise', 'state professor']",['right website'],boise,Right View,Boise,Right View
+2161,179,Boise State professor,ran,anti-LGBTQ website,"['boise', 'state professor']",['anti-lgbtq website'],boise,anti-lgbtq website,Boise,Anti-Lgbtq Bills
+2165,179,Boise State University,is in,Idaho,"['boise', 'state university']",['idaho'],Boise State University,Idaho,Boise State University,Idaho
+2168,180,President Joe Biden,reaffirmed,his administration ’s commitment to transgender rights,['joe biden'],"['administration ’ s commitment', 'transgender rights']",Joe Biden,administration  commitment,Joe Biden,Administration  Commitment
+2175,181,Michaela Jaé Rodriguez,inspire,LGBTQ community,['michaela jaé rodriguez'],['lgbtq'],michaela jaé rodriguez,lgbtq,Michaela Jaé Rodriguez,Lgbtq
+2177,181,new interview,is with,Advocate,['new interview'],['advocate'],New Orleans,The Advocate,New Orleans,The Advocate
+2178,181,trans actress,is opening up In,interview with Advocate,['trans actress'],['advocate'],trans actress,The Advocate,Trans,The Advocate
+2179,181,trans actress,is opening up In,new interview,['trans actress'],['new interview'],trans actress,New Orleans,Trans,New Orleans
+2183,182,Jojo Siwa,’s,New Single Hits,['jojo siwa'],['single hits'],JoJo,Hits,Jojo,Hits
+2185,182,Jojo Siwa 's upcoming Karma,makes,splash on TikTok Billboard Top 50 chart,"['jojo siwa', 'karma']",['tiktok billboard top'],JoJo,Billboard Top,Jojo,Billboard Top
+2187,182,Jojo Siwa,has,upcoming single Karma,['jojo siwa'],['karma'],JoJo,Karma,Jojo,Karma
+2193,183,Dr. Rachel Levine,be,Assistant Secretary for Health at U.S. Department erupted,['rachel levine'],"['assistant secretary', 'u.s.']",Rachel Levine,health secretary,Rachel Levine,Health Secretary
+2205,183,Dr. Rachel Levine,be,Assistant Secretary for Health,['rachel levine'],['assistant secretary'],Rachel Levine,Assistant Secretary for Health,Rachel Levine,Assistant Secretary For Health
+2220,183,Pennsylvania,’s,health system,['pennsylvania'],['health system'],pennsylvania,health secretary,Pennsylvania,Health Secretary
+2227,184,Biden White House,attacks,Republicans for restrictions on LGBT pride flags,"['biden', 'white house']","['lgbt', 'pride flags']",Joe Biden,lgbt,Joe Biden,Lgbt
+2228,184,Biden White House,attacks,Republicans for modest restrictions on pride flags,"['biden', 'white house']","['modest restrictions', 'pride flags']",Joe Biden,modest restrictions,Joe Biden,Modest Restrictions
+2231,184,Biden White House,attacks,Republicans,"['biden', 'white house']",[],Joe Biden,Republicans,Joe Biden,Republicans
+2233,184,Biden White House,attacks,Republicans for restrictions on pride flags,"['biden', 'white house']",['pride flags'],Joe Biden,Pride flags,Joe Biden,Pride Flags
+2239,185,drag star,feted at,Biden White House,['drag star'],"['biden', 'white house']",drag queens,Joe Biden,Drag Queens,Joe Biden
+2240,185,drag star,feted by,Kamala Harris,['drag star'],['kamala harris'],drag queens,Kamala Harris,Drag Queens,Kamala Harris
+2241,185,Article,republished from,AMGreatness.com,['article'],['amgreatness.com'],Full Article,amgreatness.com,Full Article,Amgreatness.Com
+2242,186,their Gay AF Comedy,show to,Montreal,"['gay', 'comedy']",['montreal'],gay bar,Montreal,Gay Bar,Montreal
+2243,186,Toronto LGBTQ showcase,head,local comedians joining along way,['toronto lgbtq'],['local comedians'],Toronto,local comedians,Toronto,Local Comedians
+2247,186,Toronto LGBTQ showcase,is,head on cross-country tour,['toronto lgbtq'],['cross-country tour'],Toronto,cross-country tour,Toronto,Cross-Country Tour
+2279,187,Olivia Colman,Reflects On,Her Beloved Career,['olivia colman'],['beloved career'],Olivia Colman,beloved career,Olivia Colman,Beloved Career
+2280,187,Academy Award winner,discusses,her Little Letters film,['academy award winner'],"['little', 'letters film']",academy award winner,little,Academy Award Winner,Little
+2281,187,Academy Award winner,discusses,her new Wicked Letters film,['academy award winner'],"['wicked', 'letters film']",academy award winner,wicked,Academy Award Winner,Wicked
+2285,187,Academy Award winner,reveals in,will Heartstopper season three,['academy award winner'],['heartstopper'],academy award winner,heartstopper,Academy Award Winner,Heartstopper
+2290,187,Academy Award winner,discusses,her new Letters film,['academy award winner'],['new letters film'],academy award winner,new letters film,Academy Award Winner,New Letters Film
+2294,187,Academy Award winner,discusses,her Letters film,['academy award winner'],['letters film'],academy award winner,short film,Academy Award Winner,Short Film
+2309,191,Graphic novel,tells,stories of LGTBQ people,['graphic'],['lgtbq'],Graphic novel,lgtbq,Graphic Novel,Lgtbq
+2317,191,forthcoming anthology,illustrates,stories of older LGTBQ people,['forthcoming anthology'],['lgtbq'],forthcoming anthology,lgtbq,Forthcoming Anthology,Lgtbq
+2339,192,Numerous groups,have called for,boycotts of Eurovision,['numerous'],['eurovision'],numerous,eurovision,Numerous,Eurovision
+2342,192,Numerous groups,have called due,Israel ’s inclusion,['numerous'],"['israel', '’ s inclusion']",numerous,Israel,Numerous,Israel
+2347,193,USWNT,’s,Korbin Albert,['uswnt'],['korbin albert'],uswnt,korbin albert,Uswnt,Korbin Albert
+2348,193,USWNT ’s Korbin Albert,apologizes after,reports of anti-LGBTQ reposts,"['uswnt', '’ s', 'korbin albert']",['anti-lgbtq reposts'],uswnt,anti-lgbtq reposts,Uswnt,Anti-Lgbtq Bills
+2350,193,USWNT midfielder Korbin Albert,apologized for,liking social media posts,"['uswnt', 'korbin albert']",['social media posts'],uswnt,social media,Uswnt,Social Media
+2351,193,USWNT midfielder Korbin Albert,apologized for,liking media posts,"['uswnt', 'korbin albert']",['media posts'],uswnt,Media Matters,Uswnt,Media Matters
+2354,194,film industry,into,best drama movies of time,['film industry'],['drama movies'],short film,Movies,Short Film,Movies
+2355,195,Rev. Lauren Bennett 33,leads,St. Louis church,"['rev', 'lauren bennett']",['louis'],rev,louis,Rev,Louis
+2357,196,Equalpride,has,CEO on standing together Transgender Day of Visibility,['equalpride'],"['ceo', 'transgender', 'visibility']",equalpride,CEO,Equalpride,Ceo
+2375,197,Artists,compete in,Eurovision Song Contest,['artists'],"['eurovision', 'contest']",Artists,eurovision,Artists,Eurovision
+2377,198,safe spaces,turn against,trans rights,['safe spaces'],['trans rights'],safe spaces,transgender rights,Safe Spaces,Transgender Rights
+2378,198,Janel Diaz,sought In,Capital Tea,['janel diaz'],['capital tea'],janel diaz,capital tea,Janel Diaz,Capital Tea
+2382,199,WH,bashes,dishonest GOP criticism of Biden 's proclamation on Easter,['wh'],"['dishonest gop criticism', 'biden', ""'s proclamation"", 'easter']",wh,dishonest gop criticism,Wh,Dishonest Gop Criticism
+2384,199,WH,bashes,GOP criticism of Biden 's transgender proclamation,['wh'],"['biden', ""'s transgender proclamation""]",wh,Joe Biden,Wh,Joe Biden
+2388,199,Biden,of,transgender proclamation on Easter,['biden'],"['transgender proclamation', 'easter']",Joe Biden,Transgender,Joe Biden,Transgender
+2393,199,White House,is pushing back against,top Republicans ' criticism on same day as Easter,['white house'],['easter'],White House,easter,White House,Easter
+2394,199,White House,is pushing back against,Republicans ' misleading criticism of Biden 's Transgender Day on same day as Easter,['white house'],"['biden', 'transgender', 'easter']",White House,Joe Biden,White House,Joe Biden
+2455,200,Transgender Day,celebrated annually on,March 31,['transgender'],['march'],Transgender,march,Transgender,March
+2459,201,LGBTQ club owner,arrested in,Russia,"['lgbtq', 'club owner']",['russia'],lgbtq,russia,Lgbtq,Russia
+2467,201,LGBT rights,is in,Russia,['lgbt'],['russia'],lgbt,russia,Lgbt,Russia
+2472,202,LGBTQ club owner,arrested in,Russia extremism,"['lgbtq', 'club owner']",['russia'],lgbtq,russia,Lgbtq,Russia
+2485,203,Trans Latina woman,honored with,human rights award,['trans latina'],['human rights'],trans latina,Human Rights Campaign,Trans,Human Rights Campaign
+2489,203,Arely Westley,tells,Advocate,['arely westley'],['advocate'],arely westley,The Advocate,Arely Westley,The Advocate
+2490,203,Arely Westley,recipient of,Robert F. Kennedy Human Rights Award,['arely westley'],['robert f. kennedy'],arely westley,robert f. kennedy,Arely Westley,Robert F. Kennedy
+2492,203,Arely Westley,tells Advocate about,crucial moment,['arely westley'],['crucial moment'],arely westley,crucial moment,Arely Westley,Crucial Moment
+2494,204,LGBT club owner,arrested in,Russia extremism,"['lgbt', 'club owner']",['russia'],lgbt,russia,Lgbt,Russia
+2506,205,Vlad,on,Army,['vlad'],[],vlad,Army,Vlad,Army
+2507,205,Machine Gunner,Taking on,Vlad Army,['machine gunner'],['vlad'],machine gunner,vlad,Machine Gunner,Vlad
+2508,205,Putin Friend,Predicts,Nuke Strike,['putin friend'],['nuke strike'],Putin,Strike,Putin,Strike
+2523,207,Wanderful Founder Beth Santos,Is Giving,Women Advice,['wanderful founder beth santos'],['advice'],wanderful founder beth santos,advice,Wanderful Founder Beth Santos,Advice
+2525,207,Wanderful Founder Beth Santos,Is Giving Women Advice On,Solo Travel,['wanderful founder beth santos'],['solo travel'],wanderful founder beth santos,Travel,Wanderful Founder Beth Santos,Travel
+2527,207,trailblazer,has,debut book,[],['debut book'],trailblazer,debut book,Trailblazer,Debut Book
+2555,209,trans athletes,have,competitive adv,['trans athletes'],['competitive adv'],Athletes,competitive adv,Athletes,Competitive Adv
+2564,210,Joe Biden,Declares at_time,Easter Sunday ' Transgender Day,['joe biden'],"['easter', 'transgender']",Joe Biden,easter,Joe Biden,Easter
+2565,210,President Joe Biden 's White House,has declared,holiest of holidays of Visibility,"['joe biden', 'white house']",['visibility'],Joe Biden,visibility,Joe Biden,Visibility
+2568,210,President Joe Biden 's White House,has declared,holiest of Christian holidays of Visibility,"['joe biden', 'white house']","['christian holidays', 'visibility']",Joe Biden,Christian holidays,Joe Biden,Christian Holidays
+2571,210,President Joe Biden,has,White House,['joe biden'],['white house'],Joe Biden,White House,Joe Biden,White House
+2573,210,Sunday Transgender Day,appeared on,Breitbart,['transgender'],['breitbart'],Transgender,Breitbart,Transgender,Breitbart
+2575,211,Former medal winner Caitlyn Jenner,has slammed President Joe Biden for,his declaration Sunday 2024 as Transgender Day,"['medal winner', 'caitlyn jenner']",['transgender'],medal winner,Transgender,Medal Winner,Transgender
+2577,211,Former medal winner Caitlyn Jenner,has slammed President Joe Biden for,his declaration of Easter Sunday 2024 as Transgender Day,"['medal winner', 'caitlyn jenner']","['easter', 'transgender']",medal winner,easter,Medal Winner,Easter
+2583,211,Former Olympic medal winner Caitlyn Jenner,has slammed,President Joe Biden,"['olympic medal winner', 'caitlyn jenner']",['joe biden'],olympic medal winner,Joe Biden,Medal Winner,Joe Biden
+2589,211,post Caitlyn Jenner firs,Disgusted over,Transgender Day,['caitlyn jenner'],['transgender'],Caitlyn Jenner,Transgender,Caitlyn Jenner,Transgender
+2590,211,post Caitlyn Jenner firs,Absolutely Disgusted with,Biden,['caitlyn jenner'],['biden'],Caitlyn Jenner,Joe Biden,Caitlyn Jenner,Joe Biden
+2602,212,Biden,proclaims at_time,Transgender Day on Easter Sunday,['biden'],"['transgender', 'easter']",Joe Biden,Transgender,Joe Biden,Transgender
+2606,212,President Biden,is facing backlash,he declared March 31 as Trans Visibility Day,['biden'],"['march', 'trans visibility']",Joe Biden,march,Joe Biden,March
+2607,212,President Biden,is facing,backlash from conservative critics,['biden'],['conservative critics'],Joe Biden,conservative critics,Joe Biden,Conservative
+2613,212,President Biden,is facing,angry backlash,['biden'],['angry backlash'],Joe Biden,angry backlash,Joe Biden,Backlash
+2622,213,alarming anti-trans legislation,is in,open letter,['anti-trans legislation'],['open letter'],anti-gay legislation,open borders,Anti-Gay Legislation,Open Borders
+2690,214,Rachel Crandall Crocker,founder of,International Transgender Day,['rachel crandall crocker'],['transgender'],rachel crandall crocker,Transgender,Rachel Crandall Crocker,Transgender
+2693,215,Dom Tulleken,runs,dance academy,['dom tulleken'],['dance academy'],dom tulleken,Dance Moms,Dom Tulleken,Dance Moms
+2702,216,Republican Party,blasted,President Joe Biden,['republican'],['joe biden'],Republican Ohio,Joe Biden,Republican Ohio,Joe Biden
+2703,216,March 31 2024,Day of,Visibility,['march'],['visibility'],march,visibility,March,Visibility
+2705,216,Republican Party,blasted President Joe Biden for,declaring March 31 2024,['republican'],['march'],Republican Ohio,march,Republican Ohio,March
+2706,217,Trans corrections officer,can continue,appeals court rules,"['trans', 'corrections officer']",['appeals court rules'],trans,Appeals Court,Trans,Appeals Court
+2708,217,Trans corrections officer,is in,Georgia,"['trans', 'corrections officer']",['georgia'],trans,Georgia,Trans,Georgia
+2709,217,transgender man,is in,Georgia,['transgender man'],['georgia'],transgender man,Georgia,Transgender Man,Georgia
+2715,218,Scotland,has,new hate crime law in 90 seconds,['scotland'],['crime law'],Scotland,Hate Crime,Scotland,Hate Crime
+2717,218,new hate crime law,is in,Scotland,['crime law'],['scotland'],Hate Crime,Scotland,Hate Crime,Scotland
+2718,218,BBC,has,James Cook,['bbc'],['james cook'],BBC,James Cook,Bbc,James Cook
+2719,218,BBC 's James Cook,breaks down,debate over new hate crime law,"['bbc', 'james cook']",['crime law'],BBC,Hate Crime,Bbc,Hate Crime
+2724,219,GLAAD,Behind,Black LGBTQ Media Advocacy,['glaad'],['black lgbtq media advocacy'],GLAAD,black lgbtq media advocacy,Glaad,Black Lgbtq Media Advocacy
+2725,219,GLAAD 's Communities,has emerged as,dynamic force,"['glaad', 'communities']",['dynamic force'],GLAAD,dynamic force,Glaad,Dynamic Force
+2728,219,GLAAD,has,Communities of Color Department,['glaad'],"['communities', 'color']",GLAAD,communities,Glaad,Communities
+2779,224,Brazilian political star 's killing,was mystery until,federal report,"['brazilian', ""political star 's""]",['federal report'],brazilian,federal report,Brazilian,Federal Report
+2780,224,rising star 's killing,was mystery until,explosive report,"[""star 's""]",['explosive report'],star ,explosive report,Star ,Federal Report
+2820,224,rising political star,ties between,state civil police chief Rivaldo Barbosa,['political star'],"['civil police chief', 'rivaldo barbosa']",political star,civil police chief,Star ,Civil Police Chief
+2826,224,rising political star,ties in,killing of Councilwoman Marielle Franco,['political star'],['marielle franco'],political star,marielle franco,Star ,Marielle Franco
+2827,224,rising political star,ties between,federal state civil police chief Rivaldo Barbosa,['political star'],"['federal state', 'civil police chief', 'rivaldo barbosa']",political star,Tennessee state,Star ,Tennessee State
+2831,224,rising political star,ties,LGBTQ woman,['political star'],['lgbtq'],political star,lgbtq,Star ,Lgbtq
+2847,224,political star,revelations,Black LGBTQ woman,['political star'],['black lgbtq'],political star,Black,Star ,Black
+2849,224,rising political star,ties between,federal state police chief Rivaldo Barbosa,['political star'],"['federal state police', 'rivaldo barbosa']",political star,federal state police,Star ,Federal State Police
+2864,224,rising political star,ties between,state police chief Rivaldo Barbosa,['political star'],"['state police', 'rivaldo barbosa']",political star,Police,Star ,Police
+2882,225,Jace Reh,wants,ban on gay conversion practices,['jace reh'],['gay conversion practices'],jace reh,gay conversion therapy,Jace Reh,Gay Conversion Therapy
+2884,225,Jace Reh,wants,ban on conversion practices,['jace reh'],['conversion practices'],jace reh,conversion practices,Jace Reh,Conversion Practices
+2893,226,urgent need,resilience of,trans youth,['urgent need'],['trans youth'],Need To,LGBT youth,Need To,Lgbt Youth
+2917,227,anti-LGBTQ laws,is in,Canada,['anti-lgbtq laws'],['canada'],laws,Canada,Laws,Canada
+2929,228,Gentili,died in,February,['gentili'],['february'],gentili,february,Gentili,February
+2934,229,transgender people,find community in,unexpected places,['transgender people'],['unexpected places'],Transgender,unexpected places,Transgender,Unexpected Places
+2949,231,Biden,proclaiming at_time,Transgender Day on Easter Sunday,['biden'],"['transgender', 'easter']",Joe Biden,Transgender,Joe Biden,Transgender
+2958,231,US President,making,controversial decision,['us president'],['controversial decision'],US President,controversial decision,Us President,Controversial Decision
+2959,232,Wisconsin governor vetoes,transgender,high school athletics ban,"['wisconsin', 'governor vetoes']",['high school athletics ban'],Wisconsin,Owasso High School,Wisconsin,Owasso High School
+2960,232,Wisconsin governor vetoes,transgender,school athletics ban,"['wisconsin', 'governor vetoes']",['school athletics ban'],Wisconsin,school athletics ban,Wisconsin,School Athletics Ban
+2963,232,Wisconsin Gov. Tony Evers,vetoed,bill passed by Republican controlled Legislature,"['wisconsin gov', 'tony evers']",['republican'],Wisconsin,Republican Ohio,Wisconsin,Republican Ohio
+2970,234,Wisconsin,’s,Democratic governor vetoes,['wisconsin'],['democratic governor vetoes'],Wisconsin,democratic governor vetoes,Wisconsin,Democratic Governor Vetoes
+2975,235,Wisconsin Gov. Evers vetoes school athletics ban,decries,radical policies,"['wisconsin gov', 'evers', 'vetoes school athletics ban']",['radical policies'],Wisconsin,radical policies,Wisconsin,Radical Pivot
+2981,235,Evers,vetoed,bill passed by Republican controlled Legislature,['evers'],['republican'],Tony Evers,Republican Ohio,Tony Evers,Republican Ohio
+2986,236,mouthed Republican legislator,wants,seat in Missouri state Senate,['republican'],"['missouri', 'state senate']",Republican Ohio,Missouri,Republican Ohio,Missouri
+2988,236,Foul mouthed homophobic legislator,wants,seat in Missouri state Senate,"['foul', 'homophobic legislator']","['missouri', 'state senate']",foul,Missouri,Foul,Missouri
+2990,236,mouthed homophobic legislator,wants,seat in Missouri state Senate,['homophobic legislator'],"['missouri', 'state senate']",homophobic legislator,Missouri,Homophobic Legislator,Missouri
+3012,236,former state representative,is in,Missouri,['state representative'],['missouri'],Tennessee state,Missouri,Tennessee State,Missouri
+3013,236,former state representative,is with,extensive history of anti-LGBTQ slurs against fellow politicians,['state representative'],"['extensive history', 'anti-lgbtq slurs', 'fellow politicians']",Tennessee state,extensive history,Tennessee State,Dark History
+3020,238,Best Buy,funding LGBTQ groups because,conservative cabal,['buy'],['conservative cabal'],Best Buy,conservative cabal,Best Buy,Conservative
+3021,238,Best Buy,funding,LGBTQ groups,['buy'],['lgbtq'],Best Buy,lgbtq,Best Buy,Lgbtq
+3023,239,Gov. Tony Evers,Vetoes,Bill,"['gov', 'tony evers']",['bill'],gov,anti-gay bill,Gov,Anti-Gay Bill
+3024,239,Bill,Protect,Girls ' Sports,['bill'],['girls'],anti-gay bill,girls,Anti-Gay Bill,Girls
+3026,239,Wisconsin,has,liberal Democrat Gov.,['wisconsin'],['democrat gov'],Wisconsin,liberal Democrat,Wisconsin,Liberal Democrat
+3032,239,Bill,Protect Girls Sports from,Trans Athletes,['bill'],['trans athletes'],anti-gay bill,Athletes,Anti-Gay Bill,Athletes
+3035,240,Hitler Praising,is In,New Lawsuit,['hitler praising'],['lawsuit'],of Hitler,Lawsuit,Of Hitler,Lawsuit
+3037,240,Kanye West,speaking of,Hitler,['kanye'],['hitler'],Kanye West,of Hitler,Kanye West,Of Hitler
+3040,242,Caitlin Clark,once dreamed of,going to UConn,['caitlin clark'],['uconn'],caitlin clark,uconn,Clark,Uconn
+3047,242,Clark,has,freshman year at Iowa,['clark'],"['freshman year', 'iowa']",clark,freshman year,Clark,Freshman Year
+3049,242,her final season,off cap is,Final Four win over Huskies,['final season'],"['final', 'huskies']",final season,final,Final,Final
+3051,243,Michigan governor signs,decriminalize,paid surrogacy contracts,"['michigan', 'governor signs']",['surrogacy contracts'],Michigan,surrogacy contracts,Michigan,Surrogacy
+3054,243,Gov. Gretchen Whitmer,described act at,event in Royal Oak,"['gov', 'gretchen whitmer']",['royal oak'],gov,Royal Oak,Gov,Royal Oak
+3058,243,Gov. Gretchen Whitmer,described act as,package of common sense,"['gov', 'gretchen whitmer']",['common sense'],gov,common sense,Gov,Common Sense
+3065,244,Karine Jean Pierre,slams misinformation on,Trans Day,['karine jean pierre'],['trans'],karine jean pierre,trans,Karine Jean Pierre,Trans
+3068,244,Karine Jean Pierre,slams,wing misinformation,['karine jean pierre'],['wing misinformation'],karine jean pierre,wing misinformation,Karine Jean Pierre,Wing Extremists
+3070,244,Press Secretary Karine Jean Pierre,skewered,manufactured outrage over President Joe Biden ’s proclamation of Transgender Day of Visibility,"['press secretary', 'karine jean pierre']","['joe biden', '’ s proclamation', 'transgender', 'visibility']",health secretary,Joe Biden,Health Secretary,Joe Biden
+3072,244,President Joe Biden,over,proclamation of Transgender Day of Visibility,['joe biden'],"['transgender', 'visibility']",Joe Biden,Transgender,Joe Biden,Transgender
+3074,244,Press Secretary Karine Jean Pierre,skewered outrage In,Monday ’s White House press briefing,"['press secretary', 'karine jean pierre']","['’ s', 'white house press']",health secretary,s Beach,Health Secretary,S Beach
+3080,245,Elon Musk ’s X,appoints,safety chiefs,"['elon musk', '’ s']",['safety chiefs'],Elon Musk,Psychological Safety,Elon Musk,Psychological Safety
+3085,245,Elon Musk ’s X,appoints,new safety chiefs,"['elon musk', '’ s']",['new safety chiefs'],Elon Musk,new safety chiefs,Elon Musk,New Safety Chiefs
+3088,246,Trans Visibility Day,One in,White House,['trans visibility'],['white house'],trans visibility,White House,Trans,White House
+3090,246,Trans Visibility Day,Was,Knew,['trans visibility'],['knew'],trans visibility,knew,Trans,Knew
+3092,246,strategist James Carville,reacted to,criticism of Biden White House for its proclamation of Transgender Day of Visibility falling by stating,['james carville'],"['biden', 'white house', 'transgender', 'visibility']",James Carville,Joe Biden,James Carville,Joe Biden
+3093,246,strategist James Carville,reacted to,criticism for its proclamation of Transgender Day of Visibility falling,['james carville'],"['transgender', 'visibility']",James Carville,Transgender,James Carville,Transgender
+3094,246,Democratic strategist James Carville,reacted to,criticism for its proclamation of Transgender Day of Visibility,"['democratic strategist', 'james carville']","['transgender', 'visibility']",Democratic incumbent,Transgender,Democratic Incumbent,Transgender
+3096,246,Democratic strategist James Carville,reacted On,Monday ’s broadcast of NewsNation ’s Cuomo,"['democratic strategist', 'james carville']","['’ s broadcast', 'newsnation', '’ s', 'cuomo']",Democratic incumbent, broadcast,Democratic Incumbent, Broadcast
+3100,246,Democratic strategist James Carville,reacted to,criticism of Biden White House for its proclamation of Transgender Day of Visibility,"['democratic strategist', 'james carville']","['biden', 'white house', 'transgender', 'visibility']",Democratic incumbent,Joe Biden,Democratic Incumbent,Joe Biden
+3105,246,strategist James Carville,reacted On,Monday ’s broadcast,['james carville'],['’ s broadcast'],James Carville, broadcast,James Carville, Broadcast
+3129,246,strategist James Carville,reacted to,criticism for its proclamation falling on Easter,['james carville'],['easter'],James Carville,easter,James Carville,Easter
+3137,246,Democratic strategist James Carville,reacted to,criticism for its proclamation falling on Easter,"['democratic strategist', 'james carville']",['easter'],Democratic incumbent,easter,Democratic Incumbent,Easter
+3147,246,NewsNation,of,Cuomo,['newsnation'],['cuomo'],newsnation,cuomo,Newsnation,Cuomo
+3166,249,Wisconsin,has,Democratic governor,['wisconsin'],['democratic governor'],Wisconsin,Democratic incumbent,Wisconsin,Democratic Incumbent
+3167,249,Wisconsin 's Democratic governor,has vetoed,anti-transgender sports bill,"['wisconsin', 'democratic governor']",['anti-transgender sports bill'],Wisconsin,anti-transgender sports bill,Wisconsin,Anti-Transgender Sports Bill
+3168,249,Wisconsin 's governor,has vetoed,sports bill,"['wisconsin', ""'s governor""]",['sports bill'],Wisconsin,Sports,Wisconsin,Sports
+3173,250,Uganda,’s,most prominent LGBTQ activist,['uganda'],['lgbtq'],uganda,lgbtq,Uganda,Lgbtq
+3175,250,court ’s decision,uphold,anti-gay law,['court ’ s decision'],['anti-gay law'],court  decision,anti-gay legislation,Appeals Court,Anti-Gay Legislation
+3178,250,constitutional court ’s decision,uphold,anti-gay law,['constitutional court ’ s decision'],['anti-gay law'],constitutional court  decision,anti-gay legislation,Constitutional Court  Decision,Anti-Gay Legislation
+3179,250,Uganda ’s prominent LGBTQ activist,condemned,court ’s decision,"['uganda', '’ s', 'lgbtq']",['court ’ s decision'],uganda,court  decision,Uganda,Appeals Court
+3181,250,Uganda ’s prominent LGBTQ activist,condemned,constitutional court ’s decision,"['uganda', '’ s', 'lgbtq']",['constitutional court ’ s decision'],uganda,constitutional court  decision,Uganda,Constitutional Court  Decision
+3186,251,Uganda ’s court,upheld,anti-gay law,"['uganda', '’ s court']",['anti-gay law'],uganda,anti-gay legislation,Uganda,Anti-Gay Legislation
+3189,251,Uganda,’s,constitutional court on Wednesday,['uganda'],['constitutional court'],uganda,Appeals Court,Uganda,Appeals Court
+3191,252,Human Rights Campaign,expects,Hilton,['campaign'],['hilton'],Human Rights Campaign,hilton,Human Rights Campaign,Hilton
+3192,252,Hilton,cancel,California event,['hilton'],['california'],hilton,Southern California,Hilton,Southern California
+3194,252,wing extremists Chaya Raichik,figure behind,anti-LGBTQ account,"['wing extremists', 'chaya raichik']",['anti-lgbtq account'],wing extremists,anti-lgbtq account,Wing Extremists,Anti-Lgbtq Bills
+3205,253,Goran Stolevski 's newest film,is tale about,group of cohabiting outcasts in North Macedonia,['goran stolevski'],['macedonia'],goran stolevski,macedonia,Goran Stolevski,Macedonia
+3230,253,Goran Stolevski 's newest film,is,heartbreaking tale,['goran stolevski'],['heartbreaking tale'],goran stolevski,Cautionary Tale,Goran Stolevski,Cautionary Tale
+3274,255,Ugandan court,upholds,anti-gay law,['ugandan'],['anti-gay law'],Ugandan,anti-gay legislation,Ugandan,Anti-Gay Legislation
+3277,255,Uganda,has,anti-gay legislation,['uganda'],['anti-gay legislation'],uganda,anti-gay legislation,Uganda,Anti-Gay Legislation
+3284,256,Transgender Levine,Public Anger over,Easter Provocation,['transgender levine'],['easter provocation'],Transgender,easter provocation,Transgender,Easter
+3285,256,Transgender Levine,Dismisses,Public Anger,['transgender levine'],['anger'],Transgender,anger,Transgender,Anger
+3290,256,President Joe Biden 's transgender appointee,dismissed,public 's opposition to his promotion of pro-transgender policies during Christianity 's Easter holy days,"['joe biden', ""'s transgender appointee""]","[""public 's opposition"", 'pro-transgender policies', 'christianity', 'easter']",Joe Biden,public  opposition,Joe Biden,Public  Opposition
+3296,256,Christianity,during,Easter holy days,['christianity'],['easter'],Christianity,easter,Christianity,Easter
+3308,256,President Joe Biden,has,top transgender appointee,['joe biden'],['top transgender appointee'],Joe Biden,top transgender appointee,Joe Biden,Top Transgender Appointee
+3325,258,Cardiff UK city,host,LGBTQ Eurogames,['cardiff uk'],['lgbtq eurogames'],Cardiff,lgbtq eurogames,Cardiff,Lgbtq
+3326,258,Wales ’s capital,host,Europe ’s biggest LGBTQ sports event,"['wales', '’ s capital']","['europe', '’ s', 'lgbtq', 'sports event']",wales,Europe,Wales,Europe
+3328,258,Europe,’s,biggest LGBTQ multi sports event,['europe'],"['lgbtq', 'multi sports event']",Europe,lgbtq,Europe,Lgbtq
+3334,259,former President Donald Trump,announced,his endorsement of Pastor Mark Burns,['donald trump'],['pastor mark burns'],Donald Trump,Mark Burns,Donald Trump,Mark Burns
+3336,259,South Carolina,for,3rd Congressional District,['carolina'],['congressional district'],North Carolina,Oklahoma district,North Carolina,Oklahoma District
+3343,260,12 Year Olds,Can Perform in,Drag,['olds'],['drag'],olds,drag queens,Olds,Drag Queens
+3347,260,North Face,sponsors,LGBTQ camp,['face'],['lgbtq'],face,lgbtq,Face,Lgbtq
+3350,260,Year Olds,appeared on,Breitbart,['olds'],['breitbart'],olds,Breitbart,Olds,Breitbart
+3362,262,Trump,awkwardly blames,Biden ’s support of trans people for gas prices,['trump'],"['biden', '’ s support', 'trans people', 'gas prices']",Melania Trump,Joe Biden,Melania Trump,Joe Biden
+3367,262,Biden,’s,support of trans people for high gas prices,['biden'],"['trans people', 'high gas prices']",Joe Biden,trans people,Joe Biden,Trans
+3371,262,Trump,co-chair of,Republican National Committee,['trump'],"['republican', 'national committee']",Melania Trump,Republican National Committee,Melania Trump,Republican National Committee
+3376,262,linked President Joe Biden,’s,acknowledgment of transgender rights,['joe biden'],['transgender rights'],Joe Biden,transgender rights,Joe Biden,Transgender Rights
+3378,263,Detransitioner Crashes Disney Shareholder Meeting,Blames Company for,Her Body,['detransitioner crashes disney shareholder meeting'],['body'],detransitioner crashes disney shareholder meeting,body,Detransitioner Crashes Disney Shareholder Meeting,Body
+3379,263,Disney,has,shareholder meeting,['disney'],['shareholder meeting'],Disney,Shareholder Meeting,Disney,Shareholder Meeting
+3388,265,Patricia Highsmith,’s,Tom Ripley,['patricia highsmith'],['tom ripley'],Patricia Highsmith,Tom Ripley,Patricia Highsmith,Tom Ripley
+3390,266,Gay rights activists,call for,more international pressure on Uganda over anti-gay law,"['gay', 'rights activists']","['international pressure', 'uganda', 'anti-gay law']",gay bar,international pressure,Gay Bar,Pressure
+3392,266,international community,mount,pressure on government of Uganda,['international community'],['uganda'],LGBT Community,uganda,Lgbt Community,Uganda
+3397,266,Ugandan gay rights activists,asked,international community,"['ugandan', 'gay rights activists']",['international community'],Ugandan,LGBT Community,Ugandan,Lgbt Community
+3400,266,rights activists,asked,international community,['rights activists'],['international community'],transgender rights,LGBT Community,Transgender Rights,Lgbt Community
+3402,266,gay rights activists,asked,international community,['gay rights activists'],['international community'],Ugandan gay rights,LGBT Community,Ugandan Gay Rights,Lgbt Community
+3415,267,Magda Eriksson,Shocked By,Emma Hayes Comments,['magda eriksson'],['emma hayes comments'],magda eriksson,Emma Hayes,Magda Eriksson,Emma Hayes
+3430,269,Conservative school board candidates,handed loss in,St. Louis area,"['conservative', 'school board candidates']",['louis'],conservative,St. Louis area,Conservative,St. Louis Area
+3432,269,school board candidates,handed,humiliating loss,['school board candidates'],['humiliating loss'],school board candidates,humiliating loss,School Board Members,Humiliating Loss
+3433,269,school board candidates,handed loss in,St. Louis area,['school board candidates'],['louis'],school board candidates,St. Louis area,School Board Members,St. Louis Area
+3434,269,Conservative school board candidates,handed,humiliating loss,"['conservative', 'school board candidates']",['humiliating loss'],conservative,humiliating loss,Conservative,Humiliating Loss
+3436,270,Hunt,praises,MP 's apology,['hunt'],"['mp', ""'s apology""]",hunt,mp,Hunt,Mp
+3438,271,Scotland,has,new hate crime law,['scotland'],['crime law'],Scotland,Hate Crime,Scotland,Hate Crime
+3442,272,male guardianship system,denies,women basic human rights,['male guardianship system'],['basic human rights'],male guardianship system,Human Rights Campaign,Guardianship System,Human Rights Campaign
+3443,272,guardianship system,denies,women basic rights,['guardianship system'],['basic rights'],guardianship system,transgender rights,Guardianship System,Transgender Rights
+3444,272,male guardianship system,denies,women rights,['male guardianship system'],['women rights'],male guardianship system,transgender women,Guardianship System,Transgender Women
+3446,272,flagship event,going to,Saudi Arabia,['flagship event'],['saudi arabia'],flagship event,Saudi Arabia,Central Event,Saudi Arabia
+3457,273,Headlines,are,full of lawmakers to youth sports,['headlines'],['youth sports'],headlines,Sports,Headlines,Sports
+3459,273,Headlines,are,full to books in grade school libraries to youth sports,['headlines'],"['grade school libraries', 'youth sports']",headlines,grade school libraries,Headlines,Grade School Libraries
+3471,274,Israel,will let,aid into Gaza,['israel'],['gaza'],Israel,Gaza,Israel,Gaza
+3473,274,Israel,will let,Biden warned,['israel'],['biden'],Israel,Joe Biden,Israel,Joe Biden
+3494,275,Steven Kabuye,of,social posts,['steven kabuye'],['social posts'],steven kabuye,social media,Steven Kabuye,Social Media
+3495,275,Marks,reads,caption of one Steven Kabuye ’s posts,['marks'],"['steven kabuye', '’ s posts']",marks,steven kabuye,Marks,Steven Kabuye
+3509,275,Anti-Homosexuality Act,has legalized homophobia in,Uganda,['anti-homosexuality'],['uganda'],anti-homosexuality,uganda,Anti-Homosexuality,Uganda
+3517,277,U.S. Constitution,Declaration of,Independence,['u.s.'],['independence'],U.S. Constitution,independence,U.S. Constitution,Independence
+3518,277,King James Version,is preferred version of,fundamentalist Christian churches,['james version'],['christian churches'],James Carville,Christian Ziegler,James Carville,Christian Ziegler
+3529,278,sex scandal,sunk,career of Florida Republican couple,['sex scandal'],['florida republican'],sex scandal,Florida,Sex Workers,Florida
+3530,278,sex scandal,sunk,political career,['sex scandal'],['political career'],sex scandal,political career,Sex Workers,Beloved Career
+3534,279,Trans Harvard Professor,Boasts,Taylor Swift Course,['trans harvard professor'],['taylor swift'],trans harvard professor,Taylor Swift,Trans Harvard Professor,Taylor Swift
+3537,279,transgender Harvard professor,is boasting about,new course,['harvard'],['new course'],Harvard,New Orleans,Harvard,New Orleans
+3540,279,post Trans,Boasts,Taylor Swift Course,['trans'],['taylor swift'],trans,Taylor Swift,Trans,Taylor Swift
+3544,280,Ella Matthes,died at_time,March 16,['ella matthes'],['march'],ella matthes,march,Ella Matthes,March
+3547,281,Horan penalty,sends USA into,SheBelieves Cup final,['horan'],['shebelieves'],Lindsey Horan,shebelieves,Lindsey Horan,Shebelieves
+3548,281,Horan penalty,sends,USA,['horan'],['usa'],Lindsey Horan,usa,Lindsey Horan,Usa
+3551,281,minute penalty,give,2 1 win over Japan,['minute penalty'],['japan'],death penalty,Japan,Death Penalty,Japan
+3554,281,77th minute penalty,give,2 1 win over Japan,['77th minute penalty'],['japan'],77th minute penalty,Japan,77Th Minute Penalty,Japan
+3555,281,Lindsey Horan,converts,minute penalty,['lindsey horan'],['minute penalty'],Lindsey Horan,death penalty,Lindsey Horan,Death Penalty
+3556,281,Lindsey Horan,converts,77th minute penalty,['lindsey horan'],['77th minute penalty'],Lindsey Horan,77th minute penalty,Lindsey Horan,77Th Minute Penalty
+3560,282,LGBTQ content,drove book efforts According,American Library Association,['lgbtq'],['american library association'],lgbtq,American Library Association,Lgbtq,American Library Association
+3564,282,LGBTQ content,drove,book efforts,['lgbtq'],['book efforts'],lgbtq,book efforts,Lgbtq,Debut Book
+3574,285,Prominent LGBTQ activist,ARRESTED for,downloading child pornography,['prominent lgbtq'],['child pornography'],prominent lgbtq,child pornography,Lgbtq,Child Pornography
+3585,285,Roy Trey Farmer,holds,bachelor ’s degree,['roy trey farmer'],['bachelor ’ s degree'],roy trey farmer,bachelor  degree,Roy Trey Farmer,Bachelor  Degree
+3589,285,bachelor ’s degree,is in,classical philosophy,['bachelor ’ s degree'],['classical philosophy'],bachelor  degree,classical philosophy,Bachelor  Degree,Classical Philosophy
+3593,286,Jamie Dimon,from,annual letter,['jamie dimon'],['annual letter'],Jamie Dimon,annual letter,Jamie Dimon,Annual Letter
+3595,287,Vatican,condemns surgery as,threatening unique dignity of person,['vatican'],['unique dignity'],Vatican,unique dignity,Vatican,Unique Dignity
+3607,288,Chaya Milchtein,Is Using,Her Automotive Knowledge,['chaya milchtein'],['automotive knowledge'],chaya milchtein,automotive knowledge,Chaya Milchtein,Automotive Knowledge
+3615,289,youth camp teaching children,be,genderless drag stars,['youth camp teaching children'],['genderless drag stars'],youth camp teaching children,genderless drag stars,Youth Camp Teaching Children,Genderless Drag Stars
+3616,289,LGBT youth camp teaching children,be,genderless drag stars,"['lgbt', 'youth camp teaching children']",['genderless drag stars'],lgbt,genderless drag stars,Lgbt,Genderless Drag Stars
+3617,289,youth camp teaching children,be,drag stars,['youth camp teaching children'],['drag stars'],youth camp teaching children,drag queens,Youth Camp Teaching Children,Drag Queens
+3618,289,LGBT youth camp teaching children,be,drag stars,"['lgbt', 'youth camp teaching children']",['drag stars'],lgbt,drag queens,Lgbt,Drag Queens
+3624,291,Marketing,Is,About Relevance,[],['relevance'],Marketing,relevance,Marketing,Relevance
+3626,291,Inclusive Marketing,Is,Relevance,['inclusive'],['relevance'],inclusive,relevance,Inclusive,Relevance
+3644,293,World ’s transgender clinic,was,formed in Germany in 1919 by Jewish doctor,['world ’ s transgender clinic'],"['germany', 'jewish doctor']",world  transgender clinic,Germany,World  Transgender Clinic,Germany
+3645,293,World ’s first clinic,was,formed in Germany by doctor,['world ’ s'],['germany'],world ,Germany,World ,Germany
+3649,293,World ’s clinic,was,formed in 1919 by gay doctor,['world ’ s clinic'],['gay doctor'],world  clinic,Jewish doctor,World ,Jewish Doctor
+3659,293,World ’s transgender clinic,was,formed in 1919 by gay doctor,['world ’ s transgender clinic'],['gay doctor'],world  transgender clinic,Jewish doctor,World  Transgender Clinic,Jewish Doctor
+3711,293,Naziism,swept Germany in,early century,['naziism'],['early century'],naziism,early century,Naziism,20Th Century
+3714,293,Naziism,is because,rampant wickedness,['naziism'],['rampant wickedness'],naziism,rampant wickedness,Naziism,Rampant Wickedness
+3723,293,Naziism,swept,Germany,['naziism'],['germany'],naziism,Germany,Naziism,Germany
+3737,295,Advocate,has,Jake Shears cover,['advocate'],['jake shears'],The Advocate,Jake Shears,The Advocate,Jake Shears
+3739,295,Advocate Channel 's program,goes with,equalpride 's publications,"['advocate', ""channel 's""]","[""equalpride 's publications""]",The Advocate,equalpride  publications,The Advocate,Equalpride
+3741,295,Advocate Channel 's program,goes with,equalpride 's iconic publications,"['advocate', ""channel 's""]","[""equalpride 's iconic publications""]",The Advocate,equalpride  iconic publications,The Advocate,Equalpride  Iconic Publications
+3748,296,Vatican,declared surgery as,violations of human dignity,['vatican'],['human dignity'],Vatican,human dignity,Vatican,Human Life
+3751,296,Vatican,declared as,grave violations of dignity,['vatican'],['grave violations'],Vatican,grave violations,Vatican,Grave Violations
+3759,296,God,’s,plan for human life,['god'],['human life'],god,human life,God,Human Life
+3769,297,Melania Trump,Makes,Rare Fundraising Appearance,['melania trump'],['rare fundraising appearance'],Melania Trump,rare fundraising appearance,Melania Trump,Rare Fundraising Appearance
+3771,298,Gay Jokes,Says,Scary,['gay jokes'],['scary'],gay bar,scary,Gay Bar,Scary
+3772,298,Golden Globes Host Jerrod Carmichael,Calls,Dave Chappelle,['globes host jerrod carmichael'],['dave chappelle'],Jerrod Carmichael,Dave Chappelle,Jerrod Carmichael,Dave Chappelle
+3773,298,Golden Globes Host Jerrod Carmichael,Calls,Egomaniac,['globes host jerrod carmichael'],['egomaniac'],Jerrod Carmichael,Egomaniac,Jerrod Carmichael,Egomaniac
+3777,298,Gay Jokes,Still Scary for,Me appeared first on Breitbart,['gay jokes'],['breitbart'],gay bar,Breitbart,Gay Bar,Breitbart
+3785,299,Vatican,Condemns,Affirming Surgery,['vatican'],['affirming surgery'],Vatican,affirming surgery,Vatican,Surgery
+3786,299,Affirming Surgery,Vatican,Surrogacy,['affirming surgery'],['surrogacy'],affirming surgery,surrogacy,Surgery,Surrogacy
+3787,299,Vatican,Condemns,Gender Affirming Surgery,['vatican'],['gender affirming surgery'],Vatican,gender affirming surgery,Vatican,Gender Affirming Surgery
+3789,299,Affirming Surgery,Vatican,Gender Theory,['affirming surgery'],['gender theory'],affirming surgery,Gender Theory,Surgery,Gender Theory
+3792,299,Pope Francis,rejected,gender theory as major threats in line with teachings on abortion,['pope francis'],"['gender theory', 'major threats']",Pope Francis,Gender Theory,Pope Francis,Gender Theory
+3795,299,Vatican,rejected,gender theory as threats in line with Catholic teachings,['vatican'],"['gender theory', 'catholic teachings']",Vatican,Gender Theory,Vatican,Gender Theory
+3820,299,major threats,is with,Catholic teachings on abortion,['major threats'],['catholic teachings'],bomb threats,Catholic teachings,Bomb Threats,Catholic Teachings
+3843,301,DEI,needs,new approach,['dei'],['new approach'],dei,New Orleans,Dei,New Orleans
+3845,301,DEI,needs approach,Amherst School District debacle reveals,['dei'],"['amherst', 'school district debacle reveals']",dei,amherst,Dei,Amherst
+3850,301,new approach,DEI,radical pivot,['new approach'],['radical pivot'],New Orleans,radical pivot,New Orleans,Radical Pivot
+3855,302,Louisiana,’s,transgender bathroom bill,['louisiana'],['transgender bathroom bill'],louisiana,transgender bathroom bill,Louisiana,Transgender Bathroom Bill
+3859,302,transgender people,is in,Louisiana,['transgender people'],['louisiana'],Transgender,louisiana,Transgender,Louisiana
+3860,302,locker rooms,correspond with,their gender identity,['locker rooms'],['gender identity'],locker rooms,gender identity,Locker Rooms,Gender Identity
+3864,303,NAIA,bans women from,competing in women ’s sports,['naia'],['women ’ s sports'],NAIA,women  sports,Naia,Sports
+3867,303,NAIA,bans,transgender women,['naia'],['transgender women'],NAIA,transgender women,Naia,Transgender Women
+3869,303,National Association,has rolled out,new policy,['national association'],['new policy'],PFLAG National,New Orleans,Pflag National,New Orleans
+3872,304,Trans women,banned from,netball internationals,['trans'],['netball internationals'],trans,Netball,Trans,Netball
+3873,304,World Netball,bans women from,level women 's competition with effect under new participation,['netball'],"[""level women 's competition"", 'new participation']",Netball,level women  competition,Netball,Elite Women  Competition
+3878,304,international level women,from,competition with immediate effect under new participation,['international level women'],"['immediate effect', 'new participation']",international level women,immediate effect,International Level Women,Immediate Effect
+3884,304,World Netball,bans,transgender women,['netball'],['transgender women'],Netball,transgender women,Netball,Transgender Women
+3887,304,international level women 's competition,is with,immediate effect under new participation,"[""international level women 's competition""]","['immediate effect', 'new participation']",international level women  competition,immediate effect,Elite Women  Competition,Immediate Effect
+3899,306,Karamo Brown,Focuses On,Mental Health,['karamo brown'],['mental'],Sherrod Brown,Mental Health,Sherrod Brown,Mental Health
+3907,307,its national championship,University of,South Carolina,['national championship'],['carolina'],PFLAG National,North Carolina,Pflag National,North Carolina
+3930,309,Authorities,is in,Russian republic of Chechnya,['authorities'],"['russian republic', 'chechnya']",Russian authorities,Russian,Russian Authorities,Russian
+3965,311,Meta,about,new policy,['meta'],['new policy'],meta,New Orleans,Meta,New Orleans
+3966,311,content creators,concern about,Meta ’s policy,['content creators'],"['meta', '’ s policy']",content creators,meta,Content Creators,Meta
+3989,312,Scientific research,has,dark history,['scientific'],['dark history'],Scientific American’s,dark history,Scientific American’S,Dark History
+4010,313,LGBTQ people,receive,death penalty,['lgbtq'],['death penalty'],lgbtq,death penalty,Lgbtq,Death Penalty
+4014,314,Pressure,rethink,rough clampdown,['pressure'],['rough clampdown'],pressure,rough clampdown,Pressure,Rough Clampdown
+4015,315,Trans Latina Meraxes Medina,killed in,Los Angeles,['trans latina meraxes medina'],['los angeles'],trans latina meraxes medina,los angeles,Trans Latina Meraxes Medina,Los Angeles
+4016,316,Russia,warns Duolingo about,gay propaganda,['russia'],['gay propaganda'],russia,gay bar,Russia,Gay Bar
+4017,316,Russia,warns,Duolingo,['russia'],['duolingo'],russia,Duolingo,Russia,Duolingo
+4019,316,Duolingo,check,its educational materials,['duolingo'],['educational materials'],Duolingo,educational materials,Duolingo,Educational Materials
+4021,317,Biden Harris campaign initiative,engage,LGBTQ voters,"['biden harris', 'campaign initiative']",['lgbtq'],Joe Biden,lgbtq,Joe Biden,Lgbtq
+4024,317,Biden Harris campaign,rally LGBTQ community in,support of President Joe Biden,['biden harris'],['joe biden'],Joe Biden,Joe Biden,Joe Biden,Joe Biden
+4028,318,U.S. women,’s,soccer association,['u.s.'],['soccer association'],U.S. aid,soccer association,U.S. Aid,Soccer Fans
+4030,318,U.S. Women,’s,National Team Players Association,['u.s.'],['team'],U.S. aid,team,U.S. Aid,Team
+4033,318,midfielder Korbin Albert,over,social media posts,['korbin albert'],['social media posts'],korbin albert,social media,Korbin Albert,Social Media
+4034,319,climate change,incomes of,trans prostitutes in Indonesia,[],"['trans prostitutes', 'indonesia']",climate change,trans prostitutes,Climate Change,Trans
+4036,319,trans prostitutes,is in,Indonesia,['trans prostitutes'],['indonesia'],trans prostitutes,Indonesia,Trans,Indonesia
+4040,319,Ridiculous article,is in,Independent,['ridiculous'],[],ridiculous,Independent,Ridiculous,Independent
+4041,319,climate change,hitting,vulnerable trans sex workers,[],['vulnerable trans sex workers'],climate change,vulnerable trans sex workers,Climate Change,Sex Workers
+4042,319,climate change,hitting,vulnerable Indonesian trans sex workers,[],"['indonesian', 'trans sex workers']",climate change,indonesian,Climate Change,Indonesian
+4043,319,Independent,is in,UK,[],['uk'],Independent,uk,Independent,Uk
+4047,320,World Netball,bans,players from international competition,['netball'],['international competition'],Netball,international competition,Netball,International Competition
+4050,320,World Netball,bans,transgender players,['netball'],['transgender players'],Netball,Transgender,Netball,Transgender
+4054,320,transgender participation,is in,elite women 's competition,['transgender participation'],"[""elite women 's competition""]",Transgender,elite women  competition,Transgender,Elite Women  Competition
+4055,320,transgender participation,is with,new policy,['transgender participation'],['new policy'],Transgender,New Orleans,Transgender,New Orleans
+4057,321,Giselle Byrd,is taking,center stage,['giselle byrd'],['center stage'],giselle byrd,center stage,Giselle Byrd,Center Stage
+4076,322,Victoria Atkins,criticises culture in,gender support for children,['victoria atkins'],['gender support'],Victoria Atkins,Gender,Victoria Atkins,Gender
+4079,323,LGBTQ South Asians,are celebrating,Monkey Man for its representation of India ’s trans community,"['lgbtq', 'asians']","['monkey', 'india', '’ s trans community']",lgbtq,Monkey Man,Lgbtq,Monkey Man
+4082,323,India,of,trans community,['india'],['trans community'],of India,LGBT Community,Of India,Lgbt Community
+4084,323,Dev Patel,has,Monkey Man,['dev patel'],['monkey'],Dev Patel,Monkey Man,Dev Patel,Monkey Man
+4085,323,LGBTQ South Asians,are celebrating,Dev Patel 's Monkey Man,"['lgbtq', 'asians']","['dev patel', 'monkey']",lgbtq,Dev Patel,Lgbtq,Dev Patel
+4087,324,Library Association,has come out with,its list of ten most challenged library books of 2023,['library association'],['library books'],American Library Association,library books,American Library Association,Library Books
+4109,325,Tennessee GOP senators OK helping minors,get,transgender care,"['tennessee', 'gop senators']",['transgender care'],Tennessee,Transgender,Tennessee,Transgender
+4133,326,Outdoor apparel company,has,has named as major sponsor,"['outdoor', 'apparel company']",['major sponsor'],outdoor,major sponsor,Outdoor,Major Sponsor
+4134,326,Outdoor apparel company,has,has named as sponsor of LGBT youth camp,"['outdoor', 'apparel company']","['lgbt', 'youth camp']",outdoor,lgbt,Outdoor,Lgbt
+4135,326,Outdoor apparel company,has,has named as sponsor of youth camp,"['outdoor', 'apparel company']",['youth camp'],outdoor,LGBT youth,Outdoor,Lgbt Youth
+4136,326,apparel company,has,has named as major sponsor of LGBT youth camp,['apparel company'],"['major sponsor', 'lgbt', 'youth camp']",apparel company,major sponsor,Apparel Company,Major Sponsor
+4143,326,apparel company,has,has named as sponsor of LGBT youth camp,['apparel company'],"['lgbt', 'youth camp']",apparel company,lgbt,Apparel Company,Lgbt
+4145,326,apparel company,has,has named as sponsor of youth camp,['apparel company'],['youth camp'],apparel company,LGBT youth,Apparel Company,Lgbt Youth
+4150,327,California,has,transgender sanctuary law,['california'],['transgender sanctuary law'],Southern California,transgender sanctuary law,Southern California,Transgender Sanctuary Law
+4166,329,Lesbians,have,more orgasms than straight women,['lesbians'],['straight women'],lesbians,transgender women,Lesbians,Transgender Women
+4186,330,LGBTQ establishment,is in,Arlington,['lgbtq'],['arlington'],lgbtq,arlington,Lgbtq,Arlington
+4188,330,Freddie ’s Beach Bar,had,had to evacuated Saturday morning after anonymous bomb t,"['freddie', '’ s beach bar']",['anonymous bomb t'],freddie,anonymous bomb t,Freddie,Anonymous Bomb T
+4190,330,Freddie ’s Beach Bar,had,had to evacuated Saturday morning after bomb t,"['freddie', '’ s beach bar']",['bomb t'],freddie,bomb threats,Freddie,Bomb Threats
+4191,330,Freddie,’s Bar is,LGBTQ establishment in Arlington,['freddie'],"['lgbtq', 'arlington']",freddie,lgbtq,Freddie,Lgbtq
+4194,330,Freddie ’s Beach Bar,establishment in,Arlington,"['freddie', '’ s beach bar']",['arlington'],freddie,arlington,Freddie,Arlington
+4195,330,Freddie,’s,Beach Bar,['freddie'],['beach bar'],freddie,gay bar,Freddie,Gay Bar
+4196,331,Federal appeals court,hears,arguments on nation ’s first ban on care,['federal appeals court'],['nation ’ s'],Appeals Court,nation ,Appeals Court,Nation
+4202,331,appeals court,hears,arguments on nation ’s ban on transgender care for minors,['appeals court'],"['nation ’ s ban', 'transgender care']",Appeals Court,nation  ban,Appeals Court,Ban On
+4223,332,Dr. Hilary Cass,released,final report commissioned,['hilary cass'],['final report'],Hilary Cass,final report,Hilary Cass,Final
+4224,332,Dr. Hilary Cass,released,report commissioned by NHS widely expected,['hilary cass'],['nhs'],Hilary Cass,NHS,Hilary Cass,Nhs
+4244,333,major religions,have,approaches to gender identity,['major religions'],['gender identity'],major religions,gender identity,Major Sponsor,Gender Identity
+4246,333,major religions,have,diverse approaches to gender identity,['major religions'],"['diverse approaches', 'gender identity']",major religions,diverse approaches,Major Sponsor,Diverse
+4255,334,Ghana,of,ruling party,['ghana'],['ruling party'],Ghana,ruling party,Ghana,Ruling Party
+4266,335,Colton Underwood,create,gay reality TV dating show,['colton underwood'],['gay reality tv'],colton underwood,reality TV,Colton Underwood,Reality Tv
+4274,336,Jimmy Kimmel,has,hilarious LGBTQ campaign video,['jimmy kimmel'],"['lgbtq', 'campaign video']",Jimmy Kimmel,lgbtq,Jimmy Kimmel,Lgbtq
+4283,337,LGBTQI Youth,is in,Schools Initiative,['lgbtqi'],['initiative'],lgbtqi,initiative,Lgbtqi,Initiative
+4310,339,Tennessee Legislature,send,GOP Gov. Bill Lee,['tennessee'],"['gov', 'bill lee']",Tennessee,gov,Tennessee,Gov
+4315,341,Jill Biden,calls,Trump,['jill biden'],['trump'],Dr. Jill Biden,Melania Trump,Dr. Jill Biden,Melania Trump
+4316,342,Actor Oliver Stark,Opens Up,His 9 -1-1 Character ’s Journey,['actor oliver stark'],"['character', '’ s', 'journey']",Oliver Stark,character,Oliver Stark,Character
+4329,343,Harry Potter,' Radcliffe is,Emma Watson for Vile Transgender Attacks,['harry potter'],"['emma watson', 'vile transgender']",Harry Potter,Emma Watson,Harry Potter,Emma Watson
+4330,343,Harry Potter ' Stars Daniel Radcliffe,Watson for,Vile Transgender Attacks,"['harry potter', 'daniel radcliffe']",['vile transgender'],Harry Potter,Transgender,Harry Potter,Transgender
+4333,345,Laura Jane Grace,confronts on,Hole In My Head,['laura jane grace'],"['hole', 'head']",Laura Jane Grace,hole,Laura Jane Grace,Hole
+4334,345,Hole,is In,My Head,['hole'],['head'],hole,head,Hole,Head
+4342,346,queer people,are,so lonely,['queer people'],[],Queer,so lonely,Queer,So Lonely
+4357,347,BBC,unearths,crucial new details,['bbc'],['crucial new details'],BBC,crucial new details,Bbc,Crucial New Details
+4358,347,BBC,unearths,details about WhatsApp phishing scandal,['bbc'],['whatsapp'],BBC,whatsapp,Bbc,Whatsapp
+4359,347,BBC,unearths,new details about WhatsApp phishing scandal,['bbc'],"['new details', 'whatsapp']",BBC,New Orleans,Bbc,New Orleans
+4362,347,BBC,unearths,crucial details about WhatsApp phishing scandal,['bbc'],"['crucial details', 'whatsapp']",BBC,crucial details,Bbc,Crucial Moment
+4365,348,LGBTQ People,Pull,Trigger,['lgbtq'],['trigger'],lgbtq,trigger,Lgbtq,Trigger
+4366,348,Republicans,Are Telling,LGBTQ People,[],['lgbtq'],Republicans,lgbtq,Republicans,Lgbtq
+4377,349,Dr. Jill Biden,took,Trump,['jill biden'],['trump'],Dr. Jill Biden,Melania Trump,Dr. Jill Biden,Melania Trump
+4378,349,Dr. Jill Biden,took Trump for,LGBTQ rights,['jill biden'],['lgbtq'],Dr. Jill Biden,lgbtq,Dr. Jill Biden,Lgbtq
+4388,350,Metro Transit Police Department,is in,Washington,['metro transit'],[],Metro Transit Police Department,Washington,Metro Transit Police Department,Washington
+4400,353,Lempicka,showcases,little known queer artist 's life,['lempicka'],"[""queer artist 's life""]",lempicka,queer artist  life,Lempicka,Queer Artist  Life
+4401,353,Lempicka,showcases,little known queer artist 's dazzling life,['lempicka'],"[""queer artist 's""]",lempicka,queer artist ,Lempicka,Queer
+4420,354,legendary producer,launched,new revolution campaign,['legendary producer'],['new revolution campaign'],legendary producer,new revolution campaign,Legendary Producer,New Revolution Campaign
+4425,354,legendary producer,being arrested for,male sex workers,['legendary producer'],['male sex workers'],legendary producer,male sex workers,Legendary Producer,Sex Workers
+4443,354,legendary producer,launched,revolution campaign,['legendary producer'],['revolution campaign'],legendary producer,sexual revolution,Legendary Producer,Sexual Revolution
+4460,355,New hate speech law,is in,Poland,['speech law'],['poland'],free speech,poland,Free Speech,Poland
+4461,355,Poland,’s,new wing government,['poland'],['new wing government'],poland,new wing government,Poland,New Wing Government
+4476,356,Women Athletes,Are Changing,Culture,['athletes'],['culture'],Athletes,Culture Of,Athletes,Culture Of
+4485,356,new era,surge in,media usage,['new era'],['media usage'],New Orleans,Media Matters,New Orleans,Media Matters
+4488,356,new era,surge in,social media usage,['new era'],['social media usage'],New Orleans,social media,New Orleans,Social Media
+4489,357,George,has,Julianne Moore,['george'],['julianne moore'],george,Julianne Moore,George,Julianne Moore
+4490,357,Mary,on,sexual fluidity,['mary'],['sexual fluidity'],Mary,sexual orientation,Mary,Sexual Orientation
+4491,357,addicting Jacobean,romp about,George Villiers,['jacobean'],['george villiers'],Jacobean,george villiers,Jacobean,George
+4496,358,Italy,has,Giorgia Meloni,['italy'],['giorgia meloni'],Italy,Giorgia Meloni,Italy,Giorgia Meloni
+4498,358,Italy,’s,prime minister,['italy'],['prime minister'],Italy,Ireland's prime minister,Italy,Ireland'S Prime Minister
+4504,359,Italy ’s prime minister,says,surrogacy inhuman,"['italy', '’ s', 'prime minister']",['surrogacy inhuman'],Italy,surrogacy inhuman,Italy,Surrogacy
+4505,359,Italy,’s,prime minister,['italy'],['prime minister'],Italy,Ireland's prime minister,Italy,Ireland'S Prime Minister
+4510,360,Seth Doane,discuss,her CBS series,['seth doane'],['cbs series'],Seth Doane,CBS,Seth Doane,Cbs
+4511,360,Seth Doane,Help,Me Todd,['seth doane'],['todd'],Seth Doane,todd,Seth Doane,Todd
+4514,360,Jonathan Vigliotti,meets,Julian Curi,['jonathan vigliotti'],['julian curi'],jonathan vigliotti,Julian Curi,Jonathan Vigliotti,Julian Curi
+4515,360,Julian Curi,filmmaker behind,short film,['julian curi'],['short film'],Julian Curi,short film,Julian Curi,Short Film
+4516,360,Jonathan Vigliotti,meets,filmmaker behind short film,['jonathan vigliotti'],['short film'],jonathan vigliotti,short film,Jonathan Vigliotti,Short Film
+4518,361,Sunset Boulevard,equals,Olivier Awards record,['boulevard'],['olivier awards'],boulevard,olivier awards,Boulevard,Olivier Awards
+4524,362,DEI,Should Address,Intersectionality,['dei'],['intersectionality'],dei,Intersectionality,Dei,Intersectionality
+4555,365,Northants ' Gay,hits,261 against Middlesex,"['northants', 'gay']",['middlesex'],Northants,Middlesex,Northants,Middlesex
+4556,366,Dr. Phil ' Audience,Laughs,Trans Activist Says,"['phil', 'audience']",['trans activist says'],phil,trans activist says,Phil,Trans Activist Says
+4557,366,Trans Activist,Says,3 Year Olds ' Know,['trans activist'],"['olds', 'know']",Activist,olds,Activist,Olds
+4559,366,studio audience,laughed,after trans activist claimed,['studio audience'],['trans activist'],Audience,Activist,Audience,Activist
+4563,366,Dr. Phil Audience,Laughs,After Trans Activist Says,['phil audience'],['trans activist says'],Audience,trans activist says,Audience,Trans Activist Says
+4565,367,Leftist Leader 's Popularity,Hate,Speech Law Introduced,"['leftist', ""leader 's"", 'popularity']","['speech', 'introduced']",leftist,free speech,Leftist,Free Speech
+4566,367,Scottish Leader 's Popularity,Hate,Speech Law Introduced,"[""scottish leader 's"", 'popularity']","['speech', 'introduced']",Scottish Leader,free speech,Scottish Leader,Free Speech
+4568,367,Leftist Scottish Leader,has,Popularity,"['leftist', 'scottish leader']",['popularity'],leftist,popularity,Leftist,Popularity
+4571,367,left Scottish First Minister Humza Yousaf ’s popularity,has plummeted amid,introduction of draconian speech restrictions,"['humza yousaf', '’ s popularity']",['draconian speech restrictions'],Humza Yousaf,draconian speech restrictions,Humza Yousaf,New Speech Restrictions
+4573,367,left Scottish First Minister Humza Yousaf ’s popularity,has plummeted amid,introduction of speech restrictions,"['humza yousaf', '’ s popularity']",['speech restrictions'],Humza Yousaf,free speech,Humza Yousaf,Free Speech
+4582,368,Left Activists,is in,Chicago,['left activists'],['chicago'],new left,Chicago,New Left,Chicago
+4583,368,Iran,’s,Major Attack on Israel,['iran'],"['attack', 'israel']",Iran,heart attack,Iran,Heart Attack
+4584,368,Left Activists,Cheering,Iran ’s Major Attack on Israel,['left activists'],"['iran', '’ s major', 'attack', 'israel']",new left,Iran,New Left,Iran
+4585,368,Activists,Cheering,Iran ’s Major Attack,['activists'],"['iran', '’ s major', 'attack']",activists,Iran,Activists,Iran
+4587,368,Radical Left,Is,Sick,['radical left'],['sick'],new left,sick,New Left,Sick
+4589,368,Chicago,demanding,President Joe Biden,['chicago'],['joe biden'],Chicago,Joe Biden,Chicago,Joe Biden
+4590,368,post Left Activists,is in,Chicag,['left activists'],['chicag'],new left,chicag,New Left,Chicag

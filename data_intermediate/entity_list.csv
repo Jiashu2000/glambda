@@ -1,119 +1,612 @@
 ,ent_name,ent_link,ent_class,ent_conf
-0,Caitlyn Jenner,http://dbpedia.org/resource/Caitlyn_Jenner,dbpedia-owl:Person,0.6965
-1,Disney,http://dbpedia.org/resource/The_Walt_Disney_Company,dbpedia-owl:Organisation,0.57
-2,Bob Iger,http://dbpedia.org/resource/Bob_Iger,dbpedia-owl:Person,0.8675
-3,Kardashians,http://dbpedia.org/resource/Keeping_Up_with_the_Kardashians,,-0.5988095238095238
-4,reality show,http://dbpedia.org/resource/Reality_television,,-0.585
-5,volleyball player,http://dbpedia.org/resource/Volleyball,,-0.5941666666666666
-6,Pope Francis,http://dbpedia.org/resource/Pope_Francis,dbpedia-owl:Person,0.655
-7,Surrogate Motherhood,http://dbpedia.org/resource/Surrogacy,dbpedia-owl:Person,0.6533571428571429
-8,The Catholic leader,http://dbpedia.org/resource/The_Catholic_Leader,owl:Thing,-0.8583333333333333
-9,LGBT community,http://dbpedia.org/resource/LGBT_community,owl:Thing,-0.85
-10,Simon Fanshawe,http://dbpedia.org/resource/Simon_Fanshawe,dbpedia-owl:Person,-0.8456666666666667
-11,University of Edinburgh,http://dbpedia.org/resource/University_of_Edinburgh,dbpedia-owl:Organisation|dbpedia-owl:Person,0.59
-12,LGBT,http://dbpedia.org/resource/LGBT,dbpedia-owl:Person,-0.7
-13,women's rights,http://dbpedia.org/resource/Women's_rights,owl:Thing,-0.76
-14,Chris Christie,http://dbpedia.org/resource/Chris_Christie,dbpedia-owl:Person,0.83
-15,New Jersey Gov.,http://dbpedia.org/resource/Governor_of_New_Jersey,owl:Thing,-0.5744761904761905
-16,Lip Readers,http://dbpedia.org/resource/Lip_reading,,-0.6966666666666667
-17,Taylor Swift,http://dbpedia.org/resource/Taylor_Swift,dbpedia-owl:Person,0.6
-18,Super Bowl,http://dbpedia.org/resource/Super_Bowl,,-0.6166666666666667
-19,Bill Ackman,http://dbpedia.org/resource/Bill_Ackman,dbpedia-owl:Person,0.568
-20,Strikes,http://dbpedia.org/resource/Strike_action,owl:Thing,-0.81
-21,Harvard,http://dbpedia.org/resource/Harvard_University,dbpedia-owl:Organisation,0.5507692307692308
-22,Hawaii,http://dbpedia.org/resource/Hawaii,dbpedia-owl:PopulatedPlace,0.6
-23,New Orleans,http://dbpedia.org/resource/New_Orleans,dbpedia-owl:PopulatedPlace,0.57
-24,France,http://dbpedia.org/resource/France,dbpedia-owl:PopulatedPlace,0.68
-25,Attal,http://dbpedia.org/resource/Yvan_Attal,dbpedia-owl:Person,-0.77
-26,French politician,http://dbpedia.org/resource/Politics_of_France,owl:Thing,-0.7016666666666667
-27,Ohio,http://dbpedia.org/resource/Ohio,dbpedia-owl:PopulatedPlace,0.52
-28,Alabama,http://dbpedia.org/resource/Alabama,dbpedia-owl:PopulatedPlace,0.5007692307692309
-29,puberty blockers,http://dbpedia.org/resource/Puberty_blocker,owl:Thing,-0.8183333333333335
-30,abortion rights,http://dbpedia.org/resource/Abortion-rights_movements,owl:Thing,-0.729999999999998
-31,Andrew Scott,http://dbpedia.org/resource/Andrew_Scott_(actor),dbpedia-owl:Person,-0.7810126443842136
-32,Andrew Haigh,http://dbpedia.org/resource/Andrew_Haigh,dbpedia-owl:Person,0.885
-33,All of Us,http://dbpedia.org/resource/All_of_Us,,-0.7166666666666667
-34,Bud Light,http://dbpedia.org/resource/Anheuser-Busch_brands,owl:Thing,-0.67
-35,Kansas City Chiefs,http://dbpedia.org/resource/Kansas_City_Chiefs,dbpedia-owl:SportsTeam|dbpedia-owl:Person,-0.56
-36,Donald Trump Jr,"http://dbpedia.org/resource/Donald_Trump,_Jr.",dbpedia-owl:Person,0.7005
-37,Politician,http://dbpedia.org/resource/Politician,dbpedia-owl:Person,-0.58
-38,Frank LaRose,http://dbpedia.org/resource/Frank_LaRose,dbpedia-owl:Person,0.7666666666666667
-39,Left-Wing,http://dbpedia.org/resource/Left-wing_politics,owl:Thing,-0.8
-40,Ohio Secretary of State,http://dbpedia.org/resource/Ohio_Secretary_of_State,owl:Thing,-0.609
-41,Republican candidate,http://dbpedia.org/resource/Republican_Party_(United_States),dbpedia-owl:Organisation,-0.5085185185185179
-42,Lululemon,http://dbpedia.org/resource/Lululemon_Athletica,dbpedia-owl:Organisation,0.785
-43,Chip Wilson,http://dbpedia.org/resource/Chip_Wilson,dbpedia-owl:Person,0.91
-44,Nas,http://dbpedia.org/resource/Nas,dbpedia-owl:Person,-0.76
-45,Christian Imagery,http://dbpedia.org/resource/Christian_symbolism,,-0.7868
-46,Christ,http://dbpedia.org/resource/Christ,owl:Thing,-0.74
-47,Mastodon,http://dbpedia.org/resource/Mastodon_(band),dbpedia-owl:Organisation|dbpedia-owl:Person,0.5407692307692308
-48,Taliban,http://dbpedia.org/resource/Taliban,dbpedia-owl:Person,-0.64
-49,Internet,http://dbpedia.org/resource/Internet,dbpedia-owl:Person,-0.53
-50,Travis Kelce,http://dbpedia.org/resource/Travis_Kelce,dbpedia-owl:Person,0.9
-51,Harvard president,http://dbpedia.org/resource/President_of_Harvard_University,owl:Thing,-0.7261428571428571
-52,University of Pennsylvania,http://dbpedia.org/resource/University_of_Pennsylvania,dbpedia-owl:Organisation,0.74
-53,Business Insider,http://dbpedia.org/resource/Business_Insider,,-0.585
-54,MIT,http://dbpedia.org/resource/Massachusetts_Institute_of_Technology,dbpedia-owl:Organisation,0.58
-55,Mark Gorenberg,http://dbpedia.org/resource/Mark_Gorenberg,dbpedia-owl:Person,-0.5616666666666668
-56,Jesus,http://dbpedia.org/resource/Jesus,dbpedia-owl:Person,0.58
-57,Hobby Lobby,http://dbpedia.org/resource/Hobby_Lobby,dbpedia-owl:Organisation,-0.6100000000000001
-58,Patrick Mahomes,http://dbpedia.org/resource/Patrick_Mahomes,dbpedia-owl:Person,0.91
-59,Cashes In,http://dbpedia.org/resource/Aluminium_recycling,owl:Thing,-0.785
-60,social media,http://dbpedia.org/resource/Social_media,,-0.78
-61,Christian Ziegler,http://dbpedia.org/resource/Christian_Ziegler,dbpedia-owl:Person,0.5053623623550826
-62,Florida Republican Party,http://dbpedia.org/resource/Republican_Party_of_Florida,owl:Thing,0.6466666666666666
-63,Minnesota,http://dbpedia.org/resource/Minnesota,dbpedia-owl:PopulatedPlace,-0.61
-64,Legislature,http://dbpedia.org/resource/Legislature,dbpedia-owl:Person,-0.7566666666666667
-65,DeWine,http://dbpedia.org/resource/Pat_DeWine,dbpedia-owl:Person,-0.84
-66,Mean Girls,http://dbpedia.org/resource/Mean_Girls,,-0.6
-67,Auli,http://dbpedia.org/resource/Auli,dbpedia-owl:PopulatedPlace,-0.5866666666666669
-68,Broadway music,http://dbpedia.org/resource/Broadway_theatre,,-0.7349999999999999
-69,Transgender Health,http://dbpedia.org/resource/Healthcare_and_the_LGBT_community,owl:Thing,-0.7879999999999999
-70,Russia,http://dbpedia.org/resource/Russia,dbpedia-owl:PopulatedPlace,0.68
-71,French premier,http://dbpedia.org/resource/Prime_Minister_of_France,owl:Thing,-0.6728095238095239
-72,Saudi Pro League,http://dbpedia.org/resource/Saudi_Professional_League,dbpedia-owl:Organisation,0.7161904761904763
-73,new Plymouth,http://dbpedia.org/resource/New_Plymouth,dbpedia-owl:PopulatedPlace,-0.625
-74,Ian Foster,http://dbpedia.org/resource/Ian_Foster,dbpedia-owl:Person,-0.7241100351170958
-75,BBC Sport,http://dbpedia.org/resource/BBC_Sport,dbpedia-owl:Organisation,-0.7125320183030905
-76,Netflix,http://dbpedia.org/resource/Netflix,dbpedia-owl:Organisation,0.69
-77,Indian film,http://dbpedia.org/resource/Cinema_of_India,,-0.64
-78,right-wing,http://dbpedia.org/resource/Right-wing_politics,owl:Thing,-0.86
-79,Hindu group,http://dbpedia.org/resource/Hindu_law,owl:Thing,-0.7151428571428572
-80,Hindu,http://dbpedia.org/resource/Hindu,owl:Thing,-0.69
-81,comedy Max,http://dbpedia.org/resource/ComedyMax,dbpedia-owl:Organisation,-0.6225
-82,Warner Bros,http://dbpedia.org/resource/Warner_Bros.,dbpedia-owl:Organisation,-0.6073684210526316
-83,Joey Barton,http://dbpedia.org/resource/Joey_Barton,dbpedia-owl:Person,0.7525
-84,Stuart Andrew,http://dbpedia.org/resource/Stuart_Andrew,dbpedia-owl:Person,0.91
-85,Afterparty,http://dbpedia.org/resource/Party,dbpedia-owl:Person,-0.7257142857142856
-86,Polish state,http://dbpedia.org/resource/Poland,dbpedia-owl:PopulatedPlace,-0.6199999999999994
-87,TVP Info,http://dbpedia.org/resource/TVP_Info,dbpedia-owl:Organisation,0.53
-88,The New,http://dbpedia.org/resource/Flash_Thompson,dbpedia-owl:Person,-0.745952380952381
-89,Vaccines,http://dbpedia.org/resource/Vaccine,dbpedia-owl:Person,-0.62
-90,Gender Dysphoria,http://dbpedia.org/resource/Gender_dysphoria,,0.5866666666666667
-91,New York,http://dbpedia.org/resource/New_York,dbpedia-owl:PopulatedPlace,-0.54
-92,head House,http://dbpedia.org/resource/Head_house,owl:Thing,-0.8749999999999999
-93,special election,http://dbpedia.org/resource/By-election,owl:Thing,-0.64
-94,Long Island,http://dbpedia.org/resource/Long_Island,dbpedia-owl:PopulatedPlace,0.59
-95,Go Viral,http://dbpedia.org/resource/Viral_marketing,dbpedia-owl:Person,-0.7650222222222223
-96,NFL,http://dbpedia.org/resource/National_Football_League,dbpedia-owl:Organisation,-0.62
-97,Mexico,http://dbpedia.org/resource/Mexico,dbpedia-owl:PopulatedPlace,0.62
-98,Andres Manuel Lopez Obrador,http://dbpedia.org/resource/Andrés_Manuel_López_Obrador,dbpedia-owl:Person,0.7441666666666665
-99,Joel Osteen,http://dbpedia.org/resource/Joel_Osteen,dbpedia-owl:Person,0.8725
-100,Police,http://dbpedia.org/resource/Police,dbpedia-owl:Person,-0.73
-101,Lakewood Church,http://dbpedia.org/resource/Lakewood_Church,,0.755
-102,Mike DeWine,http://dbpedia.org/resource/Mike_DeWine,dbpedia-owl:Person,0.8475
-103,tax exemptions,http://dbpedia.org/resource/Tax_exemption,owl:Thing,-0.7190909090909091
-104,Democrats,http://dbpedia.org/resource/Democratic_Party_(United_States),dbpedia-owl:Organisation|dbpedia-owl:Person,0.5100000000000006
-105,Louisiana,http://dbpedia.org/resource/Louisiana,dbpedia-owl:PopulatedPlace,-0.5629783724340176
-106,Super Bowl Fans,http://dbpedia.org/resource/Super_Bowl_XXXVIII_halftime_show_controversy,owl:Thing,-0.6466666666666666
-107,Justin Bieber,http://dbpedia.org/resource/Justin_Bieber,dbpedia-owl:Person,0.59
-108,record label,http://dbpedia.org/resource/Record_label,owl:Thing,-0.78
-109,California,http://dbpedia.org/resource/California,dbpedia-owl:PopulatedPlace,-0.5
-110,Adam Schiff,http://dbpedia.org/resource/Adam_Schiff,dbpedia-owl:Person,0.76
-111,Silicon Valley,http://dbpedia.org/resource/Silicon_Valley,dbpedia-owl:Person,-0.53
-112,Pixar,http://dbpedia.org/resource/Pixar,dbpedia-owl:Organisation,0.585
-113,Hundreds,http://dbpedia.org/resource/Hundred_(county_division),owl:Thing,-0.78
-114,American,http://dbpedia.org/resource/United_States,dbpedia-owl:PopulatedPlace,0.6800000000000006
-115,Florida,http://dbpedia.org/resource/Florida,dbpedia-owl:PopulatedPlace,-0.61
-116,School Board,http://dbpedia.org/resource/Board_of_education,owl:Thing,-0.87
-117,Dictionaries,http://dbpedia.org/resource/Dictionary,,-0.7066666666666667
+0,LGBTQ+,http://dbpedia.org/resource/LGBT,dbpedia-owl:Person,-0.5028095238095238
+1,Metals,http://dbpedia.org/resource/Metal,dbpedia-owl:Person,-0.6866666666666666
+2,new math,http://dbpedia.org/resource/New_Math,owl:Thing,-0.75
+3,Full Article,http://dbpedia.org/resource/Unified_English_Braille,owl:Thing,-0.865
+4,RT.com,http://dbpedia.org/resource/RT_(TV_network),dbpedia-owl:Organisation|dbpedia-owl:Person,0.5546904761904762
+5,Republicans,http://dbpedia.org/resource/Republican_Party_(United_States),dbpedia-owl:Organisation,-0.52
+6,Pete Buttigieg,http://dbpedia.org/resource/Pete_Buttigieg,dbpedia-owl:Person,0.9266666666666667
+7,BBC,http://dbpedia.org/resource/BBC,dbpedia-owl:Organisation,0.71
+8,transgender women,http://dbpedia.org/resource/Trans_woman,dbpedia-owl:Person,-0.8116986849697572
+9,NCAA,http://dbpedia.org/resource/National_Collegiate_Athletic_Association,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.62
+10,Title IX,http://dbpedia.org/resource/Title_IX,owl:Thing,-0.65
+11,Lia Thomas,http://dbpedia.org/resource/Lia_Thomas,owl:Thing,-0.8491071428571427
+12,Kentucky,http://dbpedia.org/resource/Kentucky,dbpedia-owl:PopulatedPlace,-0.51
+13,civil rights,http://dbpedia.org/resource/Civil_and_political_rights,dbpedia-owl:Person,-0.83
+14,free speech,http://dbpedia.org/resource/Freedom_of_speech,dbpedia-owl:Person,-0.615
+15,Walker Art Center,http://dbpedia.org/resource/Walker_Art_Center,,0.58
+16,Loring Park,http://dbpedia.org/resource/Loring_Park,dbpedia-owl:PopulatedPlace,0.8805
+17,Minneapolis,http://dbpedia.org/resource/Minneapolis,dbpedia-owl:PopulatedPlace,0.67
+18,Chechnya,http://dbpedia.org/resource/Chechnya,dbpedia-owl:PopulatedPlace,0.525
+19,beats per minute,http://dbpedia.org/resource/Tempo,owl:Thing,-0.6099999999999999
+20,Michigan State University,http://dbpedia.org/resource/Michigan_State_University,dbpedia-owl:Organisation,0.6696000000000001
+21,Pope Francis,http://dbpedia.org/resource/Pope_Francis,dbpedia-owl:Person,0.8
+22,Benedict XVI,http://dbpedia.org/resource/Pope_Benedict_XVI,dbpedia-owl:Person,0.645
+23,civil partnerships,http://dbpedia.org/resource/Civil_union,owl:Thing,-0.7349999999999999
+24,reproductive rights,http://dbpedia.org/resource/Reproductive_rights,owl:Thing,-0.7
+25,Israel,http://dbpedia.org/resource/Israel,dbpedia-owl:PopulatedPlace,0.63
+26,confirmed by the U.S. Senate,http://dbpedia.org/resource/Advice_and_consent,owl:Thing,-0.795
+27,U.S. Court of Appeals,http://dbpedia.org/resource/United_States_courts_of_appeals,owl:Thing,-0.7416666666666666
+28,the Fourth,http://dbpedia.org/resource/Tercera_División,dbpedia-owl:Organisation,-0.7559999999999999
+29,Thailand,http://dbpedia.org/resource/Thailand,dbpedia-owl:PopulatedPlace,0.64
+30,same-sex marriage,http://dbpedia.org/resource/Same-sex_marriage,owl:Thing,-0.69
+31,lower house,http://dbpedia.org/resource/Lower_house,owl:Thing,-0.79
+32,Breitbart,http://dbpedia.org/resource/Andrew_Breitbart,dbpedia-owl:Person,0.5250571027850132
+33,Tennessee,http://dbpedia.org/resource/Tennessee,dbpedia-owl:PopulatedPlace,-0.5092307692307692
+34,of Georgia,http://dbpedia.org/resource/Kingdom_of_Kartli-Kakheti,dbpedia-owl:PopulatedPlace,0.5311904761904762
+35,Joe Biden,http://dbpedia.org/resource/Joe_Biden,dbpedia-owl:Person,0.73
+36,Obama administration,http://dbpedia.org/resource/Presidency_of_Barack_Obama,dbpedia-owl:Person,-0.75
+37,Grindr,http://dbpedia.org/resource/Grindr,,-0.7157575757575758
+38,Podcast,http://dbpedia.org/resource/Podcast,dbpedia-owl:Person,-0.5666666666666667
+39,Zamolodchikova,http://dbpedia.org/resource/Elena_Zamolodchikova,dbpedia-owl:Person,0.7233333333333334
+40,gender identity,http://dbpedia.org/resource/Gender_identity,dbpedia-owl:Person,-0.81
+41,Vatican,http://dbpedia.org/resource/Holy_See,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,-0.81
+42,Gender,http://dbpedia.org/resource/Gender,owl:Thing,-0.83
+43,Gender Theory,http://dbpedia.org/resource/Gender_studies,dbpedia-owl:Person,0.5805
+44,Catholic teachings,http://dbpedia.org/resource/Catholic_Church,dbpedia-owl:Person,-0.5316666666666661
+45,assisted suicide,http://dbpedia.org/resource/Assisted_suicide,dbpedia-owl:Person,-0.73
+46,LGBT Community,http://dbpedia.org/resource/LGBT_community,owl:Thing,-0.81
+47,Biological Male,http://dbpedia.org/resource/Male,owl:Thing,-0.61
+48,Game Developer,http://dbpedia.org/resource/Video_game_developer,owl:Thing,-0.7383333333333333
+49,Transphobia,http://dbpedia.org/resource/Transphobia,owl:Thing,-0.68
+50,Behaviour Interactive,http://dbpedia.org/resource/Behaviour_Interactive,dbpedia-owl:Organisation,0.8291666666666666
+51,survival horror,http://dbpedia.org/resource/Survival_horror,owl:Thing,-0.585
+52,Florida,http://dbpedia.org/resource/Florida,dbpedia-owl:PopulatedPlace,-0.5
+53,illicit drugs,http://dbpedia.org/resource/Illegal_drug_trade,owl:Thing,-0.71
+54,Department of Justice,http://dbpedia.org/resource/United_States_Department_of_Justice,dbpedia-owl:Organisation,-0.75
+55,Kansas governor,http://dbpedia.org/resource/Governor_of_Kansas,owl:Thing,-0.8889555545730677
+56,Laura Kelly,http://dbpedia.org/resource/Laura_Kelly,dbpedia-owl:Person,0.76
+57,death penalty,http://dbpedia.org/resource/Capital_punishment,dbpedia-owl:Person,-0.555
+58,Christianity,http://dbpedia.org/resource/Christianity,dbpedia-owl:Person,-0.6857634827810267
+59,Caitlyn Jenner,http://dbpedia.org/resource/Caitlyn_Jenner,dbpedia-owl:Person,0.8516666666666667
+60,N.Y.,http://dbpedia.org/resource/New_York,dbpedia-owl:PopulatedPlace,-0.6138461538461538
+61,New York county,http://dbpedia.org/resource/Manhattan,dbpedia-owl:PopulatedPlace,0.6659999999999999
+62,Russian,http://dbpedia.org/resource/Russia,dbpedia-owl:PopulatedPlace,0.68
+63,JoJo,http://dbpedia.org/resource/JoJo_(singer),dbpedia-owl:Person,-0.759999999999998
+64,Dance Moms,http://dbpedia.org/resource/Dance_Moms,,-0.51
+65,gay bar,http://dbpedia.org/resource/Gay_bar,owl:Thing,-0.6749999999999998
+66,LGBT rights in Russia,http://dbpedia.org/resource/LGBT_rights_in_Russia,,-0.669
+67,BBC show,http://dbpedia.org/resource/Later..._with_Jools_Holland,,-0.7021428571428572
+68,corrections officer,http://dbpedia.org/resource/Prison_officer,owl:Thing,-0.74
+69,Georgia,http://dbpedia.org/resource/Georgia_(U.S._state),dbpedia-owl:PopulatedPlace,-0.66
+70,transgender man,http://dbpedia.org/resource/Trans_man,dbpedia-owl:Person,0.5291904761904762
+71,hostile work environment,http://dbpedia.org/resource/Hostile_work_environment,owl:Thing,-0.7166666666666667
+72,U.S. Court of Appeals for the 11th Circuit,http://dbpedia.org/resource/United_States_Court_of_Appeals_for_the_Eleventh_Circuit,,-0.6723333333333333
+73,Kanye West,http://dbpedia.org/resource/Kanye_West,dbpedia-owl:Person,0.59
+74,Accused Of,http://dbpedia.org/resource/Lesbian,owl:Thing,-0.7021428571428504
+75,Behavior,http://dbpedia.org/resource/Behavior,,-0.85
+76,Lawsuit,http://dbpedia.org/resource/Lawsuit,owl:Thing,-0.7
+77,Employee,http://dbpedia.org/resource/Employment,dbpedia-owl:Person,-0.73
+78,of Hitler,http://dbpedia.org/resource/Adolf_Hitler,dbpedia-owl:Person,0.6165591397849464
+79,roller derby,http://dbpedia.org/resource/Roller_derby,,-0.615
+80,Long Island Roller Rebels,http://dbpedia.org/resource/Long_Island_Roller_Rebels,owl:Thing,-0.53
+81,executive order,http://dbpedia.org/resource/Executive_order,owl:Thing,-0.78
+82,Montreal,http://dbpedia.org/resource/Montreal,dbpedia-owl:PopulatedPlace,0.57
+83,Toronto,http://dbpedia.org/resource/Toronto,dbpedia-owl:PopulatedPlace,0.61
+84,Queen,http://dbpedia.org/resource/Queen_(band),dbpedia-owl:Organisation|dbpedia-owl:Person,-0.79
+85,Bollywood,http://dbpedia.org/resource/Bollywood,,-0.61
+86,Nimra Bucha,http://dbpedia.org/resource/Nimra_Bucha,dbpedia-owl:Person,0.895
+87,Azra,http://dbpedia.org/resource/Azra,dbpedia-owl:Organisation,-0.6666666666666669
+88,coming of age,http://dbpedia.org/resource/Coming_of_age,owl:Thing,-0.84
+89,NAIA,http://dbpedia.org/resource/National_Association_of_Intercollegiate_Athletics,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.63
+90,America,http://dbpedia.org/resource/United_States,dbpedia-owl:PopulatedPlace,0.5700000000000006
+91,Oklahoma,http://dbpedia.org/resource/Oklahoma,dbpedia-owl:PopulatedPlace,0.5507692307692308
+92,White House,http://dbpedia.org/resource/White_House,,-0.67
+93,Pride flags,http://dbpedia.org/resource/Rainbow_flag_(LGBT_movement),owl:Thing,-0.6938095238095239
+94,The Advocate,http://dbpedia.org/resource/The_Advocate,,-0.71
+95,Jake Shears,http://dbpedia.org/resource/Jake_Shears,dbpedia-owl:Person,0.625
+96,Channel,http://dbpedia.org/resource/English_Channel,dbpedia-owl:Person,-0.8485980434830389
+97,Southeast Asia,http://dbpedia.org/resource/Southeast_Asia,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,-0.7571411483253588
+98,list a,http://dbpedia.org/resource/List_A_cricket,owl:Thing,-0.705
+99,NHS,http://dbpedia.org/resource/National_Health_Service,dbpedia-owl:Organisation,-0.7592307692307692
+100,Far-Left,http://dbpedia.org/resource/Far-left_politics,owl:Thing,-0.83
+101,Chicago,http://dbpedia.org/resource/Chicago,dbpedia-owl:PopulatedPlace,0.61
+102,Iran,http://dbpedia.org/resource/Iran,dbpedia-owl:PopulatedPlace,0.62
+103,anti-Israel,http://dbpedia.org/resource/Criticism_of_the_Israeli_government,owl:Thing,-0.8556888888888889
+104,U.S. aid,http://dbpedia.org/resource/United_States_Agency_for_International_Development,dbpedia-owl:Organisation,-0.6707142857142856
+105,to Israel,http://dbpedia.org/resource/Aliyah,,-0.7361428571428504
+106,massive attack,http://dbpedia.org/resource/Massive_Attack,dbpedia-owl:Organisation|dbpedia-owl:Person,0.53
+107,Republican Ohio,http://dbpedia.org/resource/Ohio_Republican_Party,dbpedia-owl:Organisation,0.75
+108,LGBTQ-friendly,http://dbpedia.org/resource/Gay-friendly,,-0.775
+109,Tennessee state,http://dbpedia.org/resource/Tennessee_State_University,dbpedia-owl:Organisation,-0.7517142857142858
+110,J.K. Rowling,http://dbpedia.org/resource/J._K._Rowling,dbpedia-owl:Person,0.8075
+111,Nazis,http://dbpedia.org/resource/Nazism,dbpedia-owl:Person,-0.69
+112,social media,http://dbpedia.org/resource/Social_media,,-0.78
+113,Germany’s,http://dbpedia.org/resource/German_Empire,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,-0.72
+114,Nazi regime,http://dbpedia.org/resource/Nazi_Germany,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,-0.565
+115,Hollywood,http://dbpedia.org/resource/Hollywood,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,-0.73
+116,Embassies,http://dbpedia.org/resource/Diplomatic_mission,owl:Thing,-0.6716666666666666
+117,State Department,http://dbpedia.org/resource/United_States_Department_of_State,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.77
+118,American Cancer Society,http://dbpedia.org/resource/American_Cancer_Society,dbpedia-owl:Organisation|dbpedia-owl:Person,0.67
+119,minority stress,http://dbpedia.org/resource/Minority_stress,owl:Thing,-0.81
+120,most challenged books,http://dbpedia.org/resource/Book_censorship,owl:Thing,-0.735
+121,American Library Association,http://dbpedia.org/resource/American_Library_Association,dbpedia-owl:Organisation|dbpedia-owl:Person,0.6325
+122,Navy,http://dbpedia.org/resource/United_States_Navy,dbpedia-owl:Organisation,-0.7
+123,Duval County Public Schools,http://dbpedia.org/resource/Duval_County_Public_Schools,owl:Thing,-0.509788887906401
+124,Melody,http://dbpedia.org/resource/Melody,dbpedia-owl:Person,-0.75
+125,far-right,http://dbpedia.org/resource/Far-right_politics,dbpedia-owl:Person,-0.73
+126,Granderson,http://dbpedia.org/resource/Curtis_Granderson,dbpedia-owl:Person,0.5983333333333334
+127,Missouri,http://dbpedia.org/resource/Missouri,dbpedia-owl:PopulatedPlace,-0.65
+128,Gender Queer,http://dbpedia.org/resource/Genderqueer,owl:Thing,-0.5971428571428571
+129,partial government shutdown,http://dbpedia.org/resource/United_States_federal_government_shutdown_of_2013,owl:Thing,-0.7666666666666667
+130,Gallup poll,http://dbpedia.org/resource/Gallup_(company),dbpedia-owl:Organisation,-0.5
+131,Olivia Colman,http://dbpedia.org/resource/Olivia_Colman,dbpedia-owl:Person,0.7216666666666666
+132,Netball,http://dbpedia.org/resource/Netball,,-0.6166666666666667
+133,Loreen,http://dbpedia.org/resource/Loreen_(singer),dbpedia-owl:Person,-0.809788887906401
+134,Jessie J,http://dbpedia.org/resource/Jessie_J,dbpedia-owl:Person,-0.575
+135,Manchester Pride,http://dbpedia.org/resource/Manchester_Pride,owl:Thing,-0.58
+136,Paris,http://dbpedia.org/resource/Paris,dbpedia-owl:PopulatedPlace,-0.53
+137,Tamara de Lempicka,http://dbpedia.org/resource/Tamara_de_Lempicka,dbpedia-owl:Person,0.8908333333333333
+138,modernist art,http://dbpedia.org/resource/Modern_art,owl:Thing,-0.869788887906401
+139,Europe,http://dbpedia.org/resource/Europe,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,0.52
+140,Florida GOP,http://dbpedia.org/resource/Republican_Party_of_Florida,owl:Thing,0.5181904761904762
+141,theme park,http://dbpedia.org/resource/Amusement_park,dbpedia-owl:Person,-0.56
+142,Saudi Arabia,http://dbpedia.org/resource/Saudi_Arabia,dbpedia-owl:PopulatedPlace,0.67
+143,Laura Jane Grace,http://dbpedia.org/resource/Laura_Jane_Grace,dbpedia-owl:Person,0.8691666666666666
+144,Human Rights Campaign,http://dbpedia.org/resource/Human_Rights_Campaign,dbpedia-owl:Organisation|dbpedia-owl:Person,0.61
+145,Ohio,http://dbpedia.org/resource/Ohio,dbpedia-owl:PopulatedPlace,0.56
+146,Donald Trump,http://dbpedia.org/resource/Donald_Trump,dbpedia-owl:Person,0.77
+147,Democratic incumbent,http://dbpedia.org/resource/Democratic_Party_(United_States),dbpedia-owl:Organisation|dbpedia-owl:Person,-0.5349999999999995
+148,Sherrod Brown,http://dbpedia.org/resource/Sherrod_Brown,dbpedia-owl:Person,0.865
+149,Graphic novel,http://dbpedia.org/resource/Graphic_novel,owl:Thing,-0.67
+150,Berlin,http://dbpedia.org/resource/Berlin,dbpedia-owl:PopulatedPlace,0.62
+151,Moom,http://dbpedia.org/resource/Moom,owl:Thing,-0.86
+152,Comics,http://dbpedia.org/resource/Comics,dbpedia-owl:Person,-0.78
+153,Best Buy,http://dbpedia.org/resource/Best_Buy,dbpedia-owl:Organisation,0.79
+154,Northants,http://dbpedia.org/resource/Northamptonshire,dbpedia-owl:PopulatedPlace,-0.5222750829672262
+155,Middlesex,http://dbpedia.org/resource/Middlesex,,-0.75
+156,Venice,http://dbpedia.org/resource/Venice,dbpedia-owl:PopulatedPlace,-0.58
+157,Venice Biennale,http://dbpedia.org/resource/Venice_Biennale,,0.6766666666666666
+158,the BFI,http://dbpedia.org/resource/British_Film_Institute,dbpedia-owl:Organisation,-0.5480952380952381
+159,", London",http://dbpedia.org/resource/London,dbpedia-owl:PopulatedPlace,0.7000000000000006
+160,King James I,http://dbpedia.org/resource/James_VI_and_I,dbpedia-owl:Person,0.5596000000000001
+161,Bible,http://dbpedia.org/resource/Bible,dbpedia-owl:Person,-0.56
+162,King James Version of the Bible,http://dbpedia.org/resource/King_James_Version,,-0.5988333333333332
+163,fundamentalist Christian,http://dbpedia.org/resource/Christian_fundamentalism,owl:Thing,-0.679788887906401
+164,God Bless the USA,http://dbpedia.org/resource/God_Bless_the_USA,,-0.589
+165,U.S. Constitution,http://dbpedia.org/resource/United_States_Constitution,dbpedia-owl:Person,-0.65
+166,Declaration of Independence,http://dbpedia.org/resource/United_States_Declaration_of_Independence,dbpedia-owl:Person,-0.82
+167,Hilary Cass,http://dbpedia.org/resource/Hilary_Cass,owl:Thing,-0.7296376376449174
+168,Jerrod Carmichael,http://dbpedia.org/resource/Jerrod_Carmichael,dbpedia-owl:Person,0.91
+169,Dave Chappelle,http://dbpedia.org/resource/Dave_Chappelle,dbpedia-owl:Person,0.855
+170,Egomaniac,http://dbpedia.org/resource/Egomania,owl:Thing,-0.88
+171,Ramadan,http://dbpedia.org/resource/Ramadan,,-0.63
+172,how 2,http://dbpedia.org/resource/How_2,,-0.69
+173,Muslim,http://dbpedia.org/resource/Muslim,dbpedia-owl:Person,-0.67
+174,Mishka,http://dbpedia.org/resource/Mishka,dbpedia-owl:Person,-0.7166666666666667
+175,Gaza,http://dbpedia.org/resource/Gaza_City,dbpedia-owl:PopulatedPlace,-0.78
+176,Ugandan,http://dbpedia.org/resource/Uganda,dbpedia-owl:PopulatedPlace,0.55
+177,Western sanctions,http://dbpedia.org/resource/International_sanctions_during_the_Ukrainian_crisis,owl:Thing,-0.7088095238095238
+178,Alabama,http://dbpedia.org/resource/Alabama,dbpedia-owl:PopulatedPlace,0.5007692307692309
+179,judge shopping,http://dbpedia.org/resource/Forum_shopping,,-0.5288095238095241
+180,Provincetown,"http://dbpedia.org/resource/Provincetown,_Massachusetts",dbpedia-owl:PopulatedPlace,0.66
+181,Will &amp; Grace,http://dbpedia.org/resource/Will_&_Grace,,0.56
+182,Eric McCormack,http://dbpedia.org/resource/Eric_McCormack,dbpedia-owl:Person,0.77
+183,Eucharistic,http://dbpedia.org/resource/Eucharist,owl:Thing,-0.5316666666666666
+184,Idaho,http://dbpedia.org/resource/Idaho,dbpedia-owl:PopulatedPlace,0.59
+185,health insurance,http://dbpedia.org/resource/Health_insurance,owl:Thing,-0.6266666666666666
+186,Medicaid,http://dbpedia.org/resource/Medicaid,owl:Thing,-0.5216666666666666
+187,U.K.,http://dbpedia.org/resource/United_Kingdom,dbpedia-owl:PopulatedPlace,-0.57
+188,Hastings Museum and Art Gallery,http://dbpedia.org/resource/Hastings_Museum_and_Art_Gallery,owl:Thing,-0.7023333333333334
+189,animal behavior,http://dbpedia.org/resource/Ethology,owl:Thing,-0.7049999999999998
+190,Hastings,http://dbpedia.org/resource/Hastings,dbpedia-owl:PopulatedPlace,-0.68
+191,Moscow,http://dbpedia.org/resource/Moscow,dbpedia-owl:PopulatedPlace,-0.64
+192,across the US,http://dbpedia.org/resource/King_assassination_riots,owl:Thing,-0.805
+193,Dr. Jill Biden,http://dbpedia.org/resource/Jill_Biden,dbpedia-owl:Person,0.6268333333333334
+194,National Center For Transgender Equality,http://dbpedia.org/resource/National_Center_for_Transgender_Equality,dbpedia-owl:Organisation,0.8991666666666667
+195,Tinder,http://dbpedia.org/resource/Tinder,owl:Thing,-0.86
+196,Bloomberg,http://dbpedia.org/resource/Bloomberg_L.P.,dbpedia-owl:Organisation,-0.8
+197,Inc,http://dbpedia.org/resource/Indian_National_Congress,dbpedia-owl:Organisation,-0.5539999999999999
+198,Boise State University,http://dbpedia.org/resource/Boise_State_University,dbpedia-owl:Organisation,0.7396
+199,Oliver Stark,http://dbpedia.org/resource/Oliver_Stark,owl:Thing,-0.7321071428571428
+200,ABC,http://dbpedia.org/resource/American_Broadcasting_Company,dbpedia-owl:Organisation,-0.5292307692307692
+201,Founder,http://dbpedia.org/resource/Entrepreneurship,owl:Thing,-0.76
+202,Travel,http://dbpedia.org/resource/Travel,dbpedia-owl:Person,-0.84
+203,trailblazer,http://dbpedia.org/resource/Trailblazer_(roller_coaster),,0.5005
+204,Notorious B.I.G.,http://dbpedia.org/resource/The_Notorious_B.I.G.,dbpedia-owl:Person,-0.6239999999999999
+205,sexual health,http://dbpedia.org/resource/Reproductive_health,owl:Thing,-0.6966666666666667
+206,Mister Cee,http://dbpedia.org/resource/Mister_Cee,dbpedia-owl:Person,0.9
+207,sexual revolution,http://dbpedia.org/resource/Sexual_revolution,owl:Thing,-0.6249999999999999
+208,Holding the Man,http://dbpedia.org/resource/Holding_the_Man,owl:Thing,-0.655
+209,Timothy Conigrave,http://dbpedia.org/resource/Timothy_Conigrave,dbpedia-owl:Person,0.6681666666666666
+210,AIDS epidemic,http://dbpedia.org/resource/Epidemiology_of_HIV/AIDS,,-0.8399999999999982
+211,Overlap,http://dbpedia.org/resource/Concurrency_(road),owl:Thing,-0.7
+212,James Carville,http://dbpedia.org/resource/James_Carville,dbpedia-owl:Person,0.8375
+213,Planet Fitness,http://dbpedia.org/resource/Planet_Fitness,dbpedia-owl:Organisation,0.725
+214,transgender rights,http://dbpedia.org/resource/LGBT_rights_by_country_or_territory,owl:Thing,-0.69
+215,Ricky Martin,http://dbpedia.org/resource/Ricky_Martin,dbpedia-owl:Person,0.57
+216,child pornography,http://dbpedia.org/resource/Child_pornography,dbpedia-owl:Person,-0.505
+217,Queer,http://dbpedia.org/resource/Queer,owl:Thing,-0.85
+218,Princeton University,http://dbpedia.org/resource/Princeton_University,dbpedia-owl:Organisation,0.78
+219,bachelor’s degree,http://dbpedia.org/resource/Bachelor's_degree,dbpedia-owl:Person,-0.7325320183030906
+220,classical philosophy,http://dbpedia.org/resource/Ancient_philosophy,owl:Thing,-0.83
+221,NYC,http://dbpedia.org/resource/New_York_City,dbpedia-owl:PopulatedPlace,0.5807692307692314
+222,Staten Island,http://dbpedia.org/resource/Staten_Island,dbpedia-owl:PopulatedPlace,0.74
+223,Police,http://dbpedia.org/resource/Police,dbpedia-owl:Person,-0.73
+224,NCAA women's basketball,http://dbpedia.org/resource/NCAA_Women's_Division_I_Basketball_Championship,dbpedia-owl:Organisation,-0.6666820276497696
+225,University of Utah,http://dbpedia.org/resource/University_of_Utah,dbpedia-owl:Organisation,0.75
+226,"Coeur D'Alene, Idaho","http://dbpedia.org/resource/Coeur_d'Alene,_Idaho",dbpedia-owl:PopulatedPlace,0.6655
+227,"Spokane, Washington","http://dbpedia.org/resource/Spokane,_Washington",dbpedia-owl:PopulatedPlace,0.5527272727272727
+228,Germany,http://dbpedia.org/resource/Germany,dbpedia-owl:PopulatedPlace,0.51
+229,Jewish doctor,http://dbpedia.org/resource/Medicine_in_the_medieval_Islamic_world,owl:Thing,-0.7021428571428571
+230,Legislature,http://dbpedia.org/resource/Legislature,dbpedia-owl:Person,-0.7566666666666667
+231,marriage between first cousins,http://dbpedia.org/resource/Cousin_marriage,owl:Thing,-0.5661428571428572
+232,Fine Gael,http://dbpedia.org/resource/Fine_Gael,dbpedia-owl:Organisation|dbpedia-owl:Person,0.565
+233,Leo Varadkar,http://dbpedia.org/resource/Leo_Varadkar,dbpedia-owl:Person,0.8875
+234,general election in the Republic of Ireland,"http://dbpedia.org/resource/Irish_general_election,_2011",,-0.5888095238095238
+235,University of Missouri,http://dbpedia.org/resource/University_of_Missouri,dbpedia-owl:Organisation,-0.68
+236,Nashville,"http://dbpedia.org/resource/Nashville,_Tennessee",dbpedia-owl:PopulatedPlace,0.57
+237,Tulsa County,"http://dbpedia.org/resource/Tulsa_County,_Oklahoma",dbpedia-owl:PopulatedPlace,0.8046666666666666
+238,district attorney,http://dbpedia.org/resource/District_attorney,owl:Thing,-0.84
+239,Sacramento,"http://dbpedia.org/resource/Sacramento,_California",dbpedia-owl:PopulatedPlace,0.5867391304347827
+240,Calif,http://dbpedia.org/resource/California,dbpedia-owl:PopulatedPlace,0.6048190075469183
+241,video gamers,http://dbpedia.org/resource/Video_game,dbpedia-owl:Person,-0.5745543773579036
+242,Independent,http://dbpedia.org/resource/Independent_politician,owl:Thing,-0.74
+243,climate change,http://dbpedia.org/resource/Climate_change,dbpedia-owl:Person,-0.55
+244,Indonesia,http://dbpedia.org/resource/Indonesia,dbpedia-owl:PopulatedPlace,-0.51
+245,The Independent,http://dbpedia.org/resource/The_Independent,,-0.58
+246,Reuters,http://dbpedia.org/resource/Reuters,dbpedia-owl:Organisation,-0.54
+247,Australia,http://dbpedia.org/resource/Australia,dbpedia-owl:PopulatedPlace,0.6
+248,UN,http://dbpedia.org/resource/United_Nations,dbpedia-owl:PopulatedPlace|dbpedia-owl:Organisation|dbpedia-owl:Person,-0.6266666666666666
+249,Caucasus,http://dbpedia.org/resource/Caucasus,dbpedia-owl:Person,-0.71
+250,Parliament Majority,http://dbpedia.org/resource/March_14_Alliance,dbpedia-owl:Organisation,0.5808571428571428
+251,Georgian Dream,http://dbpedia.org/resource/Georgian_Dream,dbpedia-owl:Organisation,0.6765000000000001
+252,Italy,http://dbpedia.org/resource/Italy,dbpedia-owl:PopulatedPlace,-0.5025806451612898
+253,Giorgia Meloni,http://dbpedia.org/resource/Giorgia_Meloni,dbpedia-owl:Person,0.9141666666666668
+254,Scotland,http://dbpedia.org/resource/Scotland,dbpedia-owl:PopulatedPlace,-0.53
+255,people in Scotland,http://dbpedia.org/resource/Scottish_people,,-0.6421428571428572
+256,Hate Crime,http://dbpedia.org/resource/Hate_crime,owl:Thing,-0.6249999999999999
+257,Scotland),http://dbpedia.org/resource/Scots_law,,-0.6921428571428504
+258,Baltimore,http://dbpedia.org/resource/Baltimore,dbpedia-owl:PopulatedPlace,-0.59
+259,Disney,http://dbpedia.org/resource/The_Walt_Disney_Company,dbpedia-owl:Organisation,0.57
+260,Ron DeSantis,http://dbpedia.org/resource/Ron_DeSantis,dbpedia-owl:Person,0.8975
+261,Captain Moonlite,http://dbpedia.org/resource/Captain_Moonlite,dbpedia-owl:Person,0.7466666666666666
+262,James Nesbitt,http://dbpedia.org/resource/James_Nesbitt,dbpedia-owl:Person,0.85
+263,state heritage register,http://dbpedia.org/resource/Heritage_Council_of_Western_Australia,owl:Thing,-0.81
+264,US President,http://dbpedia.org/resource/President_of_the_United_States,dbpedia-owl:Person,-0.5350000000000003
+265,sexual orientation,http://dbpedia.org/resource/Sexual_orientation,dbpedia-owl:Person,-0.83
+266,Ugandan gay rights,http://dbpedia.org/resource/LGBT_rights_in_Uganda,owl:Thing,-0.5
+267,Target,http://dbpedia.org/resource/Target_Corporation,dbpedia-owl:Organisation,-0.8
+268,LGBT youth,http://dbpedia.org/resource/Suicide_among_LGBT_youth,owl:Thing,-0.7594761904761905
+269,reeducation camp,http://dbpedia.org/resource/Reeducation_camp,owl:Thing,-0.67
+270,drag queens,http://dbpedia.org/resource/Drag_queen,owl:Thing,-0.634
+271,Chaco,http://dbpedia.org/resource/Chaco_Province,dbpedia-owl:PopulatedPlace,-0.69
+272,Monkey Man,http://dbpedia.org/resource/Monkey_Man_(Toots_&_the_Maytals_song),,-0.635757575757576
+273,of India,http://dbpedia.org/resource/Constitution_of_India,owl:Thing,-0.8029047619047551
+274,Dev Patel,http://dbpedia.org/resource/Dev_Patel,dbpedia-owl:Person,0.7226904761904761
+275,religious discrimination,http://dbpedia.org/resource/Religious_discrimination,owl:Thing,-0.8099999999999982
+276,William Wragg,http://dbpedia.org/resource/William_Wragg,dbpedia-owl:Person,0.9116666666666668
+277,reality TV,http://dbpedia.org/resource/Reality_television,,-0.67
+278,Oprah Winfrey,http://dbpedia.org/resource/Oprah_Winfrey,dbpedia-owl:Person,0.805
+279,AIDS,http://dbpedia.org/resource/HIV/AIDS,,-0.55
+280,Sydney,http://dbpedia.org/resource/Sydney,dbpedia-owl:PopulatedPlace,-0.54
+281,Australian Muslims,http://dbpedia.org/resource/Islam_in_Australia,owl:Thing,0.5750000000000001
+282,Imam,http://dbpedia.org/resource/Imam,owl:Thing,-0.65
+283,Islam,http://dbpedia.org/resource/Islam,dbpedia-owl:Person,0.54
+284,laws,http://dbpedia.org/resource/Law,dbpedia-owl:Person,-0.5157142857142857
+285,Carly Rae Jepsen,http://dbpedia.org/resource/Carly_Rae_Jepsen,dbpedia-owl:Person,0.65
+286,Canada,http://dbpedia.org/resource/Canada,dbpedia-owl:PopulatedPlace,0.64
+287,Intersectionality,http://dbpedia.org/resource/Intersectionality,owl:Thing,-0.68
+288,chemical castration,http://dbpedia.org/resource/Chemical_castration,owl:Thing,-0.68
+289,LDS Church,http://dbpedia.org/resource/The_Church_of_Jesus_Christ_of_Latter-day_Saints,dbpedia-owl:Person,-0.5366666666666666
+290,plural marriage,http://dbpedia.org/resource/Mormonism_and_polygamy,,-0.63
+291,Colorado,http://dbpedia.org/resource/Colorado,dbpedia-owl:PopulatedPlace,-0.5
+292,Transgender,http://dbpedia.org/resource/Transgender,dbpedia-owl:Person,-0.5966666666666667
+293,new hate,http://dbpedia.org/resource/New_Hate,,-0.609090909090909
+294,Ghana,http://dbpedia.org/resource/Ghana,dbpedia-owl:PopulatedPlace,0.61
+295,Mahamudu Bawumia,http://dbpedia.org/resource/Mahamudu_Bawumia,dbpedia-owl:Person,0.74
+296,The stepfather,http://dbpedia.org/resource/The_Stepfather_(1987_film),,-0.79
+297,ABC News,http://dbpedia.org/resource/ABC_News,dbpedia-owl:Organisation,-0.72
+298,Owasso High School,http://dbpedia.org/resource/Owasso_High_School,dbpedia-owl:Organisation,0.6544285714285714
+299,Emma Hayes,http://dbpedia.org/resource/Emma_Hayes,dbpedia-owl:Person,0.885
+300,health secretary,http://dbpedia.org/resource/Secretary_of_State_for_Health,owl:Thing,-0.7949999999999998
+301,Victoria Atkins,http://dbpedia.org/resource/Victoria_Atkins,dbpedia-owl:Person,0.88
+302,MacKenzie Scott,http://dbpedia.org/resource/Torres_(musician),dbpedia-owl:Person,0.7801666666666667
+303,Amazon,http://dbpedia.org/resource/Amazon.com,dbpedia-owl:Organisation,-0.74
+304,Jeff Bezos,http://dbpedia.org/resource/Jeff_Bezos,dbpedia-owl:Person,0.8675
+305,Chicago police,http://dbpedia.org/resource/Chicago_Police_Department,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.6666666666666666
+306,Chicago Sun-Times,http://dbpedia.org/resource/Chicago_Sun-Times,,0.54
+307,open borders,http://dbpedia.org/resource/Open_border,owl:Thing,-0.830095238095238
+308,Oklahoma district,http://dbpedia.org/resource/Oklahoma_District_(LCMS),owl:Thing,-0.8
+309,Southern states,http://dbpedia.org/resource/Southern_United_States,dbpedia-owl:PopulatedPlace,-0.7475320183030901
+310,Gulf South,http://dbpedia.org/resource/Gulf_South_Conference,owl:Thing,-0.74
+311,CDC,http://dbpedia.org/resource/Centers_for_Disease_Control_and_Prevention,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.78
+312,double whammy,http://dbpedia.org/resource/Double_Whammy_(film),,-0.7766666666666667
+313,public toilet,http://dbpedia.org/resource/Public_toilet,owl:Thing,-0.7049999999999998
+314,Organizations,http://dbpedia.org/resource/Organization,dbpedia-owl:Person,-0.83
+315,Need To,http://dbpedia.org/resource/Need_To,,-0.82
+316,gender equality,http://dbpedia.org/resource/Gender_equality,owl:Thing,-0.84
+317,U.S. Women’s National Team,http://dbpedia.org/resource/United_States_women's_national_soccer_team,dbpedia-owl:SportsTeam,-0.5512333333333332
+318,stiff upper lip,http://dbpedia.org/resource/Stiff_Upper_Lip_(album),,-0.7799999999999988
+319,of England,http://dbpedia.org/resource/Kingdom_of_England,dbpedia-owl:PopulatedPlace,0.5136904761904763
+320,jersey,http://dbpedia.org/resource/Jersey,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,-0.67
+321,", England",http://dbpedia.org/resource/Manchester,dbpedia-owl:PopulatedPlace,0.5933333333333334
+322,Euro Cup,http://dbpedia.org/resource/UEFA_European_Championship,,-0.76
+323,Arizona,http://dbpedia.org/resource/Arizona,dbpedia-owl:PopulatedPlace,0.52
+324,Bookstore,http://dbpedia.org/resource/Bookselling,,-0.6806666666666666
+325,Nixes,http://dbpedia.org/resource/Neck_(water_spirit),,-0.6828095238095239
+326,Palestine,http://dbpedia.org/resource/Palestine_(region),owl:Thing,-0.81
+327,sanctuary city,http://dbpedia.org/resource/Sanctuary_city,owl:Thing,-0.6699999999999999
+328,Sacramento City Council,http://dbpedia.org/resource/Sacramento_City_Council,owl:Thing,0.685
+329,for the US,http://dbpedia.org/resource/Visa_policy_of_the_United_States,owl:Thing,-0.8221428571428572
+330,women's football,http://dbpedia.org/resource/Women's_association_football,owl:Thing,-0.7
+331,Science,http://dbpedia.org/resource/Science,dbpedia-owl:Person,-0.73
+332,Texas,http://dbpedia.org/resource/Texas,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,-0.56
+333,Jeane Freeman,http://dbpedia.org/resource/Jeane_Freeman,owl:Thing,0.6909090909090909
+334,Best Of,http://dbpedia.org/resource/Greatest_hits_album,owl:Thing,-0.7849999999999998
+335,Jenny Slate,http://dbpedia.org/resource/Jenny_Slate,dbpedia-owl:Person,0.8525
+336,Julio Torres,http://dbpedia.org/resource/Julio_Torres,owl:Thing,-0.87
+337,Marcel the Shell with Shoes On,http://dbpedia.org/resource/Marcel_the_Shell_with_Shoes_On,,-0.5766666666666667
+338,BYU,http://dbpedia.org/resource/Brigham_Young_University,dbpedia-owl:Organisation,0.5950549450549452
+339,Utah,http://dbpedia.org/resource/Utah,dbpedia-owl:PopulatedPlace,-0.5092307692307692
+340,Louisiana’s,http://dbpedia.org/resource/Louisiana,dbpedia-owl:PopulatedPlace,-0.6025153609831029
+341,hate speech,http://dbpedia.org/resource/Hate_speech,owl:Thing,-0.615
+342,law in Poland,http://dbpedia.org/resource/Law_of_Poland,,-0.7746666666666667
+343,Poland’s,http://dbpedia.org/resource/Poland,dbpedia-owl:PopulatedPlace,0.6466666666666673
+344,new left,http://dbpedia.org/resource/New_Left,dbpedia-owl:Person,-0.53
+345,Christian holidays,http://dbpedia.org/resource/Liturgical_year,owl:Thing,-0.6318095238095238
+346,Harry Potter,http://dbpedia.org/resource/Harry_Potter,dbpedia-owl:Person,-0.69
+347,Daniel Radcliffe,http://dbpedia.org/resource/Daniel_Radcliffe,dbpedia-owl:Person,0.82
+348,Emma Watson,http://dbpedia.org/resource/Emma_Watson,dbpedia-owl:Person,0.82
+349,South Koreans,http://dbpedia.org/resource/South_Korea,dbpedia-owl:PopulatedPlace,0.6200000000000006
+350,Israeli military,http://dbpedia.org/resource/Israel_Defense_Forces,dbpedia-owl:Organisation,-0.7725320183030905
+351,Genetics,http://dbpedia.org/resource/Genetics,dbpedia-owl:Person,-0.67
+352,Molecular biology,http://dbpedia.org/resource/Molecular_biology,dbpedia-owl:Person,-0.6808333333333333
+353,Accuracy,http://dbpedia.org/resource/Accuracy_and_precision,owl:Thing,-0.84
+354,Jewish educator,http://dbpedia.org/resource/Jewish_education,owl:Thing,-0.7051428571428572
+355,Marketing,http://dbpedia.org/resource/Marketing,dbpedia-owl:Person,-0.77
+356,Paula Pell,http://dbpedia.org/resource/Paula_Pell,dbpedia-owl:Person,0.91
+357,cult hit,http://dbpedia.org/resource/Cult_following,owl:Thing,-0.8149999999999998
+358,Sara Bareilles,http://dbpedia.org/resource/Sara_Bareilles,dbpedia-owl:Person,0.65
+359,United Nations Human Rights Council,http://dbpedia.org/resource/United_Nations_Human_Rights_Council,dbpedia-owl:Organisation|dbpedia-owl:Person,0.6466666666666666
+360,Raja Krishnamoorthi,http://dbpedia.org/resource/Raja_Krishnamoorthi,dbpedia-owl:Person,0.905
+361,Mike Gallagher,http://dbpedia.org/resource/Mike_Gallagher,dbpedia-owl:Person,-0.809
+362,Face the Nation,http://dbpedia.org/resource/Face_the_Nation,,-0.5897888879064009
+363,Illinois,http://dbpedia.org/resource/Illinois,dbpedia-owl:PopulatedPlace,-0.57
+364,Wisconsin,http://dbpedia.org/resource/Wisconsin,dbpedia-owl:PopulatedPlace,-0.67
+365,Hits,http://dbpedia.org/resource/Hit_(baseball),owl:Thing,-0.85
+366,Billboard Charts,http://dbpedia.org/resource/Billboard_charts,owl:Thing,-0.86
+367,Karma,http://dbpedia.org/resource/Karma,dbpedia-owl:Person,-0.75
+368,TikTok,http://dbpedia.org/resource/Tiktok,,-0.8029048258288174
+369,Billboard Top,http://dbpedia.org/resource/Billboard_200,owl:Thing,-0.6821428571428504
+370,Jean-Pierre,http://dbpedia.org/resource/Dardenne_brothers,dbpedia-owl:Person,-0.749622641509434
+371,right-wing,http://dbpedia.org/resource/Right-wing_politics,owl:Thing,-0.86
+372,White House press briefing,http://dbpedia.org/resource/James_S._Brady_Press_Briefing_Room,owl:Thing,-0.78
+373,Aspiration,http://dbpedia.org/resource/Aspirated_consonant,owl:Thing,-0.78
+374,Conflagration,http://dbpedia.org/resource/Conflagration,owl:Thing,-0.8895000000000001
+375,Tegan and Sara,http://dbpedia.org/resource/Tegan_and_Sara,dbpedia-owl:Organisation|dbpedia-owl:Person,0.5875
+376,Culture Of,http://dbpedia.org/resource/Culture_of_Tonga,owl:Thing,-0.835
+377,Power Couple,http://dbpedia.org/resource/Supercouple,owl:Thing,-0.8066666666666674
+378,Machine-Gunner,http://dbpedia.org/resource/Machine_gun,owl:Thing,-0.6694761904761904
+379,Army,http://dbpedia.org/resource/United_States_Army,dbpedia-owl:Organisation,-0.64
+380,Putin,http://dbpedia.org/resource/Vladimir_Putin,dbpedia-owl:Person,-0.54
+381,Strike,http://dbpedia.org/resource/Strike_action,owl:Thing,-0.8
+382,NATO,http://dbpedia.org/resource/NATO,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.54
+383,psychiatric assessment,http://dbpedia.org/resource/Psychiatric_assessment,owl:Thing,-0.7266666666666667
+384,Movies,http://dbpedia.org/resource/Film,dbpedia-owl:Person,-0.66
+385,Boyz N The Hood,http://dbpedia.org/resource/Boyz_n_the_Hood,,-0.5040000000000001
+386,Casablanca,http://dbpedia.org/resource/Casablanca,dbpedia-owl:PopulatedPlace,-0.5592307692307692
+387,Southern California,http://dbpedia.org/resource/Southern_California,dbpedia-owl:PopulatedPlace,-0.81
+388,DoubleTree by Hilton,http://dbpedia.org/resource/DoubleTree,dbpedia-owl:Organisation,-0.8491666666666667
+389,Torrance,"http://dbpedia.org/resource/Torrance,_California",dbpedia-owl:PopulatedPlace,-0.67
+390,Kamala Harris,http://dbpedia.org/resource/Kamala_Harris,dbpedia-owl:Person,0.8725
+391,Here Comes the Sun,http://dbpedia.org/resource/Here_Comes_the_Sun,,-0.569
+392,Marcia Gay Harden,http://dbpedia.org/resource/Marcia_Gay_Harden,dbpedia-owl:Person,0.835
+393,Seth Doane,http://dbpedia.org/resource/Seth_Doane,dbpedia-owl:Person,0.582
+394,CBS,http://dbpedia.org/resource/CBS,dbpedia-owl:Organisation,0.54
+395,Julian Curi,http://dbpedia.org/resource/Julian_Curi,owl:Thing,-0.7121071428571429
+396,short film,http://dbpedia.org/resource/Short_film,dbpedia-owl:Person,-0.79
+397,Gruff,http://dbpedia.org/resource/Gruff_Rhys,dbpedia-owl:Person,0.6323809523809524
+398,New South Wales,http://dbpedia.org/resource/New_South_Wales,dbpedia-owl:PopulatedPlace,-0.54
+399,South Australia,http://dbpedia.org/resource/South_Australia,dbpedia-owl:PopulatedPlace,-0.54
+400,members of Congress,http://dbpedia.org/resource/Member_of_Congress,owl:Thing,-0.64
+401,Women’s Tennis Championships,http://dbpedia.org/resource/NCAA_Women's_Division_III_Tennis_Championship,dbpedia-owl:Organisation,-0.6555304947877745
+402,Caucus,http://dbpedia.org/resource/Caucus,owl:Thing,-0.73
+403,Landmark,http://dbpedia.org/resource/Landmark,dbpedia-owl:Person,-0.85
+404,Intersex,http://dbpedia.org/resource/Intersex,dbpedia-owl:Person,-0.7008333333333333
+405,labor lawyer,http://dbpedia.org/resource/Labour_law,,-0.6733333333333333
+406,4th U.S. Circuit Court of Appeals,http://dbpedia.org/resource/United_States_Court_of_Appeals_for_the_Fourth_Circuit,,-0.574
+407,Kansas,http://dbpedia.org/resource/Kansas,dbpedia-owl:PopulatedPlace,-0.71
+408,Senate minority leader,http://dbpedia.org/resource/Party_leaders_of_the_United_States_Senate,owl:Thing,-0.69
+409,bomb threats,http://dbpedia.org/resource/Bomb_threat,owl:Thing,-0.82
+410,Boeing,http://dbpedia.org/resource/Boeing,dbpedia-owl:Organisation,0.66
+411,Cautionary Tale,http://dbpedia.org/resource/Cautionary_tale,owl:Thing,-0.86
+412,Psychological Safety,http://dbpedia.org/resource/Psychological_safety,owl:Thing,-0.87
+413,Ellen Page,http://dbpedia.org/resource/Ellen_Page,dbpedia-owl:Person,0.835
+414,Africa,http://dbpedia.org/resource/Africa,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,-0.6
+415,North America,http://dbpedia.org/resource/North_America,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person,-0.54
+416,Violence,http://dbpedia.org/resource/Violence,dbpedia-owl:Person,-0.77
+417,Fulton County,"http://dbpedia.org/resource/Fulton_County,_Georgia",dbpedia-owl:PopulatedPlace,0.5470358974358974
+418,District Attorney’s Office,http://dbpedia.org/resource/New_York_County_District_Attorney,owl:Thing,-0.7138095238095238
+419,Spanish Army,http://dbpedia.org/resource/Spanish_Army,dbpedia-owl:Organisation,-0.8025320183030905
+420,"Ceuta, Spain",http://dbpedia.org/resource/Ceuta,dbpedia-owl:PopulatedPlace,0.5791904761904763
+421,employee resource groups,http://dbpedia.org/resource/Employee_resource_groups,owl:Thing,-0.8283333333333333
+422,think tank,http://dbpedia.org/resource/Think_tank,owl:Thing,-0.5749999999999998
+423,SEC filing,http://dbpedia.org/resource/SEC_filing,owl:Thing,-0.729090909090909
+424,Minnesota,http://dbpedia.org/resource/Minnesota,dbpedia-owl:PopulatedPlace,-0.61
+425,Appeals Court,http://dbpedia.org/resource/Appellate_court,owl:Thing,-0.7449999999999999
+426,Affirms,http://dbpedia.org/resource/Affirmation_in_law,owl:Thing,-0.89
+427,Ban on,http://dbpedia.org/resource/Ban_On,dbpedia-owl:PopulatedPlace,-0.74
+428,Athletes,http://dbpedia.org/resource/Athlete,owl:Thing,-0.88
+429,government funding bill,http://dbpedia.org/resource/Government_funding_bill,owl:Thing,-0.8483333333333333
+430,New Orleans,http://dbpedia.org/resource/New_Orleans,dbpedia-owl:PopulatedPlace,0.57
+431,Levi’s,http://dbpedia.org/resource/Levi_Strauss_&_Co.,dbpedia-owl:Organisation,-0.5111666666666667
+432,Jennifer Sey,http://dbpedia.org/resource/Jennifer_Sey,dbpedia-owl:Person,0.625
+433,Sports,http://dbpedia.org/resource/Sport,dbpedia-owl:Person,-0.77
+434,Indigenous heritage,http://dbpedia.org/resource/Australian_Aboriginal_culture,owl:Thing,-0.828
+435,Multnomah County Circuit Court,http://dbpedia.org/resource/Oregon_circuit_courts,owl:Thing,-0.7083333333333335
+436,Portland,"http://dbpedia.org/resource/Portland,_Oregon",dbpedia-owl:PopulatedPlace,0.5707692307692308
+437,AMAB,http://dbpedia.org/resource/Sex_assignment,owl:Thing,-0.5254761904761904
+438,Florida governor,http://dbpedia.org/resource/Governor,,-0.6763095238095238
+439,Walt Disney World,http://dbpedia.org/resource/Walt_Disney_World,dbpedia-owl:Organisation|dbpedia-owl:Person,0.5510482036760903
+440,Wisconsin governor,http://dbpedia.org/resource/Governor_of_Wisconsin,owl:Thing,-0.6306666666666666
+441,Tony Evers,http://dbpedia.org/resource/Tony_Evers,dbpedia-owl:Person,0.925
+442,Andrew Scott,http://dbpedia.org/resource/Andrew_Scott_(actor),dbpedia-owl:Person,-0.7810126443842136
+443,Patricia Highsmith,http://dbpedia.org/resource/Patricia_Highsmith,dbpedia-owl:Person,0.8516666666666667
+444,Tom Ripley,http://dbpedia.org/resource/Tom_Ripley,dbpedia-owl:Person,0.9175
+445,Jimmy Kimmel,http://dbpedia.org/resource/Jimmy_Kimmel,dbpedia-owl:Person,-0.53
+446,Supreme Court,http://dbpedia.org/resource/Supreme_Court_of_the_United_States,dbpedia-owl:Person,-0.72
+447,Nicole Scherzinger,http://dbpedia.org/resource/Nicole_Scherzinger,dbpedia-owl:Person,0.61
+448,Rivaldo Barbosa,http://dbpedia.org/resource/Rivaldo_Barbosa_de_Souza,dbpedia-owl:Person,0.6768333333333334
+449,organized crime,http://dbpedia.org/resource/Organized_crime,dbpedia-owl:Person,-0.55
+450,Black,http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census,owl:Thing,-0.68
+451,Duolingo,http://dbpedia.org/resource/Duolingo,,0.5242424242424243
+452,Russian authorities,http://dbpedia.org/resource/Russian_Empire,dbpedia-owl:PopulatedPlace,-0.6285185185185185
+453,death row,http://dbpedia.org/resource/Death_row,owl:Thing,-0.82
+454,Lauren Bennett,http://dbpedia.org/resource/Lauren_Bennett,dbpedia-owl:Person,0.625
+455,Catholic priest,http://dbpedia.org/resource/Priesthood_(Catholic_Church),owl:Thing,-0.84
+456,Julianne Moore,http://dbpedia.org/resource/Julianne_Moore,dbpedia-owl:Person,0.81
+457,Mary,http://dbpedia.org/resource/Mary_(mother_of_Jesus),dbpedia-owl:Person,-0.6132949308755754
+458,Queen Elizabeth I,http://dbpedia.org/resource/Elizabeth_I_of_England,dbpedia-owl:Person,0.584
+459,Jacobean,http://dbpedia.org/resource/Jacobean_architecture,owl:Thing,-0.86
+460,James’s,http://dbpedia.org/resource/James_II_of_England,dbpedia-owl:Person,0.5267496159754225
+461,Elon Musk,http://dbpedia.org/resource/Elon_Musk,dbpedia-owl:Person,0.6025
+462,", South Carolina","http://dbpedia.org/resource/Seabrook,_South_Carolina",dbpedia-owl:PopulatedPlace,-0.5016666666666667
+463,Dawn Staley,http://dbpedia.org/resource/Dawn_Staley,dbpedia-owl:Person,0.8575
+464,Rachel Levine,http://dbpedia.org/resource/Rachel_Levine,owl:Thing,-0.8691071428571427
+465,Pennsylvania’s,http://dbpedia.org/resource/Pennsylvania,dbpedia-owl:PopulatedPlace,0.6633333333333339
+466,Assistant Secretary for Health,http://dbpedia.org/resource/United_States_Assistant_Secretary_for_Health,owl:Thing,-0.664
+467,U.S. Department of Health and Human Services,http://dbpedia.org/resource/United_States_Department_of_Health_and_Human_Services,dbpedia-owl:Organisation,0.545
+468,Kingston,"http://dbpedia.org/resource/Kingston,_Ontario",dbpedia-owl:PopulatedPlace,-0.7235362100537539
+469,Tragically Hip,http://dbpedia.org/resource/The_Tragically_Hip,dbpedia-owl:Organisation|dbpedia-owl:Person,0.6183333333333334
+470,Jamie Dimon,http://dbpedia.org/resource/Jamie_Dimon,dbpedia-owl:Person,0.8975
+471,CEO,http://dbpedia.org/resource/Chief_executive_officer,owl:Thing,-0.63
+472,St. Louis area,http://dbpedia.org/resource/Greater_St._Louis,dbpedia-owl:PopulatedPlace,-0.81
+473,radio talk show,http://dbpedia.org/resource/Talk_radio,owl:Thing,-0.6138095238095238
+474,North Carolina governor,http://dbpedia.org/resource/Governor_of_North_Carolina,owl:Thing,-0.6506666666666666
+475,North Carolina,http://dbpedia.org/resource/North_Carolina,dbpedia-owl:PopulatedPlace,-0.7083950617283951
+476,Guttmacher Institute,http://dbpedia.org/resource/Guttmacher_Institute,dbpedia-owl:Organisation,0.8791666666666667
+477,GLAAD,http://dbpedia.org/resource/GLAAD,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.5466666666666666
+478,Fascists,http://dbpedia.org/resource/Fascism,dbpedia-owl:Person,-0.71
+479,Forbid,http://dbpedia.org/resource/Food_and_drink_prohibitions,,-0.89
+480,left-wing,http://dbpedia.org/resource/Left-wing_politics,owl:Thing,-0.8
+481,Ireland,http://dbpedia.org/resource/Republic_of_Ireland,dbpedia-owl:PopulatedPlace,-0.69
+482,Land Rover,http://dbpedia.org/resource/Land_Rover,dbpedia-owl:Organisation,0.745
+483,Northern Ireland,http://dbpedia.org/resource/Northern_Ireland,dbpedia-owl:PopulatedPlace,-0.678395061728395
+484,Missile,http://dbpedia.org/resource/Missile,,-0.85
+485,Disrupts,http://dbpedia.org/resource/Contempt_of_Congress,owl:Thing,-0.865
+486,Ukraine,http://dbpedia.org/resource/Ukraine,dbpedia-owl:PopulatedPlace,0.62
+487,Artists,http://dbpedia.org/resource/Artist,dbpedia-owl:Person,-0.85
+488,Paints,http://dbpedia.org/resource/Paint,,-0.89
+489,Scar,http://dbpedia.org/resource/Scientific_Committee_on_Antarctic_Research,dbpedia-owl:Organisation,-0.8
+490,Audience,http://dbpedia.org/resource/Audience,dbpedia-owl:Person,-0.85
+491,Laughs,http://dbpedia.org/resource/Laughter,,-0.7311428571428504
+492,Activist,http://dbpedia.org/resource/Activism,owl:Thing,-0.72
+493,Arkansas,http://dbpedia.org/resource/Arkansas,dbpedia-owl:PopulatedPlace,0.5807692307692308
+494,Netanyahu,http://dbpedia.org/resource/Benjamin_Netanyahu,dbpedia-owl:Person,0.5105686846009427
+495,No Labels,http://dbpedia.org/resource/No_Labels,dbpedia-owl:Organisation,-0.522
+496,northern Gaza,http://dbpedia.org/resource/Gaza_Strip,dbpedia-owl:PopulatedPlace,0.6141666666666667
+497,anti-gay bill,http://dbpedia.org/resource/LGBT_rights_in_Nigeria,,-0.7690000000000001
+498,Right View,http://dbpedia.org/resource/Noble_Eightfold_Path,dbpedia-owl:Person,0.5532475629418105
+499,Republican National Committee,http://dbpedia.org/resource/Republican_National_Committee,dbpedia-owl:Organisation,-0.7
+500,Advocacy,http://dbpedia.org/resource/Advocacy,owl:Thing,-0.88
+501,Communities of Color,http://dbpedia.org/resource/Person_of_color,owl:Thing,-0.805
+502,Department,http://dbpedia.org/resource/Departments_of_France,owl:Thing,-0.58
+503,Washington,http://dbpedia.org/resource/Washington_(state),dbpedia-owl:PopulatedPlace,-0.75
+504,red and blue states,http://dbpedia.org/resource/Red_states_and_blue_states,owl:Thing,-0.5328095238095238
+505,NCAA basketball tournaments,http://dbpedia.org/resource/NCAA_Men's_Division_I_Basketball_Championship,dbpedia-owl:Organisation,-0.61
+506,Cardiff,http://dbpedia.org/resource/Cardiff,dbpedia-owl:PopulatedPlace,-0.57
+507,Wales’,http://dbpedia.org/resource/Wales_national_rugby_union_team,dbpedia-owl:SportsTeam,-0.5515952380952381
+508,host Europe,http://dbpedia.org/resource/Webfusion,dbpedia-owl:Organisation,-0.5295000000000001
+509,Scientific American’s,http://dbpedia.org/resource/Scientific_American,,-0.5671428571428572
+510,Hungary,http://dbpedia.org/resource/Hungary,dbpedia-owl:PopulatedPlace,0.59
+511,Brussels,http://dbpedia.org/resource/Brussels,dbpedia-owl:PopulatedPlace,-0.58
+512,EU,http://dbpedia.org/resource/European_Union,dbpedia-owl:PopulatedPlace|dbpedia-owl:Person|dbpedia-owl:Organisation,-0.65
+513,Viktor Orban,http://dbpedia.org/resource/Viktor_Orbán,dbpedia-owl:Person,0.83
+514,Russian Federal Financial Monitoring Service,http://dbpedia.org/resource/Rosfinmonitoring,dbpedia-owl:Organisation,0.8591666666666667
+515,Ireland's prime minister,http://dbpedia.org/resource/Taoiseach,owl:Thing,-0.5661428571428572
+516,Melania Trump,http://dbpedia.org/resource/Melania_Trump,dbpedia-owl:Person,0.573
+517,Leaving The White House,http://dbpedia.org/resource/Watergate_scandal,dbpedia-owl:Person,-0.5256428571428572
+518,Public Religion Research Institute,http://dbpedia.org/resource/Public_Religion_Research_Institute,owl:Thing,-0.53
+519,Obergefell,http://dbpedia.org/resource/Obergefell_v._Hodges,,-0.5988095238095237
+520,Fairfax County,"http://dbpedia.org/resource/Fairfax_County,_Virginia",dbpedia-owl:PopulatedPlace,0.5610482036760903
+521,Virginia,http://dbpedia.org/resource/Virginia,dbpedia-owl:PopulatedPlace,0.59
+522,Christians,http://dbpedia.org/resource/Christian,dbpedia-owl:Person,-0.68
+523,Lindsey Horan,http://dbpedia.org/resource/Lindsey_Horan,dbpedia-owl:Person,0.87
+524,Japan,http://dbpedia.org/resource/Japan,dbpedia-owl:PopulatedPlace,0.52
+525,U.S. Space and Rocket Center,http://dbpedia.org/resource/U.S._Space_&_Rocket_Center,,0.5271666666666667
+526,Huntsville,"http://dbpedia.org/resource/Huntsville,_Alabama",dbpedia-owl:PopulatedPlace,0.5207692307692308
+527,liberal Democrat,http://dbpedia.org/resource/Liberal_Democrats,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.69
+528,President Barack Obama,http://dbpedia.org/resource/Barack_Obama,dbpedia-owl:Person,0.59
+529,Iowa,http://dbpedia.org/resource/Iowa,dbpedia-owl:PopulatedPlace,0.5607692307692308
+530,on Iowa,http://dbpedia.org/resource/On_Iowa,owl:Thing,-0.85
+531,Nancy Mace,http://dbpedia.org/resource/Nancy_Mace,dbpedia-owl:Person,0.91
+532,University of South Carolina,http://dbpedia.org/resource/University_of_South_Carolina,dbpedia-owl:Organisation,-0.62
+533,D.C. metro,http://dbpedia.org/resource/Washington_Metro,dbpedia-owl:Organisation,-0.7107142857142857
+534,Metro Transit Police Department,http://dbpedia.org/resource/King_County_Metro,dbpedia-owl:Organisation,0.5304761904761903
+535,"Washington, D.C.","http://dbpedia.org/resource/Washington,_D.C.",dbpedia-owl:PopulatedPlace,0.6627272727272728
+536,so lonely,http://dbpedia.org/resource/So_Lonely,,-0.7766666666666667
+537,Gold Coast,"http://dbpedia.org/resource/Gold_Coast,_Queensland",dbpedia-owl:PopulatedPlace,-0.78
+538,Hamas,http://dbpedia.org/resource/Hamas,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.546
+539,Cease-Fire,http://dbpedia.org/resource/Ceasefire,owl:Thing,-0.83
+540,Boycott,http://dbpedia.org/resource/Boycott,owl:Thing,-0.74
+541,Christian Ziegler,http://dbpedia.org/resource/Christian_Ziegler,dbpedia-owl:Person,0.5053623623550826
+542,Kasha Jacqueline Nabagesera,http://dbpedia.org/resource/Kasha_Nabagesera,dbpedia-owl:Person,0.8066666666666665
+543,anti-gay legislation,"http://dbpedia.org/resource/Uganda_Anti-Homosexuality_Act,_2014",owl:Thing,-0.7983333333333333
+544,Baton Rouge,"http://dbpedia.org/resource/Baton_Rouge,_Louisiana",dbpedia-owl:PopulatedPlace,-0.63
+545,Paris Saint-Germain,http://dbpedia.org/resource/Paris_Saint-Germain_F.C.,dbpedia-owl:SportsTeam,-0.69
+546,The honeytrap,http://dbpedia.org/resource/The_Honeytrap,,-0.5390909090909091
+547,International Transgender Day of Visibility,http://dbpedia.org/resource/International_Transgender_Day_of_Visibility,owl:Thing,-0.67
+548,Queer Eye,http://dbpedia.org/resource/Queer_Eye,,-0.7166666666666667
+549,France,http://dbpedia.org/resource/France,dbpedia-owl:PopulatedPlace,0.68
+550,Michigan governor,http://dbpedia.org/resource/Governor_of_Michigan,owl:Thing,-0.6406666666666666
+551,Gretchen Whitmer,http://dbpedia.org/resource/Gretchen_Whitmer,dbpedia-owl:Person,0.7966666666666665
+552,Royal Oak,"http://dbpedia.org/resource/Royal_Oak,_Michigan",dbpedia-owl:PopulatedPlace,0.5167391304347827
+553,Michigan,http://dbpedia.org/resource/Michigan,dbpedia-owl:PopulatedPlace,0.5467391304347826
+554,IVF,http://dbpedia.org/resource/In_vitro_fertilisation,,-0.5449999999999999
+555,Mental Health,http://dbpedia.org/resource/Mental_health,owl:Thing,-0.84
+556,sexual assaults,http://dbpedia.org/resource/Sexual_assault,,-0.71
+557,Vice President’s residence,http://dbpedia.org/resource/Number_One_Observatory_Circle,,-0.5336666666666666
+558,NBC News,http://dbpedia.org/resource/NBC_News,dbpedia-owl:Organisation,-0.7
+559,Lesbian News,http://dbpedia.org/resource/Lesbian_News,owl:Thing,-0.8483333333333333
+560,Norwalk,"http://dbpedia.org/resource/Norwalk,_California",dbpedia-owl:PopulatedPlace,0.5767391304347826
+561,heart attack,http://dbpedia.org/resource/Myocardial_infarction,,-0.6
+562,Harvard,http://dbpedia.org/resource/Harvard_University,dbpedia-owl:Organisation,0.5507692307692308
+563,neo-Nazi,http://dbpedia.org/resource/Neo-Nazism,owl:Thing,-0.605
+564,Harvard Law School,http://dbpedia.org/resource/Harvard_Law_School,dbpedia-owl:Organisation|dbpedia-owl:Person,-0.7
+565,Cyberlaw,http://dbpedia.org/resource/Legal_aspects_of_computing,owl:Thing,-0.6297575757575757
+566,Twitter,http://dbpedia.org/resource/Twitter,dbpedia-owl:Organisation|dbpedia-owl:Person,0.5100000000000001
+567,Ken Paxton,http://dbpedia.org/resource/Ken_Paxton,dbpedia-owl:Person,0.91
+568,PFLAG National,http://dbpedia.org/resource/PFLAG,dbpedia-owl:Organisation,0.727
+569,God’s,http://dbpedia.org/resource/God_in_Christianity,dbpedia-owl:Person,-0.7008333333333333
+570,Taylor Swift,http://dbpedia.org/resource/Taylor_Swift,dbpedia-owl:Person,0.6
+571,Her World,http://dbpedia.org/resource/Her_World,,-0.86
+572,We Live,http://dbpedia.org/resource/We_Live,,-0.79
+573,Ivy League university,http://dbpedia.org/resource/Ivy_League,dbpedia-owl:Person,0.5081904761904762
+574,sexual abuse,http://dbpedia.org/resource/Sexual_abuse,dbpedia-owl:Person,-0.88
+575,Maine district,http://dbpedia.org/resource/District_of_Maine,dbpedia-owl:PopulatedPlace,0.674
+576,Maine,http://dbpedia.org/resource/Maine,dbpedia-owl:PopulatedPlace,0.59
+577,We will protect you,http://dbpedia.org/resource/Strategic_Defense_Initiative,dbpedia-owl:Organisation,0.5516904761904762
+578,gay conversion therapy,http://dbpedia.org/resource/Conversion_therapy,owl:Thing,-0.5704761904761905
+579,Advocacy group,http://dbpedia.org/resource/Advocacy_group,owl:Thing,-0.82
+580,Australia calls,http://dbpedia.org/resource/Australia_Calls_(1913_film),,-0.755
+581,Sydney Sweeney,http://dbpedia.org/resource/Sydney_Sweeney,owl:Thing,-0.86
+582,star-crossed,http://dbpedia.org/resource/Star-Crossed_(TV_series),,-0.829999999999998
+583,Much Ado About Nothing,http://dbpedia.org/resource/Much_Ado_About_Nothing,dbpedia-owl:Person,0.53
+584,Pope,http://dbpedia.org/resource/Pope,dbpedia-owl:Person,-0.66
+585,Mark Burns,http://dbpedia.org/resource/Mark_Burns_(actor),dbpedia-owl:Person,0.61
+586,South Carolina's 3rd Congressional District,http://dbpedia.org/resource/South_Carolina's_3rd_congressional_district,dbpedia-owl:PopulatedPlace,0.6741754385964913
+587,Christian Cooper,http://dbpedia.org/resource/Christian_Cooper,dbpedia-owl:Person,-0.5205304947877746
+588,Birder,http://dbpedia.org/resource/Birdwatching,owl:Thing,0.5245238095238096
+589,New York's Central Park,http://dbpedia.org/resource/Central_Park,dbpedia-owl:Person,-0.5523095238095238
+590,dog on a leash,http://dbpedia.org/resource/Dog_on_a_Leash,,-0.5840909090909091
+591,Kristen Stewart,http://dbpedia.org/resource/Kristen_Stewart,dbpedia-owl:Person,0.835
+592,movie Love,http://dbpedia.org/resource/Movie_Love,owl:Thing,-0.88
+593,Glass,http://dbpedia.org/resource/Glass,dbpedia-owl:Person,-0.65
+594,James Cook,http://dbpedia.org/resource/James_Cook,dbpedia-owl:Person,0.72
+595,Olympian,http://dbpedia.org/resource/Olympic_Games,,-0.76
+596,Anti-,http://dbpedia.org/resource/ANTI-,dbpedia-owl:Organisation,-0.86
+597,Wisconsin’s,http://dbpedia.org/resource/Wisconsin_Badgers_football,owl:Thing,-0.6521428571428572
+598,Denver,http://dbpedia.org/resource/Denver,dbpedia-owl:PopulatedPlace,0.5807692307692308
+599,Shareholder Meeting,http://dbpedia.org/resource/Shareholder_Meeting,,-0.87
+600,Blames,http://dbpedia.org/resource/Blame,owl:Thing,-0.7778095238095238
+601,Media Matters,http://dbpedia.org/resource/Media_Matters_for_America,dbpedia-owl:Organisation,-0.5041666666666667
+602,s Beach,http://dbpedia.org/resource/Landing_at_Cape_Helles,,-0.7421428571428572
+603,Niecy Nash,http://dbpedia.org/resource/Niecy_Nash,dbpedia-owl:Person,0.8475
+604,Beverly Hills,"http://dbpedia.org/resource/Beverly_Hills,_California",dbpedia-owl:PopulatedPlace,0.67
+605,Magazine,http://dbpedia.org/resource/Magazine,dbpedia-owl:Person,-0.73
+606,Overall,http://dbpedia.org/resource/Length_overall,owl:Thing,-0.83
+607,Scottish Leader,http://dbpedia.org/resource/Scottish_Leader,owl:Thing,-0.84
+608,Scottish First Minister,http://dbpedia.org/resource/First_Minister_of_Scotland,owl:Thing,-0.5506666666666666
+609,Humza Yousaf,http://dbpedia.org/resource/Humza_Yousaf,dbpedia-owl:Person,0.9
+610,Vermont,http://dbpedia.org/resource/Vermont,dbpedia-owl:PopulatedPlace,-0.5225806451612903

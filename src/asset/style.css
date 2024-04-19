@@ -1,0 +1,100 @@
+/*** Header ***/
+
+.header-container {
+    background-color: #232F3E;
+    padding: 20px;
+    margin-bottom: 10px; 
+}
+
+.header-text {
+    color: #F2F2F2;
+    font-size: 1.6em;
+    text-align: left;
+}
+
+
+/*** Body ***/
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+
+/*** Content ***/
+.content-container {
+    margin-bottom: 10px; 
+}
+
+.title {
+    color: #232F3E;
+    font-size: 3.6em; 
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.description, .summary {
+    color: #232F3E;
+    font-size: 1.5em; 
+    text-align: left;
+    margin-bottom: 10px; 
+}
+
+.instruction {
+    color: #FF9900; 
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 10px; 
+}
+
+
+
+/*** Main Page ***/
+
+/* Plot */
+.plot-container {
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+
+
+/*** About Page ***/
+
+.about-content-container {
+    margin-bottom: 50px; 
+}
+
+
+
+/*** Team Page ***/
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.member {
+    text-align: center;
+    flex: 1; 
+    margin: 0 10px;
+}
+
+.member img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 0%; 
+}
+
+.member-name {
+    margin-top: 10px;
+    font-size: 1.6em;
+    color: #232F3E;
+}

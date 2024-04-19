@@ -82,6 +82,8 @@ raw_relations['node2_t2'] = raw_relations.apply(lambda x: match_node_entity(x['o
 
 # Select relations if both nodes are not None
 filtered_relations = raw_relations[(raw_relations['node1_t2'].notnull()) & (raw_relations['node2_t2'].notnull())]
+filtered_relations = filtered_relations[filtered_relations.node1_t2.map(len) > 0]
+filtered_relations = filtered_relations[filtered_relations.node2_t2.map(len) > 0]
 
 # Third transformation: deal with nodes with similar names within one news. For instance, "leader's stance" and "catholic leader's stance"
 

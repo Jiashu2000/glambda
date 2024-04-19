@@ -5,10 +5,16 @@
 import pandas as pd
 import json
 import os
+import base64
 
 input_path = "../data_intermediate/yodie_ner"
 output_path = "../data_intermediate"
 
+# Encode the Key ID and Password in base64 for Basic Authentication
+key_id = "gcqvt0b2pp2e"
+password = "jv8p0otujzo07xxhmu13"
+credentials = f"{key_id}:{password}"
+encoded_credentials = base64.b64encode(credentials.encode('utf-8')).decode('utf-8')
 
 # create a data frame to store each identifies entity
 entity_df = pd.DataFrame(columns = ["news_id", 'text', 'ent_name', 'ent_link', 
@@ -46,7 +52,7 @@ def read_json_files(path):
     """
     for filename in os.listdir(path):
         if filename.endswith('.json'):
-            news_id = filename[4:-5]
+            news_id = filename[5:-5]
             with open(os.path.join(path, filename), 'r') as f:
                 doc = json.load(f)
                 parse_json(doc, news_id)

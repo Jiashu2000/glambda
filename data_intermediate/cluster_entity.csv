@@ -1,0 +1,1142 @@
+,node1,node2,relation
+0,Cluster 0,Benedict Xvi,Cluster-Entity
+1,Cluster 0,Oklahoma,Cluster-Entity
+2,Cluster 8,Supreme Court,Cluster-Entity
+3,Cluster 8,Drag Show Controversy,Cluster-Entity
+4,Cluster 2,Oprah Winfrey,Cluster-Entity
+5,Cluster 2,Glaad Media Awards,Cluster-Entity
+6,Cluster 2,Gay Bar,Cluster-Entity
+7,Cluster 2,Late Brother,Cluster-Entity
+8,Cluster 2,Los Angeles,Cluster-Entity
+9,Cluster 2,Tearful Tribute,Cluster-Entity
+10,Cluster 2,Free Speech,Cluster-Entity
+11,Cluster 2,Jeffrey Lee,Cluster-Entity
+12,Cluster 5,Lds Church,Cluster-Entity
+13,Cluster 5,Lgbtq,Cluster-Entity
+14,Cluster 3,Busy Week,Cluster-Entity
+15,Cluster 3,Lgbtq,Cluster-Entity
+16,Cluster 3,Banning,Cluster-Entity
+17,Cluster 3,Tiktok,Cluster-Entity
+18,Cluster 3,U.S. Aid,Cluster-Entity
+19,Cluster 3,Communities,Cluster-Entity
+20,Cluster 3,Lgbtq,Cluster-Entity
+21,Cluster 5,Ohio,Cluster-Entity
+22,Cluster 5,Republican Ohio,Cluster-Entity
+23,Cluster 5,Prominent Ohio U.S.,Cluster-Entity
+24,Cluster 5,Lgbtq,Cluster-Entity
+25,Cluster 5,Current Positions,Cluster-Entity
+26,Cluster 5,Conservative,Cluster-Entity
+27,Cluster 2,J.K. Rowling,Cluster-Entity
+28,Cluster 2,Germany,Cluster-Entity
+29,Cluster 2,Trans,Cluster-Entity
+30,Cluster 2,Anti-Transgender Stances,Cluster-Entity
+31,Cluster 2,Nazi Regime,Cluster-Entity
+32,Cluster 2,Media Matters,Cluster-Entity
+33,Cluster 2,Social Media,Cluster-Entity
+34,Cluster 0,Toxicology,Cluster-Entity
+35,Cluster 0,Marathon Debate,Cluster-Entity
+36,Cluster 0,Benedict Xvi,Cluster-Entity
+37,Cluster 0,Old Transgender Student,Cluster-Entity
+38,Cluster 0,Indigenous Heritage,Cluster-Entity
+39,Cluster 7,Lgbtq,Cluster-Entity
+40,Cluster 7,Tough,Cluster-Entity
+41,Cluster 7,Laws,Cluster-Entity
+42,Cluster 7,Africa,Cluster-Entity
+43,Cluster 7,American Hardliners,Cluster-Entity
+44,Cluster 7,Gov,Cluster-Entity
+45,Cluster 7,Appeals Court,Cluster-Entity
+46,Cluster 7,Florida,Cluster-Entity
+47,Cluster 7,Ron Desantis,Cluster-Entity
+48,Cluster 7,Stop Woke,Cluster-Entity
+49,Cluster 9,Darts Players,Cluster-Entity
+50,Cluster 9,College Student,Cluster-Entity
+51,Cluster 9,Riley Gaines,Cluster-Entity
+52,Cluster 9,Ncaa,Cluster-Entity
+53,Cluster 9,Transgender,Cluster-Entity
+54,Cluster 9,Athletes,Cluster-Entity
+55,Cluster 3,Lgbtq,Cluster-Entity
+56,Cluster 3,U.S. Aid,Cluster-Entity
+57,Cluster 3,New Orleans,Cluster-Entity
+58,Cluster 3,U.S,Cluster-Entity
+59,Cluster 9,Transgender,Cluster-Entity
+60,Cluster 9,Ncaa,Cluster-Entity
+61,Cluster 9,Lia Thomas,Cluster-Entity
+62,Cluster 9,Pflag National,Cluster-Entity
+63,Cluster 9,Title Ix,Cluster-Entity
+64,Cluster 6,Movie Love,Cluster-Entity
+65,Cluster 6,Bleeding,Cluster-Entity
+66,Cluster 6,Queer,Cluster-Entity
+67,Cluster 6,Queer Erotic Thriller,Cluster-Entity
+68,Cluster 9,Ncaa,Cluster-Entity
+69,Cluster 9,Sports,Cluster-Entity
+70,Cluster 9,Trans,Cluster-Entity
+71,Cluster 9,Athletes,Cluster-Entity
+72,Cluster 9,Athletes,Cluster-Entity
+73,Cluster 9,Transgender,Cluster-Entity
+74,Cluster 9,Ncaa,Cluster-Entity
+75,Cluster 9,Participation Policy,Cluster-Entity
+76,Cluster 9,Sport Basis,Cluster-Entity
+77,Cluster 6,Powell,Cluster-Entity
+78,Cluster 6,Down,Cluster-Entity
+79,Cluster 6,Lesbian News,Cluster-Entity
+80,Cluster 6,Sydney Sweeney,Cluster-Entity
+81,Cluster 6,Ben,Cluster-Entity
+82,Cluster 6,Central Event,Cluster-Entity
+83,Cluster 6,Bea,Cluster-Entity
+84,Cluster 6,Hungary,Cluster-Entity
+85,Cluster 6,Full Article,Cluster-Entity
+86,Cluster 6,Pm,Cluster-Entity
+87,Cluster 6,Sexual Revolution,Cluster-Entity
+88,Cluster 6,Prime,Cluster-Entity
+89,Cluster 3,Ryan Lanji,Cluster-Entity
+90,Cluster 3,Lgbt,Cluster-Entity
+91,Cluster 6,Bookstore,Cluster-Entity
+92,Cluster 6,Backlash,Cluster-Entity
+93,Cluster 6,Drag Queens,Cluster-Entity
+94,Cluster 6,Princeton University,Cluster-Entity
+95,Cluster 6,Russian Authorities,Cluster-Entity
+96,Cluster 6,Bank Card,Cluster-Entity
+97,Cluster 6,Missouri,Cluster-Entity
+98,Cluster 6,College Student,Cluster-Entity
+99,Cluster 3,Northern Ireland,Cluster-Entity
+100,Cluster 3,Lgbt Community,Cluster-Entity
+101,Cluster 0,Women  Roller Derby League,Cluster-Entity
+102,Cluster 0,Athletes,Cluster-Entity
+103,Cluster 0,York,Cluster-Entity
+104,Cluster 9,Colorado,Cluster-Entity
+105,Cluster 9,Nation,Cluster-Entity
+106,Cluster 5,Sheikh Shadi Asuleiman,Cluster-Entity
+107,Cluster 5,Australia,Cluster-Entity
+108,Cluster 5,Islam,Cluster-Entity
+109,Cluster 5,Imam,Cluster-Entity
+110,Cluster 5,Kingston,Cluster-Entity
+111,Cluster 5,Grad,Cluster-Entity
+112,Cluster 5,Lgbtq,Cluster-Entity
+113,Cluster 5,Raja Krishnamoorthi,Cluster-Entity
+114,Cluster 5,Mike Gallagher,Cluster-Entity
+115,Cluster 5,Illinois,Cluster-Entity
+116,Cluster 5,Wisconsin,Cluster-Entity
+117,Cluster 2,Jenny Slate,Cluster-Entity
+118,Cluster 2,Shell,Cluster-Entity
+119,Cluster 2,New Orleans,Cluster-Entity
+120,Cluster 2,Shoes On.Also,Cluster-Entity
+121,Cluster 2,Lauren Bennett,Cluster-Entity
+122,Cluster 2,Fae Johnstone,Cluster-Entity
+123,Cluster 2,Large Media Followings,Cluster-Entity
+124,Cluster 2,Media Matters,Cluster-Entity
+125,Cluster 2,Social Media,Cluster-Entity
+126,Cluster 5,Eu,Cluster-Entity
+127,Cluster 5,Country ,Cluster-Entity
+128,Cluster 5,Georgia,Cluster-Entity
+129,Cluster 5,Anti-Gay Bill,Cluster-Entity
+130,Cluster 5,Lgbt,Cluster-Entity
+131,Cluster 5,Full Article,Cluster-Entity
+132,Cluster 5,Rt.Com,Cluster-Entity
+133,Cluster 3,College Student,Cluster-Entity
+134,Cluster 3,Police,Cluster-Entity
+135,Cluster 2,Alabama,Cluster-Entity
+136,Cluster 2,Rocket,Cluster-Entity
+137,Cluster 2,Backlash,Cluster-Entity
+138,Cluster 2,Reeducation Camp,Cluster-Entity
+139,Cluster 0,Pete Buttigieg,Cluster-Entity
+140,Cluster 0,Anti-Trans,Cluster-Entity
+141,Cluster 0,Michigan,Cluster-Entity
+142,Cluster 8,Southern California,Cluster-Entity
+143,Cluster 8,School Board Members,Cluster-Entity
+144,Cluster 9,New York County,Cluster-Entity
+145,Cluster 9,Caitlyn Jenner,Cluster-Entity
+146,Cluster 9,Transgender Female Athletes,Cluster-Entity
+147,Cluster 9,York,Cluster-Entity
+148,Cluster 3,Kentucky,Cluster-Entity
+149,Cluster 3,Transgender Rights,Cluster-Entity
+150,Cluster 3,Civil Rights,Cluster-Entity
+151,Cluster 3,Lgbtq,Cluster-Entity
+152,Cluster 3,Disruptive Conduct,Cluster-Entity
+153,Cluster 3,Free Speech,Cluster-Entity
+154,Cluster 9,Idaho,Cluster-Entity
+155,Cluster 9,Busy Week,Cluster-Entity
+156,Cluster 2,Illegal,Cluster-Entity
+157,Cluster 2,Scotland,Cluster-Entity
+158,Cluster 0,Wisconsin,Cluster-Entity
+159,Cluster 0,Oklahoma District,Cluster-Entity
+160,Cluster 0,Libs,Cluster-Entity
+161,Cluster 0,Bomb Threats,Cluster-Entity
+162,Cluster 0,Bartender,Cluster-Entity
+163,Cluster 0,Multnomah County Circuit Court,Cluster-Entity
+164,Cluster 0,Transgender,Cluster-Entity
+165,Cluster 0,Portland,Cluster-Entity
+166,Cluster 8,Byu,Cluster-Entity
+167,Cluster 8,Utah,Cluster-Entity
+168,Cluster 9,Army,Cluster-Entity
+169,Cluster 9,Bearded,Cluster-Entity
+170,Cluster 9,Spanish Army,Cluster-Entity
+171,Cluster 9,Biological Male,Cluster-Entity
+172,Cluster 9,Locker Rooms,Cluster-Entity
+173,Cluster 9,Minnesota,Cluster-Entity
+174,Cluster 9,Tennessee State,Cluster-Entity
+175,Cluster 3,Real,Cluster-Entity
+176,Cluster 3,Video Gamers,Cluster-Entity
+177,Cluster 3,Hostile,Cluster-Entity
+178,Cluster 3,Friendship Online,Cluster-Entity
+179,Cluster 1,Ways,Cluster-Entity
+180,Cluster 1,Families,Cluster-Entity
+181,Cluster 1,Hostility,Cluster-Entity
+182,Cluster 1,Lgbtq,Cluster-Entity
+183,Cluster 1,Such Children,Cluster-Entity
+184,Cluster 1,Unprecedented Threat,Cluster-Entity
+185,Cluster 2,Ai,Cluster-Entity
+186,Cluster 2,New Math,Cluster-Entity
+187,Cluster 2,Human Life,Cluster-Entity
+188,Cluster 2,New Orleans,Cluster-Entity
+189,Cluster 2,Ancient Texts,Cluster-Entity
+190,Cluster 1,Pastor,Cluster-Entity
+191,Cluster 1,Gospel Music,Cluster-Entity
+192,Cluster 6,Scientific American’S,Cluster-Entity
+193,Cluster 6,April,Cluster-Entity
+194,Cluster 2,Pope,Cluster-Entity
+195,Cluster 2,Retirement Rumours,Cluster-Entity
+196,Cluster 2,New Orleans,Cluster-Entity
+197,Cluster 9,N.Y.,Cluster-Entity
+198,Cluster 9,Caitlyn Jenner,Cluster-Entity
+199,Cluster 9,Transgender Women,Cluster-Entity
+200,Cluster 5,Melania Trump,Cluster-Entity
+201,Cluster 5,Moreno,Cluster-Entity
+202,Cluster 5,Sherrod Brown,Cluster-Entity
+203,Cluster 5,U.S. Aid,Cluster-Entity
+204,Cluster 5,Republican Ohio,Cluster-Entity
+205,Cluster 5,Ohio,Cluster-Entity
+206,Cluster 5,Lgbtq,Cluster-Entity
+207,Cluster 5,Donald Trump,Cluster-Entity
+208,Cluster 5,November,Cluster-Entity
+209,Cluster 5,Longtime Supporter,Cluster-Entity
+210,Cluster 9,Support,Cluster-Entity
+211,Cluster 9,Supreme Court,Cluster-Entity
+212,Cluster 9,America,Cluster-Entity
+213,Cluster 9,Obergefell,Cluster-Entity
+214,Cluster 9,Sex Workers,Cluster-Entity
+215,Cluster 9,Right View,Cluster-Entity
+216,Cluster 9,Elon Musk,Cluster-Entity
+217,Cluster 9,Alejandra Caraballo,Cluster-Entity
+218,Cluster 9,Harvard Law School,Cluster-Entity
+219,Cluster 9,Harvard,Cluster-Entity
+220,Cluster 9,Gender Identity,Cluster-Entity
+221,Cluster 9,Cyberlaw,Cluster-Entity
+222,Cluster 0,Lgbtq,Cluster-Entity
+223,Cluster 0,Medical Examiner,Cluster-Entity
+224,Cluster 0,America,Cluster-Entity
+225,Cluster 0,Oklahoma,Cluster-Entity
+226,Cluster 0,Navy,Cluster-Entity
+227,Cluster 0,Travis Akers,Cluster-Entity
+228,Cluster 0,Dance Moms,Cluster-Entity
+229,Cluster 0,Duval,Cluster-Entity
+230,Cluster 0,Florida,Cluster-Entity
+231,Cluster 2,Diverse,Cluster-Entity
+232,Cluster 2,Nyc,Cluster-Entity
+233,Cluster 7,Mark Burns,Cluster-Entity
+234,Cluster 7,North Carolina,Cluster-Entity
+235,Cluster 7,North Carolina Governor,Cluster-Entity
+236,Cluster 7,Gov,Cluster-Entity
+237,Cluster 7,Republican Ohio,Cluster-Entity
+238,Cluster 5,Moreno,Cluster-Entity
+239,Cluster 5,Melania Trump,Cluster-Entity
+240,Cluster 5,Establishment Challenge,Cluster-Entity
+241,Cluster 5,Ohio,Cluster-Entity
+242,Cluster 5,S Beach,Cluster-Entity
+243,Cluster 5,Democratic Incumbent,Cluster-Entity
+244,Cluster 5,Sherrod Brown,Cluster-Entity
+245,Cluster 8,Cartel Member,Cluster-Entity
+246,Cluster 8,Chicago,Cluster-Entity
+247,Cluster 6,Todd,Cluster-Entity
+248,Cluster 6,Hollywood,Cluster-Entity
+249,Cluster 6,Accuracy,Cluster-Entity
+250,Cluster 6,Culture Of,Cluster-Entity
+251,Cluster 6,Hebrew Helper,Cluster-Entity
+252,Cluster 6,Leo Varadkar,Cluster-Entity
+253,Cluster 6,Pm,Cluster-Entity
+254,Cluster 6,Pm,Cluster-Entity
+255,Cluster 6,Fine Gael,Cluster-Entity
+256,Cluster 6,General Election,Cluster-Entity
+257,Cluster 6,Abc News,Cluster-Entity
+258,Cluster 6,Ireland,Cluster-Entity
+259,Cluster 9,Lgbtq,Cluster-Entity
+260,Cluster 9,Western Sanctions,Cluster-Entity
+261,Cluster 9,Patients,Cluster-Entity
+262,Cluster 9,Long Wait,Cluster-Entity
+263,Cluster 9,Nhs,Cluster-Entity
+264,Cluster 3,Homophobia,Cluster-Entity
+265,Cluster 3,Queer,Cluster-Entity
+266,Cluster 3,Cancer Risk,Cluster-Entity
+267,Cluster 3,Lgbtq,Cluster-Entity
+268,Cluster 3,Minority Stress,Cluster-Entity
+269,Cluster 3,Health Care Settings,Cluster-Entity
+270,Cluster 6,Ireland,Cluster-Entity
+271,Cluster 6,Leo Varadkar,Cluster-Entity
+272,Cluster 6,Ireland'S Prime Minister,Cluster-Entity
+273,Cluster 9,Lesbian News,Cluster-Entity
+274,Cluster 9,Education Teacher,Cluster-Entity
+275,Cluster 9,Federal Discrimination Lawsuit,Cluster-Entity
+276,Cluster 9,Maine District,Cluster-Entity
+277,Cluster 9,Lawsuit,Cluster-Entity
+278,Cluster 9,Maine,Cluster-Entity
+279,Cluster 3,Eleven,Cluster-Entity
+280,Cluster 3,Current Positions,Cluster-Entity
+281,Cluster 3,Joe Biden,Cluster-Entity
+282,Cluster 1,Judge Shopping,Cluster-Entity
+283,Cluster 1,Alabama,Cluster-Entity
+284,Cluster 5,Lesbian News,Cluster-Entity
+285,Cluster 5,Nicole Scherzinger,Cluster-Entity
+286,Cluster 5,Landmark Rights Case,Cluster-Entity
+287,Cluster 5,Labor Lawyer,Cluster-Entity
+288,Cluster 5,Appeals Court,Cluster-Entity
+289,Cluster 5,Israel,Cluster-Entity
+290,Cluster 5,U.S. Aid,Cluster-Entity
+291,Cluster 0,Oklahoma,Cluster-Entity
+292,Cluster 0,Game Developer,Cluster-Entity
+293,Cluster 5,Nicole Scherzinger,Cluster-Entity
+294,Cluster 5,Senate Approval,Cluster-Entity
+295,Cluster 9,Lawmakers,Cluster-Entity
+296,Cluster 9,Alabama,Cluster-Entity
+297,Cluster 2,Fascists,Cluster-Entity
+298,Cluster 2,Homosexual,Cluster-Entity
+299,Cluster 2,Word Verboten,Cluster-Entity
+300,Cluster 2,Girls5Eva,Cluster-Entity
+301,Cluster 2,Paula Pell,Cluster-Entity
+302,Cluster 2,Trampage,Cluster-Entity
+303,Cluster 2,Gloria,Cluster-Entity
+304,Cluster 2,Queer,Cluster-Entity
+305,Cluster 6,Missing,Cluster-Entity
+306,Cluster 6,College Student,Cluster-Entity
+307,Cluster 6,Family ,Cluster-Entity
+308,Cluster 3,Gay Bar,Cluster-Entity
+309,Cluster 3,Full Article,Cluster-Entity
+310,Cluster 3,Russian,Cluster-Entity
+311,Cluster 3,Russia,Cluster-Entity
+312,Cluster 3,Anti-Lgbtq Bills,Cluster-Entity
+313,Cluster 3,U.S. Aid,Cluster-Entity
+314,Cluster 9,Ghana,Cluster-Entity
+315,Cluster 9,Anti-Gay Bill,Cluster-Entity
+316,Cluster 9,Death Row,Cluster-Entity
+317,Cluster 2,Ramadan,Cluster-Entity
+318,Cluster 2,Hamilton,Cluster-Entity
+319,Cluster 9,Mamuka Mdinaradze,Cluster-Entity
+320,Cluster 9,Georgia,Cluster-Entity
+321,Cluster 9,Parliament Majority,Cluster-Entity
+322,Cluster 5,Nsw,Cluster-Entity
+323,Cluster 5,Gay Conversion Therapy,Cluster-Entity
+324,Cluster 5,Marathon Debate,Cluster-Entity
+325,Cluster 0,Nex,Cluster-Entity
+326,Cluster 0,School Fight,Cluster-Entity
+327,Cluster 0,Owasso High School,Cluster-Entity
+328,Cluster 5,Moscow,Cluster-Entity
+329,Cluster 5,Record Missile Barrage,Cluster-Entity
+330,Cluster 5,Record,Cluster-Entity
+331,Cluster 5,Ukraine,Cluster-Entity
+332,Cluster 5,Lgbt,Cluster-Entity
+333,Cluster 5,Crackdown,Cluster-Entity
+334,Cluster 5,Extremist Groups,Cluster-Entity
+335,Cluster 5,Scar,Cluster-Entity
+336,Cluster 5,Related,Cluster-Entity
+337,Cluster 1,Tennessee,Cluster-Entity
+338,Cluster 1,Foster Parents,Cluster-Entity
+339,Cluster 9,White House,Cluster-Entity
+340,Cluster 9,State Department,Cluster-Entity
+341,Cluster 9,Pride Flags,Cluster-Entity
+342,Cluster 9,Ban On,Cluster-Entity
+343,Cluster 9,Spending Bill Deal,Cluster-Entity
+344,Cluster 9,Embassies,Cluster-Entity
+345,Cluster 9,U.S. Aid,Cluster-Entity
+346,Cluster 9,Melania Trump,Cluster-Entity
+347,Cluster 2,Russia,Cluster-Entity
+348,Cluster 2,Lgbt,Cluster-Entity
+349,Cluster 2,Financial Monitoring,Cluster-Entity
+350,Cluster 2,List A,Cluster-Entity
+351,Cluster 3,Story Hour,Cluster-Entity
+352,Cluster 3,Suspicious Package,Cluster-Entity
+353,Cluster 3,Biological Male,Cluster-Entity
+354,Cluster 3,Behaviour Interactive,Cluster-Entity
+355,Cluster 3,Game Developer,Cluster-Entity
+356,Cluster 3,Character,Cluster-Entity
+357,Cluster 3,Character  Transgender Vo,Cluster-Entity
+358,Cluster 3,Popular Online Survival Horror Game,Cluster-Entity
+359,Cluster 6,Years,Cluster-Entity
+360,Cluster 6,Venice,Cluster-Entity
+361,Cluster 9,Government Funding Bill,Cluster-Entity
+362,Cluster 9,Pride Flags,Cluster-Entity
+363,Cluster 9,U.S. Aid,Cluster-Entity
+364,Cluster 3,Evacuation Orders,Cluster-Entity
+365,Cluster 3,Pennsylvania,Cluster-Entity
+366,Cluster 3,Bomb Threats,Cluster-Entity
+367,Cluster 1,Dreams,Cluster-Entity
+368,Cluster 1,Fawzia Mirza,Cluster-Entity
+369,Cluster 1,Bollywood,Cluster-Entity
+370,Cluster 9,Joe Biden,Cluster-Entity
+371,Cluster 9,Months,Cluster-Entity
+372,Cluster 9,Bipartisan,Cluster-Entity
+373,Cluster 9,Pride Flags,Cluster-Entity
+374,Cluster 9,Ban On,Cluster-Entity
+375,Cluster 2,Russia,Cluster-Entity
+376,Cluster 2,List A,Cluster-Entity
+377,Cluster 2,Lgbt,Cluster-Entity
+378,Cluster 8,Russia,Cluster-Entity
+379,Cluster 8,Russian,Cluster-Entity
+380,Cluster 8,Extremist Groups,Cluster-Entity
+381,Cluster 8,Lgbt,Cluster-Entity
+382,Cluster 8,Bank Card,Cluster-Entity
+383,Cluster 3,Final,Cluster-Entity
+384,Cluster 3,Indigenous Heritage,Cluster-Entity
+385,Cluster 0,Benedict Xvi,Cluster-Entity
+386,Cluster 0,U.S. Aid,Cluster-Entity
+387,Cluster 0,Los Angeles,Cluster-Entity
+388,Cluster 9,Embassies,Cluster-Entity
+389,Cluster 9,Anti-Gay Bill,Cluster-Entity
+390,Cluster 9,Lgbtq,Cluster-Entity
+391,Cluster 9,Dei,Cluster-Entity
+392,Cluster 3,New Orleans,Cluster-Entity
+393,Cluster 3,Religious Discrimination,Cluster-Entity
+394,Cluster 0,Transgender,Cluster-Entity
+395,Cluster 0,Trans,Cluster-Entity
+396,Cluster 0,Old Girl,Cluster-Entity
+397,Cluster 0,Movie Love,Cluster-Entity
+398,Cluster 8,Npr,Cluster-Entity
+399,Cluster 8,Recent Cases,Cluster-Entity
+400,Cluster 8,Kris Tassone,Cluster-Entity
+401,Cluster 8,National Center For Transgender Equality,Cluster-Entity
+402,Cluster 8,Andrew Scott,Cluster-Entity
+403,Cluster 8,Pflag National,Cluster-Entity
+404,Cluster 1,Athletes,Cluster-Entity
+405,Cluster 1,Black,Cluster-Entity
+406,Cluster 1,Diversity,Cluster-Entity
+407,Cluster 1,Dei,Cluster-Entity
+408,Cluster 1,March,Cluster-Entity
+409,Cluster 1,Heart Attack,Cluster-Entity
+410,Cluster 1,Ncaa,Cluster-Entity
+411,Cluster 2,White House,Cluster-Entity
+412,Cluster 2,Christian Cooper,Cluster-Entity
+413,Cluster 2,York,Cluster-Entity
+414,Cluster 2,Abc News,Cluster-Entity
+415,Cluster 2,Theme Park,Cluster-Entity
+416,Cluster 2,May,Cluster-Entity
+417,Cluster 6,Traitors,Cluster-Entity
+418,Cluster 6,Goodbye Mum,Cluster-Entity
+419,Cluster 3,Dragon Ball,Cluster-Entity
+420,Cluster 3,Saudi Arabia,Cluster-Entity
+421,Cluster 1,Tennessee State,Cluster-Entity
+422,Cluster 1,Red And Blue States,Cluster-Entity
+423,Cluster 1,Lgbtq,Cluster-Entity
+424,Cluster 6,Elon Musk,Cluster-Entity
+425,Cluster 6,Judge Shopping,Cluster-Entity
+426,Cluster 6,Nonprofit Researchers,Cluster-Entity
+427,Cluster 6,X Corp,Cluster-Entity
+428,Cluster 6,Center Stage,Cluster-Entity
+429,Cluster 6,Digital,Cluster-Entity
+430,Cluster 2,Transgender Women,Cluster-Entity
+431,Cluster 2,Female Categories,Cluster-Entity
+432,Cluster 0,Russia,Cluster-Entity
+433,Cluster 0,Heart Attack,Cluster-Entity
+434,Cluster 2,Anti-Gay Bill,Cluster-Entity
+435,Cluster 2,Anti-Lgbt Propaganda Bill,Cluster-Entity
+436,Cluster 2,Caucasus,Cluster-Entity
+437,Cluster 1,Ex-Levi,Cluster-Entity
+438,Cluster 1,Xx Xy,Cluster-Entity
+439,Cluster 1,Jennifer Sey,Cluster-Entity
+440,Cluster 1,S Beach,Cluster-Entity
+441,Cluster 1,Clothing Brand,Cluster-Entity
+442,Cluster 5,Australia,Cluster-Entity
+443,Cluster 5,Aids Epidemic,Cluster-Entity
+444,Cluster 2,Dutch,Cluster-Entity
+445,Cluster 2,Darts Players,Cluster-Entity
+446,Cluster 2,Transgender Women,Cluster-Entity
+447,Cluster 2,U.S. Women’S National Team,Cluster-Entity
+448,Cluster 2,Team,Cluster-Entity
+449,Cluster 7,Abortions,Cluster-Entity
+450,Cluster 7,Roe,Cluster-Entity
+451,Cluster 7,Wade,Cluster-Entity
+452,Cluster 7,U.S,Cluster-Entity
+453,Cluster 7,Guttmacher Institute,Cluster-Entity
+454,Cluster 7,New Orleans,Cluster-Entity
+455,Cluster 9,Lawsuit,Cluster-Entity
+456,Cluster 9,Ohio,Cluster-Entity
+457,Cluster 9,Anti-Gay Bill,Cluster-Entity
+458,Cluster 9,Texas,Cluster-Entity
+459,Cluster 9,Pflag National,Cluster-Entity
+460,Cluster 2,Police,Cluster-Entity
+461,Cluster 2,Ncaa,Cluster-Entity
+462,Cluster 2,Racial Harassment,Cluster-Entity
+463,Cluster 2,Idaho,Cluster-Entity
+464,Cluster 2,Team,Cluster-Entity
+465,Cluster 2,Spokane,Cluster-Entity
+466,Cluster 9,Republicans,Cluster-Entity
+467,Cluster 9,Recent Cases,Cluster-Entity
+468,Cluster 9,White House,Cluster-Entity
+469,Cluster 9,Republican Ohio,Cluster-Entity
+470,Cluster 9,Ban On,Cluster-Entity
+471,Cluster 9,Pride Flags,Cluster-Entity
+472,Cluster 9,Texas,Cluster-Entity
+473,Cluster 9,Ken Paxton,Cluster-Entity
+474,Cluster 9,Pflag National,Cluster-Entity
+475,Cluster 9,Transgender Youth Support,Cluster-Entity
+476,Cluster 3,Lgbtq,Cluster-Entity
+477,Cluster 3,America,Cluster-Entity
+478,Cluster 9,Thailand,Cluster-Entity
+479,Cluster 9,Sex Marriage Bill,Cluster-Entity
+480,Cluster 9,Plural Marriage,Cluster-Entity
+481,Cluster 9,Lower House,Cluster-Entity
+482,Cluster 8,New Orleans,Cluster-Entity
+483,Cluster 8,High Level,Cluster-Entity
+484,Cluster 8,Public Religion Research Institute,Cluster-Entity
+485,Cluster 9,Southeast Asia,Cluster-Entity
+486,Cluster 9,Thailand,Cluster-Entity
+487,Cluster 9,Liberal Democrat,Cluster-Entity
+488,Cluster 9,Sex Marriage Bill,Cluster-Entity
+489,Cluster 9,Sex Marriage Bill,Cluster-Entity
+490,Cluster 9,Lawmakers,Cluster-Entity
+491,Cluster 9,Thai,Cluster-Entity
+492,Cluster 9,Thailand,Cluster-Entity
+493,Cluster 5,Lawmakers,Cluster-Entity
+494,Cluster 5,Senate Approval,Cluster-Entity
+495,Cluster 5,Sex Marriage Bill,Cluster-Entity
+496,Cluster 5,Lower House,Cluster-Entity
+497,Cluster 5,King  Endorsement,Cluster-Entity
+498,Cluster 1,Sacramento,Cluster-Entity
+499,Cluster 1,Sacramento City Council,Cluster-Entity
+500,Cluster 1,Transgender,Cluster-Entity
+501,Cluster 1,Sanctuary City,Cluster-Entity
+502,Cluster 1,Southern California,Cluster-Entity
+503,Cluster 9,Thailand,Cluster-Entity
+504,Cluster 9,Lgbtq,Cluster-Entity
+505,Cluster 9,Laws,Cluster-Entity
+506,Cluster 1,Sacramento,Cluster-Entity
+507,Cluster 1,Sanctuary City,Cluster-Entity
+508,Cluster 1,Transgender,Cluster-Entity
+509,Cluster 6,Molecular Biology,Cluster-Entity
+510,Cluster 6,Future Outbreaks,Cluster-Entity
+511,Cluster 0,Benedict Xvi,Cluster-Entity
+512,Cluster 0,Federal Report,Cluster-Entity
+513,Cluster 0,Disney,Cluster-Entity
+514,Cluster 0,Legal Battle,Cluster-Entity
+515,Cluster 0,Florida,Cluster-Entity
+516,Cluster 7,Settlement Agreement,Cluster-Entity
+517,Cluster 7,Gov,Cluster-Entity
+518,Cluster 6,Boeing,Cluster-Entity
+519,Cluster 6,Cautionary Tale,Cluster-Entity
+520,Cluster 6,Psychological Safety,Cluster-Entity
+521,Cluster 8,Mpox,Cluster-Entity
+522,Cluster 8,U.S. Aid,Cluster-Entity
+523,Cluster 8,U.S,Cluster-Entity
+524,Cluster 9,Disney,Cluster-Entity
+525,Cluster 9,Ron Desantis,Cluster-Entity
+526,Cluster 9,Legal Battle,Cluster-Entity
+527,Cluster 5,Literature,Cluster-Entity
+528,Cluster 5,Hastings,Cluster-Entity
+529,Cluster 5,Animal Behavior,Cluster-Entity
+530,Cluster 5,Inaccurate Information,Cluster-Entity
+531,Cluster 5,Britain,Cluster-Entity
+532,Cluster 2,Glaad,Cluster-Entity
+533,Cluster 2,Meta,Cluster-Entity
+534,Cluster 2,Anti-Trans,Cluster-Entity
+535,Cluster 2,Top Social Platforms,Cluster-Entity
+536,Cluster 2,Lgbtq,Cluster-Entity
+537,Cluster 6,Lioness,Cluster-Entity
+538,Cluster 6,Bbc,Cluster-Entity
+539,Cluster 0,Long Island Roller Rebels,Cluster-Entity
+540,Cluster 0,Old Girl,Cluster-Entity
+541,Cluster 0,Fairfax County,Cluster-Entity
+542,Cluster 0,Executive Order,Cluster-Entity
+543,Cluster 0,Transgender,Cluster-Entity
+544,Cluster 6,Enhanced,Cluster-Entity
+545,Cluster 6,Bbc Show,Cluster-Entity
+546,Cluster 3,Grindr,Cluster-Entity
+547,Cluster 3,Cowen,Cluster-Entity
+548,Cluster 3,Inc,Cluster-Entity
+549,Cluster 3,Rating,Cluster-Entity
+550,Cluster 3,Best Buy,Cluster-Entity
+551,Cluster 3,Outpacing Tinder Owner,Cluster-Entity
+552,Cluster 3,Lgbtq,Cluster-Entity
+553,Cluster 6,Soccer Fans,Cluster-Entity
+554,Cluster 6,Redesign,Cluster-Entity
+555,Cluster 6,", England",Cluster-Entity
+556,Cluster 6,U.S. Women’S National Team,Cluster-Entity
+557,Cluster 6,Euro Cup,Cluster-Entity
+558,Cluster 1,Calif,Cluster-Entity
+559,Cluster 1,Southern California,Cluster-Entity
+560,Cluster 1,Trans,Cluster-Entity
+561,Cluster 1,Sanctuary City,Cluster-Entity
+562,Cluster 6,Best Buy,Cluster-Entity
+563,Cluster 6,Lgbtq,Cluster-Entity
+564,Cluster 6,Pressure,Cluster-Entity
+565,Cluster 0,Will Wooten,Cluster-Entity
+566,Cluster 0,Georgia,Cluster-Entity
+567,Cluster 3,South Koreans,Cluster-Entity
+568,Cluster 3,Lgbtq,Cluster-Entity
+569,Cluster 1,Boise,Cluster-Entity
+570,Cluster 1,Boise State University,Cluster-Entity
+571,Cluster 1,Right Anti-Lgbtq Website,Cluster-Entity
+572,Cluster 1,Right View,Cluster-Entity
+573,Cluster 1,Anti-Lgbtq Bills,Cluster-Entity
+574,Cluster 1,Idaho,Cluster-Entity
+575,Cluster 4,Joe Biden,Cluster-Entity
+576,Cluster 4,Administration  Commitment,Cluster-Entity
+577,Cluster 3,Michaela Jaé Rodriguez,Cluster-Entity
+578,Cluster 3,New Orleans,Cluster-Entity
+579,Cluster 3,Trans,Cluster-Entity
+580,Cluster 3,Lgbtq,Cluster-Entity
+581,Cluster 3,The Advocate,Cluster-Entity
+582,Cluster 5,Jojo,Cluster-Entity
+583,Cluster 5,Hits,Cluster-Entity
+584,Cluster 5,Billboard Top,Cluster-Entity
+585,Cluster 5,Karma,Cluster-Entity
+586,Cluster 3,Rachel Levine,Cluster-Entity
+587,Cluster 3,Pennsylvania,Cluster-Entity
+588,Cluster 3,Health Secretary,Cluster-Entity
+589,Cluster 3,Assistant Secretary For Health,Cluster-Entity
+590,Cluster 9,Joe Biden,Cluster-Entity
+591,Cluster 9,Lgbt,Cluster-Entity
+592,Cluster 9,Modest Restrictions,Cluster-Entity
+593,Cluster 9,Republicans,Cluster-Entity
+594,Cluster 9,Pride Flags,Cluster-Entity
+595,Cluster 6,Drag Queens,Cluster-Entity
+596,Cluster 6,Full Article,Cluster-Entity
+597,Cluster 6,Joe Biden,Cluster-Entity
+598,Cluster 6,Kamala Harris,Cluster-Entity
+599,Cluster 6,Amgreatness.Com,Cluster-Entity
+600,Cluster 6,Gay Bar,Cluster-Entity
+601,Cluster 6,Toronto,Cluster-Entity
+602,Cluster 6,Montreal,Cluster-Entity
+603,Cluster 6,Local Comedians,Cluster-Entity
+604,Cluster 6,Cross-Country Tour,Cluster-Entity
+605,Cluster 2,Olivia Colman,Cluster-Entity
+606,Cluster 2,Academy Award Winner,Cluster-Entity
+607,Cluster 2,Beloved Career,Cluster-Entity
+608,Cluster 2,Little,Cluster-Entity
+609,Cluster 2,Wicked,Cluster-Entity
+610,Cluster 2,Heartstopper,Cluster-Entity
+611,Cluster 2,New Letters Film,Cluster-Entity
+612,Cluster 2,Short Film,Cluster-Entity
+613,Cluster 1,Graphic Novel,Cluster-Entity
+614,Cluster 1,Forthcoming Anthology,Cluster-Entity
+615,Cluster 1,Lgtbq,Cluster-Entity
+616,Cluster 2,Numerous,Cluster-Entity
+617,Cluster 2,Eurovision,Cluster-Entity
+618,Cluster 2,Israel,Cluster-Entity
+619,Cluster 2,Uswnt,Cluster-Entity
+620,Cluster 2,Korbin Albert,Cluster-Entity
+621,Cluster 2,Anti-Lgbtq Bills,Cluster-Entity
+622,Cluster 2,Social Media,Cluster-Entity
+623,Cluster 2,Media Matters,Cluster-Entity
+624,Cluster 6,Short Film,Cluster-Entity
+625,Cluster 6,Movies,Cluster-Entity
+626,Cluster 3,Rev,Cluster-Entity
+627,Cluster 3,Louis,Cluster-Entity
+628,Cluster 4,Equalpride,Cluster-Entity
+629,Cluster 4,Ceo,Cluster-Entity
+630,Cluster 6,Artists,Cluster-Entity
+631,Cluster 6,Eurovision,Cluster-Entity
+632,Cluster 1,Safe Spaces,Cluster-Entity
+633,Cluster 1,Janel Diaz,Cluster-Entity
+634,Cluster 1,Transgender Rights,Cluster-Entity
+635,Cluster 1,Capital Tea,Cluster-Entity
+636,Cluster 4,Wh,Cluster-Entity
+637,Cluster 4,Joe Biden,Cluster-Entity
+638,Cluster 4,White House,Cluster-Entity
+639,Cluster 4,Dishonest Gop Criticism,Cluster-Entity
+640,Cluster 4,Transgender,Cluster-Entity
+641,Cluster 4,Easter,Cluster-Entity
+642,Cluster 4,Transgender,Cluster-Entity
+643,Cluster 4,March,Cluster-Entity
+644,Cluster 3,Lgbtq,Cluster-Entity
+645,Cluster 3,Lgbt,Cluster-Entity
+646,Cluster 3,Russia,Cluster-Entity
+647,Cluster 3,Lgbtq,Cluster-Entity
+648,Cluster 3,Russia,Cluster-Entity
+649,Cluster 1,Trans,Cluster-Entity
+650,Cluster 1,Arely Westley,Cluster-Entity
+651,Cluster 1,Human Rights Campaign,Cluster-Entity
+652,Cluster 1,The Advocate,Cluster-Entity
+653,Cluster 1,Robert F. Kennedy,Cluster-Entity
+654,Cluster 1,Crucial Moment,Cluster-Entity
+655,Cluster 3,Lgbt,Cluster-Entity
+656,Cluster 3,Russia,Cluster-Entity
+657,Cluster 5,Vlad,Cluster-Entity
+658,Cluster 5,Machine Gunner,Cluster-Entity
+659,Cluster 5,Putin,Cluster-Entity
+660,Cluster 5,Army,Cluster-Entity
+661,Cluster 5,Strike,Cluster-Entity
+662,Cluster 6,Wanderful Founder Beth Santos,Cluster-Entity
+663,Cluster 6,Trailblazer,Cluster-Entity
+664,Cluster 6,Advice,Cluster-Entity
+665,Cluster 6,Travel,Cluster-Entity
+666,Cluster 6,Debut Book,Cluster-Entity
+667,Cluster 6,Athletes,Cluster-Entity
+668,Cluster 6,Competitive Adv,Cluster-Entity
+669,Cluster 4,Joe Biden,Cluster-Entity
+670,Cluster 4,Transgender,Cluster-Entity
+671,Cluster 4,Easter,Cluster-Entity
+672,Cluster 4,Visibility,Cluster-Entity
+673,Cluster 4,Christian Holidays,Cluster-Entity
+674,Cluster 4,White House,Cluster-Entity
+675,Cluster 4,Breitbart,Cluster-Entity
+676,Cluster 4,Medal Winner,Cluster-Entity
+677,Cluster 4,Caitlyn Jenner,Cluster-Entity
+678,Cluster 4,Transgender,Cluster-Entity
+679,Cluster 4,Easter,Cluster-Entity
+680,Cluster 4,Joe Biden,Cluster-Entity
+681,Cluster 4,Joe Biden,Cluster-Entity
+682,Cluster 4,Transgender,Cluster-Entity
+683,Cluster 4,March,Cluster-Entity
+684,Cluster 4,Conservative,Cluster-Entity
+685,Cluster 4,Backlash,Cluster-Entity
+686,Cluster 2,Anti-Gay Legislation,Cluster-Entity
+687,Cluster 2,Open Borders,Cluster-Entity
+688,Cluster 4,Rachel Crandall Crocker,Cluster-Entity
+689,Cluster 4,Transgender,Cluster-Entity
+690,Cluster 6,Dom Tulleken,Cluster-Entity
+691,Cluster 6,Dance Moms,Cluster-Entity
+692,Cluster 4,Republican Ohio,Cluster-Entity
+693,Cluster 4,March,Cluster-Entity
+694,Cluster 4,Joe Biden,Cluster-Entity
+695,Cluster 4,Visibility,Cluster-Entity
+696,Cluster 9,Trans,Cluster-Entity
+697,Cluster 9,Transgender Man,Cluster-Entity
+698,Cluster 9,Appeals Court,Cluster-Entity
+699,Cluster 9,Georgia,Cluster-Entity
+700,Cluster 2,Scotland,Cluster-Entity
+701,Cluster 2,Hate Crime,Cluster-Entity
+702,Cluster 2,Bbc,Cluster-Entity
+703,Cluster 2,James Cook,Cluster-Entity
+704,Cluster 2,Glaad,Cluster-Entity
+705,Cluster 2,Black Lgbtq Media Advocacy,Cluster-Entity
+706,Cluster 2,Dynamic Force,Cluster-Entity
+707,Cluster 2,Communities,Cluster-Entity
+708,Cluster 2,Brazilian,Cluster-Entity
+709,Cluster 2,Star ,Cluster-Entity
+710,Cluster 2,Federal Report,Cluster-Entity
+711,Cluster 2,Civil Police Chief,Cluster-Entity
+712,Cluster 2,Marielle Franco,Cluster-Entity
+713,Cluster 2,Tennessee State,Cluster-Entity
+714,Cluster 2,Lgbtq,Cluster-Entity
+715,Cluster 2,Black,Cluster-Entity
+716,Cluster 2,Federal State Police,Cluster-Entity
+717,Cluster 2,Police,Cluster-Entity
+718,Cluster 0,Jace Reh,Cluster-Entity
+719,Cluster 0,Gay Conversion Therapy,Cluster-Entity
+720,Cluster 0,Conversion Practices,Cluster-Entity
+721,Cluster 9,Need To,Cluster-Entity
+722,Cluster 9,Lgbt Youth,Cluster-Entity
+723,Cluster 8,Laws,Cluster-Entity
+724,Cluster 8,Canada,Cluster-Entity
+725,Cluster 0,Gentili,Cluster-Entity
+726,Cluster 0,February,Cluster-Entity
+727,Cluster 3,Transgender,Cluster-Entity
+728,Cluster 3,Unexpected Places,Cluster-Entity
+729,Cluster 4,Joe Biden,Cluster-Entity
+730,Cluster 4,Us President,Cluster-Entity
+731,Cluster 4,Transgender,Cluster-Entity
+732,Cluster 4,Controversial Decision,Cluster-Entity
+733,Cluster 7,Wisconsin,Cluster-Entity
+734,Cluster 7,Owasso High School,Cluster-Entity
+735,Cluster 7,School Athletics Ban,Cluster-Entity
+736,Cluster 7,Republican Ohio,Cluster-Entity
+737,Cluster 7,Wisconsin,Cluster-Entity
+738,Cluster 7,Democratic Governor Vetoes,Cluster-Entity
+739,Cluster 7,Wisconsin,Cluster-Entity
+740,Cluster 7,Tony Evers,Cluster-Entity
+741,Cluster 7,Radical Pivot,Cluster-Entity
+742,Cluster 7,Republican Ohio,Cluster-Entity
+743,Cluster 1,Republican Ohio,Cluster-Entity
+744,Cluster 1,Foul,Cluster-Entity
+745,Cluster 1,Homophobic Legislator,Cluster-Entity
+746,Cluster 1,Tennessee State,Cluster-Entity
+747,Cluster 1,Missouri,Cluster-Entity
+748,Cluster 1,Dark History,Cluster-Entity
+749,Cluster 2,Best Buy,Cluster-Entity
+750,Cluster 2,Conservative,Cluster-Entity
+751,Cluster 2,Lgbtq,Cluster-Entity
+752,Cluster 7,Gov,Cluster-Entity
+753,Cluster 7,Anti-Gay Bill,Cluster-Entity
+754,Cluster 7,Wisconsin,Cluster-Entity
+755,Cluster 7,Girls,Cluster-Entity
+756,Cluster 7,Liberal Democrat,Cluster-Entity
+757,Cluster 7,Athletes,Cluster-Entity
+758,Cluster 9,Of Hitler,Cluster-Entity
+759,Cluster 9,Kanye West,Cluster-Entity
+760,Cluster 9,Lawsuit,Cluster-Entity
+761,Cluster 6,Clark,Cluster-Entity
+762,Cluster 6,Final,Cluster-Entity
+763,Cluster 6,Uconn,Cluster-Entity
+764,Cluster 6,Freshman Year,Cluster-Entity
+765,Cluster 7,Michigan,Cluster-Entity
+766,Cluster 7,Gov,Cluster-Entity
+767,Cluster 7,Surrogacy,Cluster-Entity
+768,Cluster 7,Royal Oak,Cluster-Entity
+769,Cluster 7,Common Sense,Cluster-Entity
+770,Cluster 4,Karine Jean Pierre,Cluster-Entity
+771,Cluster 4,Health Secretary,Cluster-Entity
+772,Cluster 4,Joe Biden,Cluster-Entity
+773,Cluster 4,Trans,Cluster-Entity
+774,Cluster 4,Wing Extremists,Cluster-Entity
+775,Cluster 4,Transgender,Cluster-Entity
+776,Cluster 4,S Beach,Cluster-Entity
+777,Cluster 2,Elon Musk,Cluster-Entity
+778,Cluster 2,Psychological Safety,Cluster-Entity
+779,Cluster 2,New Safety Chiefs,Cluster-Entity
+780,Cluster 4,Trans,Cluster-Entity
+781,Cluster 4,James Carville,Cluster-Entity
+782,Cluster 4,Democratic Incumbent,Cluster-Entity
+783,Cluster 4,Newsnation,Cluster-Entity
+784,Cluster 4,White House,Cluster-Entity
+785,Cluster 4,Knew,Cluster-Entity
+786,Cluster 4,Joe Biden,Cluster-Entity
+787,Cluster 4,Transgender,Cluster-Entity
+788,Cluster 4, Broadcast,Cluster-Entity
+789,Cluster 4,Easter,Cluster-Entity
+790,Cluster 4,Cuomo,Cluster-Entity
+791,Cluster 7,Wisconsin,Cluster-Entity
+792,Cluster 7,Democratic Incumbent,Cluster-Entity
+793,Cluster 7,Anti-Transgender Sports Bill,Cluster-Entity
+794,Cluster 7,Sports,Cluster-Entity
+795,Cluster 8,Uganda,Cluster-Entity
+796,Cluster 8,Appeals Court,Cluster-Entity
+797,Cluster 8,Constitutional Court  Decision,Cluster-Entity
+798,Cluster 8,Lgbtq,Cluster-Entity
+799,Cluster 8,Anti-Gay Legislation,Cluster-Entity
+800,Cluster 8,Uganda,Cluster-Entity
+801,Cluster 8,Anti-Gay Legislation,Cluster-Entity
+802,Cluster 8,Appeals Court,Cluster-Entity
+803,Cluster 3,Human Rights Campaign,Cluster-Entity
+804,Cluster 3,Hilton,Cluster-Entity
+805,Cluster 3,Wing Extremists,Cluster-Entity
+806,Cluster 3,Southern California,Cluster-Entity
+807,Cluster 3,Anti-Lgbtq Bills,Cluster-Entity
+808,Cluster 2,Goran Stolevski,Cluster-Entity
+809,Cluster 2,Macedonia,Cluster-Entity
+810,Cluster 2,Cautionary Tale,Cluster-Entity
+811,Cluster 8,Ugandan,Cluster-Entity
+812,Cluster 8,Uganda,Cluster-Entity
+813,Cluster 8,Anti-Gay Legislation,Cluster-Entity
+814,Cluster 4,Transgender,Cluster-Entity
+815,Cluster 4,Joe Biden,Cluster-Entity
+816,Cluster 4,Christianity,Cluster-Entity
+817,Cluster 4,Easter,Cluster-Entity
+818,Cluster 4,Anger,Cluster-Entity
+819,Cluster 4,Public  Opposition,Cluster-Entity
+820,Cluster 4,Top Transgender Appointee,Cluster-Entity
+821,Cluster 1,Cardiff,Cluster-Entity
+822,Cluster 1,Wales,Cluster-Entity
+823,Cluster 1,Europe,Cluster-Entity
+824,Cluster 1,Lgbtq,Cluster-Entity
+825,Cluster 3,Donald Trump,Cluster-Entity
+826,Cluster 3,North Carolina,Cluster-Entity
+827,Cluster 3,Mark Burns,Cluster-Entity
+828,Cluster 3,Oklahoma District,Cluster-Entity
+829,Cluster 5,Olds,Cluster-Entity
+830,Cluster 5,Face,Cluster-Entity
+831,Cluster 5,Drag Queens,Cluster-Entity
+832,Cluster 5,Lgbtq,Cluster-Entity
+833,Cluster 5,Breitbart,Cluster-Entity
+834,Cluster 4,Melania Trump,Cluster-Entity
+835,Cluster 4,Joe Biden,Cluster-Entity
+836,Cluster 4,Trans,Cluster-Entity
+837,Cluster 4,Republican National Committee,Cluster-Entity
+838,Cluster 4,Transgender Rights,Cluster-Entity
+839,Cluster 6,Detransitioner Crashes Disney Shareholder Meeting,Cluster-Entity
+840,Cluster 6,Disney,Cluster-Entity
+841,Cluster 6,Body,Cluster-Entity
+842,Cluster 6,Shareholder Meeting,Cluster-Entity
+843,Cluster 6,Patricia Highsmith,Cluster-Entity
+844,Cluster 6,Tom Ripley,Cluster-Entity
+845,Cluster 8,Gay Bar,Cluster-Entity
+846,Cluster 8,Lgbt Community,Cluster-Entity
+847,Cluster 8,Ugandan,Cluster-Entity
+848,Cluster 8,Transgender Rights,Cluster-Entity
+849,Cluster 8,Ugandan Gay Rights,Cluster-Entity
+850,Cluster 8,Pressure,Cluster-Entity
+851,Cluster 8,Uganda,Cluster-Entity
+852,Cluster 1,Magda Eriksson,Cluster-Entity
+853,Cluster 1,Emma Hayes,Cluster-Entity
+854,Cluster 5,Conservative,Cluster-Entity
+855,Cluster 5,School Board Members,Cluster-Entity
+856,Cluster 5,St. Louis Area,Cluster-Entity
+857,Cluster 5,Humiliating Loss,Cluster-Entity
+858,Cluster 6,Hunt,Cluster-Entity
+859,Cluster 6,Mp,Cluster-Entity
+860,Cluster 2,Scotland,Cluster-Entity
+861,Cluster 2,Hate Crime,Cluster-Entity
+862,Cluster 6,Guardianship System,Cluster-Entity
+863,Cluster 6,Central Event,Cluster-Entity
+864,Cluster 6,Human Rights Campaign,Cluster-Entity
+865,Cluster 6,Transgender Rights,Cluster-Entity
+866,Cluster 6,Transgender Women,Cluster-Entity
+867,Cluster 6,Saudi Arabia,Cluster-Entity
+868,Cluster 3,Headlines,Cluster-Entity
+869,Cluster 3,Sports,Cluster-Entity
+870,Cluster 3,Grade School Libraries,Cluster-Entity
+871,Cluster 6,Israel,Cluster-Entity
+872,Cluster 6,Gaza,Cluster-Entity
+873,Cluster 6,Joe Biden,Cluster-Entity
+874,Cluster 8,Steven Kabuye,Cluster-Entity
+875,Cluster 8,Marks,Cluster-Entity
+876,Cluster 8,Anti-Homosexuality,Cluster-Entity
+877,Cluster 8,Social Media,Cluster-Entity
+878,Cluster 8,Uganda,Cluster-Entity
+879,Cluster 6,U.S. Constitution,Cluster-Entity
+880,Cluster 6,James Carville,Cluster-Entity
+881,Cluster 6,Independence,Cluster-Entity
+882,Cluster 6,Christian Ziegler,Cluster-Entity
+883,Cluster 4,Sex Workers,Cluster-Entity
+884,Cluster 4,Florida,Cluster-Entity
+885,Cluster 4,Beloved Career,Cluster-Entity
+886,Cluster 2,Trans Harvard Professor,Cluster-Entity
+887,Cluster 2,Harvard,Cluster-Entity
+888,Cluster 2,Trans,Cluster-Entity
+889,Cluster 2,Taylor Swift,Cluster-Entity
+890,Cluster 2,New Orleans,Cluster-Entity
+891,Cluster 0,Ella Matthes,Cluster-Entity
+892,Cluster 0,March,Cluster-Entity
+893,Cluster 6,Lindsey Horan,Cluster-Entity
+894,Cluster 6,Death Penalty,Cluster-Entity
+895,Cluster 6,77Th Minute Penalty,Cluster-Entity
+896,Cluster 6,Shebelieves,Cluster-Entity
+897,Cluster 6,Usa,Cluster-Entity
+898,Cluster 6,Japan,Cluster-Entity
+899,Cluster 9,Lgbtq,Cluster-Entity
+900,Cluster 9,American Library Association,Cluster-Entity
+901,Cluster 9,Debut Book,Cluster-Entity
+902,Cluster 8,Lgbtq,Cluster-Entity
+903,Cluster 8,Roy Trey Farmer,Cluster-Entity
+904,Cluster 8,Bachelor  Degree,Cluster-Entity
+905,Cluster 8,Child Pornography,Cluster-Entity
+906,Cluster 8,Classical Philosophy,Cluster-Entity
+907,Cluster 1,Jamie Dimon,Cluster-Entity
+908,Cluster 1,Annual Letter,Cluster-Entity
+909,Cluster 7,Vatican,Cluster-Entity
+910,Cluster 7,Unique Dignity,Cluster-Entity
+911,Cluster 8,Chaya Milchtein,Cluster-Entity
+912,Cluster 8,Automotive Knowledge,Cluster-Entity
+913,Cluster 5,Youth Camp Teaching Children,Cluster-Entity
+914,Cluster 5,Lgbt,Cluster-Entity
+915,Cluster 5,Genderless Drag Stars,Cluster-Entity
+916,Cluster 5,Drag Queens,Cluster-Entity
+917,Cluster 6,Marketing,Cluster-Entity
+918,Cluster 6,Inclusive,Cluster-Entity
+919,Cluster 6,Relevance,Cluster-Entity
+920,Cluster 6,World  Transgender Clinic,Cluster-Entity
+921,Cluster 6,World ,Cluster-Entity
+922,Cluster 6,Naziism,Cluster-Entity
+923,Cluster 6,Germany,Cluster-Entity
+924,Cluster 6,Jewish Doctor,Cluster-Entity
+925,Cluster 6,20Th Century,Cluster-Entity
+926,Cluster 6,Rampant Wickedness,Cluster-Entity
+927,Cluster 1,The Advocate,Cluster-Entity
+928,Cluster 1,Jake Shears,Cluster-Entity
+929,Cluster 1,Equalpride,Cluster-Entity
+930,Cluster 1,Equalpride  Iconic Publications,Cluster-Entity
+931,Cluster 7,Vatican,Cluster-Entity
+932,Cluster 7,God,Cluster-Entity
+933,Cluster 7,Human Life,Cluster-Entity
+934,Cluster 7,Grave Violations,Cluster-Entity
+935,Cluster 9,Melania Trump,Cluster-Entity
+936,Cluster 9,Rare Fundraising Appearance,Cluster-Entity
+937,Cluster 6,Gay Bar,Cluster-Entity
+938,Cluster 6,Jerrod Carmichael,Cluster-Entity
+939,Cluster 6,Scary,Cluster-Entity
+940,Cluster 6,Dave Chappelle,Cluster-Entity
+941,Cluster 6,Egomaniac,Cluster-Entity
+942,Cluster 6,Breitbart,Cluster-Entity
+943,Cluster 7,Vatican,Cluster-Entity
+944,Cluster 7,Surgery,Cluster-Entity
+945,Cluster 7,Pope Francis,Cluster-Entity
+946,Cluster 7,Bomb Threats,Cluster-Entity
+947,Cluster 7,Surrogacy,Cluster-Entity
+948,Cluster 7,Gender Affirming Surgery,Cluster-Entity
+949,Cluster 7,Gender Theory,Cluster-Entity
+950,Cluster 7,Catholic Teachings,Cluster-Entity
+951,Cluster 0,Dei,Cluster-Entity
+952,Cluster 0,New Orleans,Cluster-Entity
+953,Cluster 0,Amherst,Cluster-Entity
+954,Cluster 0,Radical Pivot,Cluster-Entity
+955,Cluster 9,Louisiana,Cluster-Entity
+956,Cluster 9,Transgender,Cluster-Entity
+957,Cluster 9,Locker Rooms,Cluster-Entity
+958,Cluster 9,Transgender Bathroom Bill,Cluster-Entity
+959,Cluster 9,Gender Identity,Cluster-Entity
+960,Cluster 9,Naia,Cluster-Entity
+961,Cluster 9,Pflag National,Cluster-Entity
+962,Cluster 9,Sports,Cluster-Entity
+963,Cluster 9,Transgender Women,Cluster-Entity
+964,Cluster 9,New Orleans,Cluster-Entity
+965,Cluster 9,Trans,Cluster-Entity
+966,Cluster 9,Netball,Cluster-Entity
+967,Cluster 9,International Level Women,Cluster-Entity
+968,Cluster 9,Elite Women  Competition,Cluster-Entity
+969,Cluster 9,Immediate Effect,Cluster-Entity
+970,Cluster 9,Transgender Women,Cluster-Entity
+971,Cluster 3,Sherrod Brown,Cluster-Entity
+972,Cluster 3,Mental Health,Cluster-Entity
+973,Cluster 2,Pflag National,Cluster-Entity
+974,Cluster 2,North Carolina,Cluster-Entity
+975,Cluster 9,Russian Authorities,Cluster-Entity
+976,Cluster 9,Russian,Cluster-Entity
+977,Cluster 2,Meta,Cluster-Entity
+978,Cluster 2,Content Creators,Cluster-Entity
+979,Cluster 2,New Orleans,Cluster-Entity
+980,Cluster 6,Scientific American’S,Cluster-Entity
+981,Cluster 6,Dark History,Cluster-Entity
+982,Cluster 3,Lgbtq,Cluster-Entity
+983,Cluster 3,Death Penalty,Cluster-Entity
+984,Cluster 2,Pressure,Cluster-Entity
+985,Cluster 2,Rough Clampdown,Cluster-Entity
+986,Cluster 2,Trans Latina Meraxes Medina,Cluster-Entity
+987,Cluster 2,Los Angeles,Cluster-Entity
+988,Cluster 3,Russia,Cluster-Entity
+989,Cluster 3,Duolingo,Cluster-Entity
+990,Cluster 3,Gay Bar,Cluster-Entity
+991,Cluster 3,Educational Materials,Cluster-Entity
+992,Cluster 4,Joe Biden,Cluster-Entity
+993,Cluster 4,Lgbtq,Cluster-Entity
+994,Cluster 2,U.S. Aid,Cluster-Entity
+995,Cluster 2,Korbin Albert,Cluster-Entity
+996,Cluster 2,Soccer Fans,Cluster-Entity
+997,Cluster 2,Team,Cluster-Entity
+998,Cluster 2,Social Media,Cluster-Entity
+999,Cluster 6,Climate Change,Cluster-Entity
+1000,Cluster 6,Trans,Cluster-Entity
+1001,Cluster 6,Ridiculous,Cluster-Entity
+1002,Cluster 6,Independent,Cluster-Entity
+1003,Cluster 6,Indonesia,Cluster-Entity
+1004,Cluster 6,Sex Workers,Cluster-Entity
+1005,Cluster 6,Indonesian,Cluster-Entity
+1006,Cluster 6,Uk,Cluster-Entity
+1007,Cluster 9,Netball,Cluster-Entity
+1008,Cluster 9,Transgender,Cluster-Entity
+1009,Cluster 9,International Competition,Cluster-Entity
+1010,Cluster 9,Elite Women  Competition,Cluster-Entity
+1011,Cluster 9,New Orleans,Cluster-Entity
+1012,Cluster 3,Giselle Byrd,Cluster-Entity
+1013,Cluster 3,Center Stage,Cluster-Entity
+1014,Cluster 9,Victoria Atkins,Cluster-Entity
+1015,Cluster 9,Gender,Cluster-Entity
+1016,Cluster 2,Lgbtq,Cluster-Entity
+1017,Cluster 2,Of India,Cluster-Entity
+1018,Cluster 2,Dev Patel,Cluster-Entity
+1019,Cluster 2,Monkey Man,Cluster-Entity
+1020,Cluster 2,Lgbt Community,Cluster-Entity
+1021,Cluster 2,American Library Association,Cluster-Entity
+1022,Cluster 2,Library Books,Cluster-Entity
+1023,Cluster 9,Tennessee,Cluster-Entity
+1024,Cluster 9,Transgender,Cluster-Entity
+1025,Cluster 5,Outdoor,Cluster-Entity
+1026,Cluster 5,Apparel Company,Cluster-Entity
+1027,Cluster 5,Major Sponsor,Cluster-Entity
+1028,Cluster 5,Lgbt,Cluster-Entity
+1029,Cluster 5,Lgbt Youth,Cluster-Entity
+1030,Cluster 1,Southern California,Cluster-Entity
+1031,Cluster 1,Transgender Sanctuary Law,Cluster-Entity
+1032,Cluster 2,Lesbians,Cluster-Entity
+1033,Cluster 2,Transgender Women,Cluster-Entity
+1034,Cluster 3,Lgbtq,Cluster-Entity
+1035,Cluster 3,Freddie,Cluster-Entity
+1036,Cluster 3,Arlington,Cluster-Entity
+1037,Cluster 3,Anonymous Bomb T,Cluster-Entity
+1038,Cluster 3,Bomb Threats,Cluster-Entity
+1039,Cluster 3,Gay Bar,Cluster-Entity
+1040,Cluster 9,Appeals Court,Cluster-Entity
+1041,Cluster 9,Nation,Cluster-Entity
+1042,Cluster 9,Ban On,Cluster-Entity
+1043,Cluster 9,Hilary Cass,Cluster-Entity
+1044,Cluster 9,Final,Cluster-Entity
+1045,Cluster 9,Nhs,Cluster-Entity
+1046,Cluster 9,Major Sponsor,Cluster-Entity
+1047,Cluster 9,Gender Identity,Cluster-Entity
+1048,Cluster 9,Diverse,Cluster-Entity
+1049,Cluster 5,Ghana,Cluster-Entity
+1050,Cluster 5,Ruling Party,Cluster-Entity
+1051,Cluster 3,Colton Underwood,Cluster-Entity
+1052,Cluster 3,Reality Tv,Cluster-Entity
+1053,Cluster 4,Jimmy Kimmel,Cluster-Entity
+1054,Cluster 4,Lgbtq,Cluster-Entity
+1055,Cluster 3,Lgbtqi,Cluster-Entity
+1056,Cluster 3,Initiative,Cluster-Entity
+1057,Cluster 7,Tennessee,Cluster-Entity
+1058,Cluster 7,Gov,Cluster-Entity
+1059,Cluster 4,Dr. Jill Biden,Cluster-Entity
+1060,Cluster 4,Melania Trump,Cluster-Entity
+1061,Cluster 2,Oliver Stark,Cluster-Entity
+1062,Cluster 2,Character,Cluster-Entity
+1063,Cluster 1,Harry Potter,Cluster-Entity
+1064,Cluster 1,Emma Watson,Cluster-Entity
+1065,Cluster 1,Transgender,Cluster-Entity
+1066,Cluster 6,Laura Jane Grace,Cluster-Entity
+1067,Cluster 6,Hole,Cluster-Entity
+1068,Cluster 6,Head,Cluster-Entity
+1069,Cluster 1,Queer,Cluster-Entity
+1070,Cluster 1,So Lonely,Cluster-Entity
+1071,Cluster 2,Bbc,Cluster-Entity
+1072,Cluster 2,Crucial New Details,Cluster-Entity
+1073,Cluster 2,Whatsapp,Cluster-Entity
+1074,Cluster 2,New Orleans,Cluster-Entity
+1075,Cluster 2,Crucial Moment,Cluster-Entity
+1076,Cluster 1,Lgbtq,Cluster-Entity
+1077,Cluster 1,Republicans,Cluster-Entity
+1078,Cluster 1,Trigger,Cluster-Entity
+1079,Cluster 4,Dr. Jill Biden,Cluster-Entity
+1080,Cluster 4,Melania Trump,Cluster-Entity
+1081,Cluster 4,Lgbtq,Cluster-Entity
+1082,Cluster 6,Metro Transit Police Department,Cluster-Entity
+1083,Cluster 6,Washington,Cluster-Entity
+1084,Cluster 3,Lempicka,Cluster-Entity
+1085,Cluster 3,Queer Artist  Life,Cluster-Entity
+1086,Cluster 3,Queer,Cluster-Entity
+1087,Cluster 3,Legendary Producer,Cluster-Entity
+1088,Cluster 3,New Revolution Campaign,Cluster-Entity
+1089,Cluster 3,Sex Workers,Cluster-Entity
+1090,Cluster 3,Sexual Revolution,Cluster-Entity
+1091,Cluster 2,Free Speech,Cluster-Entity
+1092,Cluster 2,Poland,Cluster-Entity
+1093,Cluster 2,New Wing Government,Cluster-Entity
+1094,Cluster 2,Athletes,Cluster-Entity
+1095,Cluster 2,New Orleans,Cluster-Entity
+1096,Cluster 2,Culture Of,Cluster-Entity
+1097,Cluster 2,Media Matters,Cluster-Entity
+1098,Cluster 2,Social Media,Cluster-Entity
+1099,Cluster 8,George,Cluster-Entity
+1100,Cluster 8,Mary,Cluster-Entity
+1101,Cluster 8,Jacobean,Cluster-Entity
+1102,Cluster 8,Julianne Moore,Cluster-Entity
+1103,Cluster 8,Sexual Orientation,Cluster-Entity
+1104,Cluster 9,Italy,Cluster-Entity
+1105,Cluster 9,Giorgia Meloni,Cluster-Entity
+1106,Cluster 9,Ireland'S Prime Minister,Cluster-Entity
+1107,Cluster 3,Italy,Cluster-Entity
+1108,Cluster 3,Surrogacy,Cluster-Entity
+1109,Cluster 3,Ireland'S Prime Minister,Cluster-Entity
+1110,Cluster 3,Seth Doane,Cluster-Entity
+1111,Cluster 3,Jonathan Vigliotti,Cluster-Entity
+1112,Cluster 3,Julian Curi,Cluster-Entity
+1113,Cluster 3,Cbs,Cluster-Entity
+1114,Cluster 3,Todd,Cluster-Entity
+1115,Cluster 3,Short Film,Cluster-Entity
+1116,Cluster 6,Boulevard,Cluster-Entity
+1117,Cluster 6,Olivier Awards,Cluster-Entity
+1118,Cluster 6,Dei,Cluster-Entity
+1119,Cluster 6,Intersectionality,Cluster-Entity
+1120,Cluster 6,Northants,Cluster-Entity
+1121,Cluster 6,Middlesex,Cluster-Entity
+1122,Cluster 2,Phil,Cluster-Entity
+1123,Cluster 2,Activist,Cluster-Entity
+1124,Cluster 2,Audience,Cluster-Entity
+1125,Cluster 2,Trans Activist Says,Cluster-Entity
+1126,Cluster 2,Olds,Cluster-Entity
+1127,Cluster 2,Leftist,Cluster-Entity
+1128,Cluster 2,Scottish Leader,Cluster-Entity
+1129,Cluster 2,Humza Yousaf,Cluster-Entity
+1130,Cluster 2,Free Speech,Cluster-Entity
+1131,Cluster 2,Popularity,Cluster-Entity
+1132,Cluster 2,New Speech Restrictions,Cluster-Entity
+1133,Cluster 6,New Left,Cluster-Entity
+1134,Cluster 6,Iran,Cluster-Entity
+1135,Cluster 6,Activists,Cluster-Entity
+1136,Cluster 6,Chicago,Cluster-Entity
+1137,Cluster 6,Heart Attack,Cluster-Entity
+1138,Cluster 6,Sick,Cluster-Entity
+1139,Cluster 6,Joe Biden,Cluster-Entity
+1140,Cluster 6,Chicag,Cluster-Entity
