@@ -262,6 +262,20 @@ l.sizing_mode = "scale_both"
 
 today_date = date.today()
 # show
-file_name = output_path + '/knowledge_graph_' + str(today_date) + '.html'
-output_file(file_name)
-show(l)
+# file_name = output_path + '/knowledge_graph_' + str(today_date) + '.html'
+# output_file(file_name)
+# show(l)
+
+from pyvis.network import Network
+graph_output = './index.html'
+net = Network(
+    notebook = False,
+    cdn_resources = 'remote',
+    height = '900px',
+    width = '100%',
+    select_menu = True,
+    filter_menu = False
+)
+net.from_nx(G)
+net.show_buttons(filter_ = ['physics'])
+net.show(graph_output, notebook = False)

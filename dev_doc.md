@@ -110,14 +110,14 @@
 1. clustering using bert.
 2. add a fixed set of key entities
 3. custom stopwords       √
-4. presentation (problem statement, architecture)
+4. presentation (problem statement, architecture) √
 5. host aws
-6. search box
+6. search box √
 7. graph database 
 8. select top news for each cluster  √
 9. kg: relations not presentable
 10. co-occurance
 11. add news title before links
-
-
-
+12. transformer-based approach for cluser summarization
+13. embedding-based model for clustering √
+14. use embedding to match entity and relation node
