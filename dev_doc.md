@@ -25,7 +25,6 @@
     - Code: ner_yodie.py
     - Input: filter_data.csv
     - Output: yodie_ner folder (one json file per news)
-    - can only parse 29 news at one time, run this on daily basis.
 
 3. Parse NER Json files
 
@@ -70,7 +69,7 @@
       - Vectorization
       - KMeans clustering (10 clusters)
       - Topic modeling for each cluster (3 topics for each cluster)
-    - Code: kmeans_lda.ipynb
+    - Code: embedding_kmeans_lda.ipynb
     - Input: filter_data.csv
     - Output: cluster_keywords.csv, news_cluster.csv, cluster_keywords.txt
     - To-dos:
